@@ -1,3 +1,12 @@
+# Old website (2026) links that Google has indexed -> new locations
+/assets/asset-017.pdf /pdf/voitex-brand-identity.pdf 301
+/assets/asset-019.pdf /pdf/ovenox-brand-identity.pdf 301
+/assets/asset-021.pdf /pdf/mavion-brand-guidelines.pdf 301
+/assets/asset-023.pdf /pdf/pingup-brand-guidelines.pdf 301
+/assets/* /#work 301
+/index.html / 301
+
+# Build files are not part of the public site
 /tools/* / 301
 /content/* / 301
 /functions/* / 301
