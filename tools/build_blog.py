@@ -356,6 +356,23 @@ def build_pin_feed(posts):
                           "title": title[:100], "description": desc[:480], "image": f"img/pins/{img.name}",
                           "link": f"{SITE}/?utm_source=pinterest&utm_medium=pin&utm_campaign=work-{slug}#work"})
             day += 1
+    tips = json.loads((ROOT / "content" / "tips.json").read_text(encoding="utf-8"))
+    from pins import pin_tip
+    day = 0
+    for variant in (1, 2):
+        for n, tp in enumerate(tips):
+            slug = re.sub(r"[^a-z0-9]+", "-", tp["headline"].lower()).strip("-")[:50]
+            img = out_dir / f"tip-{slug}-{variant}.jpg"
+            if not img.exists():
+                pin_tip(tp, img, variant, seed=n)
+            link = tp["link"]
+            url = f"{SITE}/{link}" if not link.startswith("#") else f"{SITE}/"
+            sep = "&" if "?" in url else "?"
+            url += f"{sep}utm_source=pinterest&utm_medium=pin&utm_campaign=tip-{slug}" + (link if link.startswith("#") else "")
+            desc = tp["headline"] + ": " + "; ".join(tp["points"]) + ". " + tp["cta"] + ", from Shahab, a human brand designer."
+            items.append({"id": f"tip-{slug}-{variant}", "date": (start + dt.timedelta(days=day)).isoformat(),
+                          "title": tp["headline"][:100], "description": desc[:480], "image": f"img/pins/{img.name}", "link": url})
+            day += 1
     items.sort(key=lambda x: (x["date"], x["id"]))
     (ROOT / "pins-data.json").write_text(json.dumps({"site": SITE, "items": items}, ensure_ascii=False), encoding="utf-8")
     old = ROOT / "pins.xml"
