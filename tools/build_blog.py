@@ -186,6 +186,7 @@ def head(root, title, desc, url, image, extra=""):
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
 <meta name="theme-color" content="#f7f7f5">
+<meta name="p:domain_verify" content="3a7c80742d16baeafd3771a237406652"/>
 <meta property="og:type" content="{'article' if '/blog/' in url and not url.endswith('/blog/') else 'website'}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
