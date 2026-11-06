@@ -162,3 +162,43 @@ def make_pins(post):
     if not b.exists() or post.get("rebuild_pins"):
         pin_bold(cover, kicker, b_title, b, seed=sum(map(ord, post["slug"])))
     return [(f"img/pins/{a.name}", a_title, a_desc), (f"img/pins/{b.name}", b_title, b_desc)]
+
+
+def pin_portfolio(board_path, name, category, out, variant=1):
+    """Portfolio pin: full brand board + zoomed detail + project name."""
+    board = Image.open(board_path).convert("RGB")
+    if variant == 1:
+        img = Image.new("RGB", (W, H), BG)
+        top = rounded(cover_crop(board, W - 100, 640), 30)
+        img.paste(top, (50, 50), top)
+        z = board.crop((int(board.width * .05), int(board.height * .05), int(board.width * .55), int(board.height * .55)))
+        det = rounded(cover_crop(z, W - 100, 420), 30)
+        img.paste(det, (50, 710), det)
+        dark = False
+    else:
+        img = mesh(W, H, PALETTES[sum(map(ord, name)) % len(PALETTES)], seed=sum(map(ord, name)))
+        card = rounded(cover_crop(board, W - 100, 760), 30)
+        img.paste(card, (50, 300), card)
+        dark = True
+    d = ImageDraw.Draw(img)
+    k = font("DejaVuSansMono.ttf", 26)
+    if variant == 1:
+        d.text((70, 1170), ("BRAND IDENTITY · " + category).upper()[:58], font=k, fill=ACCENT)
+        f, lines, lh = fit_title(d, name, W - 140, 150, start=110, min_size=60)
+        y = 1210
+        for ln in lines[:1]:
+            d.text((70, y), ln, font=f, fill=INK)
+        d.line((70, 1380, W - 70, 1380), fill=(228, 228, 222), width=2)
+        footer(d, 1406)
+    else:
+        kt = "BRAND IDENTITY"
+        kw = d.textlength(kt, font=k)
+        d.rounded_rectangle((70, 80, 70 + kw + 44, 130), 25, fill=(255, 255, 255))
+        d.text((92, 91), kt, font=k, fill=INK)
+        f, lines, lh = fit_title(d, name, W - 140, 130, start=104, min_size=60)
+        d.text((70, 150), lines[0], font=f, fill=(255, 255, 255))
+        s = font("Inter-Medium.otf", 32)
+        d.text((70, 1110), category, font=s, fill=(255, 255, 255))
+        d.text((70, 1160), "Human-designed · first brand board in 48 hours", font=font("Inter-Regular.otf", 28), fill=(235, 235, 245))
+        footer(d, 1406, dark=False)
+    img.save(out, "JPEG", quality=85, optimize=True, progressive=True)

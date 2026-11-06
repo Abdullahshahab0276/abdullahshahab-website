@@ -328,18 +328,40 @@ def build_feed(posts):
 
 
 def build_pin_feed(posts):
-    """RSS feed for Pinterest auto-publish: two branded pins per article."""
+    """Pinterest schedule. Writes pins-data.json; functions/pins.xml.js serves only the pins whose
+    date has arrived, so Pinterest picks up a fresh pin every day (portfolio pins + article pins)."""
+    from pins import pin_portfolio
     items = []
     for p in posts:
         for i, (img, title, desc) in enumerate(make_pins(p), 1):
-            size = (ROOT / img).stat().st_size
-            link = f"{SITE}/blog/{p['slug']}/?utm_source=pinterest&amp;utm_medium=pin&amp;utm_campaign={p['slug']}"
-            pub = dt.datetime.combine(p["date"], dt.time(9 + i)).strftime('%a, %d %b %Y %H:%M:%S +0000')
-            items.append(f"""<item><title>{esc(title)}</title><link>{link}</link><guid isPermaLink="false">{p['slug']}-pin-{i}</guid><pubDate>{pub}</pubDate><description>{esc(desc)}</description><enclosure url="{SITE}/{img}" length="{size}" type="image/jpeg"/></item>""")
-    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>Shahab: branding pins</title><link>{SITE}/blog/</link><description>Branding guides, logo tips and brand identity case studies from Shahab.</description><language>en</language>{''.join(items)}</channel></rss>
-"""
-    (ROOT / "pins.xml").write_text(xml, encoding="utf-8")
+            items.append({"id": f"{p['slug']}-pin-{i}", "date": (p["date"] + dt.timedelta(days=i - 1)).isoformat(),
+                          "title": title, "description": desc, "image": img,
+                          "link": f"{SITE}/blog/{p['slug']}/?utm_source=pinterest&utm_medium=pin&utm_campaign={p['slug']}"})
+    port = json.loads((ROOT / "content" / "portfolio.json").read_text(encoding="utf-8"))
+    port.sort(key=lambda x: not x.get("featured"))
+    start = dt.date(2026, 11, 7)
+    out_dir = ROOT / "img" / "pins"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    day = 0
+    for variant in (1, 2):
+        for pr in port:
+            slug = re.sub(r"[^a-z0-9]+", "-", pr["name"].lower()).strip("-")
+            img = out_dir / f"work-{slug}-{variant}.jpg"
+            if not img.exists():
+                pin_portfolio(ROOT / pr["image"], pr["name"], pr["category"], img, variant)
+            cat = pr["category"].split(" · ")
+            title = f"{pr['name']} brand identity: {cat[0]} logo & branding" if variant == 1 else f"{pr['name']}: {pr['category']} brand identity"
+            desc = pr["alt"].replace(" — ", ": ") + ". Designed by Shahab, human-designed branding with the first brand board in 48 hours."
+            items.append({"id": f"work-{slug}-{variant}", "date": (start + dt.timedelta(days=day)).isoformat(),
+                          "title": title[:100], "description": desc[:480], "image": f"img/pins/{img.name}",
+                          "link": f"{SITE}/?utm_source=pinterest&utm_medium=pin&utm_campaign=work-{slug}#work"})
+            day += 1
+    items.sort(key=lambda x: (x["date"], x["id"]))
+    (ROOT / "pins-data.json").write_text(json.dumps({"site": SITE, "items": items}, ensure_ascii=False), encoding="utf-8")
+    old = ROOT / "pins.xml"
+    if old.exists():
+        old.unlink()
+    return items
 
 
 def build_sitemap(posts):

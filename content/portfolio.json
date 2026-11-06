@@ -1,0 +1,324 @@
+[
+ {
+  "name": "Alovate",
+  "category": "Tech · Creative Direction",
+  "image": "img/a042.jpg",
+  "alt": "Alovate brand board — bold black and red creative-direction identity with logo, website, social profile and colour palette",
+  "featured": true
+ },
+ {
+  "name": "Beuora",
+  "category": "Skincare · Beauty",
+  "image": "img/a043.jpg",
+  "alt": "Beuora skincare brand board — soft pink identity with logo, social stories, hydrating moisturiser packaging and cleansing gel",
+  "featured": false
+ },
+ {
+  "name": "Bubbo's Brew Co",
+  "category": "Brewery · Food & Drink",
+  "image": "img/a044.jpg",
+  "alt": "Bubbo's Brew Co brand board — playful pink and teal identity with beer-mug mascot, business cards and colour palette",
+  "featured": false
+ },
+ {
+  "name": "Elieen Cantten",
+  "category": "Fashion · Luxury",
+  "image": "img/a045.jpg",
+  "alt": "Elieen Cantten fashion brand board — dark green luxury identity with EC monogram, new collection campaign, wall branding and billboard",
+  "featured": false
+ },
+ {
+  "name": "Flora",
+  "category": "Florist · Luxury",
+  "image": "img/a046.jpg",
+  "alt": "Flora luxury florist brand board — deep plum and cream identity with flower mark, bouquet wrapping, shopping bag and shopfront",
+  "featured": false
+ },
+ {
+  "name": "Havora",
+  "category": "Property · Real Estate",
+  "image": "img/a047.jpg",
+  "alt": "Havora property brand board — teal and terracotta real-estate identity with house mark, campaign visuals, billboard and colour palette",
+  "featured": false
+ },
+ {
+  "name": "Lorava Cosmetic",
+  "category": "Cosmetics · Beauty",
+  "image": "img/a048.jpg",
+  "alt": "Lorava Cosmetic brand board — warm bronze and cream identity with floral mark, cream jar product shot and storefront windows",
+  "featured": false
+ },
+ {
+  "name": "MeMind",
+  "category": "Mental Wellbeing",
+  "image": "img/a049.jpg",
+  "alt": "MeMind mental wellbeing brand board — chocolate brown and soft yellow identity with logo, typography, editorial layout and app screen",
+  "featured": false
+ },
+ {
+  "name": "Metmel",
+  "category": "Tech · AI Automation",
+  "image": "img/a050.jpg",
+  "alt": "Metmel tech brand board — electric blue AI automation identity with M mark, VR poster, glowing phone and tablet website",
+  "featured": true
+ },
+ {
+  "name": "Movitra",
+  "category": "Streetwear · Fashion",
+  "image": "img/a051.jpg",
+  "alt": "Movitra streetwear brand board — lime green and black identity with serif wordmark, beanie, hoodie and shopping bag",
+  "featured": false
+ },
+ {
+  "name": "Oxtero",
+  "category": "Tech · Predictive Intelligence",
+  "image": "img/a052.jpg",
+  "alt": "Oxtero brand board — blue predictive-intelligence identity with interlocked mark, laptop, exhibition screen and phone app icon",
+  "featured": true
+ },
+ {
+  "name": "Paddlepop",
+  "category": "Padel · Sports",
+  "image": "img/a053.jpg",
+  "alt": "Paddlepop padel brand board — lime green sports identity with racket mark, cap, water bottle, hoodie and colour palette",
+  "featured": false
+ },
+ {
+  "name": "PlayJoy Studio",
+  "category": "Kids Clothing · Fashion",
+  "image": "img/a054.jpg",
+  "alt": "PlayJoy Studio kids clothing brand board — teal and coral playful identity with logo, baby outfit photography, tote bag, pattern and gift box",
+  "featured": false
+ },
+ {
+  "name": "Pops Pancakes",
+  "category": "Food & Drink",
+  "image": "img/a055.jpg",
+  "alt": "Pops Pancakes brand board — pink and red retro script identity with PP monogram, shopping bags and pancake pattern cards",
+  "featured": false
+ },
+ {
+  "name": "Popsy's Fried Chicken",
+  "category": "Fast Food · Food & Drink",
+  "image": "img/a056.jpg",
+  "alt": "Popsy's Fried Chicken brand board — navy, red and cream identity with chicken mascot logo, fries carton, burger box, cards and colour palette",
+  "featured": false
+ },
+ {
+  "name": "The Elite Club",
+  "category": "Wellness · Lifestyle",
+  "image": "img/a057.jpg",
+  "alt": "The Elite Club wellness brand board — deep green and gold identity with leaf mark, tablet and laptop website, tote bag, business cards and journal",
+  "featured": false
+ },
+ {
+  "name": "The Elite Club Tennis",
+  "category": "Tennis · Sports",
+  "image": "img/a058.jpg",
+  "alt": "The Elite Club tennis brand board — deep green and neon identity with player photography, court posters, kit bag, bottle, visor and colour palette",
+  "featured": false
+ },
+ {
+  "name": "Virelle",
+  "category": "Fashion · Luxury",
+  "image": "img/a059.jpg",
+  "alt": "Virelle fashion brand board — warm taupe and cream identity with serif wordmark, knitwear label, beanie, shopping bag and colour palette",
+  "featured": false
+ },
+ {
+  "name": "Marrow",
+  "category": "Streetwear · Fashion",
+  "image": "img/a060.jpg",
+  "alt": "Marrow streetwear brand board — deep red and black hip-hop clothing identity with bold wordmark, embroidered patch, hang tags and apparel mockups",
+  "featured": true
+ },
+ {
+  "name": "Zayka Shop",
+  "category": "Food & Drink",
+  "image": "img/a061.jpg",
+  "alt": "Zayka Shop food brand board — black, orange and teal identity with chef-hat logo, honey jar, shopping bag, store interior and colour palette",
+  "featured": false
+ },
+ {
+  "name": "FileQ",
+  "category": "Tech · File Sharing",
+  "image": "img/a062.jpg",
+  "alt": "FileQ brand board — orange file-sharing identity with app icon, upload screen and laptop mockup",
+  "featured": true
+ },
+ {
+  "name": "Kurë Studio",
+  "category": "Pilates · Wellness",
+  "image": "img/a063.jpg",
+  "alt": "Kurë Studio brand board — pilates and barre identity with shopping bag, tag and tablet website",
+  "featured": false
+ },
+ {
+  "name": "Vows & Carats",
+  "category": "Jewellery · Luxury",
+  "image": "img/a064.jpg",
+  "alt": "Vows & Carats jewellery brand board — navy and blush identity with ring box and shopping bag",
+  "featured": false
+ },
+ {
+  "name": "Skin Lounge Med Spa",
+  "category": "Med Spa · Beauty",
+  "image": "img/a065.jpg",
+  "alt": "Skin Lounge Med Spa brand board — deep plum and gold identity with robe, towels and tablet",
+  "featured": false
+ },
+ {
+  "name": "ACREMI",
+  "category": "Tech · Bold Identity",
+  "image": "img/a066.jpg",
+  "alt": "ACREMI brand board — bold black identity with colourful geometric pattern business cards",
+  "featured": false
+ },
+ {
+  "name": "Hichatt",
+  "category": "AI · Tech",
+  "image": "img/a067.jpg",
+  "alt": "Hichatt AI brand board — deep blue identity with glowing logo, laptop and app icons",
+  "featured": false
+ },
+ {
+  "name": "SMASH",
+  "category": "Badminton · Sports",
+  "image": "img/a068.jpg",
+  "alt": "SMASH badminton brand board — green sports identity with kit bag, court and phone mockups",
+  "featured": false
+ },
+ {
+  "name": "For You Media",
+  "category": "Beauty",
+  "image": "img/a069.jpg",
+  "alt": "For You Media beauty brand board — blush pink identity with serum bottle and packaging",
+  "featured": false
+ },
+ {
+  "name": "euroix",
+  "category": "Badminton · Sports",
+  "image": "img/a070.jpg",
+  "alt": "euroix badminton brand board — orange sports identity with kit bag, racket and phone mockups",
+  "featured": false
+ },
+ {
+  "name": "courix",
+  "category": "Tennis · Sports",
+  "image": "img/a071.jpg",
+  "alt": "courix tennis brand board — green and lime sports identity with court, bag and phone mockups",
+  "featured": true
+ },
+ {
+  "name": "Zipzy",
+  "category": "Logistics",
+  "image": "img/a072.jpg",
+  "alt": "Zipzy logistics brand board — orange and black identity with delivery, ship and container mockups",
+  "featured": false
+ },
+ {
+  "name": "GROWIFY",
+  "category": "Fintech",
+  "image": "img/a073.jpg",
+  "alt": "GROWIFY fintech brand board — electric blue identity with app screens, lanyard and t-shirt",
+  "featured": true
+ },
+ {
+  "name": "HAUTIQE",
+  "category": "Luxury Fashion",
+  "image": "img/a074.jpg",
+  "alt": "HAUTIQE luxury fashion brand board — emerald and cream identity with tags and packaging box",
+  "featured": false
+ },
+ {
+  "name": "HAVYN",
+  "category": "Luxury Branding",
+  "image": "img/a075.jpg",
+  "alt": "HAVYN luxury branding board — champagne and brown identity with business cards, billboard and laptop",
+  "featured": false
+ },
+ {
+  "name": "LOOP'D",
+  "category": "Dessert Café",
+  "image": "img/a076.jpg",
+  "alt": "LOOP'D dessert café brand board — orange identity with café interior, mascot and shopping bag",
+  "featured": false
+ },
+ {
+  "name": "MATCHA & GO",
+  "category": "Beverage",
+  "image": "img/a077.jpg",
+  "alt": "MATCHA & GO beverage brand board — green energy drink identity with can, neon sign and business card",
+  "featured": false
+ },
+ {
+  "name": "nentra",
+  "category": "Tech",
+  "image": "img/a078.jpg",
+  "alt": "nentra tech brand board — blue identity with app icon, billboard and phone mockup",
+  "featured": true
+ },
+ {
+  "name": "Nepay",
+  "category": "Payments · Fintech",
+  "image": "img/a079.jpg",
+  "alt": "Nepay payments brand board — aurora identity with banking app, cards and smartwatch",
+  "featured": false
+ },
+ {
+  "name": "NUVÁR",
+  "category": "Skincare",
+  "image": "img/a080.jpg",
+  "alt": "NUVÁR skincare brand board — lilac identity with serum bottle, product photography and palette",
+  "featured": false
+ },
+ {
+  "name": "ROAMER CAFÉ",
+  "category": "Coffee",
+  "image": "img/a081.jpg",
+  "alt": "ROAMER CAFÉ coffee brand board — brown and tan identity with café interior, beans and coffee bag",
+  "featured": false
+ },
+ {
+  "name": "SHELLISH",
+  "category": "Fashion · Luxury",
+  "image": "img/a082.jpg",
+  "alt": "SHELLISH fashion brand board — burgundy luxury identity with tags, tote bag and packaging tube",
+  "featured": false
+ },
+ {
+  "name": "SKINESK",
+  "category": "Skincare · Wellness",
+  "image": "img/a083.jpg",
+  "alt": "SKINESK skincare brand board — warm brown wellness identity with pump bottle, jar and tote bag",
+  "featured": false
+ },
+ {
+  "name": "VANTIQE",
+  "category": "Luxury Fashion",
+  "image": "img/a084.jpg",
+  "alt": "VANTIQE luxury fashion brand board — plum and gold identity with silk logo, wax seal and gift box",
+  "featured": false
+ },
+ {
+  "name": "Féréa",
+  "category": "Perfume · Beauty & Luxury",
+  "image": "img/a085.jpg",
+  "alt": "Féréa elegant premium perfume brand board — taupe and cream identity with perfume bottle, palette and model photography",
+  "featured": true
+ },
+ {
+  "name": "Ferèlle",
+  "category": "Skincare · Beauty",
+  "image": "img/a086.jpg",
+  "alt": "Ferèlle skincare brand board — terracotta identity with Brightening 15% Vitamin C Serum, product line-up and colour palette",
+  "featured": false
+ },
+ {
+  "name": "Rovena",
+  "category": "Perfume · Luxury",
+  "image": "img/a087.jpg",
+  "alt": "Rovena luxury aroma perfume brand board — deep red and peach identity with perfume bottle, app icon and colour palette",
+  "featured": false
+ }
+]
