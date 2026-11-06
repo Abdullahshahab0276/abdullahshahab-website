@@ -36,7 +36,9 @@
 - Open with the answer in the first 3 paragraphs. Use `##` headings that read like questions people
   search. Include at least one bullet list or table. Add a short "How I handle this for clients" or
   similar section tying back to the packages, without being salesy.
-- Link to 1–2 earlier articles (../<slug>/index.html) and to ../../index.html#pricing or #work.
+- Internal links: 1–2 earlier articles (../<slug>/index.html), the matching industry page
+  (../../branding/<beauty-wellness|food-drink|tech-fintech|fashion-luxury|sports>/index.html) and a case
+  study where relevant (../../work/<voitex|ovenox|mavion>/index.html), plus ../../index.html#pricing.
 - No placeholder text, no "[insert …]", no fake data.
 
 ## After publishing

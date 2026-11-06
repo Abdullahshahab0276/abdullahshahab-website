@@ -68,7 +68,7 @@ Not every logo with a human nearby counts. Based on the Copyright Office's guida
 
 1. **Who decides what the mark looks like?** A person should be making the decisions on form, proportion, type and colour, not picking from a list of generated options.
 2. **Will you get the source files?** Editable vector files (AI, SVG, EPS, PDF) are a strong sign the mark was actually constructed, not just downloaded as a flat image.
-3. **Can they show the process?** Sketches, construction grids, rejected directions, rationale. The [Ovenox logo construction](../../index.html#work) is an example of the kind of evidence a real design process leaves behind.
+3. **Can they show the process?** Sketches, construction grids, rejected directions, rationale. The [Ovenox logo construction](../../work/ovenox/index.html) is an example of the kind of evidence a real design process leaves behind.
 4. **Is ownership and copyright transfer written down?** You want the scope, deliverables and the transfer of rights confirmed in writing before work starts.
 5. **Will they tell you honestly where AI was used, if at all?** In the US, the Copyright Office expects applicants to disclose AI-generated material when registering, so you need to know.
 
@@ -76,7 +76,7 @@ Not every logo with a human nearby counts. Based on the Copyright Office's guida
 
 Every logo I deliver is designed by me, with research into your market and competitors behind it. That's not a marketing line, it's the reason the copyright can be yours. You get:
 
-- **Original, human-designed marks:** three distinct concepts on Premium Branding, refined with you until it's right.
+- **Original, human-designed marks** (see the [Voitex](../../work/voitex/index.html) and [Mavion](../../work/mavion/index.html) case studies): three distinct concepts on Premium Branding, refined with you until it's right.
 - **Full source files:** vector files for print and digital, yours to keep.
 - **Scope and ownership in writing** before work starts, and an NDA if your business needs one.
 - **Files ready for a trademark attorney.** I don't file trademarks myself, because that's a legal process, but your files are prepared so that step is straightforward.

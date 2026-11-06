@@ -20,6 +20,7 @@ import markdown
 import yaml
 
 from pins import make_pins
+from pages import PAGES_CSS, build_pages
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -160,7 +161,8 @@ def footer(root):
           <a href="mailto:imabdullahshahab@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
         </div>
       </div>
-      <div class="fcol"><h4>Explore</h4><a href="{root}index.html#work">Featured work</a><a href="{root}index.html#process">How it works</a><a href="{root}index.html#reviews">Reviews</a><a href="{root}index.html#cases">Case studies</a><a href="{root}blog/index.html">Blog</a><a href="{root}index.html#faq">FAQ</a></div>
+      <div class="fcol"><h4>Explore</h4><a href="{root}index.html#work">Featured work</a><a href="{root}index.html#process">How it works</a><a href="{root}index.html#reviews">Reviews</a><a href="{root}work/ovenox/index.html">Case studies</a><a href="{root}blog/index.html">Blog</a><a href="{root}index.html#faq">FAQ</a></div>
+      <div class="fcol"><h4>Industries</h4><a href="{root}branding/beauty-wellness/index.html">Beauty &amp; wellness</a><a href="{root}branding/food-drink/index.html">Food &amp; drink</a><a href="{root}branding/tech-fintech/index.html">Tech &amp; fintech</a><a href="{root}branding/fashion-luxury/index.html">Fashion &amp; luxury</a><a href="{root}branding/sports/index.html">Sports</a></div>
       <div class="fcol"><h4>Packages</h4><a href="{root}index.html#pricing">Basic plan · $250</a><a href="{root}index.html#pricing">Premium Branding · $450</a><a href="{root}index.html#pricing">Brand Ecosystem · $1,050</a><a href="{root}index.html#contact">Custom quote</a></div>
       <div class="fcol"><h4>Contact</h4><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: 03118440498</a><a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">Instagram @imabdullahshahab</a><a href="{CAL}" target="_blank" rel="noopener">Book a call</a></div>
     </div>
@@ -401,9 +403,10 @@ def build_pin_feed(posts):
     return items
 
 
-def build_sitemap(posts):
+def build_sitemap(posts, extra_urls=()):
     today = dt.date.today().isoformat()
     urls = [(f"{SITE}/", today, "1.0"), (f"{SITE}/blog/", posts[0]["updated"].isoformat() if posts else today, "0.8")]
+    urls += [(u, today, "0.8") for u in extra_urls]
     urls += [(f"{SITE}/blog/{p['slug']}/", p["updated"].isoformat(), "0.7") for p in posts]
     body = "".join(f"<url><loc>{u}</loc><lastmod>{d}</lastmod><priority>{pr}</priority></url>" for u, d, pr in urls)
     (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n', encoding="utf-8")
@@ -413,14 +416,15 @@ def build_sitemap(posts):
 def main():
     css, sprite = site_parts()
     (ROOT / "css").mkdir(exist_ok=True)
-    (ROOT / "css" / "main.css").write_text(css.strip() + "\n" + BLOG_CSS, encoding="utf-8")
+    (ROOT / "css" / "main.css").write_text(css.strip() + "\n" + BLOG_CSS + PAGES_CSS, encoding="utf-8")
     posts = load_posts()
     for p in posts:
         build_post(p, posts, sprite)
     build_index(posts, sprite)
+    extra_urls, works, inds = build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS)
     build_feed(posts)
     build_pin_feed(posts)
-    build_sitemap(posts)
+    build_sitemap(posts, extra_urls)
     print(f"Built {len(posts)} post(s): " + ", ".join(p["slug"] for p in posts))
 
 

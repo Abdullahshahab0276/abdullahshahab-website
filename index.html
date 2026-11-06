@@ -172,8 +172,9 @@ h3{font-weight:450;font-size:20px;line-height:1.25;letter-spacing:-.025em}
 .r-by small{display:block;font:400 11px var(--mono);color:var(--ink-3)}
 @media(max-width:700px){.f2{display:none}.track img{height:220px}.stage{padding:12px}.f1{left:22px;top:22px}}
 .sectors{display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;padding:22px 0 56px}
+a.chip:hover{box-shadow:0 0 0 1px var(--ink);color:var(--ink)}
 .sectors .lab{font:400 12px var(--mono);letter-spacing:.08em;color:var(--ink-3);margin-right:6px}
-.chip{display:inline-flex;align-items:center;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.7);box-shadow:0 0 0 1px var(--line);font-size:14.5px;color:var(--ink-2)}
+.chip{text-decoration:none;transition:box-shadow .2s,color .2s;display:inline-flex;align-items:center;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.7);box-shadow:0 0 0 1px var(--line);font-size:14.5px;color:var(--ink-2)}
 
 /* ---------- stats + logos ---------- */
 .stats-band{padding:0}
@@ -469,7 +470,7 @@ form .btn{margin-top:16px;width:100%}
 
 /* ---------- footer ---------- */
 footer{position:relative;z-index:1;border-top:1px solid var(--frame);padding:56px 0 110px}
-.fcols{display:grid;grid-template-columns:1.6fr repeat(3,1fr);gap:30px}
+.fcols{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:28px}
 .fcols p{color:var(--ink-2);font-size:14.5px;margin:16px 0 20px;max-width:22em}
 .soc{display:flex;gap:8px}
 .soc a{width:40px;height:40px;border-radius:50%;background:#fff;box-shadow:0 0 0 1px var(--line);display:grid;place-items:center}
@@ -591,7 +592,7 @@ footer{position:relative;z-index:1;border-top:1px solid var(--frame);padding:56p
 
     <div class="sectors">
       <span class="lab">WORK FOR</span>
-      <span class="chip">Tech &amp; Fintech</span><span class="chip">Beauty &amp; Wellness</span><span class="chip">Fashion &amp; Luxury</span><span class="chip">Sports</span><span class="chip">Food &amp; Drink</span><span class="chip">Real estate</span>
+      <a class="chip" href="branding/tech-fintech/index.html">Tech &amp; Fintech</a><a class="chip" href="branding/beauty-wellness/index.html">Beauty &amp; Wellness</a><a class="chip" href="branding/fashion-luxury/index.html">Fashion &amp; Luxury</a><a class="chip" href="branding/sports/index.html">Sports</a><a class="chip" href="branding/food-drink/index.html">Food &amp; Drink</a><span class="chip">Real estate</span>
     </div>
   </div>
 </section>
@@ -959,12 +960,12 @@ footer{position:relative;z-index:1;border-top:1px solid var(--frame);padding:56p
   <div class="inner">
     <div class="head rv-up">
       <h2 class="md" style="font-size:clamp(36px,3vw + 16px,56px)">Case studies</h2>
-      <p class="lede">A closer look at what a finished Shahab identity includes. Open any case study to view its full PDF.</p>
+      <p class="lede">A closer look at what a finished Shahab identity includes, from the first idea to the brand in the real world.</p>
     </div>
     <div class="cases" id="cases-row">
-      <a class="case" href="pdf/voitex-brand-identity.pdf" target="_blank" rel="noopener"><div class="im"><img src="img/a018.jpg" alt="Voitex brand identity" loading="lazy"></div><div class="row"><div><h3>Voitex</h3><p>Brand identity · “We build the future”</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
-      <a class="case" href="pdf/ovenox-brand-identity.pdf" target="_blank" rel="noopener"><div class="im"><img src="img/a020.jpg" alt="Ovenox brand identity" loading="lazy"></div><div class="row"><div><h3>Ovenox</h3><p>Brand identity · full logo construction</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
-      <a class="case" href="pdf/mavion-brand-guidelines.pdf" target="_blank" rel="noopener"><div class="im"><img src="img/a022.jpg" alt="Mavion brand guidelines" loading="lazy"></div><div class="row"><div><h3>Mavion</h3><p>Brand guidelines · 2026</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
+      <a class="case" href="work/voitex/index.html"><div class="im"><img src="img/a018.jpg" alt="Voitex brand identity" loading="lazy"></div><div class="row"><div><h3>Voitex</h3><p>Tech studio · “We build the future”</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
+      <a class="case" href="work/ovenox/index.html"><div class="im"><img src="img/a020.jpg" alt="Ovenox brand identity" loading="lazy"></div><div class="row"><div><h3>Ovenox</h3><p>Health platform · “Syncing Better Health”</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
+      <a class="case" href="work/mavion/index.html"><div class="im"><img src="img/a022.jpg" alt="Mavion brand guidelines" loading="lazy"></div><div class="row"><div><h3>Mavion</h3><p>Technology · full brand guidelines</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
       <a class="case" href="pdf/pingup-brand-guidelines.pdf" target="_blank" rel="noopener"><div class="im"><img src="img/a024.jpg" alt="Pingup brand guidelines" loading="lazy"></div><div class="row"><div><h3>Pingup</h3><p>Visual identity guidelines</p></div><span class="circ"><svg><use href="#i-right"/></svg></span></div></a>
     </div>
     <div class="cnav">
@@ -1060,6 +1061,7 @@ footer{position:relative;z-index:1;border-top:1px solid var(--frame);padding:56p
         </div>
       </div>
       <div class="fcol"><h4>Explore</h4><a href="#why">Why me</a><a href="#work">Featured work</a><a href="#process">How it works</a><a href="#reviews">Reviews</a><a href="#cases">Case studies</a><a href="#reels">Reels</a><a href="blog/index.html">Blog</a><a href="#faq">FAQ</a></div>
+      <div class="fcol"><h4>Industries</h4><a href="branding/beauty-wellness/index.html">Beauty &amp; wellness</a><a href="branding/food-drink/index.html">Food &amp; drink</a><a href="branding/tech-fintech/index.html">Tech &amp; fintech</a><a href="branding/fashion-luxury/index.html">Fashion &amp; luxury</a><a href="branding/sports/index.html">Sports</a></div>
       <div class="fcol"><h4>Packages</h4><a href="#pricing">Basic plan · $250</a><a href="#pricing">Premium Branding · $450</a><a href="#pricing">Brand Ecosystem · $1,050</a><a href="#contact">Custom quote</a></div>
       <div class="fcol"><h4>Contact</h4><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: 03118440498</a><a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">Instagram @imabdullahshahab</a><a href="https://calendly.com/imabdullahshahab/30min" target="_blank" rel="noopener">Book a call</a></div>
     </div>

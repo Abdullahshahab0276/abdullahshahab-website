@@ -1,0 +1,101 @@
+# Case study pages: /work/<slug>/
+# Only describe what the work itself shows. No invented results, quotes or timelines.
+- slug: voitex
+  name: Voitex
+  title: "Voitex: a bold brand identity for a tech studio"
+  description: "Case study: the Voitex brand identity, an X-driven logo system in Blue Violet and black for a studio building apps, Web3 and NFT products."
+  industry: Tech & digital studio
+  industry_page: tech-fintech
+  tagline: "We build the future"
+  cover: img/work/voitex/a009.jpg
+  pdf: pdf/voitex-brand-identity.pdf
+  deliverables: [Logo and wordmark, "vtx monogram", Colour palette, Typography, Stationery, Merchandise, Signage and billboards, Social media grid, Device and app mockups, Vehicle wrap]
+  intro: >-
+    Voitex is a digital studio that turns ideas into products, from apps to Web3 and NFT projects.
+    Its line, "We build the future", set the tone for an identity that had to feel fast, technical
+    and confident on every surface, from a phone screen to a shipping container.
+  sections:
+    - heading: The idea
+      body: >-
+        The identity is built around the X at the end of the wordmark. It works as a full logo, as a
+        compact "vtx" monogram, and as a large graphic shape that can be cropped across layouts,
+        posters and vehicles. One letter does the work of a whole graphic system.
+    - heading: Colour and type
+      body: >-
+        The palette is deliberately short: Obsidian black (#000000) and an electric Blue Violet
+        (#6533E2), with white for contrast. Space Grotesk carries the typography, giving headlines a
+        technical, engineered feel without becoming cold.
+    - heading: The brand in the real world
+      body: >-
+        The system was tested across stationery, business cards and packaging, merchandise like
+        caps, lanyards and USB drives, outdoor billboards, a wrapped car, shipping containers, a
+        social media grid and app screens on phone and watch. Every application uses the same few
+        ingredients, which is what makes the brand instantly recognisable.
+  gallery: [img/work/voitex/a009.jpg, img/work/voitex/a010.jpg, img/work/voitex/a012.jpg, img/work/voitex/a013.jpg, img/work/voitex/a014.jpg, img/work/voitex/a015.jpg, img/work/voitex/a016.jpg, img/work/voitex/a011.jpg, img/work/voitex/a007.jpg]
+
+- slug: ovenox
+  name: Ovenox
+  title: "Ovenox: a calm, trustworthy identity for a health platform"
+  description: "Case study: the Ovenox health platform brand identity for Apex Medical Care: a construction-grid logo, green and yellow palette, campaigns and real-world mockups."
+  industry: Health & wellness
+  industry_page: beauty-wellness
+  tagline: "Syncing Better Health"
+  cover: img/work/ovenox/01.jpg
+  pdf: pdf/ovenox-brand-identity.pdf
+  deliverables: [Logo and construction grid, Brand voice pillars, Colour palette, Campaign visuals, Social media posts, App and web UI, Stationery, Billboards and outdoor, Vehicle livery]
+  intro: >-
+    Ovenox is a health platform created for Apex Medical Care, focused on better healthcare
+    infrastructure through data management and intuitive workflow design. The brand needed to feel
+    clinical enough to trust, but warm and human enough for everyday wellness.
+  sections:
+    - heading: The mark
+      body: >-
+        The Ovenox symbol is built from overlapping circles on a precise construction grid. Four soft
+        petal shapes meet in the centre, with one picked out in yellow: a simple signal of balance
+        and of the one thing that changes when your health is in sync. The construction is shown in
+        full, so the mark can be redrawn accurately at any size.
+    - heading: Voice and colour
+      body: >-
+        A deep, natural green carries the brand, with a bright yellow accent used sparingly for
+        highlights and calls to action. The brand voice is organised around pillars like movement,
+        hydration, nutrition and mindfulness, which show up as short labels across the campaign:
+        "Balanced", "Vitality", "Active Living, Optimal Wellness".
+    - heading: Campaign and applications
+      body: >-
+        "Syncing Better Health" became the campaign line. The identity was rolled out across social
+        posts and stories, app and web screens, envelopes and stationery, outdoor billboards and a
+        branded delivery truck, all using the same green, yellow and rounded photo frames.
+  gallery: [img/work/ovenox/01.jpg, img/work/ovenox/04.jpg, img/work/ovenox/06.jpg, img/work/ovenox/05.jpg, img/work/ovenox/08.jpg, img/work/ovenox/09.jpg, img/work/ovenox/10.jpg, img/work/ovenox/11.jpg, img/work/ovenox/12.jpg, img/work/ovenox/13.jpg, img/work/ovenox/14.jpg, img/work/ovenox/15.jpg]
+
+- slug: mavion
+  name: Mavion
+  title: "Mavion: brand guidelines for a quietly powerful tech company"
+  description: "Case study: the Mavion brand guidelines: logo system, construction, colour, Space Grotesk typography, pattern, tone of voice and imagery rules."
+  industry: Technology
+  industry_page: tech-fintech
+  tagline: "Moving forward"
+  cover: img/work/mavion/01.jpg
+  pdf: pdf/mavion-brand-guidelines.pdf
+  deliverables: [Logo, wordmark and symbol, Logo construction, Logo variations and misuse, Colour system, Typography, Brand pattern, Tone of voice, Stationery, Digital and social applications, Imagery guidelines]
+  intro: >-
+    Mavion needed more than a logo: a complete set of brand guidelines that any designer, developer
+    or marketer could follow. The brand describes itself as "quietly powerful", showcasing real,
+    foundational technology rather than hype, and the guidelines are built to keep that tone
+    consistent.
+  sections:
+    - heading: A logo system, not a single logo
+      body: >-
+        The M symbol is drawn on a geometric construction grid and works on its own as an app icon,
+        favicon and pattern, or alongside the MAVION wordmark. The guidelines set minimum sizes,
+        placement rules, partner lock-ups and versions for light and dark backgrounds.
+    - heading: Colour, type and pattern
+      body: >-
+        A confident blue leads the palette, supported by black, white and lighter blue tints. Space
+        Grotesk is used in regular, medium and bold weights. A repeating M pattern gives the brand a
+        recognisable texture for backgrounds, packaging and social content.
+    - heading: Voice and imagery
+      body: >-
+        The tone of voice is defined in pairs, such as confident but never arrogant and technical
+        but always human-centred, so writing stays on-brand. Imagery rules focus on real people,
+        process and product detail instead of generic stock photos.
+  gallery: [img/work/mavion/01.jpg, img/work/mavion/02.jpg, img/work/mavion/03.jpg, img/work/mavion/04.jpg, img/work/mavion/05.jpg, img/work/mavion/06.jpg, img/work/mavion/07.jpg, img/work/mavion/08.jpg, img/work/mavion/09.jpg, img/work/mavion/10.jpg]

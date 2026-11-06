@@ -1,0 +1,109 @@
+# Industry landing pages: /branding/<slug>/
+# Portfolio items are matched from content/portfolio.json by category keywords.
+- slug: beauty-wellness
+  name: Beauty & Wellness
+  h1: "Brand identity design for skincare, beauty and wellness brands"
+  title: "Skincare & Beauty Brand Identity Design | Shahab"
+  description: "Human-designed brand identities for skincare, beauty, spa and wellness brands: logo, packaging, guidelines and social kit. First brand board in 48 hours, from $250."
+  keywords: [beauty, skincare, cosmetic, spa, wellness, mental, pilates]
+  gradient: g-rose
+  intro: >-
+    In beauty and wellness, people buy with their eyes before they ever try the product. Your brand
+    has to feel premium on a shelf, calm on a screen and trustworthy in someone's bathroom. I design
+    complete identities for skincare lines, cosmetics, med spas, studios and wellness platforms,
+    built to look as good on packaging as they do on Instagram.
+  points:
+    - ["Soft, confident colour", "Palettes that feel clean and premium, with one accent used with restraint."]
+    - ["Packaging that photographs well", "Labels and boxes designed for the shelf, the unboxing and the product shot."]
+    - ["Typography with breathing room", "Elegant type and generous spacing, so the brand never feels crowded."]
+    - ["One look across every product", "A system that keeps a growing range of SKUs consistent without feeling repetitive."]
+  faqs:
+    - ["Can you design packaging for my skincare or beauty range?", "Yes. Packaging and merchandising are included in The Brand Ecosystem package, and the Basic and Premium packages include 3D mockups of your brand on real products. For a large range, I'll put together a custom quote."]
+    - ["Do you work with spas, salons and wellness studios too?", "Yes. The portfolio includes a med spa, a pilates studio, a mental wellbeing app and wellness lifestyle brands. The process is the same: a short brief call, research into your market, then your first full brand board in 48 hours."]
+    - ["Will my brand work on Instagram as well as on packaging?", "That's the goal. From the Premium Branding package up you get a social media kit with profile assets and post templates in your new identity."]
+
+- slug: food-drink
+  name: Food & Drink
+  h1: "Branding for cafés, restaurants and food & drink brands"
+  title: "Café, Restaurant & Food Brand Identity Design | Shahab"
+  description: "Human-designed branding for cafés, restaurants, breweries and food & drink products: logo, packaging, menus and social. First brand board in 48 hours."
+  keywords: [food, drink, brew, coffee, café, cafe, dessert, beverage, fast food]
+  gradient: g-orange
+  intro: >-
+    A food brand lives on cups, bags, menus, signs, delivery apps and staff t-shirts, often all in
+    the same week. It needs personality people remember after one visit and a logo that still reads
+    when it's printed small on a sticker. I design identities for cafés, restaurants, fast food,
+    breweries and packaged food and drink brands.
+  points:
+    - ["A logo that works on cups and signs", "Simple, bold marks that stay readable from a distance and at sticker size."]
+    - ["Personality people remember", "Playful type, mascots or patterns that give regulars something to recognise."]
+    - ["Packaging that sells itself", "Bags, boxes, pouches and labels designed for the counter and the delivery app."]
+    - ["Consistent menus and socials", "Templates so every menu update and post looks like the same brand."]
+  faqs:
+    - ["Can you design menus, cups and takeaway packaging?", "Yes. Packaging and merchandising are part of The Brand Ecosystem package, and every package includes mockups so you can see your brand on cups, bags and signage before printing anything."]
+    - ["I'm opening a new café. When should I start the branding?", "Ideally before you order signage, cups or printed menus, so everything is produced once in the final design. The first brand board takes 48 hours, so branding rarely holds up an opening."]
+    - ["Do you design for packaged food and drink products?", "Yes. The portfolio includes pet food, a brewery, a matcha drink brand and snack brands. Product packaging is included in The Brand Ecosystem or available as a custom quote."]
+
+- slug: tech-fintech
+  name: Tech & Fintech
+  h1: "Brand identity design for tech, SaaS and fintech startups"
+  title: "Tech, SaaS & Fintech Brand Identity Design | Shahab"
+  description: "Human-designed brand identities for tech, SaaS, AI and fintech startups: logo systems, UI-ready assets, guidelines and launch creatives. From $250."
+  keywords: [tech, fintech, payments, ai, logistics, file]
+  gradient: g-violet
+  intro: >-
+    Tech buyers decide fast whether a product feels credible. A sharp identity makes a seed-stage
+    startup look established in front of users, investors and partners. I design brand systems for
+    SaaS, AI, fintech, payments and digital studios, built to work in product UI as well as in
+    marketing.
+  points:
+    - ["Clear, confident wordmarks", "Logos that stay crisp as an app icon, a favicon and on a pitch deck."]
+    - ["A short, strong colour palette", "Colours chosen to work in interfaces, dashboards and dark mode."]
+    - ["UI-ready brand assets", "Icons, patterns and graphic elements your product team can actually use."]
+    - ["Trust from day one", "A consistent look across website, product, socials and investor materials."]
+  faqs:
+    - ["Can my logo work as an app icon and favicon?", "Yes. Every logo system is designed to work from favicon size up to billboards, and The Brand Ecosystem includes UI branding assets like patterns and icons."]
+    - ["Do you design for fintech and payments brands?", "Yes. The portfolio includes fintech, payments and AI brands. Financial products need to feel secure and simple, so the identity focuses on clarity and consistency."]
+    - ["Can you deliver before our launch or fundraise?", "Your first full brand board arrives within 48 hours, and The Brand Ecosystem, including launch and ad creatives, is delivered within 5 business days."]
+
+- slug: fashion-luxury
+  name: Fashion & Luxury
+  h1: "Branding for fashion labels, jewellery and luxury brands"
+  title: "Fashion & Luxury Brand Identity Design | Shahab"
+  description: "Human-designed brand identities for fashion labels, streetwear, jewellery, perfume and luxury brands: monograms, packaging, tags and campaigns."
+  keywords: [fashion, luxury, jewellery, perfume, streetwear, florist, clothing]
+  gradient: g-grape
+  intro: >-
+    In fashion and luxury, the brand is part of what people are paying for. Every tag, bag and
+    campaign image has to feel considered. I design identities for clothing labels, streetwear,
+    jewellery, perfume and luxury lifestyle brands, from the monogram to the shopping bag.
+  points:
+    - ["Restraint that reads as expensive", "Limited colour, generous space and nothing that feels rushed."]
+    - ["A signature mark", "Monograms and symbols that work embossed, stitched, printed or engraved."]
+    - ["Premium packaging and tags", "Shopping bags, boxes, labels and swing tags that match the product."]
+    - ["Campaign-ready visuals", "Layouts for lookbooks, billboards and social that keep the brand consistent."]
+  faqs:
+    - ["Can you design a monogram for my label?", "Yes. Monograms and signature marks are part of the logo system, designed to work on labels, packaging, embroidery and social profiles."]
+    - ["Do you do streetwear as well as luxury?", "Yes. The portfolio covers both: streetwear and kidswear labels as well as luxury fashion, jewellery and perfume brands."]
+    - ["Is packaging included?", "Packaging and merchandising are included in The Brand Ecosystem package. Every package includes realistic mockups of your brand in use."]
+
+- slug: sports
+  name: Sports
+  h1: "Branding for sports clubs, padel, tennis and fitness brands"
+  title: "Sports Club & Padel Brand Identity Design | Shahab"
+  description: "Human-designed brand identities for sports clubs, padel, tennis, badminton and fitness brands: crests, kits, merch and match-day social templates."
+  keywords: [sports, tennis, padel, badminton]
+  gradient: g-ocean
+  intro: >-
+    A sports brand has to look great on a shirt, a court, a water bottle and a match-day post. The
+    best club identities become something members are proud to wear. I design brands for padel and
+    tennis clubs, badminton, sports teams and fitness businesses.
+  points:
+    - ["A bold crest or mark", "A strong symbol that works on kits, nets, signage and social avatars."]
+    - ["Colours built for kit and court", "Palettes chosen to look sharp on fabric and on screen."]
+    - ["Merch-ready versions", "Logo versions for embroidery, small prints and one-colour applications."]
+    - ["Match-day social templates", "Posts for fixtures, results and events that stay on-brand every week."]
+  faqs:
+    - ["Can you design kits and merchandise?", "Yes. Merchandising is included in The Brand Ecosystem package, and every package includes mockups of your brand on real products."]
+    - ["We're a new padel club. What do we need first?", "Start with the logo system, colours and a social media kit, so your launch posts, signage and booking pages match from day one. Premium Branding covers this, from $450."]
+    - ["Can you rebrand an existing club?", "Yes. We start with a short call about your history and members, so the new identity feels like an upgrade rather than a stranger."]
