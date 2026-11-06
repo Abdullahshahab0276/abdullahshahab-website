@@ -151,14 +151,14 @@ def footer(root):
         <a class="logo" href="{root}index.html">SHAHAB<i>.</i></a>
         <p>Human-designed premium branding, logo systems, packaging and content for businesses that want to look established.</p>
         <div class="soc">
-          <a href="https://www.instagram.com/vivenstudioo" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+          <a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
           <a href="https://wa.me/923118440498" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
           <a href="mailto:imabdullahshahab@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
         </div>
       </div>
       <div class="fcol"><h4>Explore</h4><a href="{root}index.html#work">Featured work</a><a href="{root}index.html#process">How it works</a><a href="{root}index.html#reviews">Reviews</a><a href="{root}index.html#cases">Case studies</a><a href="{root}blog/index.html">Blog</a><a href="{root}index.html#faq">FAQ</a></div>
       <div class="fcol"><h4>Packages</h4><a href="{root}index.html#pricing">Basic plan · $250</a><a href="{root}index.html#pricing">Premium Branding · $450</a><a href="{root}index.html#pricing">Brand Ecosystem · $1,050</a><a href="{root}index.html#contact">Custom quote</a></div>
-      <div class="fcol"><h4>Contact</h4><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: 03118440498</a><a href="https://www.instagram.com/vivenstudioo" target="_blank" rel="noopener">Instagram @vivenstudioo</a><a href="{CAL}" target="_blank" rel="noopener">Book a call</a></div>
+      <div class="fcol"><h4>Contact</h4><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: 03118440498</a><a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">Instagram @imabdullahshahab</a><a href="{CAL}" target="_blank" rel="noopener">Book a call</a></div>
     </div>
     <div class="fbot"><span>© {y} Shahab. All rights reserved.</span><a href="#top">Designed by a person, not a prompt. ↑</a></div>
   </div>
