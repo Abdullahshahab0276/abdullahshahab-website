@@ -366,14 +366,20 @@ def build_pin_feed(posts):
         key = next((g for g in ("beauty", "food", "tech", "fashion", "sports") if any(w in text for w in groups[g][:1] + groups[g][1:] if len(w) > 3 or g == w)), None)
         pool = [x for x in port if key and any(w in x["category"].lower() for w in groups[key])] or [x for x in port if x.get("featured")]
         return pool[n % len(pool)]["image"]
-    from pins import pin_tip
+    from pins import pin_tip, pin_tip_text
+    # 4 styles per tip, rotated so neighbouring days look different:
+    # 1 cream + work photo, 2 work photo background, 3 plain cream text, 4 plain text on a website gradient
     day = 0
-    for variant in (1, 2):
+    for rnd in range(4):
         for n, tp in enumerate(tips):
+            variant = (n + rnd) % 4 + 1
             slug = re.sub(r"[^a-z0-9]+", "-", tp["headline"].lower()).strip("-")[:50]
             img = out_dir / f"tip-{slug}-{variant}.jpg"
             if not img.exists():
-                pin_tip(tp, img, variant, seed=n, image=ROOT / pick_image(tp, n + variant * 7))
+                if variant in (1, 2):
+                    pin_tip(tp, img, variant, seed=n, image=ROOT / pick_image(tp, n + variant * 7))
+                else:
+                    pin_tip_text(tp, img, gradient=(variant == 4), seed=n * 3 + rnd)
             link = tp["link"]
             url = f"{SITE}/{link}" if not link.startswith("#") else f"{SITE}/"
             sep = "&" if "?" in url else "?"

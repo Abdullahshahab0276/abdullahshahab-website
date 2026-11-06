@@ -113,11 +113,15 @@ def pin_photo(cover_path, kicker, title, out):
     img.save(out, "JPEG", quality=86, optimize=True, progressive=True)
 
 
-PALETTES = [
-    [(100, 102, 214), (43, 44, 148), (75, 63, 192), (213, 157, 232), (143, 202, 249)],   # violet
-    [(240, 138, 30), (196, 61, 12), (232, 103, 14), (255, 178, 63), (255, 227, 176)],   # orange
-    [(236, 63, 145), (156, 15, 92), (255, 42, 150), (240, 96, 58), (255, 181, 156)],    # rose
-    [(79, 116, 216), (29, 51, 146), (53, 87, 207), (135, 195, 247), (233, 245, 255)],   # ocean
+PALETTES = [  # the website's gradient cards: (main, deep base, blobs...)
+    [(100, 102, 214), (43, 44, 148), (75, 63, 192), (213, 157, 232), (143, 202, 249)],    # violet
+    [(240, 138, 30), (196, 61, 12), (232, 103, 14), (255, 178, 63), (255, 227, 176)],    # orange
+    [(236, 63, 145), (156, 15, 92), (255, 42, 150), (240, 96, 58), (255, 181, 156)],     # rose
+    [(79, 116, 216), (29, 51, 146), (53, 87, 207), (135, 195, 247), (233, 245, 255)],    # ocean
+    [(228, 71, 60), (143, 15, 12), (216, 38, 31), (239, 90, 42), (246, 161, 127)],       # coral
+    [(47, 155, 71), (13, 90, 42), (29, 138, 60), (243, 154, 62), (154, 211, 90)],        # green
+    [(85, 52, 154), (46, 22, 100), (120, 70, 200), (230, 140, 200), (160, 120, 240)],    # grape
+    [(40, 30, 80), (13, 12, 20), (58, 42, 110), (74, 30, 23), (90, 60, 140)],            # dark
 ]
 
 
@@ -295,4 +299,66 @@ def pin_tip(tip, out, variant=1, seed=0, image=None):
             yy += gap
         _cta(d, tip["cta"], 1260, dark=False)
         footer(d, 1406, dark=False)
+    img.save(out, "JPEG", quality=86, optimize=True, progressive=True)
+
+
+def pin_tip_text(tip, out, gradient=False, seed=0):
+    """Plain-text tip pin (no photo): cream, or one of the website gradients."""
+    img = mesh(W, H, PALETTES[seed % len(PALETTES)], seed=seed + 11) if gradient else Image.new("RGB", (W, H), BG)
+    d = ImageDraw.Draw(img)
+    k = font("DejaVuSansMono.ttf", 26)
+    kt = tip["kicker"].upper()
+    if gradient:
+        kw = d.textlength(kt, font=k)
+        d.rounded_rectangle((70, 90, 70 + kw + 44, 140), 25, fill=(255, 255, 255))
+        d.text((92, 101), kt, font=k, fill=INK)
+    else:
+        d.text((70, 100), kt, font=k, fill=ACCENT)
+    f, lines, lh = fit_title(d, tip["headline"], W - 140, 380, start=88, min_size=56)
+    y = 170
+    for ln in lines:
+        d.text((70, y), ln, font=f, fill=(255, 255, 255) if gradient else INK)
+        y += lh
+    y += 50
+    pts = tip["points"][:5]
+    if gradient:
+        for size in (40, 37, 34, 31):
+            pf = font("Inter-Medium.otf", size)
+            lhp, gap = int(size * 1.3), int(size * 0.85)
+            wrapped = [wrap(d, p, pf, W - 140 - 150) for p in pts]
+            box_h = sum(len(w) * lhp + gap for w in wrapped) + 50
+            if y + box_h <= 1220:
+                break
+        d.rounded_rectangle((60, y, W - 60, y + box_h), 32, fill=(255, 255, 255))
+        yy = y + 38
+        for wl in wrapped:
+            cx, cy = 120, yy + lhp // 2
+            d.ellipse((cx - 22, cy - 22, cx + 22, cy + 22), fill=(236, 253, 243))
+            d.line((cx - 10, cy + 1, cx - 3, cy + 9), fill=(21, 128, 61), width=5)
+            d.line((cx - 3, cy + 9, cx + 11, cy - 8), fill=(21, 128, 61), width=5)
+            for ln in wl:
+                d.text((165, yy), ln, font=pf, fill=INK)
+                yy += lhp
+            yy += gap
+    else:
+        nf = font("InterDisplay-SemiBold.otf", 32)
+        for size in (44, 40, 36, 33):
+            pf = font("Inter-Medium.otf", size)
+            lhp, gap = int(size * 1.32), int(size * 0.9)
+            wrapped = [wrap(d, p, pf, W - 140 - 100) for p in pts]
+            if y + sum(len(w) * lhp + gap for w in wrapped) <= 1220:
+                break
+        for i, wl in enumerate(wrapped, 1):
+            cx, cy = 100, y + lhp // 2
+            d.ellipse((cx - 30, cy - 30, cx + 30, cy + 30), fill=(11, 11, 15))
+            n = str(i)
+            d.text((cx - d.textlength(n, font=nf) / 2, cy - 20), n, font=nf, fill=(255, 255, 255))
+            for ln in wl:
+                d.text((165, y), ln, font=pf, fill=INK)
+                y += lhp
+            y += gap
+    _cta(d, tip["cta"], 1260, dark=not gradient)
+    if not gradient:
+        d.line((70, 1380, W - 70, 1380), fill=(228, 228, 222), width=2)
+    footer(d, 1406, dark=not gradient)
     img.save(out, "JPEG", quality=86, optimize=True, progressive=True)
