@@ -1022,6 +1022,7 @@ footer{position:relative;z-index:1;border-top:1px solid var(--frame);padding:56p
         <a class="cline card" href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener"><span class="fi g g-rose"><svg><use href="#i-ig"/></svg></span><span><small>Instagram</small><b>@imabdullahshahab</b></span></a>
       </div>
       <form class="card" id="cform" novalidate>
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
         <div class="fgrid">
           <label>Your name<input id="cf-name" required autocomplete="name"></label>
           <label>Your email<input id="cf-email" type="email" required autocomplete="email"></label>
@@ -1033,8 +1034,8 @@ footer{position:relative;z-index:1;border-top:1px solid var(--frame);padding:56p
           </label>
           <label class="full">Message<textarea id="cf-message" required placeholder="Tell me about your business and what you need"></textarea></label>
         </div>
-        <button class="btn primary lg" type="submit" style="justify-content:center;padding-left:28px">Send message via email <span class="ar"><svg><use href="#i-arrow"/></svg></span></button>
-        <p class="fmsg" id="fmsg">Opens your email app, addressed to imabdullahshahab@gmail.com.</p>
+        <button class="btn primary lg" type="submit" style="justify-content:center;padding-left:28px">Send message <span class="ar"><svg><use href="#i-arrow"/></svg></span></button>
+        <p class="fmsg" id="fmsg">Goes straight to my inbox. I reply personally, usually the same day.</p>
       </form>
     </div>
   </div>
@@ -1085,7 +1086,8 @@ try{var d=new Date();d.setDate(d.getDate()+2);$('#due').textContent=d.toLocaleDa
 
 /* nav */
 var nav=$('#nav'),sticky=$('#sticky');
-function onScroll(){var y=window.scrollY;nav.classList.toggle('scrolled',y>10);sticky.classList.toggle('show',y>900&&(window.innerHeight+y)<document.body.scrollHeight-260);}
+var ctc=document.getElementById('contact');
+function onScroll(){var y=window.scrollY,r=ctc.getBoundingClientRect(),inC=r.top<window.innerHeight&&r.bottom>0;nav.classList.toggle('scrolled',y>10);sticky.classList.toggle('show',y>900&&!inC&&(window.innerHeight+y)<document.body.scrollHeight-260);}
 window.addEventListener('scroll',onScroll,{passive:true});onScroll();
 $('#burger').addEventListener('click',function(){$('#mnav').classList.toggle('open')});
 $$('#mnav a').forEach(function(a){a.addEventListener('click',function(){$('#mnav').classList.remove('open')})});
@@ -1168,12 +1170,20 @@ $('#faqlist').innerHTML=F.map(function(q){return '<div class="q"><button aria-ex
 $$('.q button').forEach(function(b){b.addEventListener('click',function(){var q=b.parentNode,o=q.classList.toggle('open');b.setAttribute('aria-expanded',o)})});
 
 /* contact */
-$('#cform').addEventListener('submit',function(e){e.preventDefault();
+var cf=$('#cform'),fm=$('#fmsg'),cb=cf.querySelector('button[type=submit]');
+cf.addEventListener('submit',function(e){e.preventDefault();
+  if(cf.querySelector('[name=_honey]').value)return;
   var n=$('#cf-name').value.trim(),em=$('#cf-email').value.trim(),t=$('#cf-type').value.trim(),m=$('#cf-message').value.trim();
-  if(!n||!em||!m){$('#fmsg').textContent='Please add your name, email and a message.';return;}
-  var sub='New enquiry from '+n+(t?' — '+t:''),body='Name: '+n+'\nEmail: '+em+'\n'+(t?'Project type: '+t+'\n':'')+'\nMessage:\n'+m;
-  window.location.href='mailto:imabdullahshahab@gmail.com?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(body);
-  $('#fmsg').textContent='Your email app should open now. If it doesn’t, email imabdullahshahab@gmail.com directly.';
+  fm.style.color='';
+  if(!n||!em||!m){fm.textContent='Please add your name, email and a message.';fm.style.color='#d92d20';return;}
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){fm.textContent='Please check your email address.';fm.style.color='#d92d20';return;}
+  cb.disabled=true;cb.style.opacity=.6;fm.textContent='Sending…';
+  fetch('https://formsubmit.co/ajax/imabdullahshahab@gmail.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({name:n,email:em,'Project type':t||'Not specified',message:m,_subject:'New enquiry from '+n+(t?' — '+t:''),_replyto:em,_template:'table',_captcha:'false'})})
+  .then(function(r){return r.json().then(function(d){if(!r.ok||String(d.success)!=='true')throw new Error(d.message||'Failed');})})
+  .then(function(){cf.reset();fm.style.color='#15803d';fm.textContent='Thanks, '+n.split(' ')[0]+'! Your message is on its way. I’ll reply personally, usually the same day.';})
+  .catch(function(){fm.style.color='#d92d20';fm.innerHTML='Sorry, that didn’t send. Please email <a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a> or message me on <a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp</a>.';})
+  .then(function(){cb.disabled=false;cb.style.opacity='';});
 });
 
 /* cycling hero word */
