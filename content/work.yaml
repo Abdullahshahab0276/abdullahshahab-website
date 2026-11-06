@@ -99,3 +99,35 @@
         but always human-centred, so writing stays on-brand. Imagery rules focus on real people,
         process and product detail instead of generic stock photos.
   gallery: [img/work/mavion/01.jpg, img/work/mavion/02.jpg, img/work/mavion/03.jpg, img/work/mavion/04.jpg, img/work/mavion/05.jpg, img/work/mavion/06.jpg, img/work/mavion/07.jpg, img/work/mavion/08.jpg, img/work/mavion/09.jpg, img/work/mavion/10.jpg]
+
+- slug: pingup
+  name: Pingup
+  title: "Pingup: a warm, recognisable brand for a social messaging app"
+  description: "Case study: the Pingup visual identity: a P-shaped chat-bubble logo, crimson palette, chat-bubble graphics, app icon, social, billboard and merchandise."
+  industry: Social media & messaging app
+  industry_page: tech-fintech
+  tagline: "All your chats in one place"
+  cover: img/work/pingup/02.jpg
+  pdf: pdf/pingup-brand-guidelines.pdf
+  deliverables: [Logo and app icon, Logo rationale and clear space, Colour palette and pairings, Typography hierarchy, Iconography, Chat-bubble graphic system, Patterns, Stationery, Billboard, Merchandise, Social media templates, Full visual identity guidelines]
+  intro: >-
+    Pingup is a social platform built to help people connect, share and build real friendships. Its
+    name comes from the Nigerian slang "Ping", meaning a close friend. The identity had to feel
+    warm and personal, while staying simple enough to recognise instantly as an app icon.
+  sections:
+    - heading: A logo that starts a conversation
+      body: >-
+        The mark is a letter P drawn so that its counter forms a speech bubble, with the stem
+        becoming the bubble's tail. It reads as the brand's initial and as a message at the same
+        time, and it holds up at every size, from a favicon to a hoodie.
+    - heading: Colour and graphic system
+      body: >-
+        A deep crimson red leads the palette, paired with warm ivory and off-white for contrast.
+        Cropped chat bubbles become a flexible graphic device for posts and campaigns, backed by a
+        set of brand words like friendly, connected, fast, simple and safe, and a custom icon set.
+    - heading: From the app to the street
+      body: >-
+        The guidelines show the identity on the app icon and profile screens, social headers and
+        story templates, an outdoor billboard ("All your chats in one place"), and merchandise from
+        caps to t-shirts and hoodies, all in the same crimson and ivory system.
+  gallery: [img/work/pingup/02.jpg, img/work/pingup/03.jpg, img/work/pingup/05.jpg, img/work/pingup/06.jpg, img/work/pingup/04.jpg, img/work/pingup/07.jpg, img/work/pingup/08.jpg, img/work/pingup/09.jpg, img/work/pingup/10.jpg, img/work/pingup/11.jpg, img/work/pingup/12.jpg, img/work/pingup/13.jpg, img/work/pingup/14.jpg, img/work/pingup/15.jpg]
