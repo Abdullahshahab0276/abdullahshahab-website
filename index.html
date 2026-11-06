@@ -1178,9 +1178,9 @@ cf.addEventListener('submit',function(e){e.preventDefault();
   if(!n||!em||!m){fm.textContent='Please add your name, email and a message.';fm.style.color='#d92d20';return;}
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){fm.textContent='Please check your email address.';fm.style.color='#d92d20';return;}
   cb.disabled=true;cb.style.opacity=.6;fm.textContent='Sending…';
-  fetch('https://formsubmit.co/ajax/imabdullahshahab@gmail.com',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
-    body:JSON.stringify({name:n,email:em,'Project type':t||'Not specified',message:m,_subject:'New enquiry from '+n+(t?' — '+t:''),_replyto:em,_template:'table',_captcha:'false'})})
-  .then(function(r){return r.json().then(function(d){if(!r.ok||String(d.success)!=='true')throw new Error(d.message||'Failed');})})
+  fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({access_key:'c7ca5c80-e02e-4d5c-a980-354074dcab39',subject:'New enquiry from '+n+(t?' — '+t:''),from_name:'abdullahshahab.com',name:n,email:em,replyto:em,'Project type':t||'Not specified',message:m,botcheck:''})})
+  .then(function(r){return r.json().then(function(d){if(!r.ok||d.success!==true)throw new Error(d.message||'Failed');})})
   .then(function(){cf.reset();fm.style.color='#15803d';fm.textContent='Thanks, '+n.split(' ')[0]+'! Your message is on its way. I’ll reply personally, usually the same day.';})
   .catch(function(){fm.style.color='#d92d20';fm.innerHTML='Sorry, that didn’t send. Please email <a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a> or message me on <a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp</a>.';})
   .then(function(){cb.disabled=false;cb.style.opacity='';});
