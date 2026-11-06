@@ -9,6 +9,7 @@ It (re)generates:
   sitemap.xml, robots.txt
 """
 import datetime as dt
+import sys
 import html
 import json
 import math
@@ -18,7 +19,10 @@ from pathlib import Path
 import markdown
 import yaml
 
+from pins import make_pins
+
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 SITE = "https://www.abdullahshahab.com"
 AUTHOR = "Shahab"
 CAL = "https://calendly.com/imabdullahshahab/30min"
@@ -323,6 +327,21 @@ def build_feed(posts):
     (ROOT / "blog" / "feed.xml").write_text(xml, encoding="utf-8")
 
 
+def build_pin_feed(posts):
+    """RSS feed for Pinterest auto-publish: two branded pins per article."""
+    items = []
+    for p in posts:
+        for i, (img, title, desc) in enumerate(make_pins(p), 1):
+            size = (ROOT / img).stat().st_size
+            link = f"{SITE}/blog/{p['slug']}/?utm_source=pinterest&amp;utm_medium=pin&amp;utm_campaign={p['slug']}"
+            pub = dt.datetime.combine(p["date"], dt.time(9 + i)).strftime('%a, %d %b %Y %H:%M:%S +0000')
+            items.append(f"""<item><title>{esc(title)}</title><link>{link}</link><guid isPermaLink="false">{p['slug']}-pin-{i}</guid><pubDate>{pub}</pubDate><description>{esc(desc)}</description><enclosure url="{SITE}/{img}" length="{size}" type="image/jpeg"/></item>""")
+    xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Shahab: branding pins</title><link>{SITE}/blog/</link><description>Branding guides, logo tips and brand identity case studies from Shahab.</description><language>en</language>{''.join(items)}</channel></rss>
+"""
+    (ROOT / "pins.xml").write_text(xml, encoding="utf-8")
+
+
 def build_sitemap(posts):
     today = dt.date.today().isoformat()
     urls = [(f"{SITE}/", today, "1.0"), (f"{SITE}/blog/", posts[0]["updated"].isoformat() if posts else today, "0.8")]
@@ -341,6 +360,7 @@ def main():
         build_post(p, posts, sprite)
     build_index(posts, sprite)
     build_feed(posts)
+    build_pin_feed(posts)
     build_sitemap(posts)
     print(f"Built {len(posts)} post(s): " + ", ".join(p["slug"] for p in posts))
 

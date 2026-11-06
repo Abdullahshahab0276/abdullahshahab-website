@@ -29,6 +29,10 @@
 - Front matter: title (≤ 65 chars where possible), slug (short, hyphenated, keyword-first),
   description (140–160 chars), date (publish day, YYYY-MM-DD), category, cover (an existing image in
   img/ that fits the topic; prefer ones not yet used as a cover), cover_alt (describe the image).
+- Also add `pins:` to the front matter: two items, each with `title` (≤ 60 chars, a hook a founder would
+  click on Pinterest) and `description` (150–220 chars, keyword-rich, no hashtags). The build turns them
+  into two branded 1000x1500 pin images (img/pins/) and adds them to /pins.xml, which Pinterest
+  auto-publishes from. Check both pin images look right after building.
 - Open with the answer in the first 3 paragraphs. Use `##` headings that read like questions people
   search. Include at least one bullet list or table. Add a short "How I handle this for clients" or
   similar section tying back to the packages, without being salesy.

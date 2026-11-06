@@ -5,6 +5,11 @@ description: "A purely AI-generated logo can't be copyrighted in the US, and the
 date: 2026-11-06
 category: Branding & IP
 cover: img/a009.jpg
+pins:
+  - title: "Can You Copyright an AI Logo? (2026 Founder Guide)"
+    description: "Thinking of using an AI logo generator? In the US, purely AI-generated logos can't be copyrighted. What that means for your brand and trademark, plus 5 questions to ask before you pay for a logo."
+  - title: "AI Logo vs Human Designer: Who Owns Your Brand?"
+    description: "A founder's guide to logo ownership, copyright and trademarks in the US and UK, and why a human-designed logo gives your brand stronger protection."
 cover_alt: "Voitex brand identity on a black shipping container, a human-designed logo system by Shahab"
 ---
 
