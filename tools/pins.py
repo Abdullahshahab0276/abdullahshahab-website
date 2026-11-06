@@ -219,62 +219,80 @@ def _cta(d, text, y, dark=True):
     d.line((cx + 2, cy + 8, cx + 11, cy), fill=bg, width=4)
 
 
-def pin_tip(tip, out, variant=1, seed=0):
-    """Informative text pin: headline, 3-5 points, call to action."""
-    dark_bg = variant == 2
-    img = mesh(W, H, PALETTES[seed % len(PALETTES)], seed=seed + 11) if dark_bg else Image.new("RGB", (W, H), BG)
-    d = ImageDraw.Draw(img)
-    k = font("DejaVuSansMono.ttf", 26)
+def pin_tip(tip, out, variant=1, seed=0, image=None):
+    """Informative pin: portfolio image + headline + 3-5 points + call to action."""
+    pts = tip["points"][:5]
     kt = tip["kicker"].upper()
-    if dark_bg:
+    k = font("DejaVuSansMono.ttf", 26)
+    if variant == 1:
+        img = Image.new("RGB", (W, H), BG)
+        top = rounded(cover_crop(Image.open(image), W - 100, 430, 0.4), 30)
+        img.paste(top, (50, 50), top)
+        d = ImageDraw.Draw(img)
+        d.text((70, 525), kt, font=k, fill=ACCENT)
+        f, lines, lh = fit_title(d, tip["headline"], W - 140, 230, start=74, min_size=50)
+        y = 570
+        for ln in lines:
+            d.text((70, y), ln, font=f, fill=INK)
+            y += lh
+        y += 34
+        # fit the list into the space above the button
+        for size in (40, 37, 34, 31, 28):
+            pf = font("Inter-Medium.otf", size)
+            lhp, gap = int(size * 1.3), int(size * 0.55)
+            wrapped = [wrap(d, p, pf, W - 140 - 100) for p in pts]
+            need = sum(len(w) * lhp + gap for w in wrapped)
+            if y + need <= 1235:
+                break
+        nf = font("InterDisplay-SemiBold.otf", 28)
+        for i, wl in enumerate(wrapped, 1):
+            cx, cy = 98, y + lhp // 2
+            d.ellipse((cx - 26, cy - 26, cx + 26, cy + 26), fill=(11, 11, 15))
+            n = str(i)
+            d.text((cx - d.textlength(n, font=nf) / 2, cy - 18), n, font=nf, fill=(255, 255, 255))
+            for ln in wl:
+                d.text((160, y), ln, font=pf, fill=INK)
+                y += lhp
+            y += gap
+        _cta(d, tip["cta"], 1260, dark=True)
+        footer(d, 1406)
+    else:
+        bg = cover_crop(Image.open(image), W, H, 0.5)
+        col = Image.new("L", (1, H))
+        for yy in range(H):
+            t = yy / H
+            col.putpixel((0, yy), int(190 - 110 * min(t / 0.6, 1) + (110 * max(0, (t - 0.72) / 0.28))))
+        shade = col.resize((W, H))
+        img = Image.composite(Image.new("RGB", (W, H), (10, 10, 18)), bg, shade)
+        img = grain(img, 0.05)
+        d = ImageDraw.Draw(img)
         kw = d.textlength(kt, font=k)
         d.rounded_rectangle((70, 90, 70 + kw + 44, 140), 25, fill=(255, 255, 255))
         d.text((92, 101), kt, font=k, fill=INK)
-    else:
-        d.text((70, 100), kt, font=k, fill=ACCENT)
-    f, lines, lh = fit_title(d, tip["headline"], W - 140, 380, start=88, min_size=56)
-    y = 170
-    for ln in lines:
-        d.text((70, y), ln, font=f, fill=(255, 255, 255) if dark_bg else INK)
-        y += lh
-    y += 50
-    pf = font("Inter-Medium.otf", 38)
-    pts = tip["points"][:5]
-    if dark_bg:
-        box_h = 0
-        wrapped = [wrap(d, p, pf, W - 140 - 150) for p in pts]
-        box_h = sum(len(w) * 50 + 34 for w in wrapped) + 50
+        f, lines, lh = fit_title(d, tip["headline"], W - 140, 380, start=88, min_size=56)
+        y = 175
+        for ln in lines:
+            d.text((70, y), ln, font=f, fill=(255, 255, 255))
+            y += lh
+        y += 44
+        for size in (38, 35, 32, 29):
+            pf = font("Inter-Medium.otf", size)
+            lhp, gap = int(size * 1.3), int(size * 0.85)
+            wrapped = [wrap(d, p, pf, W - 140 - 150) for p in pts]
+            box_h = sum(len(w) * lhp + gap for w in wrapped) + 50
+            if y + box_h <= 1220:
+                break
         d.rounded_rectangle((60, y, W - 60, y + box_h), 32, fill=(255, 255, 255))
-        yy = y + 40
+        yy = y + 38
         for wl in wrapped:
-            cx, cy = 120, yy + 24
+            cx, cy = 120, yy + lhp // 2
             d.ellipse((cx - 22, cy - 22, cx + 22, cy + 22), fill=(236, 253, 243))
             d.line((cx - 10, cy + 1, cx - 3, cy + 9), fill=(21, 128, 61), width=5)
             d.line((cx - 3, cy + 9, cx + 11, cy - 8), fill=(21, 128, 61), width=5)
             for ln in wl:
                 d.text((165, yy), ln, font=pf, fill=INK)
-                yy += 50
-            yy += 34
-        y += box_h + 50
-    else:
-        nf = font("InterDisplay-SemiBold.otf", 32)
-        pf = font("Inter-Medium.otf", 44 if len(pts) <= 4 else 40)
-        lhp, gap = (58, 44) if len(pts) <= 4 else (54, 34)
-        for i, p in enumerate(pts, 1):
-            wl = wrap(d, p, pf, W - 140 - 100)
-            cx, cy = 100, y + 28
-            d.ellipse((cx - 30, cy - 30, cx + 30, cy + 30), fill=(11, 11, 15))
-            n = str(i)
-            d.text((cx - d.textlength(n, font=nf) / 2, cy - 20), n, font=nf, fill=(255, 255, 255))
-            for ln in wl:
-                d.text((165, y), ln, font=pf, fill=INK)
-                y += lhp
-            y += gap
-        y += 20
-    y = max(y, 1150)
-    y = min(y, 1250)
-    _cta(d, tip["cta"], y, dark=not dark_bg)
-    if not dark_bg:
-        d.line((70, 1380, W - 70, 1380), fill=(228, 228, 222), width=2)
-    footer(d, 1406, dark=not dark_bg)
+                yy += lhp
+            yy += gap
+        _cta(d, tip["cta"], 1260, dark=False)
+        footer(d, 1406, dark=False)
     img.save(out, "JPEG", quality=86, optimize=True, progressive=True)

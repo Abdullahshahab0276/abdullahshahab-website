@@ -357,6 +357,15 @@ def build_pin_feed(posts):
                           "link": f"{SITE}/?utm_source=pinterest&utm_medium=pin&utm_campaign=work-{slug}#work"})
             day += 1
     tips = json.loads((ROOT / "content" / "tips.json").read_text(encoding="utf-8"))
+    groups = {"beauty": ["beauty", "skincare", "cosmetic", "spa", "wellness"], "food": ["food", "café", "cafe", "coffee", "brew", "dessert", "beverage"],
+              "tech": ["tech", "fintech", "payments", "ai", "logistics"], "fashion": ["fashion", "luxury", "jewellery", "perfume", "streetwear"],
+              "sports": ["sports", "tennis", "padel", "badminton"]}
+
+    def pick_image(tp, n):
+        text = (tp["kicker"] + " " + tp["headline"]).lower()
+        key = next((g for g in ("beauty", "food", "tech", "fashion", "sports") if any(w in text for w in groups[g][:1] + groups[g][1:] if len(w) > 3 or g == w)), None)
+        pool = [x for x in port if key and any(w in x["category"].lower() for w in groups[key])] or [x for x in port if x.get("featured")]
+        return pool[n % len(pool)]["image"]
     from pins import pin_tip
     day = 0
     for variant in (1, 2):
@@ -364,7 +373,7 @@ def build_pin_feed(posts):
             slug = re.sub(r"[^a-z0-9]+", "-", tp["headline"].lower()).strip("-")[:50]
             img = out_dir / f"tip-{slug}-{variant}.jpg"
             if not img.exists():
-                pin_tip(tp, img, variant, seed=n)
+                pin_tip(tp, img, variant, seed=n, image=ROOT / pick_image(tp, n + variant * 7))
             link = tp["link"]
             url = f"{SITE}/{link}" if not link.startswith("#") else f"{SITE}/"
             sep = "&" if "?" in url else "?"
