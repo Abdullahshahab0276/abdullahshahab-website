@@ -10,7 +10,7 @@ with every article also repurposed for Instagram, LinkedIn and Pinterest.
 ## Queue (take the first unchecked item; tick it with the slug when published)
 - [x] Can you copyright an AI-generated logo? (can-you-copyright-an-ai-generated-logo)
 - [x] How much does a logo cost in 2026? Freelancer vs agency vs studio (how-much-does-a-logo-cost)
-- [ ] What's included in a complete brand identity: a founder's checklist
+- [x] What's included in a complete brand identity: a founder's checklist (brand-identity-checklist)
 - [ ] Skincare brand identity: what premium beauty brands get right
 - [ ] Logo file formats explained: SVG, PNG, PDF, EPS and when to use each
 - [ ] AI logo generator vs a human designer: an honest comparison
@@ -39,3 +39,4 @@ portfolio niches), price/cost questions, AI-vs-human, deliverables explainers, a
 ## Published log
 - 2026-11-06: can-you-copyright-an-ai-generated-logo
 - 2026-11-10: how-much-does-a-logo-cost
+- 2026-11-13: brand-identity-checklist
