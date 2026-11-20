@@ -21,11 +21,21 @@ import yaml
 
 from pins import make_pins
 from pages import PAGES_CSS, build_pages
+import seo
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 SITE = "https://www.abdullahshahab.com"
-AUTHOR = "Shahab"
+AUTHOR = "Abdullah Shahab"
+PERSON_ID = SITE + "/#shahab"
+ORG_ID = SITE + "/#business"
+# Every real profile of Abdullah Shahab / Shahab. Add LinkedIn, Behance, Dribbble, Pinterest,
+# Clutch etc. here as soon as they exist: they feed the Person + business schema (knowledge panel).
+SAME_AS = ["https://www.instagram.com/imabdullahshahab"]
+SERVICES = [("Logo design", "/logo-design/"), ("Brand identity design", "/brand-identity-design/"),
+            ("Startup branding", "/startup-branding/"), ("Brand guidelines", "/brand-guidelines/"),
+            ("Rebranding", "/rebranding/"), ("Packages & pricing", "/pricing/")]
+PAGES = []   # (url, html) of every page written, for the sitemap
 CAL = "https://calendly.com/imabdullahshahab/30min"
 POSTS_DIR = ROOT / "content" / "posts"
 
@@ -85,7 +95,7 @@ BLOG_CSS = """
 .cover img{width:100%;height:100%;object-fit:cover}
 .art-wrap{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:64px;align-items:start;margin-top:56px}
 .toc{position:sticky;top:96px;padding:22px;border-radius:22px}
-.toc h4{margin:0 0 12px;font:400 11.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.toc h4,.toc .th{margin:0 0 12px;font:400 11.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
 .toc a{display:block;padding:6px 0;font-size:14.5px;color:var(--ink-2);text-decoration:none;line-height:1.35}
 .toc a:hover{color:var(--ink)}
 .toc .btn{width:100%;margin-top:16px}
@@ -116,14 +126,20 @@ BLOG_CSS = """
 .post .im{aspect-ratio:16/10;overflow:hidden;background:#111}
 .post .im img{width:100%;height:100%;object-fit:cover}
 .post .tx{padding:22px 22px 26px;display:grid;gap:10px}
-.post h3{font-size:21px;font-weight:450;letter-spacing:-.03em;line-height:1.25}
+.post h2,.post h3{font-size:21px;font-weight:450;letter-spacing:-.03em;line-height:1.25}
 .post p{margin:0;color:var(--ink-2);font-size:15px;line-height:1.5}
 .post small{font:400 12px var(--mono);color:var(--ink-3)}
 .post.lead{grid-column:1/-1;display:grid;grid-template-columns:1.3fr 1fr}
 .post.lead .im{aspect-ratio:auto;min-height:340px}
 .post.lead .tx{padding:36px;align-content:center}
-.post.lead h3{font-size:clamp(26px,1.4vw + 16px,36px);letter-spacing:-.04em}
+.post.lead h2,.post.lead h3{font-size:clamp(26px,1.4vw + 16px,36px);letter-spacing:-.04em}
 .empty-note{text-align:center;color:var(--ink-3);font:400 13px var(--mono);margin-top:26px}
+.author-box{display:flex;gap:18px;align-items:flex-start;padding:24px;border-radius:22px;margin:48px 0 0}
+.author-box img{width:64px;height:64px;border-radius:50%;object-fit:cover;flex:none}
+.author-box small{font:400 11.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3)}
+.author-box b{display:block;font-size:18px;font-weight:500;margin:4px 0 6px}
+.author-box b a{text-decoration:none}
+.author-box p{margin:0;font-size:15.5px;line-height:1.55;color:var(--ink-2)}
 @media(max-width:1000px){.art-wrap{grid-template-columns:1fr}.toc{position:static;order:-1}.posts{grid-template-columns:1fr 1fr}.post.lead{grid-template-columns:1fr}.post.lead .im{min-height:0;aspect-ratio:16/10}}
 @media(max-width:640px){.posts{grid-template-columns:1fr}.prose{font-size:17.5px}.cover{aspect-ratio:4/3}.art-cta{padding:28px 22px}}
 """
@@ -132,42 +148,43 @@ BLOG_CSS = """
 def nav(root):
     return f"""<div class="notice"><div class="inner"><span class="dot"></span><span>Human-designed branding · first brand board in <b>48 hours</b></span></div></div>
 <nav class="nav" id="nav"><div class="inner">
-  <a class="logo" href="{root}index.html">SHAHAB<i>.</i></a>
+  <a class="logo" href="/" aria-label="Shahab home">SHAHAB<i>.</i></a>
   <div class="links">
-    <a href="{root}index.html#work">Work</a><a href="{root}index.html#pricing">Packages</a><a href="{root}index.html#process">How it works</a><a href="{root}index.html#reviews">Reviews</a><a href="{root}blog/index.html">Blog</a><a href="{root}index.html#faq">FAQ</a>
+    <a href="/#work">Work</a><a href="/#services">Services</a><a href="/pricing/">Pricing</a><a href="/#process">How it works</a><a href="/#reviews">Reviews</a><a href="/blog/">Blog</a><a href="/about/">About</a>
   </div>
   <div class="acts">
     <a class="btn ghost sm" href="{CAL}" target="_blank" rel="noopener">Book a call</a>
-    <a class="btn primary sm" href="{root}index.html#pricing">Start my brand</a>
+    <a class="btn primary sm" href="/pricing/">Start my brand</a>
   </div>
   <button class="burger" id="burger" aria-label="Menu"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M2 5h14M2 9h14M2 13h14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
 </div></nav>
 <div class="mnav" id="mnav">
-  <a href="{root}index.html#work">Work</a><a href="{root}index.html#pricing">Packages</a><a href="{root}index.html#process">How it works</a><a href="{root}index.html#reviews">Reviews</a><a href="{root}blog/index.html">Blog</a><a href="{root}index.html#faq">FAQ</a><a href="{root}index.html#contact">Contact</a>
+  <a href="/#work">Work</a><a href="/#services">Services</a><a href="/pricing/">Pricing</a><a href="/#process">How it works</a><a href="/#reviews">Reviews</a><a href="/blog/">Blog</a><a href="/about/">About</a><a href="/#contact">Contact</a>
   <a class="btn primary" href="{CAL}" target="_blank" rel="noopener" style="margin-top:6px">Book a call</a>
 </div>"""
 
 
 def footer(root):
     y = dt.date.today().year
+    svc = "".join(f'<a href="{u}">{esc(n)}</a>' for n, u in SERVICES)
     return f"""<footer>
   <div class="inner">
     <div class="fcols">
       <div>
-        <a class="logo" href="{root}index.html">SHAHAB<i>.</i></a>
-        <p>Human-designed premium branding, logo systems, packaging and content for businesses that want to look established.</p>
+        <a class="logo" href="/" aria-label="Shahab home">SHAHAB<i>.</i></a>
+        <p>Human-designed logo and brand identity design by Abdullah Shahab, for founders in the USA, UK and worldwide.</p>
         <div class="soc">
           <a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
           <a href="https://wa.me/923118440498" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-wa"/></svg></a>
           <a href="mailto:imabdullahshahab@gmail.com" aria-label="Email"><svg><use href="#i-mail"/></svg></a>
         </div>
       </div>
-      <div class="fcol"><h4>Explore</h4><a href="{root}index.html#work">Featured work</a><a href="{root}index.html#process">How it works</a><a href="{root}index.html#reviews">Reviews</a><a href="{root}work/ovenox/index.html">Case studies</a><a href="{root}blog/index.html">Blog</a><a href="{root}index.html#faq">FAQ</a></div>
-      <div class="fcol"><h4>Industries</h4><a href="{root}branding/beauty-wellness/index.html">Beauty &amp; wellness</a><a href="{root}branding/food-drink/index.html">Food &amp; drink</a><a href="{root}branding/tech-fintech/index.html">Tech &amp; fintech</a><a href="{root}branding/fashion-luxury/index.html">Fashion &amp; luxury</a><a href="{root}branding/sports/index.html">Sports</a></div>
-      <div class="fcol"><h4>Packages</h4><a href="{root}index.html#pricing">Basic plan · $250</a><a href="{root}index.html#pricing">Premium Branding · $450</a><a href="{root}index.html#pricing">Brand Ecosystem · $1,050</a><a href="{root}index.html#contact">Custom quote</a></div>
-      <div class="fcol"><h4>Contact</h4><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: 03118440498</a><a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">Instagram @imabdullahshahab</a><a href="{CAL}" target="_blank" rel="noopener">Book a call</a></div>
+      <div class="fcol"><h3>Services</h4>{svc}</div>
+      <div class="fcol"><h3>Industries</h3><a href="/branding/beauty-wellness/">Beauty &amp; wellness</a><a href="/branding/food-drink/">Food &amp; drink</a><a href="/branding/tech-fintech/">Tech &amp; fintech</a><a href="/branding/fashion-luxury/">Fashion &amp; luxury</a><a href="/branding/sports/">Sports</a></div>
+      <div class="fcol"><h3>Explore</h3><a href="/#work">Featured work</a><a href="/work/voitex/">Case studies</a><a href="/#reviews">Reviews</a><a href="/blog/">Blog</a><a href="/about/">About Abdullah Shahab</a><a href="/#faq">FAQ</a></div>
+      <div class="fcol"><h3>Contact</h3><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: +92 311 8440498</a><a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">Instagram @imabdullahshahab</a><a href="{CAL}" target="_blank" rel="noopener">Book a call</a></div>
     </div>
-    <div class="fbot"><span>© {y} Shahab. All rights reserved.</span><a href="#top">Designed by a person, not a prompt. ↑</a></div>
+    <div class="fbot"><span>© {y} Shahab · Abdullah Shahab. All rights reserved.</span><a href="#top">Designed by a person, not a prompt. ↑</a></div>
   </div>
 </footer>"""
 
@@ -179,7 +196,7 @@ if('IntersectionObserver' in window){var o=new IntersectionObserver(function(es)
 </script>"""
 
 
-def head(root, title, desc, url, image, extra=""):
+def head(root, title, desc, url, image, extra="", og_type=None):
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,14 +205,19 @@ def head(root, title, desc, url, image, extra=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{url}">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#f7f7f5">
 <meta name="p:domain_verify" content="3a7c80742d16baeafd3771a237406652"/>
-<meta property="og:type" content="{'article' if '/blog/' in url and not url.endswith('/blog/') else 'website'}">
+<meta property="og:type" content="{og_type or ('article' if '/blog/' in url and not url.endswith('/blog/') else 'website')}">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:image" content="{SITE}/{image}">
 <meta property="og:site_name" content="Shahab">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{SITE}/{image}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="alternate" type="application/rss+xml" title="Shahab blog" href="{SITE}/blog/feed.xml">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
@@ -204,22 +226,52 @@ def head(root, title, desc, url, image, extra=""):
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}css/main.css">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Geist+Mono:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300..700&family=Geist+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" href="/css/main.css">
 {extra}
 </head>"""
 
 
-def post_card(p, root, lead=False):
-    return f"""<a class="post{' lead' if lead else ''} rv-up" href="{root}blog/{p['slug']}/index.html">
-  <div class="im"><img src="{root}{p['cover']}" alt="{esc(p.get('cover_alt',''))}" loading="lazy"></div>
-  <div class="tx"><span class="tagc" style="justify-self:start">{esc(p.get('category','Branding'))}</span><h3>{esc(p['title'])}</h3><p>{esc(p['description'])}</p><small>{p['date'].strftime('%b %-d, %Y')} · {p['read']} min read</small></div>
+def post_card(p, root, lead=False, tag="h3"):
+    return f"""<a class="post{' lead' if lead else ''} rv-up" href="/blog/{p['slug']}/">
+  <div class="im"><img src="/{p['cover']}" alt="{esc(p.get('cover_alt',''))}" loading="lazy"></div>
+  <div class="tx"><span class="tagc" style="justify-self:start">{esc(p.get('category','Branding'))}</span><{tag}>{esc(p['title'])}</{tag}><p>{esc(p['description'])}</p><small>{p['date'].strftime('%b %-d, %Y')} · {p['read']} min read</small></div>
 </a>"""
 
 
+def write_page(rel, html_text, url, index=True):
+    """Run the technical-SEO pass, write the file, and remember it for the sitemap."""
+    page_path = "/" + rel.replace("index.html", "") if rel.endswith("index.html") else "/" + rel
+    html_text = seo.finalize(html_text, page_path)
+    out = ROOT / rel
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(html_text, encoding="utf-8")
+    if index:
+        PAGES.append((url, html_text))
+
+
+PERSON = {"@type": "Person", "@id": PERSON_ID, "name": AUTHOR, "url": SITE + "/about/"}
+PUBLISHER = {"@type": "ProfessionalService", "@id": ORG_ID, "name": "Shahab — Branding & Design", "url": SITE + "/",
+             "logo": SITE + "/favicon-512.png"}
+
+POST_SERVICE = {  # which money page each post category supports (topic cluster hub)
+    "Pricing": ("/pricing/", "Compare branding packages"),
+    "Brand Identity": ("/brand-identity-design/", "Brand identity design"),
+    "Branding & IP": ("/logo-design/", "Human-designed logo design"),
+    "Industry Guides": ("/brand-identity-design/", "Brand identity design"),
+}
+
+
+def author_box():
+    return f"""<div class="author-box card"><img src="/img/shahab-sm.jpg" alt="Abdullah Shahab, brand identity designer" width="64" height="64" loading="lazy">
+  <div><small>Written by</small><b><a href="/about/">Abdullah Shahab</a></b><p>Brand identity designer with 7 years of experience and 46+ brand identities for founders in tech, beauty, fashion, sports and food. Every logo designed by hand. <a href="/about/">More about me</a>.</p></div></div>"""
+
+
 def build_post(p, posts, sprite):
-    root = "../../"
+    root = "/"
     url = f"{SITE}/blog/{p['slug']}/"
+    title_tag = p.get("seo_title") or (p["title"] + " | Shahab")
     ld = {
         "@context": "https://schema.org",
         "@graph": [
@@ -230,9 +282,12 @@ def build_post(p, posts, sprite):
                 "image": f"{SITE}/{p['cover']}",
                 "datePublished": p["date"].isoformat(),
                 "dateModified": p["updated"].isoformat(),
-                "author": {"@type": "Person", "name": AUTHOR, "url": SITE + "/", "image": f"{SITE}/img/shahab.jpg"},
-                "publisher": {"@type": "Organization", "name": "Shahab", "url": SITE + "/"},
+                "author": {**PERSON, "image": f"{SITE}/img/shahab.jpg", "jobTitle": "Brand Identity Designer", "sameAs": SAME_AS},
+                "publisher": PUBLISHER,
                 "mainEntityOfPage": url,
+                "articleSection": p.get("category", "Branding"),
+                "wordCount": len(re.findall(r"\w+", re.sub(r"<[^>]+>", " ", p["html"]))),
+                "inLanguage": "en",
             },
             {
                 "@type": "BreadcrumbList",
@@ -244,85 +299,97 @@ def build_post(p, posts, sprite):
             },
         ],
     }
-    extra = f'<meta property="article:published_time" content="{p["date"].isoformat()}">\n<script type="application/ld+json">{json.dumps(ld)}</script>'
+    extra = (f'<meta property="article:published_time" content="{p["date"].isoformat()}">\n'
+             f'<meta property="article:modified_time" content="{p["updated"].isoformat()}">\n'
+             f'<meta property="article:author" content="{AUTHOR}">\n'
+             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>')
     toc = "".join(f'<a href="#{t["id"]}">{esc(html.unescape(t["name"]))}</a>' for t in p["toc"])
-    related = [q for q in posts if q["slug"] != p["slug"]][:3]
+    same = [q for q in posts if q["slug"] != p["slug"] and q.get("category") == p.get("category")]
+    rest = [q for q in posts if q["slug"] != p["slug"] and q not in same]
+    related = (same + rest)[:3]
     rel_html = ""
     if related:
         rel_html = f"""<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Keep reading</h2></div><div class="posts">{''.join(post_card(q, root) for q in related)}</div></div></section>"""
-    page = f"""{head(root, p['title'] + ' | Shahab', p['description'], url, p['cover'], extra)}
+    svc_url, svc_name = POST_SERVICE.get(p.get("category"), ("/brand-identity-design/", "Brand identity design"))
+    updated = f' · Updated {p["updated"].strftime("%B %-d, %Y")}' if p["updated"] != p["date"] else ""
+    page = f"""{head(root, title_tag, p['description'], url, p['cover'], extra)}
 <body>
 {sprite}
 {nav(root)}
 <div class="page" id="top"><div class="rails"></div>
+<main>
 <section class="hero" style="padding-bottom:0"><div class="aura"><i></i><i></i><i></i><i></i></div>
 <div class="inner">
-  <div class="crumbs"><a href="{root}index.html">Home</a><span>/</span><a href="{root}blog/index.html">Blog</a><span>/</span><span>{esc(p.get('category','Branding'))}</span></div>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/blog/">Blog</a><span>/</span><span>{esc(p.get('category','Branding'))}</span></nav>
   <div class="art-head">
     <span class="tagc">{esc(p.get('category','Branding'))}</span>
     <h1 style="margin-top:18px">{esc(p['title'])}</h1>
     <p class="lede" style="margin-top:22px">{esc(p['description'])}</p>
-    <div class="meta-row"><img src="{root}img/shahab-sm.jpg" alt="Shahab"><span><b>Shahab</b><small>Brand designer · {p['date'].strftime('%B %-d, %Y')} · {p['read']} min read</small></span></div>
+    <div class="meta-row"><img src="/img/shahab-sm.jpg" alt="Abdullah Shahab" width="44" height="44"><span><b><a href="/about/" style="color:inherit;text-decoration:none">Abdullah Shahab</a></b><small>Brand designer · <time datetime="{p['date'].isoformat()}">{p['date'].strftime('%B %-d, %Y')}</time>{updated} · {p['read']} min read</small></span></div>
   </div>
-  <div class="cover"><img src="{root}{p['cover']}" alt="{esc(p.get('cover_alt',''))}"></div>
+  <div class="cover"><img src="/{p['cover']}" alt="{esc(p.get('cover_alt',''))}" fetchpriority="high"></div>
 </div></section>
 <section style="position:relative;z-index:1;padding:0 0 96px"><div class="inner">
   <div class="art-wrap">
     <article class="prose">{p['html']}
+      {author_box()}
       <div class="art-cta g g-violet">
         <h2>Want a logo you actually own?</h2>
         <p>Human-designed brand identities with full source files and copyright included. First brand board in 48 hours, from $250.</p>
-        <div class="row"><a class="btn white" href="{CAL}" target="_blank" rel="noopener">Book a call <span class="ar"><svg><use href="#i-arrow"/></svg></span></a><a class="btn ghostw" href="{root}index.html#pricing">See packages</a></div>
+        <div class="row"><a class="btn white" href="{CAL}" target="_blank" rel="noopener">Book a call <span class="ar"><svg><use href="#i-arrow"/></svg></span></a><a class="btn ghostw" href="/pricing/">See packages &amp; pricing</a></div>
       </div>
     </article>
-    <aside class="toc card"><h4>In this article</h4>{toc}<a class="btn primary sm" href="{root}index.html#pricing">Start my brand</a></aside>
+    <aside class="toc card"><p class="th">In this article</p>{toc}<p class="th" style="margin-top:20px">Related service</p><a href="{svc_url}">{esc(svc_name)} →</a><a class="btn primary sm" href="/pricing/">Start my brand</a></aside>
   </div>
 </div></section>
 {rel_html}
+</main>
 {footer(root)}
 </div>
 {JS}
 </body>
 </html>"""
-    out = ROOT / "blog" / p["slug"] / "index.html"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(page, encoding="utf-8")
+    write_page(f"blog/{p['slug']}/index.html", page, url)
 
 
 def build_index(posts, sprite):
-    root = "../"
+    root = "/"
     url = f"{SITE}/blog/"
-    desc = "Practical guides on logos, brand identity, pricing and launching a brand that looks established, from Shahab, a human brand designer."
-    cards = "".join(post_card(p, root, lead=(i == 0)) for i, p in enumerate(posts))
+    desc = "Practical guides on logo design, brand identity, branding costs and launching a brand that looks established, from brand designer Abdullah Shahab."
+    cards = "".join(post_card(p, root, lead=(i == 0), tag="h2") for i, p in enumerate(posts))
     note = '<p class="empty-note">New articles every week.</p>'
     ld = {"@context": "https://schema.org", "@type": "Blog", "name": "Shahab blog", "url": url, "description": desc,
+          "author": PERSON, "publisher": PUBLISHER,
           "blogPost": [{"@type": "BlogPosting", "headline": p["title"], "url": f"{SITE}/blog/{p['slug']}/", "datePublished": p["date"].isoformat()} for p in posts]}
-    page = f"""{head(root, 'Branding blog: logos, identity and launch guides | Shahab', desc, url, posts[0]['cover'] if posts else 'img/a018.jpg', '<script type="application/ld+json">' + json.dumps(ld) + '</script>')}
+    svc_links = "".join(f'<a href="{u}">{esc(n)}</a>' for n, u in SERVICES)
+    page = f"""{head(root, 'Branding & Logo Design Blog: Guides for Founders | Shahab', desc, url, posts[0]['cover'] if posts else 'img/a018.jpg', '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + '</script>')}
 <body>
 {sprite}
 {nav(root)}
 <div class="page" id="top"><div class="rails"></div>
+<main>
 <section class="hero"><div class="aura"><i></i><i></i><i></i><i></i></div>
 <div class="inner">
   <div class="head" style="margin-top:56px">
     <span class="kick" style="margin:0">The Shahab blog</span>
-    <h1 style="text-align:center;max-width:14em">Branding, <span class="grad">explained.</span></h1>
+    <h1 style="text-align:center;max-width:14em">Branding &amp; logo design, <span class="grad">explained.</span></h1>
     <p class="lede">Straight answers on logos, brand identity, pricing and launching a brand that looks established. Written by a designer, not a prompt.</p>
   </div>
   <div class="posts" style="padding-bottom:96px">{cards}</div>
   {note}
 </div></section>
+<section class="band" style="padding:40px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">Branding services</p><div class="links-row">{svc_links}</div></div></section>
 <section class="band"><div class="inner"><div class="callout g g-orange" style="margin-top:0">
   <div><h2>Ready for a brand you actually own?</h2><p>Human-designed identities, source files and copyright included. First brand board in 48 hours.</p></div>
-  <a class="btn white lg" href="{root}index.html#pricing">See packages <span class="ar"><svg><use href="#i-arrow"/></svg></span></a>
+  <a class="btn white lg" href="/pricing/">See packages <span class="ar"><svg><use href="#i-arrow"/></svg></span></a>
 </div></div></section>
+</main>
 {footer(root)}
 </div>
 {JS}
 </body>
 </html>"""
-    (ROOT / "blog").mkdir(exist_ok=True)
-    (ROOT / "blog" / "index.html").write_text(page, encoding="utf-8")
+    write_page("blog/index.html", page, url)
 
 
 def build_feed(posts):
@@ -404,17 +471,26 @@ def build_pin_feed(posts):
     return items
 
 
-def build_sitemap(posts, extra_urls=()):
-    today = dt.date.today().isoformat()
-    urls = [(f"{SITE}/", today, "1.0"), (f"{SITE}/blog/", posts[0]["updated"].isoformat() if posts else today, "0.8")]
-    urls += [(u, today, "0.8") for u in extra_urls]
-    urls += [(f"{SITE}/blog/{p['slug']}/", p["updated"].isoformat(), "0.7") for p in posts]
-    body = "".join(f"<url><loc>{u}</loc><lastmod>{d}</lastmod><priority>{pr}</priority></url>" for u, d, pr in urls)
-    (ROOT / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n', encoding="utf-8")
+def build_sitemap():
+    pri = lambda u: "1.0" if u == SITE + "/" else "0.9" if u.count("/") == 4 and "/blog/" not in u and "/work/" not in u and "/branding/" not in u else "0.8"
+    rows = []
+    for u, h in sorted(PAGES, key=lambda x: (x[0] != SITE + "/", x[0])):
+        rows.append(f"<url><loc>{u}</loc><lastmod>{seo.lastmod(u, h)}</lastmod><priority>{pri(u)}</priority></url>")
+    seo.save_lastmod()
+    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(rows) + "</urlset>\n", encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 
 
+def finalize_static():
+    """index.html and 404.html are hand-written; give them the same technical pass."""
+    home = (ROOT / "index.html").read_text(encoding="utf-8")
+    write_page("index.html", home, SITE + "/")
+    nf = (ROOT / "404.html").read_text(encoding="utf-8")
+    write_page("404.html", nf, SITE + "/404", index=False)
+
+
 def main():
+    n = seo.make_webp()
     css, sprite = site_parts()
     (ROOT / "css").mkdir(exist_ok=True)
     (ROOT / "css" / "main.css").write_text(css.strip() + "\n" + BLOG_CSS + PAGES_CSS, encoding="utf-8")
@@ -422,11 +498,12 @@ def main():
     for p in posts:
         build_post(p, posts, sprite)
     build_index(posts, sprite)
-    extra_urls, works, inds = build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS)
+    build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, posts, PERSON, PUBLISHER, SAME_AS, SERVICES)
+    finalize_static()
     build_feed(posts)
     build_pin_feed(posts)
-    build_sitemap(posts, extra_urls)
-    print(f"Built {len(posts)} post(s): " + ", ".join(p["slug"] for p in posts))
+    build_sitemap()
+    print(f"Built {len(posts)} post(s), {len(PAGES)} indexable pages, {n} new WebP images")
 
 
 if __name__ == "__main__":

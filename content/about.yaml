@@ -1,0 +1,31 @@
+# About page: /about/  (main E-E-A-T page and the url of the Person entity in schema)
+# Only facts Abdullah has stated. Update here, then run tools/build_blog.py.
+title: "About Abdullah Shahab, Brand Identity Designer | Shahab"
+description: "Abdullah Shahab is a brand identity designer with 7 years of experience and 46+ identities, designing human-made logos and brands for founders worldwide."
+h1: "Hi, I'm Abdullah Shahab. I design brands by hand."
+intro: >-
+  I'm a brand identity and logo designer. For 7 years I have designed logos and complete brand
+  identities for founders and small businesses, and the portfolio now includes 46+ brand identities
+  across tech, beauty, fashion, sports and food. I run Shahab as a one-designer studio: the person you
+  talk to is the person who designs your brand.
+sections:
+  - h2: Background
+    p:
+      - "I hold a BS in Graphic Design (Fine Arts). My work started with logos and grew into full identity systems: guidelines, packaging, social media kits and ad creatives."
+      - "I'm based in Pakistan and work remotely with founders in the USA, UK, Canada, Australia and the UAE, by call, email and WhatsApp."
+  - h2: How I work
+    p:
+      - "Every project starts with research into your market and competitors. Then I design, by hand, a logo system that works at favicon size and billboard size, and test it on the places your brand will actually live. Your first full brand board arrives within 48 hours."
+      - "I don't use AI to design logos. That is a quality decision and an ownership one: a human-designed logo can be protected by copyright, so the brand you receive is genuinely yours."
+  - h2: What I design
+    ul:
+      - "<a href=\"/logo-design/\">Logo design</a> and logo systems"
+      - "<a href=\"/brand-identity-design/\">Brand identity design</a> and <a href=\"/brand-guidelines/\">brand guidelines</a>"
+      - "<a href=\"/startup-branding/\">Startup branding</a> and <a href=\"/rebranding/\">rebranding</a>"
+      - "Packaging, social media kits and ad creatives"
+facts:
+  - ["Name", "Abdullah Shahab"]
+  - ["Role", "Brand identity designer, founder of Shahab"]
+  - ["Experience", "7 years, 46+ brand identities"]
+  - ["Education", "BS in Graphic Design (Fine Arts)"]
+  - ["Clients in", "USA, UK, Canada, Australia, UAE"]

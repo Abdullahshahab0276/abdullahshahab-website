@@ -4,8 +4,8 @@ Goal: win organic clients (founders in the USA, UK and other premium markets) th
 with every article also repurposed for Instagram, LinkedIn and Pinterest.
 
 ## Cadence
-- Until 9 articles are published: publish on Tuesday AND Friday.
-- From then on: Tuesday only. A Friday run that finds 9+ published posts does nothing.
+- Publish on Tuesday AND Friday until 50 articles are published (a new site needs volume to build
+  topical authority). Prioritise comparison and price topics, which support the service pages.
 
 ## Queue (take the first unchecked item; tick it with the slug when published)
 - [x] Can you copyright an AI-generated logo? (can-you-copyright-an-ai-generated-logo)

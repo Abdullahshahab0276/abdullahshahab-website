@@ -1,5 +1,6 @@
 ---
 title: "What's Included in a Brand Identity? A Founder's Checklist"
+seo_title: "What's Included in a Brand Identity? Checklist | Shahab"
 slug: brand-identity-checklist
 description: "A complete brand identity is more than a logo. Here's the founder's checklist: logo variations, colors, type, files, guidelines and launch assets to ask for."
 date: 2026-11-13
@@ -81,7 +82,7 @@ This is the part founders most often discover is missing, usually when a printer
 
 Each logo version should come in full color, black and white.
 
-Ownership belongs on this checklist too. Make sure the copyright transfer to you is written into the agreement. If AI tools are part of the process, you should know that, because in the US an AI-generated mark can't be protected by copyright. I covered that in [Can You Copyright an AI-Generated Logo?](../can-you-copyright-an-ai-generated-logo/index.html).
+Ownership belongs on this checklist too. Make sure the copyright transfer to you is written into the agreement. If AI tools are part of the process, you should know that, because in the US an AI-generated mark can't be protected by copyright. I covered that in [Can You Copyright an AI-Generated Logo?](/blog/can-you-copyright-an-ai-generated-logo/).
 
 ## What goes in brand guidelines?
 
@@ -106,13 +107,13 @@ Applications are where the identity stops being a PDF and starts being a busines
 - Email signature and presentation template
 - Packaging or labels, for product brands
 
-You don't need everything on day one. Pick the places customers will see you first. For a DTC product, that's packaging and Instagram. For a SaaS startup, it's the website, app icon and pitch deck. You can see what a full set of applications looks like in the [Voitex case study](../../work/voitex/index.html), from shipping-container signage to phone and watch screens.
+You don't need everything on day one. Pick the places customers will see you first. For a DTC product, that's packaging and Instagram. For a SaaS startup, it's the website, app icon and pitch deck. You can see what a full set of applications looks like in the [Voitex case study](/work/voitex/), from shipping-container signage to phone and watch screens.
 
 ## Do you need brand strategy and a brand voice too?
 
 For a straightforward launch, a clear brief can stand in for a formal strategy phase. Once you're entering a crowded market, raising money or selling to premium customers, strategy earns its cost. It covers who you're for, how you're different from competitors, and how you sound in writing.
 
-This is also where prices diverge. One 2026 industry guide puts a logo with basic visual direction at roughly $1,500 to $8,000. A complete identity system with a strategic foundation runs about $15,000 to $50,000 at that kind of firm, usually over six to ten weeks. Freelancers and small studios price lower. I broke down the full range in [How Much Does a Logo Cost in 2026?](../how-much-does-a-logo-cost/index.html).
+This is also where prices diverge. One 2026 industry guide puts a logo with basic visual direction at roughly $1,500 to $8,000. A complete identity system with a strategic foundation runs about $15,000 to $50,000 at that kind of firm, usually over six to ten weeks. Freelancers and small studios price lower. I broke down the full range in [How Much Does a Logo Cost in 2026?](/blog/how-much-does-a-logo-cost/).
 
 ## Questions to ask a designer before you pay
 
@@ -137,7 +138,9 @@ I build every package around this checklist, so the deliverables are spelled out
 - **Premium Branding, $450:** three distinct concepts, complete brand guidelines, competitive analysis, a social media kit and business card, with 3 revisions and 2-day delivery.
 - **The Brand Ecosystem, $1,050:** everything in Premium plus marketing strategy, brand voice, social and ad creatives, packaging and UI assets, in 5 business days, with unlimited revisions on the chosen concept.
 
-Every identity is designed by me, not generated. Source files and copyright are included, the scope is confirmed in writing, and I'll sign an NDA on request. Your first full brand board arrives within 48 hours. If you're in tech or fintech, my [tech and fintech branding page](../../branding/tech-fintech/index.html) shows how this looks for that market. You can compare packages in the [pricing section](../../index.html#pricing) or browse [recent work](../../index.html#work).
+Every identity is designed by me, not generated. Source files and copyright are included, the scope is confirmed in writing, and I'll sign an NDA on request. Your first full brand board arrives within 48 hours. If you're in tech or fintech, my [tech and fintech branding page](/branding/tech-fintech/) shows how this looks for that market. You can compare packages in the [packages and pricing page](/pricing/) or browse [recent work](/#work).
+
+For the full scope of what I deliver, see [brand identity design services](/brand-identity-design/) and [brand guidelines design](/brand-guidelines/).
 
 ## The bottom line
 

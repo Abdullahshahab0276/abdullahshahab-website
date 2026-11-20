@@ -1,5 +1,6 @@
 ---
 title: "Logo File Formats Explained: SVG, PNG, PDF, EPS and When to Use Each"
+seo_title: "Logo File Formats Explained: SVG, PNG, PDF, EPS | Shahab"
 slug: logo-file-formats
 description: "Which logo file format should you use? A plain-English guide to SVG, PNG, PDF, EPS, AI and JPG, with a cheat sheet for web, print, social and Office."
 date: 2026-11-20
@@ -88,7 +89,7 @@ So why do designers still include it? Because some sign makers, embroiderers, pr
 
 AI is Adobe Illustrator's native file, the editable master version of your logo with every layer, color swatch and artboard intact. You don't need it to *use* your logo, but you need it to *own* your logo properly. If you ever hire another designer to adjust the mark, build a sub-brand or create packaging, the AI file (or an equivalent editable vector source) is what they'll ask for.
 
-Make sure your designer hands it over. Some cheap logo services only deliver PNGs and keep the source file, which means you'd have to pay again for any change. I covered what else should come with a logo in my [brand identity checklist](../brand-identity-checklist/index.html).
+Make sure your designer hands it over. Some cheap logo services only deliver PNGs and keep the source file, which means you'd have to pay again for any change. I covered what else should come with a logo in my [brand identity checklist](/blog/brand-identity-checklist/).
 
 ## Which color versions of your logo do you need?
 
@@ -125,11 +126,11 @@ When you hire a designer, ask before you pay which files you'll receive. A compl
 - RGB and CMYK color versions, with HEX, RGB, CMYK and Pantone codes listed
 - A short guide or brand guidelines showing which version to use where
 
-If a quote doesn't mention source files, ask. My guide to [how much a logo costs in 2026](../how-much-does-a-logo-cost/index.html) shows how different price levels map to what you actually get.
+If a quote doesn't mention source files, ask. My guide to [how much a logo costs in 2026](/blog/how-much-does-a-logo-cost/) shows how different price levels map to what you actually get.
 
 ## How I handle logo files for clients
 
-Every logo I design is drawn as vector from the start. You can see the construction behind one of them in the [Ovenox case study](../../work/ovenox/index.html). When the identity is approved, the logo system is delivered as SVG, PNG and PDF, with the fully editable source files, and the copyright is yours.
+Every logo I design is drawn as vector from the start. You can see the construction behind one of them in the [Ovenox case study](/work/ovenox/). When the identity is approved, the logo system is delivered as SVG, PNG and PDF, with the fully editable source files, and the copyright is yours.
 
 The packages are the same whichever files you need:
 
@@ -137,7 +138,9 @@ The packages are the same whichever files you need:
 - **Premium Branding, $450:** three concepts, full brand guidelines and a social media kit, with 3 revisions and 2-day delivery.
 - **The Brand Ecosystem, $1,050:** strategy, marketing assets and the full identity in 5 business days, with unlimited revisions on the chosen concept.
 
-If a supplier needs an EPS or another specific format, tell me and I'll export it. You can compare packages in the [pricing section](../../index.html#pricing) or browse [recent work](../../index.html#work).
+If a supplier needs an EPS or another specific format, tell me and I'll export it. You can compare packages in the [packages and pricing page](/pricing/) or browse [recent work](/#work).
+
+Every [custom logo design](/logo-design/) package includes the full file set above, ready for web, print and social.
 
 ## The bottom line
 

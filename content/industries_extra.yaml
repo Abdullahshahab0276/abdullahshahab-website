@@ -1,0 +1,65 @@
+# Extra depth for the industry pages (/branding/<slug>/), merged in by tools/pages.py.
+# who: who the page is for. deliver: what the identity covers in this industry.
+# faqs: added after the FAQs in industries.yaml. posts: related blog slugs.
+beauty-wellness:
+  meta: "Human-designed brand identities for skincare, beauty, spa and wellness brands: logo, packaging, guidelines and social kit. First board in 48 hours."
+  who: [Skincare and cosmetics lines, Med spas and beauty salons, Pilates and wellness studios, Wellness apps and platforms, Perfume and body-care brands]
+  deliver: >-
+    For beauty and wellness brands the identity has to work on small labels, frosted bottles and
+    Instagram grids at once. I design the logo system, a restrained colour palette, elegant typography
+    and packaging-ready layouts, then test them on 3D product mockups so you see the brand on the shelf
+    before you print.
+  faqs:
+    - ["How much does skincare branding cost?", "Packages start at $250 for a logo with colours, type, mockups and guidelines. Most skincare founders choose Premium Branding ($450) for three directions and a social kit, or The Brand Ecosystem ($1,050) when packaging is needed."]
+    - ["Can you follow cosmetic labelling rules?", "I design the label layout and leave space for the required information. The exact wording and claims should be checked against the rules in your market; my skincare guide covers the US and UK basics."]
+  posts: [skincare-brand-identity, brand-identity-checklist]
+  services: [brand-identity-design, logo-design, pricing]
+food-drink:
+  meta: "Human-designed branding for cafés, restaurants, breweries and food & drink products: logo, packaging, menus and social. First brand board in 48 hours."
+  who: [Cafés and coffee shops, Restaurants and fast food, Breweries and beverage brands, Bakeries and dessert shops, Packaged food and snack brands]
+  deliver: >-
+    Food brands live on cups, bags, menus, signage and delivery apps. I design bold, readable logos,
+    a colour palette with personality, menu and social templates, and packaging mockups, so the brand
+    looks right on a sticker, a shopfront and a phone screen.
+  faqs:
+    - ["How much does restaurant or café branding cost?", "Packages start at $250. Most new cafés and restaurants choose Premium Branding ($450) for three logo directions and a social kit; The Brand Ecosystem ($1,050) adds packaging and merchandise."]
+    - ["Can you design a mascot or pattern for my food brand?", "Yes. Patterns and graphic elements are part of the identity system, and The Brand Ecosystem includes pattern and icon assets."]
+  posts: [brand-identity-checklist, how-much-does-a-logo-cost]
+  services: [logo-design, brand-identity-design, pricing]
+tech-fintech:
+  meta: "Human-designed brand identities for tech, SaaS, AI and fintech startups: logo systems, UI-ready assets, guidelines and launch creatives. From $250."
+  who: [SaaS and AI startups, Fintech and payments companies, Apps and digital products, Tech studios and agencies, Logistics and B2B platforms]
+  deliver: >-
+    Tech brands must be legible as an app icon, sharp in product UI and convincing on a pitch deck.
+    I design wordmarks and monograms built on a grid, a focused colour system, type that works in
+    interfaces, and UI-ready brand assets, then show the identity on devices, social posts and
+    launch creatives.
+  faqs:
+    - ["How much does startup or SaaS branding cost?", "Packages start at $250. Most startups choose Premium Branding ($450); The Brand Ecosystem ($1,050) adds UI branding assets, ad creatives and marketing angles for launch."]
+    - ["Can my brand work inside the app or product?", "Yes. The identity is designed to work in UI, and The Brand Ecosystem includes pattern, icon and UI branding assets."]
+  posts: [brand-identity-checklist, logo-file-formats]
+  services: [startup-branding, brand-identity-design, logo-design]
+fashion-luxury:
+  meta: "Human-designed brand identities for fashion labels, streetwear, jewellery, perfume and luxury brands: monograms, packaging, tags and campaigns."
+  who: [Fashion labels and streetwear, Jewellery brands, Perfume and fragrance houses, Luxury and lifestyle brands, Kids clothing brands]
+  deliver: >-
+    Luxury depends on restraint and detail. I design monograms and wordmarks, refined typography,
+    a tight palette, and applications on tags, boxes, bags and campaign visuals, so the brand feels
+    expensive in every small detail.
+  faqs:
+    - ["How much does fashion branding cost?", "Packages start at $250. Labels that need packaging, tags and campaign assets usually choose The Brand Ecosystem ($1,050)."]
+    - ["Can you design a monogram for my label?", "Yes. Monograms and secondary marks are part of the logo system, designed to work on labels, hardware and packaging."]
+  posts: [brand-identity-checklist, can-you-copyright-an-ai-generated-logo]
+  services: [brand-identity-design, logo-design, pricing]
+sports:
+  meta: "Human-designed brand identities for sports clubs, padel, tennis, badminton and fitness brands: crests, kits, merch and match-day social templates."
+  who: [Padel and tennis clubs, Badminton and racket sports, Gyms and fitness brands, Sports teams and academies, Sports events and leagues]
+  deliver: >-
+    Sports brands appear on kits, nets, courts, merch and match-day posts. I design crests and marks
+    that stay bold at a distance, energetic colour systems and social templates, and show them on
+    kits and merchandise so members can wear the brand with pride.
+  faqs:
+    - ["How much does a sports club logo cost?", "Packages start at $250 for a logo with colours, mockups and guidelines. Clubs that need kit and social templates usually choose Premium Branding ($450) or The Brand Ecosystem ($1,050)."]
+    - ["Can you design kits and merchandise?", "Yes. Kits and merch appear in the mockups, and merchandising is included in The Brand Ecosystem package."]
+  posts: [brand-identity-checklist, logo-file-formats]
+  services: [logo-design, brand-identity-design, rebranding]

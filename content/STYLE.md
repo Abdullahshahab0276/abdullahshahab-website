@@ -36,9 +36,13 @@
 - Open with the answer in the first 3 paragraphs. Use `##` headings that read like questions people
   search. Include at least one bullet list or table. Add a short "How I handle this for clients" or
   similar section tying back to the packages, without being salesy.
-- Internal links: 1–2 earlier articles (../<slug>/index.html), the matching industry page
-  (../../branding/<beauty-wellness|food-drink|tech-fintech|fashion-luxury|sports>/index.html) and a case
-  study where relevant (../../work/<voitex|ovenox|mavion>/index.html), plus ../../index.html#pricing.
+- Internal links (always clean absolute URLs, never index.html): 1–2 earlier articles (/blog/<slug>/),
+  the matching industry page (/branding/<beauty-wellness|food-drink|tech-fintech|fashion-luxury|sports>/),
+  the matching service page (/logo-design/, /brand-identity-design/, /startup-branding/,
+  /brand-guidelines/ or /rebranding/), a case study where relevant (/work/<voitex|ovenox|mavion|pingup>/),
+  plus /pricing/.
+- Add `seo_title:` to the front matter (≤ 60 characters incl. "| Shahab") when the title is long.
+- Author is Abdullah Shahab (the build adds the byline, author box and schema).
 - No placeholder text, no "[insert …]", no fake data.
 
 ## After publishing

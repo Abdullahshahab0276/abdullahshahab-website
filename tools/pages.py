@@ -19,6 +19,7 @@ PAGES_CSS = """
 .chips span{font-size:13.5px;padding:6px 11px;border-radius:999px;background:var(--fill);color:var(--ink-2)}
 .hero-im{margin-top:40px;border-radius:var(--r-xl);overflow:hidden;background:#111}
 .hero-im img{width:100%;height:auto}
+.svc-im img{aspect-ratio:16/7;object-fit:cover}
 .story{display:grid;grid-template-columns:300px 1fr;gap:56px;padding:56px 0;border-top:1px solid var(--frame)}
 .story h2{font-size:clamp(28px,1.2vw + 18px,38px);letter-spacing:-.04em;position:sticky;top:100px;align-self:start}
 .story p{margin:0;font-size:19px;line-height:1.65;color:#2a2a31;max-width:38em}
@@ -54,6 +55,25 @@ PAGES_CSS = """
 .case-mini img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:22px;background:#111}
 .case-mini h3{font-size:22px;font-weight:450;margin:14px 0 4px;letter-spacing:-.03em}
 .case-mini p{margin:0;color:var(--ink-2);font-size:15px}
+.svc{max-width:860px;margin:0 auto}
+.svc h2{font-size:clamp(28px,1.2vw + 18px,38px);letter-spacing:-.04em;line-height:1.15;margin:56px 0 16px;font-weight:450}
+.svc p{font-size:18px;line-height:1.7;color:#2a2a31;margin:0 0 14px}
+.svc ul{margin:0 0 16px;padding-left:1.2em;font-size:17.5px;line-height:1.65;color:#2a2a31}
+.svc li{margin:.4em 0}
+.svc a{color:var(--ink);text-decoration-color:rgba(75,63,227,.45);text-underline-offset:3px}
+.ptable{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border-radius:22px;box-shadow:0 0 0 1px var(--line);overflow:hidden;font-size:15.5px}
+.ptable th,.ptable td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+.ptable thead th{background:var(--fill);font-weight:500}
+.ptable tr:last-child td{border-bottom:0}
+.twrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:10px}
+.who{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:8px}
+.who span{padding:10px 16px;border-radius:999px;background:#fff;box-shadow:0 0 0 1px var(--line);font-size:15px}
+.about-grid{display:grid;grid-template-columns:360px 1fr;gap:56px;align-items:start}
+.about-grid img{width:100%;height:auto;border-radius:var(--r-xl)}
+.factlist{display:grid;gap:8px;margin-top:20px}
+.factlist div{display:flex;justify-content:space-between;gap:16px;padding:12px 16px;border-radius:14px;background:#fff;box-shadow:0 0 0 1px var(--line);font-size:15px}
+.factlist span{color:var(--ink-3)}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr}}
 @media(max-width:900px){.facts,.pts,.pgrid,.mini-plans,.case-mini{grid-template-columns:1fr 1fr}.story{grid-template-columns:1fr;gap:16px}.story h2{position:static}}
 @media(max-width:560px){.facts,.pts,.pgrid,.mini-plans,.case-mini{grid-template-columns:1fr}.gal{columns:1}}
 """
@@ -64,138 +84,267 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
-def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS):
+PLANS = [  # single source for package facts used on generated pages
+    ("Basic plan", "250", "1 logo concept, colour palette, typography, 3D mockup, stationery and brand guidelines.", "2-day delivery · 2 revisions"),
+    ("Premium Branding", "450", "3 logo concepts, complete brand guidelines, competitive analysis and social media kit.", "2-day delivery · 3 revisions"),
+    ("The Brand Ecosystem", "1050", "Everything in Premium plus strategy, brand voice, ad creatives, packaging and UI assets.", "5 business days · unlimited revisions on the chosen concept"),
+]
+COMPARE = [  # rows of the pricing comparison table
+    ("Price (one-time)", "$250", "$450", "$1,050"),
+    ("Logo concepts", "1", "3", "3"),
+    ("Revisions", "2", "3", "Unlimited on the chosen concept"),
+    ("Delivery", "2 days", "2 days", "5 business days"),
+    ("First brand board", "48 hours", "48 hours", "48 hours"),
+    ("Vector source files + copyright", "Yes", "Yes", "Yes"),
+    ("Colour palette + typography", "Yes", "Yes", "Yes"),
+    ("3D mockups + stationery", "Yes", "Yes (incl. business card)", "Yes"),
+    ("Brand guidelines", "Yes", "Complete", "Complete"),
+    ("Competitive analysis", "—", "Yes", "Yes"),
+    ("Imagery + graphic styles", "—", "Yes", "Yes"),
+    ("Social media kit", "—", "Yes", "Yes"),
+    ("Brand voice + marketing angles", "—", "—", "Yes"),
+    ("10 social creatives, 5 Google ad banners, 5 static ads", "—", "—", "Yes"),
+    ("LinkedIn profile + email marketing design", "—", "—", "Yes"),
+    ("Packaging, merchandise, pattern, icons + UI assets", "—", "—", "Yes"),
+]
+
+
+def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, posts, PERSON, PUBLISHER, SAME_AS, SERVICES):
     works = yaml.safe_load((ROOT / "content" / "work.yaml").read_text(encoding="utf-8"))
     inds = yaml.safe_load((ROOT / "content" / "industries.yaml").read_text(encoding="utf-8"))
+    extra = yaml.safe_load((ROOT / "content" / "industries_extra.yaml").read_text(encoding="utf-8"))
+    svcs = yaml.safe_load((ROOT / "content" / "services.yaml").read_text(encoding="utf-8"))
+    about = yaml.safe_load((ROOT / "content" / "about.yaml").read_text(encoding="utf-8"))
     port = json.loads((ROOT / "content" / "portfolio.json").read_text(encoding="utf-8"))
-    urls = []
+    post_by = {p["slug"]: p for p in posts}
+    work_by = {w["slug"]: w for w in works}
+    svc_by = {x["slug"]: x for x in svcs}
     arrow = '<span class="ar"><svg><use href="#i-arrow"/></svg></span>'
+    offers = [{"@type": "Offer", "name": n, "price": pr, "priceCurrency": "USD", "description": d, "url": SITE + "/pricing/"} for n, pr, d, _ in PLANS]
+    provider = {"@type": "ProfessionalService", "@id": PUBLISHER["@id"], "name": PUBLISHER["name"], "url": SITE + "/"}
 
-    def crumbs(root, *parts):
-        out = f'<div class="crumbs"><a href="{root}index.html">Home</a>'
+    def crumbs(*parts):
+        out = '<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a>'
         for label, href in parts:
-            out += f'<span>/</span>' + (f'<a href="{href}">{esc(label)}</a>' if href else f'<span>{esc(label)}</span>')
-        return out + "</div>"
+            out += '<span>/</span>' + (f'<a href="{href}">{esc(label)}</a>' if href else f'<span>{esc(label)}</span>')
+        return out + "</nav>"
 
-    def cta_block(root, title, text):
+    def bc_ld(*parts):
+        items = [{"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"}]
+        for i, (n, u) in enumerate(parts, 2):
+            items.append({"@type": "ListItem", "position": i, "name": n, "item": u})
+        return {"@type": "BreadcrumbList", "itemListElement": items}
+
+    def faq_ld(faqs):
+        return {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+
+    def cta_block(title, text):
         return f"""<section class="band"><div class="inner"><div class="callout g g-violet" style="margin-top:0">
   <div><h2>{esc(title)}</h2><p>{esc(text)}</p></div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn white lg" href="{CAL}" target="_blank" rel="noopener">Book a call {arrow}</a><a class="btn white lg" style="padding-right:28px;background:rgba(255,255,255,.16);color:#fff" href="{root}index.html#pricing">See packages</a></div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn white lg" href="{CAL}" target="_blank" rel="noopener">Book a call {arrow}</a><a class="btn white lg" style="padding-right:28px;background:rgba(255,255,255,.16);color:#fff" href="/pricing/">See packages</a></div>
 </div></div></section>"""
 
-    def page(root, title, desc, url, image, ld, body):
-        extra = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
-        return f"""{head(root, title, desc, url, image, extra)}
+    def page(title, desc, url, image, ld, body):
+        x = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>"
+        return f"""{head("/", title, desc, url, image, x)}
 <body>
 {sprite}
-{nav(root)}
+{nav("/")}
 <div class="page" id="top"><div class="rails"></div>
+<main>
 {body}
-{footer(root)}
+</main>
+{footer("/")}
 </div>
 {JS}
 </body>
 </html>"""
 
-    def cards(root, items):
+    def cards(items):
         return '<div class="case-mini">' + "".join(
-            f'<a class="rv-up" href="{root}work/{w["slug"]}/index.html"><img src="{root}{w["cover"]}" alt="{esc(w["name"])} brand identity" loading="lazy"><h3>{esc(w["name"])}</h3><p>{esc(w["industry"])} · {esc(w["tagline"])}</p></a>'
+            f'<a class="rv-up" href="/work/{w["slug"]}/"><img src="/{w["cover"]}" alt="{esc(w["name"])} brand identity case study" loading="lazy"><h3>{esc(w["name"])}</h3><p>{esc(w["industry"])} · {esc(w["tagline"])}</p></a>'
             for w in items) + "</div>"
 
-    ind_by = {i["slug"]: i for i in inds}
+    def post_links(slugs):
+        ps = [post_by[x] for x in slugs if x in post_by]
+        if not ps:
+            return ""
+        return '<section class="band" style="padding:48px 0"><div class="inner"><div class="head rv-up"><h2 class="md">Guides from the blog</h2></div><div class="links-row">' + "".join(
+            f'<a href="/blog/{q["slug"]}/">{esc(q["title"])}</a>' for q in ps) + "</div></div></section>"
+
+    def plans_html():
+        out = '<div class="mini-plans">'
+        for i, (n, pr, d, t) in enumerate(PLANS):
+            cls = "mini hl g g-violet" if i == 1 else "mini card"
+            out += f'<div class="{cls}"><h3>{n}</h3><div class="amt">${int(pr):,}</div><p>{d}</p><p>{t}</p></div>'
+        return out + '</div><div class="cta-wrap"><a class="btn primary cta" href="/pricing/">Compare all packages ' + arrow + "</a></div>"
+
+    def faq_html(faqs):
+        return '<div class="faq2">' + "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in faqs) + "</div>"
+
+    def svc_links_row(exclude=None):
+        return "".join(f'<a href="{u}">{esc(n)}</a>' for n, u in SERVICES if u != exclude)
 
     # ---------- case studies ----------
     for w in works:
-        root = "../../"
         url = f"{SITE}/work/{w['slug']}/"
-        ind = ind_by.get(w.get("industry_page"))
+        ind = next((i for i in inds if i["slug"] == w.get("industry_page")), None)
         sections = ""
         gal = w["gallery"]
         per = max(1, len(gal) // (len(w["sections"]) + 1))
         gi = 1
-        for s in w["sections"]:
+        for s_ in w["sections"]:
             imgs = gal[gi:gi + per]
             gi += per
-            g = '<div class="gal">' + "".join(f'<img src="{root}{x}" alt="{esc(w["name"])}: {esc(s["heading"].lower())}" loading="lazy">' for x in imgs) + "</div>" if imgs else ""
-            sections += f'<div class="story rv-up"><h2>{esc(s["heading"])}</h2><div><p>{esc(s["body"])}</p>{g}</div></div>'
+            g = '<div class="gal">' + "".join(f'<img src="/{x}" alt="{esc(w["name"])}: {esc(s_["heading"].lower())}" loading="lazy">' for x in imgs) + "</div>" if imgs else ""
+            sections += f'<div class="story rv-up"><h2>{esc(s_["heading"])}</h2><div><p>{esc(s_["body"])}</p>{g}</div></div>'
         rest = gal[gi:]
         if rest:
-            sections += '<div class="story rv-up"><h2>More from the identity</h2><div><div class="gal">' + "".join(f'<img src="{root}{x}" alt="{esc(w["name"])} brand identity mockup" loading="lazy">' for x in rest) + "</div></div></div>"
+            sections += '<div class="story rv-up"><h2>More from the identity</h2><div><div class="gal">' + "".join(f'<img src="/{x}" alt="{esc(w["name"])} brand identity mockup" loading="lazy">' for x in rest) + "</div></div></div>"
         others = [o for o in works if o["slug"] != w["slug"]]
         body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
-  {crumbs(root, ("Work", root + "index.html#work"), (w["name"], None))}
+  {crumbs(("Work", "/#work"), (w["name"], None))}
   <span class="tagc">Case study · {esc(w["industry"])}</span>
   <h1>{esc(w["title"])}</h1>
   <p class="lede">{esc(w["intro"])}</p>
-  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Start a project like this {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="{root}{w["pdf"]}" target="_blank" rel="noopener">View the full PDF</a></div>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Start a project like this {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/{w["pdf"]}" target="_blank" rel="noopener">View the full PDF</a></div>
   <div class="facts">
     <div class="fact card"><small>Brand</small><b>{esc(w["name"])}</b></div>
     <div class="fact card"><small>Industry</small><b>{esc(w["industry"])}</b></div>
     <div class="fact card"><small>Brand line</small><b>“{esc(w["tagline"])}”</b></div>
   </div>
   <div class="fact card" style="margin-top:12px"><small>What was delivered</small><div class="chips">{"".join(f"<span>{esc(d)}</span>" for d in w["deliverables"])}</div></div>
-  <div class="hero-im"><img src="{root}{gal[0]}" alt="{esc(w["name"])} brand identity"></div>
+  <div class="hero-im"><img src="/{gal[0]}" alt="{esc(w["name"])} brand identity" fetchpriority="high"></div>
 </div></section>
 <section style="position:relative;z-index:1;padding:20px 0 40px"><div class="inner">{sections}</div></section>
-{cta_block(root, "Want a brand like " + w["name"] + "?", "Human-designed identities with source files and copyright included. First brand board in 48 hours, from $250.")}
-<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">More case studies</h2></div>{cards(root, others)}
-{f'<p class="small-note" style="margin-top:30px"><a href="{root}branding/{ind["slug"]}/index.html">See more {esc(ind["name"].lower())} branding →</a></p>' if ind else ""}</div></section>"""
+{cta_block("Want a brand like " + w["name"] + "?", "Human-designed identities with source files and copyright included. First brand board in 48 hours, from $250.")}
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">More brand identity case studies</h2></div>{cards(others)}
+<p class="small-note" style="margin-top:30px">{f'<a href="/branding/{ind["slug"]}/">More {esc(ind["name"].lower())} branding</a> · ' if ind else ""}<a href="/brand-identity-design/">Brand identity design services</a> · <a href="/pricing/">Packages &amp; pricing</a></p></div></section>"""
         ld = {"@context": "https://schema.org", "@graph": [
             {"@type": "CreativeWork", "name": w["title"], "description": w["description"], "url": url, "image": f"{SITE}/{gal[0]}",
-             "creator": {"@type": "Person", "name": "Shahab", "url": SITE + "/"}, "about": w["industry"], "keywords": ", ".join(w["deliverables"])},
-            {"@type": "BreadcrumbList", "itemListElement": [
-                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-                {"@type": "ListItem", "position": 2, "name": "Work", "item": SITE + "/#work"},
-                {"@type": "ListItem", "position": 3, "name": w["name"], "item": url}]}]}
-        out = ROOT / "work" / w["slug"] / "index.html"
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(root, w["title"] + " | Shahab", w["description"], url, gal[0], ld, body), encoding="utf-8")
-        urls.append(url)
+             "creator": PERSON, "publisher": provider, "about": w["industry"], "keywords": ", ".join(w["deliverables"]), "inLanguage": "en"},
+            bc_ld(("Work", SITE + "/#work"), (w["name"], url))]}
+        title = w["title"] if len(w["title"]) <= 52 else w["name"] + " Brand Identity Case Study"
+        write_page(f"work/{w['slug']}/index.html", page(title + " | Shahab", w["description"], url, gal[0], ld, body), url)
 
     # ---------- industries ----------
     for ind in inds:
-        root = "../../"
         url = f"{SITE}/branding/{ind['slug']}/"
+        ex = extra.get(ind["slug"], {})
         kws = [k.lower() for k in ind["keywords"]]
         items = [p for p in port if any(k in p["category"].lower() for k in kws)]
         rel_works = [w for w in works if w.get("industry_page") == ind["slug"]]
         pts = "".join(f'<div class="pt card rv-up"><span class="n">0{i}</span><h3>{esc(t)}</h3><p>{esc(d)}</p></div>' for i, (t, d) in enumerate(ind["points"], 1))
-        grid = "".join(f'<figure class="rv-up"><img src="{root}{p["image"]}" alt="{esc(p["alt"])}" loading="lazy"><figcaption><b style="font-weight:500">{esc(p["name"])}</b><span>{esc(p["category"])}</span></figcaption></figure>' for p in items[:9])
-        faqs = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in ind["faqs"])
-        others = "".join(f'<a href="{root}branding/{o["slug"]}/index.html">{esc(o["name"])}</a>' for o in inds if o["slug"] != ind["slug"])
+        grid = "".join(f'<figure class="rv-up"><img src="/{p["image"]}" alt="{esc(p["alt"])}" loading="lazy"><figcaption><b style="font-weight:500">{esc(p["name"])}</b><span>{esc(p["category"])}</span></figcaption></figure>' for p in items[:9])
+        faqs = ind["faqs"] + ex.get("faqs", [])
+        others = "".join(f'<a href="/branding/{o["slug"]}/">{esc(o["name"])}</a>' for o in inds if o["slug"] != ind["slug"])
+        low = ind["name"].lower()
+        who = "".join(f"<span>{esc(x)}</span>" for x in ex.get("who", []))
+        svc_l = "".join(f'<a href="/{x}/">{esc(svc_by[x]["name"])}</a>' for x in ex.get("services", []) if x in svc_by)
         body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
-  {crumbs(root, ("Branding", None), (ind["name"], None))}
+  {crumbs(("Branding", "/brand-identity-design/"), (ind["name"], None))}
   <span class="tagc">{esc(ind["name"])} branding</span>
   <h1>{esc(ind["h1"])}</h1>
   <p class="lede">{esc(ind["intro"])}</p>
-  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a free brief call {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="{root}index.html#pricing">See packages</a></div>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a free brief call {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/pricing/">See packages</a></div>
   <div class="trust" style="margin:26px 0 70px"><span><svg><use href="#i-check"/></svg>First brand board in 48 hours</span><span><svg><use href="#i-check"/></svg>Source files &amp; copyright included</span><span><svg><use href="#i-check"/></svg>Human-designed, never a prompt</span></div>
 </div></section>
-<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">What great {esc(ind["name"].lower())} branding gets right</h2></div><div class="pts">{pts}</div></div></section>
+{f'<section class="band" style="padding-top:0"><div class="inner"><div class="head rv-up"><h2 class="md">Who this {esc(low)} branding is for</h2></div><div class="who">{who}</div></div></section>' if who else ""}
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">What great {esc(low)} branding gets right</h2></div><div class="pts">{pts}</div></div></section>
+{f'<section class="band"><div class="inner"><div class="svc"><h2>What your {esc(low)} brand identity includes</h2><p>{esc(ex["deliver"])}</p><p>Every package includes vector source files and the copyright, because every concept is designed by me rather than generated by AI. Your first full brand board arrives within 48 hours of the brief; Basic and Premium are completed in 2 days, The Brand Ecosystem in 5 business days.</p><h2>How the process works</h2><ul><li><b>Brief:</b> a short call about your business, customers and the look you want.</li><li><b>Research and concepts:</b> I study your market and competitors, then design logo concepts, colours, type and mockups.</li><li><b>Refine and launch:</b> we revise until it feels right, then you receive every file and the guidelines.</li></ul></div></div></section>' if ex.get("deliver") else ""}
 {f'<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(ind["name"])} brands I have designed</h2><p class="lede">Complete brand boards: logo, colour, typography, packaging and real-world mockups.</p></div><div class="pgrid">{grid}</div></div></section>' if items else ""}
-{f'<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Case study</h2></div>{cards(root, rel_works)}</div></section>' if rel_works else ""}
-<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Packages</h2><p class="lede">Fixed, one-time pricing. Pick the package that fits your stage, or ask for a custom quote.</p></div>
-<div class="mini-plans">
-  <div class="mini card"><h3>Basic plan</h3><div class="amt">$250</div><p>1 logo concept, colour palette, typography, 3D mockup, stationery and guidelines.</p><p>2-day delivery · 2 revisions</p></div>
-  <div class="mini hl g g-violet"><h3>Premium Branding</h3><div class="amt">$450</div><p>3 logo concepts, complete brand guidelines, competitive analysis and social media kit.</p><p>2-day delivery · 3 revisions</p></div>
-  <div class="mini card"><h3>The Brand Ecosystem</h3><div class="amt">$1,050</div><p>Everything in Premium plus strategy, ad creatives, packaging and merchandise.</p><p>5 business days · unlimited revisions</p></div>
-</div>
-<div class="cta-wrap"><a class="btn primary cta" href="{root}index.html#pricing">Compare all packages {arrow}</a></div></div></section>
-<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Questions about {esc(ind["name"].lower())} branding</h2></div><div class="faq2">{faqs}</div></div></section>
-{cta_block(root, "Ready to brand your " + ind["name"].lower().replace(" & ", " or ") + " business?", "Book a short call and tell me about your business. Your first full brand board arrives within 48 hours.")}
-<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">Branding for other industries</p><div class="links-row">{others}</div></div></section>"""
+{f'<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(ind["name"])} branding case study</h2></div>{cards(rel_works)}</div></section>' if rel_works else ""}
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(ind["name"])} branding packages and prices</h2><p class="lede">Fixed, one-time pricing. Pick the package that fits your stage, or ask for a custom quote.</p></div>
+{plans_html()}</div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Questions about {esc(low)} branding</h2></div>{faq_html(faqs)}</div></section>
+{post_links(ex.get("posts", []))}
+{cta_block("Ready to brand your " + low.replace(" & ", " or ") + " business?", "Book a short call and tell me about your business. Your first full brand board arrives within 48 hours.")}
+<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">Related services</p><div class="links-row">{svc_l}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Branding for other industries</p><div class="links-row">{others}</div></div></section>"""
         ld = {"@context": "https://schema.org", "@graph": [
-            {"@type": "Service", "name": ind["h1"], "serviceType": "Brand identity design", "description": ind["description"], "url": url,
-             "provider": {"@type": "ProfessionalService", "name": "Shahab — Branding & Design", "url": SITE + "/"},
-             "areaServed": ["United States", "United Kingdom", "Canada", "Australia"],
-             "offers": [{"@type": "Offer", "name": n, "price": p, "priceCurrency": "USD"} for n, p in (("Basic plan", "250"), ("Premium Branding", "450"), ("The Brand Ecosystem", "1050"))]},
-            {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in ind["faqs"]]},
-            {"@type": "BreadcrumbList", "itemListElement": [
-                {"@type": "ListItem", "position": 1, "name": "Home", "item": SITE + "/"},
-                {"@type": "ListItem", "position": 2, "name": ind["name"] + " branding", "item": url}]}]}
+            {"@type": "Service", "name": ind["h1"], "serviceType": "Brand identity design", "description": ex.get("meta", ind["description"]), "url": url,
+             "provider": provider, "areaServed": ["United States", "United Kingdom", "Canada", "Australia", "United Arab Emirates"],
+             "audience": {"@type": "BusinessAudience", "name": ", ".join(ex.get("who", [])) or ind["name"]},
+             "offers": offers},
+            faq_ld(faqs),
+            bc_ld((ind["name"] + " branding", url))]}
         img = items[0]["image"] if items else "img/a018.jpg"
-        out = ROOT / "branding" / ind["slug"] / "index.html"
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(root, ind["title"], ind["description"], url, img, ld, body), encoding="utf-8")
-        urls.append(url)
-    return urls, works, inds
+        write_page(f"branding/{ind['slug']}/index.html", page(ind["title"], ex.get("meta", ind["description"]), url, img, ld, body), url)
+
+    # ---------- service (commercial) pages ----------
+    for sv in svcs:
+        url = f"{SITE}/{sv['slug']}/"
+        secs = ""
+        for sec in sv["sections"]:
+            secs += f'<h2>{esc(sec["h2"])}</h2>'
+            for para in sec.get("p", [])[:1] if sec.get("ul") else sec.get("p", []):
+                secs += f"<p>{para}</p>"
+            if sec.get("ul"):
+                secs += "<ul>" + "".join(f"<li>{li}</li>" for li in sec["ul"]) + "</ul>"
+                for para in sec.get("p", [])[1:]:
+                    secs += f"<p>{para}</p>"
+            if sec.get("p2"):
+                secs += f'<p>{sec["p2"]}</p>'
+        table = ""
+        if sv.get("table"):
+            head_row = "<tr><th>Included</th>" + "".join(f"<th>{n}</th>" for n, *_ in PLANS) + "</tr>"
+            rows = "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for r in COMPARE)
+            table = f'<section class="band" style="padding-top:0"><div class="inner"><div class="svc" style="max-width:1100px"><h2>Branding packages compared</h2><div class="twrap"><table class="ptable"><thead>{head_row}</thead><tbody>{rows}</tbody></table></div><p class="small-note" style="margin-top:14px">Prices in US dollars, paid once. No subscription. <a href="{CAL}" target="_blank" rel="noopener">Book a call</a> or <a href="/#contact">ask for a custom quote</a>.</p></div></div></section>'
+        rel_cases = [work_by[x] for x in sv.get("related_cases", []) if x in work_by]
+        body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
+  {crumbs((sv["name"], None))}
+  <span class="tagc">{esc(sv["kicker"])}</span>
+  <h1>{esc(sv["h1"])}</h1>
+  <p class="lede">{esc(sv["intro"])}</p>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a free brief call {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="{'/#contact' if sv['slug'] == 'pricing' else '/pricing/'}">{'Get a custom quote' if sv['slug'] == 'pricing' else 'See packages &amp; pricing'}</a></div>
+  <div class="trust" style="margin:26px 0 40px"><span><svg><use href="#i-check"/></svg>First brand board in 48 hours</span><span><svg><use href="#i-check"/></svg>Source files &amp; copyright included</span><span><svg><use href="#i-check"/></svg>From $250, paid once</span></div>
+  <div class="hero-im svc-im"><img src="/{sv["image"]}" alt="{esc(sv["image_alt"])}" fetchpriority="high"></div>
+</div></section>
+{table}
+<section class="band"><div class="inner"><div class="svc">{secs}</div></div></section>
+{"" if sv.get("table") else '<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">' + esc(sv["name"]) + ' packages and prices</h2><p class="lede">Fixed, one-time pricing designed by one designer, start to finish.</p></div>' + plans_html() + '</div></section>'}
+{f'<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Case studies</h2></div>{cards(rel_cases)}</div></section>' if rel_cases else ""}
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(sv["name"])} FAQs</h2></div>{faq_html(sv["faqs"])}</div></section>
+{post_links(sv.get("related_posts", []))}
+{cta_block("Ready to start your " + sv["name"].lower().replace("packages & pricing", "brand") + "?", "Book a short call and tell me about your business. Your first full brand board arrives within 48 hours.")}
+<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">More services</p><div class="links-row">{svc_links_row("/" + sv["slug"] + "/")}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Branding by industry</p><div class="links-row">{"".join(f'<a href="/branding/{o["slug"]}/">{esc(o["name"])}</a>' for o in inds)}</div></div></section>"""
+        graph = [faq_ld(sv["faqs"]), bc_ld((sv["name"], url))]
+        if sv["slug"] == "pricing":
+            graph.insert(0, {"@type": "OfferCatalog", "name": "Shahab branding packages", "url": url, "itemListElement": [{**o, "seller": provider} for o in offers]})
+        else:
+            graph.insert(0, {"@type": "Service", "name": sv["h1"], "serviceType": sv["keyword"].title(), "description": sv["description"], "url": url,
+                             "provider": provider, "areaServed": ["United States", "United Kingdom", "Canada", "Australia", "United Arab Emirates"],
+                             "offers": offers})
+        ld = {"@context": "https://schema.org", "@graph": graph}
+        write_page(f"{sv['slug']}/index.html", page(sv["title"], sv["description"], url, sv["image"], ld, body), url)
+
+    # ---------- about ----------
+    url = f"{SITE}/about/"
+    secs = ""
+    for sec in about["sections"]:
+        secs += f'<h2>{esc(sec["h2"])}</h2>' + "".join(f"<p>{x}</p>" for x in sec.get("p", []))
+        if sec.get("ul"):
+            secs += "<ul>" + "".join(f"<li>{li}</li>" for li in sec["ul"]) + "</ul>"
+    facts = "".join(f"<div><span>{esc(k)}</span><b style='font-weight:500'>{esc(v)}</b></div>" for k, v in about["facts"])
+    body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
+  {crumbs(("About", None))}
+  <span class="tagc">About</span>
+  <h1>{esc(about["h1"])}</h1>
+  <p class="lede">{esc(about["intro"])}</p>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a call {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/#work">See the work</a></div>
+</div></section>
+<section class="band"><div class="inner"><div class="about-grid">
+  <div><img src="/img/shahab.jpg" alt="Abdullah Shahab, brand identity designer" fetchpriority="high"><div class="factlist">{facts}</div></div>
+  <div class="svc" style="margin:0">{secs}<h2>Contact</h2><p>Email <a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a>, message me on <a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp (+92 311 8440498)</a>, follow <a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">@imabdullahshahab</a> on Instagram, or <a href="{CAL}" target="_blank" rel="noopener">book a 30-minute call</a>.</p></div>
+</div></div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Selected case studies</h2></div>{cards(works[:3])}</div></section>
+{cta_block("Let's design your brand", "Tell me about your business on a short call. Your first full brand board arrives within 48 hours.")}"""
+    person = {**PERSON, "alternateName": "Shahab", "jobTitle": "Brand Identity Designer", "image": SITE + "/img/shahab.jpg",
+              "description": about["description"], "worksFor": provider, "sameAs": SAME_AS,
+              "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "BS in Graphic Design (Fine Arts)"},
+              "knowsAbout": ["Logo design", "Brand identity design", "Brand guidelines", "Packaging design", "Rebranding"],
+              "homeLocation": {"@type": "Country", "name": "Pakistan"}}
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "ProfilePage", "url": url, "name": about["title"], "mainEntity": {"@id": PERSON["@id"]}},
+        person, bc_ld(("About", url))]}
+    write_page("about/index.html", page(about["title"], about["description"], url, "img/shahab.jpg", ld, body), url)
+    return works, inds
