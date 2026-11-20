@@ -12,7 +12,7 @@ with every article also repurposed for Instagram, LinkedIn and Pinterest.
 - [x] How much does a logo cost in 2026? Freelancer vs agency vs studio (how-much-does-a-logo-cost)
 - [x] What's included in a complete brand identity: a founder's checklist (brand-identity-checklist)
 - [x] Skincare brand identity: what premium beauty brands get right (skincare-brand-identity)
-- [ ] Logo file formats explained: SVG, PNG, PDF, EPS and when to use each
+- [x] Logo file formats explained: SVG, PNG, PDF, EPS and when to use each (logo-file-formats)
 - [ ] AI logo generator vs a human designer: an honest comparison
 - [ ] Case study: Voitex, a bold tech identity built in 48 hours
 - [ ] Coffee shop and café branding: a practical guide
@@ -41,3 +41,4 @@ portfolio niches), price/cost questions, AI-vs-human, deliverables explainers, a
 - 2026-11-10: how-much-does-a-logo-cost
 - 2026-11-13: brand-identity-checklist
 - 2026-11-17: skincare-brand-identity
+- 2026-11-20: logo-file-formats

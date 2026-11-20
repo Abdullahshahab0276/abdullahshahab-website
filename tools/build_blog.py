@@ -90,6 +90,7 @@ BLOG_CSS = """
 .toc a:hover{color:var(--ink)}
 .toc .btn{width:100%;margin-top:16px}
 .prose{font-size:18.5px;line-height:1.7;color:#24242b;letter-spacing:-.012em;max-width:720px}
+.prose{min-width:0}.prose table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .prose>*:first-child{margin-top:0}
 .prose p{margin:0 0 1.15em}
 .prose h2{font-size:clamp(27px,1vw + 20px,34px);font-weight:450;letter-spacing:-.035em;line-height:1.15;margin:2em 0 .6em;scroll-margin-top:96px}
