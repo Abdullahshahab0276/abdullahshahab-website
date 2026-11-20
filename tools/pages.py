@@ -317,6 +317,56 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
         ld = {"@context": "https://schema.org", "@graph": graph}
         write_page(f"{sv['slug']}/index.html", page(sv["title"], sv["description"], url, sv["image"], ld, body), url)
 
+    # ---------- service areas (/usa/, /usa/<city>/, /uk/, /uk/<city>/) ----------
+    locs = yaml.safe_load((ROOT / "content" / "locations.yaml").read_text(encoding="utf-8"))
+    ind_by = {i["slug"]: i for i in inds}
+    hubs = {l["slug"]: l for l in locs if l.get("hub")}
+    for loc in locs:
+        hub = loc if loc.get("hub") else hubs[loc["parent"]]
+        path = f"{loc['slug']}/" if loc.get("hub") else f"{hub['slug']}/{loc['slug']}/"
+        url = f"{SITE}/{path}"
+        children = [c for c in locs if c.get("parent") == hub["slug"]]
+        secs = ""
+        for sec in loc.get("sections", []):
+            secs += f'<h2>{esc(sec["h2"])}</h2>' + "".join(f"<p>{x}</p>" for x in sec.get("p", []))
+            if sec.get("table"):
+                hr, *rows = sec["table"]
+                secs += '<div class="twrap"><table class="ptable"><thead><tr>' + "".join(f"<th>{esc(h)}</th>" for h in hr) + "</tr></thead><tbody>" + "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for r in rows) + "</tbody></table></div>"
+            if sec.get("ul"):
+                secs += "<ul>" + "".join(f"<li>{li}</li>" for li in sec["ul"]) + "</ul>"
+        if not loc.get("hub"):
+            secs += f'<h2>What {esc(loc["name"])} businesses ask me for</h2><ul>' + "".join(f"<li>{esc(n)}</li>" for n in loc["needs"]) + "</ul>"
+            secs += f'<h2>Working with a remote designer from {esc(loc["name"])}</h2><p>{esc(loc["timezone"])} Calls are booked on Calendly in your own time zone, and everything else happens by email, WhatsApp and shared files. Your first full brand board arrives within 48 hours of the brief.</p>'
+            secs += "<h2>Industries I design for in " + esc(loc["name"]) + "</h2><p>" + ", ".join(f'<a href="/branding/{x}/">{esc(ind_by[x]["name"].lower())} branding</a>' for x in loc["industries"] if x in ind_by) + ". Every identity is designed by me, with source files and copyright included.</p>"
+        sib = "".join(f'<a href="/{hub["slug"]}/{c["slug"]}/">{esc(c["name"])}</a>' for c in children if c["slug"] != loc["slug"])
+        area_links = (f'<a href="/{hub["slug"]}/">All of the {esc(hub["name"])}</a>' if not loc.get("hub") else "") + sib
+        other_hub = "".join(f'<a href="/{h}/">Branding in the {esc(hubs[h]["name"])}</a>' for h in hubs if h != hub["slug"])
+        crumb_parts = [(hub["name"], None)] if loc.get("hub") else [(hub["name"], f"/{hub['slug']}/"), (loc["name"], None)]
+        body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
+  {crumbs(*crumb_parts)}
+  <span class="tagc">{esc(loc["name"])} · remote brand designer</span>
+  <h1>{esc(loc["h1"])}</h1>
+  <p class="lede">{esc(loc["intro"])}</p>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a call in your time zone {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/pricing/">See packages &amp; pricing</a></div>
+  <div class="trust" style="margin:26px 0 40px"><span><svg><use href="#i-check"/></svg>First brand board in 48 hours</span><span><svg><use href="#i-check"/></svg>Fixed prices in USD</span><span><svg><use href="#i-check"/></svg>Source files &amp; copyright included</span></div>
+</div></section>
+<section class="band" style="padding-top:0"><div class="inner"><div class="svc">{secs}</div></div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Packages and prices for {esc(loc["name"])} clients</h2><p class="lede">Fixed, one-time pricing in US dollars. One designer, start to finish.</p></div>{plans_html()}</div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards(works[:3])}</div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(loc["name"])} branding FAQs</h2></div>{faq_html(loc["faqs"])}</div></section>
+{cta_block("Let's design your " + loc["name"] + " brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
+<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">{'Cities' if loc.get('hub') else 'More service areas'}</p><div class="links-row">{area_links}{other_hub}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Services</p><div class="links-row">{svc_links_row()}</div></div></section>"""
+        if loc.get("hub"):
+            area = {"@type": "Country", "name": hub["country"]}
+        else:
+            area = {"@type": "City", "name": loc["name"], "containedInPlace": {"@type": "State" if hub["slug"] == "usa" else "AdministrativeArea", "name": loc["state"]}}
+        ld = {"@context": "https://schema.org", "@graph": [
+            {"@type": "Service", "name": loc["h1"], "serviceType": "Brand identity design", "description": loc["description"], "url": url,
+             "provider": provider, "areaServed": area, "availableChannel": {"@type": "ServiceChannel", "serviceUrl": url, "name": "Remote (video call, email, WhatsApp)"}, "offers": offers},
+            faq_ld(loc["faqs"]),
+            bc_ld(*([(hub["name"], url)] if loc.get("hub") else [(hub["name"], f"{SITE}/{hub['slug']}/"), (loc["name"], url)]))]}
+        write_page(f"{path}index.html", page(loc["title"], loc["description"], url, "img/a018.jpg", ld, body), url)
+
     # ---------- about ----------
     url = f"{SITE}/about/"
     secs = ""

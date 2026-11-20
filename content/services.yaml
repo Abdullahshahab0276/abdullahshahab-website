@@ -242,3 +242,77 @@
     - ["Do I need a new name?", "Usually not. Naming isn't part of the packages, but the visual identity can change completely around your existing name."]
   related_posts: [brand-identity-checklist, how-much-does-a-logo-cost]
   related_cases: [ovenox, voitex, mavion]
+
+- slug: packaging-design
+  name: Packaging design
+  keyword: packaging design services
+  title: "Packaging Design Services for Product Brands | Shahab"
+  description: "Packaging design for skincare, food, drink and DTC product brands: labels, boxes, pouches and merchandise that match your brand. Human-designed by Shahab."
+  h1: "Packaging design that sells on the shelf and on screen"
+  kicker: Packaging design
+  image: img/a002.jpg
+  image_alt: MAWS cat food pouch packaging design
+  intro: >-
+    Packaging is often the first thing a customer touches. I design labels, boxes, pouches, bottles
+    and merchandise that carry your brand identity onto the product, look right in a product photo and
+    stay consistent across a growing range.
+  sections:
+    - h2: What packaging do you design?
+      ul:
+        - "Labels for bottles, jars, tubes and cans"
+        - "Boxes, mailers and unboxing inserts"
+        - "Pouches and bags for food, coffee and pet products"
+        - "Merchandise such as tote bags, t-shirts, cups and stickers"
+        - "Product mockups for your website, marketplace listings and ads"
+    - h2: Why design packaging and brand together?
+      p:
+        - "Packaging designed after the fact often fights the logo: new colours, new fonts, a different mood. When the identity and the packaging are designed as one system, every product looks like it belongs to the same brand, and adding new flavours or SKUs is simple."
+        - "See packaging work in the portfolio, such as the MAWS cat food pouches, PEPNOW serum bottles, Velora haircare and Solva supplements, and read the <a href=\"/blog/skincare-brand-identity/\">skincare brand identity guide</a> for what premium beauty packaging gets right."
+    - h2: How is packaging priced?
+      p:
+        - "Packaging and merchandising are included in <b>The Brand Ecosystem ($1,050)</b>, together with the full identity, strategy and marketing assets. Every package, from $250, includes 3D mockups of your brand on real products. For a large range of SKUs or packaging on its own, send a message for a custom quote. Compare packages on the <a href=\"/pricing/\">pricing page</a>."
+    - h2: Packaging for your industry
+      p:
+        - "I design packaging for <a href=\"/branding/beauty-wellness/\">skincare and beauty brands</a>, <a href=\"/branding/food-drink/\">food and drink products</a> and <a href=\"/branding/fashion-luxury/\">fashion, perfume and luxury labels</a>."
+  faqs:
+    - ["Do you provide print-ready packaging files?", "Yes. Final artwork is delivered as print-ready files with your source files, ready to send to your printer or manufacturer."]
+    - ["Can you work with my printer's dieline?", "Yes. Send the dieline or template from your printer or manufacturer and I'll design to it."]
+    - ["Can you add required label information?", "I design the layout and leave space for required information such as ingredients and warnings. The exact wording must be checked against the rules in your market."]
+    - ["Can I order packaging design without a full rebrand?", "Yes, as a custom project, as long as your existing logo and brand files are available."]
+  related_posts: [skincare-brand-identity, brand-identity-checklist]
+  related_cases: [ovenox, voitex, mavion]
+
+- slug: social-media-design
+  name: Social media & ad design
+  keyword: social media design services
+  title: "Social Media & Ad Creative Design for Brands | Shahab"
+  description: "On-brand social media kits, ad creatives, Google banners and short-form brand reels, designed to match your identity. From the Premium Branding package."
+  h1: "Social media and ad design that looks like one brand"
+  kicker: Social media & ads
+  image: img/a015.jpg
+  image_alt: Voitex social media grid
+  intro: >-
+    Your brand is seen on Instagram, LinkedIn and in ads far more often than on a business card. I
+    design social media kits, ad creatives and banners in your identity, so every post and campaign
+    looks like the same premium brand.
+  sections:
+    - h2: What's included?
+      ul:
+        - "<b>Social media kit</b> (from Premium Branding): profile and cover assets plus on-brand post templates"
+        - "<b>10 social media creatives</b> ready to post (The Brand Ecosystem)"
+        - "<b>5 Google ad banners and 5 static ad creatives</b> (The Brand Ecosystem)"
+        - "<b>LinkedIn profile design and email marketing design</b> (The Brand Ecosystem)"
+        - "<b>Short-form video:</b> brand reels, product videos and UGC-style ads, quoted separately"
+    - h2: Why design social and ads with your brand?
+      p:
+        - "Most brands lose consistency on social first: a different font in every post, colours that drift, templates from five different sources. A kit built from your guidelines keeps every post recognisable, and ad creatives designed with marketing angles in mind give paid campaigns a better starting point."
+    - h2: Which package do I need?
+      p:
+        - "If you need templates to post yourself, <b>Premium Branding ($450)</b> includes the social media kit. If you're about to run ads, <b>The Brand Ecosystem ($1,050)</b> adds marketing angles, brand voice, 10 social creatives, 5 Google banners and 5 static ads. See everything on the <a href=\"/pricing/\">pricing page</a>, or watch reels in the <a href=\"/#reels\">reels section</a>."
+  faqs:
+    - ["Which platforms are the designs sized for?", "Instagram, Facebook, LinkedIn and Google display ads are covered, and sizes can be adapted for other platforms on request."]
+    - ["Do I get editable templates?", "Yes. The social media kit includes post templates in your new identity, so you can create new posts consistently."]
+    - ["Do you make video ads and reels?", "Yes. Brand reels, product videos and UGC-style ads are available as a custom quote. See examples in the reels section on the homepage."]
+    - ["Do you manage the accounts or run the ads?", "No. I design the creative assets; posting and ad buying stay with you or your marketer."]
+  related_posts: [brand-identity-checklist, logo-file-formats]
+  related_cases: [voitex, pingup, ovenox]

@@ -8,12 +8,17 @@ with every article also repurposed for Instagram, LinkedIn and Pinterest.
   topical authority). Prioritise comparison and price topics, which support the service pages.
 
 ## Queue (take the first unchecked item; tick it with the slug when published)
+- [x] How much does a brand identity cost in 2026? US and UK prices (brand-identity-cost)
+- [x] 7 best 99designs alternatives for logo and branding (99designs-alternatives)
+- [ ] Fiverr vs hiring a brand designer: what you actually get
+- [ ] Looka alternatives: when to switch from an AI logo to a designer
+- [ ] How to trademark a logo in the US (USPTO basics for founders)
 - [x] Can you copyright an AI-generated logo? (can-you-copyright-an-ai-generated-logo)
 - [x] How much does a logo cost in 2026? Freelancer vs agency vs studio (how-much-does-a-logo-cost)
 - [x] What's included in a complete brand identity: a founder's checklist (brand-identity-checklist)
 - [x] Skincare brand identity: what premium beauty brands get right (skincare-brand-identity)
 - [x] Logo file formats explained: SVG, PNG, PDF, EPS and when to use each (logo-file-formats)
-- [ ] AI logo generator vs a human designer: an honest comparison
+- [x] AI logo generator vs a human designer: an honest comparison (ai-logo-generator-vs-human-designer)
 - [ ] Case study: Voitex, a bold tech identity built in 48 hours
 - [ ] Coffee shop and café branding: a practical guide
 - [ ] Brand guidelines: what they include and why every business needs them
@@ -42,3 +47,10 @@ portfolio niches), price/cost questions, AI-vs-human, deliverables explainers, a
 - 2026-11-13: brand-identity-checklist
 - 2026-11-17: skincare-brand-identity
 - 2026-11-20: logo-file-formats
+- 2026-11-20: ai-logo-generator-vs-human-designer, brand-identity-cost, 99designs-alternatives
+
+## Site structure (link every new article to its hub)
+- Service pages: /logo-design/ /brand-identity-design/ /startup-branding/ /brand-guidelines/
+  /rebranding/ /packaging-design/ /social-media-design/ /pricing/
+- Service areas: /usa/ (+ new-york, los-angeles, miami, austin, chicago, dallas) and /uk/ (+ london).
+  Add a city only with genuinely unique content in content/locations.yaml.

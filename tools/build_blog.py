@@ -34,7 +34,8 @@ ORG_ID = SITE + "/#business"
 SAME_AS = ["https://www.instagram.com/imabdullahshahab"]
 SERVICES = [("Logo design", "/logo-design/"), ("Brand identity design", "/brand-identity-design/"),
             ("Startup branding", "/startup-branding/"), ("Brand guidelines", "/brand-guidelines/"),
-            ("Rebranding", "/rebranding/"), ("Packages & pricing", "/pricing/")]
+            ("Rebranding", "/rebranding/"), ("Packaging design", "/packaging-design/"),
+            ("Social media & ad design", "/social-media-design/"), ("Packages & pricing", "/pricing/")]
 PAGES = []   # (url, html) of every page written, for the sitemap
 CAL = "https://calendly.com/imabdullahshahab/30min"
 POSTS_DIR = ROOT / "content" / "posts"
@@ -181,7 +182,7 @@ def footer(root):
       </div>
       <div class="fcol"><h3>Services</h4>{svc}</div>
       <div class="fcol"><h3>Industries</h3><a href="/branding/beauty-wellness/">Beauty &amp; wellness</a><a href="/branding/food-drink/">Food &amp; drink</a><a href="/branding/tech-fintech/">Tech &amp; fintech</a><a href="/branding/fashion-luxury/">Fashion &amp; luxury</a><a href="/branding/sports/">Sports</a></div>
-      <div class="fcol"><h3>Explore</h3><a href="/#work">Featured work</a><a href="/work/voitex/">Case studies</a><a href="/#reviews">Reviews</a><a href="/blog/">Blog</a><a href="/about/">About Abdullah Shahab</a><a href="/#faq">FAQ</a></div>
+      <div class="fcol"><h3>Explore</h3><a href="/#work">Featured work</a><a href="/work/voitex/">Case studies</a><a href="/#reviews">Reviews</a><a href="/blog/">Blog</a><a href="/about/">About Abdullah Shahab</a><a href="/usa/">Branding in the USA</a><a href="/uk/">Branding in the UK</a></div>
       <div class="fcol"><h3>Contact</h3><a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a><a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp: +92 311 8440498</a><a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">Instagram @imabdullahshahab</a><a href="{CAL}" target="_blank" rel="noopener">Book a call</a></div>
     </div>
     <div class="fbot"><span>© {y} Shahab · Abdullah Shahab. All rights reserved.</span><a href="#top">Designed by a person, not a prompt. ↑</a></div>

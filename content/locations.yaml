@@ -1,0 +1,216 @@
+# Service-area pages. Shahab works remotely: never add a street address or claim a local office.
+# Each city page must stay genuinely different (intro, needs, industries, FAQs), or it becomes a
+# doorway page that Google demotes. Add a new city only with its own content.
+- slug: usa
+  hub: true
+  country: United States
+  name: USA
+  title: "Logo & Brand Identity Designer for US Businesses | Shahab"
+  description: "Human-designed logos and brand identities for businesses across the USA. Remote, fixed prices in USD from $250, first brand board in 48 hours."
+  h1: "Logo and brand identity design for businesses across the USA"
+  intro: >-
+    I design logos and complete brand identities for founders and small businesses in all 50 states,
+    remotely. Prices are fixed in US dollars, calls are booked in your own time zone, and your first
+    brand board arrives within 48 hours.
+  sections:
+    - h2: How does working with a remote brand designer work?
+      p:
+        - "Everything happens online: a short video call or written brief, concepts delivered as a brand board, feedback by email or WhatsApp, and final files by download. You never need to meet in person, and most founders prefer it: no commute, no meetings that run long, and a written record of every decision."
+    - h2: What about time zones?
+      p:
+        - "I'm based in Pakistan (PKT, UTC+5), which is 9 to 13 hours ahead of the US depending on your zone and the season. Calls are booked through Calendly, which shows available times in your own time zone. The difference works in your favour: a brief sent at the end of your day is worked on during mine."
+      table:
+        - ["US time zone", "Hours behind Pakistan (PKT)"]
+        - ["Eastern (New York, Miami)", "9–10 hours"]
+        - ["Central (Chicago, Dallas, Austin)", "10–11 hours"]
+        - ["Mountain (Denver, Phoenix)", "11–12 hours"]
+        - ["Pacific (Los Angeles, Seattle)", "12–13 hours"]
+    - h2: Pricing, contracts and trademarks for US clients
+      ul:
+        - "Fixed prices in US dollars: $250, $450 or $1,050, paid once."
+        - "Scope, deliverables and timeline confirmed in writing before work starts; NDAs on request."
+        - "Source files and copyright included, ready for a USPTO trademark filing by your attorney."
+  faqs:
+    - ["Do you work with clients in every US state?", "Yes. All work is remote, so location doesn't matter. Clients book a call, send a brief and receive files online."]
+    - ["Do you charge in US dollars?", "Yes. All packages are priced in US dollars: $250, $450 and $1,050, paid once."]
+    - ["Can my logo be trademarked in the US?", "I don't file trademarks, but every logo is original and human-designed, and you receive clean source files you can take to a trademark attorney for a USPTO filing."]
+    - ["What time are calls?", "You choose a time on the Calendly booking page, which shows slots in your own time zone."]
+
+- slug: new-york
+  parent: usa
+  name: New York
+  state: New York
+  title: "Logo & Brand Identity Designer for New York Brands | Shahab"
+  description: "Brand identity and logo design for New York founders in fashion, beauty, fintech and food. Human-designed, fixed prices from $250, first board in 48 hours."
+  h1: "Brand identity design for New York businesses"
+  intro: >-
+    New York customers have seen every kind of brand, so looking "good enough" isn't enough. I design
+    logos and identities for New York founders who need to look established from day one, without
+    New York agency prices or timelines.
+  needs:
+    - "A premium look that holds up next to established competitors"
+    - "Packaging and retail-ready assets for fashion, beauty and food brands"
+    - "Investor-ready branding for fintech and SaaS startups"
+    - "A fast first draft before a launch, pop-up or pitch"
+  industries: [fashion-luxury, beauty-wellness, tech-fintech, food-drink]
+  timezone: "Eastern Time: Pakistan is 9–10 hours ahead, so a brief sent in your evening is worked on overnight."
+  faqs:
+    - ["Why hire a remote designer instead of a New York agency?", "Agency fees include Manhattan overhead and account teams. With me you work directly with the designer at fixed prices from $250, and the first brand board arrives in 48 hours."]
+    - ["Can you design for a New York fashion or beauty label?", "Yes. The portfolio includes luxury fashion, jewellery, perfume and skincare brands, with packaging and merchandise mockups."]
+
+- slug: los-angeles
+  parent: usa
+  name: Los Angeles
+  state: California
+  title: "Logo & Brand Identity Designer for Los Angeles Brands | Shahab"
+  description: "Logo and brand identity design for Los Angeles beauty, wellness, streetwear and DTC brands. Human-designed, from $250, first brand board in 48 hours."
+  h1: "Brand identity design for Los Angeles brands"
+  intro: >-
+    Los Angeles brands are judged on camera: on Instagram, TikTok and in product shots. I design
+    identities for LA beauty, wellness, streetwear and direct-to-consumer brands that look as good in
+    a feed as they do on the shelf.
+  needs:
+    - "An identity that photographs well and works on social first"
+    - "Packaging and labels for skincare, wellness and supplement brands"
+    - "Streetwear and apparel marks that work on tags, embroidery and merch"
+    - "Ad creatives and reels for launch campaigns"
+  industries: [beauty-wellness, fashion-luxury, food-drink]
+  timezone: "Pacific Time: Pakistan is 12–13 hours ahead, which turns your evening brief into overnight progress."
+  faqs:
+    - ["Do you design for creators and influencer-led brands?", "Yes. A creator brand needs the same system as any product brand: logo, colours, type, packaging and social templates. The Brand Ecosystem adds ad creatives and social content."]
+    - ["Can you design supplement or skincare packaging?", "Yes. Packaging is part of The Brand Ecosystem, and every package includes 3D product mockups. Required label wording should be checked against FDA rules for your product."]
+
+- slug: miami
+  parent: usa
+  name: Miami
+  state: Florida
+  title: "Logo & Brand Identity Designer for Miami Businesses | Shahab"
+  description: "Brand identity and logo design for Miami restaurants, med spas, hospitality, real estate and startups. Human-designed, from $250, first board in 48 hours."
+  h1: "Brand identity design for Miami businesses"
+  intro: >-
+    Miami businesses often speak to two audiences at once: locals and visitors, English and Spanish
+    speakers. I design identities for Miami restaurants, med spas, hospitality, real estate and
+    startups that read clearly to both and look premium in the sun and on screen.
+  needs:
+    - "A name and tagline that read well in English and Spanish"
+    - "Bold, warm identities for restaurants, cafés and nightlife"
+    - "Calm, premium branding for med spas and beauty studios"
+    - "Trustworthy identities for real estate and fintech"
+  industries: [food-drink, beauty-wellness, tech-fintech]
+  timezone: "Eastern Time: Pakistan is 9–10 hours ahead, so feedback sent in the evening is acted on overnight."
+  faqs:
+    - ["Can you design a bilingual brand?", "Yes. I'll check that your logo, tagline and templates work in both English and Spanish, and design layouts with room for both languages."]
+    - ["Do you design for med spas?", "Yes. The portfolio includes the Skin Lounge Med Spa identity and other beauty and wellness brands."]
+
+- slug: austin
+  parent: usa
+  name: Austin
+  state: Texas
+  title: "Logo & Brand Identity Designer for Austin Startups | Shahab"
+  description: "Startup branding and brand identity design for Austin tech, SaaS, coffee and food brands. Human-designed logos from $250, first brand board in 48 hours."
+  h1: "Startup branding and brand identity design for Austin"
+  intro: >-
+    Austin founders move fast, and the branding has to keep up. I design identities for Austin tech
+    and SaaS startups, coffee shops, food trucks and wellness brands, with a first brand board in
+    48 hours so branding never delays a launch or demo day.
+  needs:
+    - "Startup identities that work in product UI and on a pitch deck"
+    - "Playful, memorable branding for coffee shops and food trucks"
+    - "Launch kits: social templates and ad creatives for day one"
+    - "A logo system that scales from app icon to merch"
+  industries: [tech-fintech, food-drink, sports]
+  timezone: "Central Time: Pakistan is 10–11 hours ahead, so design work happens while you sleep."
+  faqs:
+    - ["Can you brand a pre-launch startup?", "Yes. A short brief call is enough to start, and the first board arrives in 48 hours. See the startup branding page for the package most founders pick."]
+    - ["Do you design food truck branding?", "Yes: a bold logo, colours that read from across a parking lot, menu layouts and truck wrap mockups. Vehicle-wrap artwork is quoted with The Brand Ecosystem or custom."]
+
+- slug: chicago
+  parent: usa
+  name: Chicago
+  state: Illinois
+  title: "Logo & Brand Identity Designer for Chicago Businesses | Shahab"
+  description: "Brand identity and logo design for Chicago restaurants, food brands, B2B companies and sports clubs. Human-designed, from $250, first board in 48 hours."
+  h1: "Brand identity design for Chicago businesses"
+  intro: >-
+    Chicago businesses tend to value brands that feel solid and straightforward rather than trendy. I
+    design identities for Chicago restaurants, packaged food brands, B2B and fintech companies and
+    sports clubs that look dependable and stay current for years.
+  needs:
+    - "Restaurant and food brands with packaging and menus"
+    - "Clear, credible identities for B2B, logistics and fintech companies"
+    - "Crests and kits for sports clubs and fitness brands"
+    - "Rebrands for established businesses that look dated"
+  industries: [food-drink, tech-fintech, sports]
+  timezone: "Central Time: Pakistan is 10–11 hours ahead, so your morning starts with progress."
+  faqs:
+    - ["Do you rebrand established businesses?", "Yes. The rebranding page explains how I keep what customers recognise while fixing what holds the brand back."]
+    - ["Can you design for a B2B company?", "Yes. B2B brands need clarity and trust; the portfolio includes logistics, AI, file-sharing and fintech identities."]
+
+- slug: dallas
+  parent: usa
+  name: Dallas
+  state: Texas
+  title: "Logo & Brand Identity Designer for Dallas Businesses | Shahab"
+  description: "Logo and brand identity design for Dallas real estate, home services, restaurants and fitness brands. Human-designed, from $250, first board in 48 hours."
+  h1: "Logo and brand identity design for Dallas businesses"
+  intro: >-
+    Across Dallas–Fort Worth, service businesses compete on trust: real estate, home services,
+    restaurants and fitness studios. I design logos and identities that look professional on trucks,
+    yard signs, uniforms and Google profiles, as well as on Instagram.
+  needs:
+    - "Logos that read on vehicles, signs and uniforms"
+    - "Trust-building identities for real estate and home services"
+    - "Restaurant and café branding with menus and packaging"
+    - "Gym and fitness brands with merch and social templates"
+  industries: [food-drink, sports, beauty-wellness]
+  timezone: "Central Time: Pakistan is 10–11 hours ahead, so a brief sent after work is worked on overnight."
+  faqs:
+    - ["Can you design a logo for a home services company?", "Yes. Home service brands need a bold, simple mark that works on vans, shirts, door hangers and a Google Business Profile photo. I'll show it on all of them in the mockups."]
+    - ["Do you design real estate branding?", "Yes. The portfolio includes property and real estate identities, and I design for agents, brokerages and developers."]
+
+- slug: uk
+  hub: true
+  country: United Kingdom
+  name: UK
+  title: "Logo & Brand Identity Designer for UK Businesses | Shahab"
+  description: "Human-designed logos and brand identities for UK businesses and startups. Remote, fixed prices from $250, first brand board in 48 hours."
+  h1: "Logo and brand identity design for UK businesses"
+  intro: >-
+    I design logos and complete brand identities for founders and small businesses across England,
+    Scotland, Wales and Northern Ireland, remotely. Your first brand board arrives within 48 hours,
+    and prices are fixed.
+  sections:
+    - h2: How does working with a remote designer work for UK clients?
+      p:
+        - "Everything happens online: a short call or written brief, concepts delivered as a brand board, feedback by email or WhatsApp, and final files by download. Pakistan is 4 to 5 hours ahead of the UK, so our working days overlap every afternoon, UK time."
+    - h2: Pricing and trademarks for UK clients
+      ul:
+        - "Fixed prices in US dollars ($250, $450 or $1,050); your card converts at the day's rate. Compare that with <a href=\"https://whito.co.uk/research/branding-design-costs-uk/\" target=\"_blank\" rel=\"noopener\">UK benchmarks</a> of £1,500 to £5,000 for a logo with guidelines."
+        - "UK spelling throughout your brand guidelines on request."
+        - "Original, human-designed work with source files, ready for a UKIPO trademark application by your attorney."
+  faqs:
+    - ["Do you work with UK clients?", "Yes. All work is remote, and our working hours overlap every afternoon UK time."]
+    - ["Why are your prices in dollars?", "All packages are priced in US dollars so they stay the same for every client. Your bank or card converts the amount at the day's rate."]
+    - ["Can my logo be registered with the UKIPO?", "I don't file trademarks, but every logo is original and human-designed, and you receive clean source files you can take to an attorney for a UKIPO application."]
+
+- slug: london
+  parent: uk
+  name: London
+  state: England
+  title: "Logo & Brand Identity Designer for London Businesses | Shahab"
+  description: "Brand identity and logo design for London startups, fintech, fashion, beauty and cafés. Human-designed, fixed prices from $250, first brand board in 48 hours."
+  h1: "Brand identity design for London businesses"
+  intro: >-
+    London is one of the most crowded markets in the world for new brands, from fintech to fashion to
+    coffee. I design identities for London founders who need to look established quickly, without
+    paying for an agency's London overhead.
+  needs:
+    - "Credible branding for fintech and tech startups"
+    - "Refined identities for fashion, jewellery and beauty labels"
+    - "Independent café and restaurant branding"
+    - "Fast turnaround before a launch, investor meeting or market stall"
+  industries: [tech-fintech, fashion-luxury, food-drink, beauty-wellness]
+  timezone: "UK time: Pakistan is 4–5 hours ahead, so calls fit comfortably into your morning or early afternoon."
+  faqs:
+    - ["How do your prices compare with London agencies?", "UK benchmarks put a full agency brand identity at £5,000 to £20,000. My packages are $250, $450 and $1,050, paid once, because there's no agency overhead."]
+    - ["Do you use UK spelling?", "Yes, on request: guidelines and any copy in your brand assets can use UK spelling."]
