@@ -266,7 +266,7 @@ POST_SERVICE = {  # which money page each post category supports (topic cluster 
 
 
 def author_box():
-    return f"""<div class="author-box card"><img src="/img/shahab-sm.jpg" alt="Abdullah Shahab, brand identity designer" width="64" height="64" loading="lazy">
+    return f"""<div class="author-box card"><img src="/img/abdullah-shahab-sm.jpg" alt="Abdullah Shahab, brand identity designer" width="64" height="64" loading="lazy">
   <div><small>Written by</small><b><a href="/about/">Abdullah Shahab</a></b><p>Brand identity designer with 7 years of experience and 46+ brand identities for founders in tech, beauty, fashion, sports and food. Every logo designed by hand. <a href="/about/">More about me</a>.</p></div></div>"""
 
 
@@ -284,7 +284,7 @@ def build_post(p, posts, sprite):
                 "image": f"{SITE}/{p['cover']}",
                 "datePublished": p["date"].isoformat(),
                 "dateModified": p["updated"].isoformat(),
-                "author": {**PERSON, "image": f"{SITE}/img/shahab.jpg", "jobTitle": "Brand Identity Designer", "sameAs": SAME_AS},
+                "author": {**PERSON, "image": f"{SITE}/img/abdullah-shahab.jpg", "jobTitle": "Brand Identity Designer", "sameAs": SAME_AS},
                 "publisher": PUBLISHER,
                 "mainEntityOfPage": url,
                 "articleSection": p.get("category", "Branding"),
@@ -327,7 +327,7 @@ def build_post(p, posts, sprite):
     <span class="tagc">{esc(p.get('category','Branding'))}</span>
     <h1 style="margin-top:18px">{esc(p['title'])}</h1>
     <p class="lede" style="margin-top:22px">{esc(p['description'])}</p>
-    <div class="meta-row"><img src="/img/shahab-sm.jpg" alt="Abdullah Shahab" width="44" height="44"><span><b><a href="/about/" style="color:inherit;text-decoration:none">Abdullah Shahab</a></b><small>Brand designer · <time datetime="{p['date'].isoformat()}">{p['date'].strftime('%B %-d, %Y')}</time>{updated} · {p['read']} min read</small></span></div>
+    <div class="meta-row"><img src="/img/abdullah-shahab-sm.jpg" alt="Abdullah Shahab" width="44" height="44"><span><b><a href="/about/" style="color:inherit;text-decoration:none">Abdullah Shahab</a></b><small>Brand designer · <time datetime="{p['date'].isoformat()}">{p['date'].strftime('%B %-d, %Y')}</time>{updated} · {p['read']} min read</small></span></div>
   </div>
   <div class="cover"><img src="/{p['cover']}" alt="{esc(p.get('cover_alt',''))}" fetchpriority="high"></div>
 </div></section>
@@ -476,10 +476,12 @@ def build_pin_feed(posts):
 def build_sitemap():
     pri = lambda u: "1.0" if u == SITE + "/" else "0.9" if u.count("/") == 4 and "/blog/" not in u and "/work/" not in u and "/branding/" not in u else "0.8"
     rows = []
+    photo = (f'<image:image><image:loc>{SITE}/img/abdullah-shahab.jpg</image:loc>'
+             '<image:title>Abdullah Shahab</image:title><image:caption>Abdullah Shahab, brand identity designer</image:caption></image:image>')
     for u, h in sorted(PAGES, key=lambda x: (x[0] != SITE + "/", x[0])):
-        rows.append(f"<url><loc>{u}</loc><lastmod>{seo.lastmod(u, h)}</lastmod><priority>{pri(u)}</priority></url>")
+        rows.append(f"<url><loc>{u}</loc><lastmod>{seo.lastmod(u, h)}</lastmod><priority>{pri(u)}</priority>{photo if u in (SITE + "/", SITE + "/about/") else ""}</url>")
     seo.save_lastmod()
-    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(rows) + "</urlset>\n", encoding="utf-8")
+    (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">' + "".join(rows) + "</urlset>\n", encoding="utf-8")
     (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 
 

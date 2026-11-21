@@ -558,12 +558,15 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
   <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a call {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/#work">See the work</a></div>
 </div></section>
 <section class="band"><div class="inner"><div class="about-grid">
-  <div><img src="/img/shahab.jpg" alt="Abdullah Shahab, brand identity designer" fetchpriority="high"><div class="factlist">{facts}</div></div>
+  <div><figure style="margin:0"><img src="/img/abdullah-shahab.jpg" alt="Abdullah Shahab, brand identity designer" title="Abdullah Shahab" fetchpriority="high"><figcaption style="font-size:14px;color:var(--ink-3);margin-top:8px">Abdullah Shahab, brand identity designer and founder of Shahab Branding &amp; Design</figcaption></figure><div class="factlist">{facts}</div></div>
   <div class="svc" style="margin:0">{secs}<h2>Contact</h2><p>Email <a href="mailto:imabdullahshahab@gmail.com">imabdullahshahab@gmail.com</a>, message me on <a href="https://wa.me/923118440498" target="_blank" rel="noopener">WhatsApp (+92 311 8440498)</a>, follow <a href="https://www.instagram.com/imabdullahshahab" target="_blank" rel="noopener">@imabdullahshahab</a> on Instagram, or <a href="{CAL}" target="_blank" rel="noopener">book a 30-minute call</a>.</p></div>
 </div></div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Selected case studies</h2></div>{cards(works[:3])}</div></section>
 {cta_block("Let's design your brand", "Tell me about your business on a short call. Your first full brand board arrives within 48 hours.")}"""
-    person = {**PERSON, "alternateName": "Shahab", "jobTitle": "Brand Identity Designer", "image": SITE + "/img/shahab.jpg",
+    person = {**PERSON, "alternateName": "Shahab", "jobTitle": "Brand Identity Designer", "image": {"@type": "ImageObject", "@id": SITE + "/#shahab-photo", "url": SITE + "/img/abdullah-shahab.jpg", "contentUrl": SITE + "/img/abdullah-shahab.jpg",
+                        "width": 1254, "height": 1254, "caption": "Abdullah Shahab, brand identity designer", "name": "Abdullah Shahab",
+                        "creditText": "Abdullah Shahab", "creator": {"@id": PERSON["@id"]}, "copyrightNotice": "© Abdullah Shahab",
+                        "license": SITE + "/about/", "acquireLicensePage": SITE + "/about/"},
               "description": about["description"], "worksFor": provider, "sameAs": SAME_AS,
               "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "BS in Graphic Design (Fine Arts)"},
               "knowsAbout": ["Logo design", "Brand identity design", "Brand guidelines", "Packaging design", "Rebranding"],
@@ -571,5 +574,5 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "ProfilePage", "url": url, "name": about["title"], "mainEntity": {"@id": PERSON["@id"]}},
         person, bc_ld(("About", url))]}
-    write_page("about/index.html", page(about["title"], about["description"], url, "img/shahab.jpg", ld, body), url)
+    write_page("about/index.html", page(about["title"], about["description"], url, "img/abdullah-shahab.jpg", ld, body), url)
     return works, inds
