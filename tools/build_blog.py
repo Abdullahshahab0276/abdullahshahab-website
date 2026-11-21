@@ -31,7 +31,7 @@ PERSON_ID = SITE + "/#shahab"
 ORG_ID = SITE + "/#business"
 # Every real profile of Abdullah Shahab / Shahab. Add LinkedIn, Behance, Dribbble, Pinterest,
 # Clutch etc. here as soon as they exist: they feed the Person + business schema (knowledge panel).
-SAME_AS = ["https://www.instagram.com/imabdullahshahab"]
+SAME_AS = ["https://www.instagram.com/imabdullahshahab", "https://www.linkedin.com/in/abdullah276/", "https://www.behance.net/abdullahshahabdesign", "https://www.trustpilot.com/review/abdullahshahab.com"]
 SERVICES = [("Logo design", "/logo-design/"), ("Brand identity design", "/brand-identity-design/"),
             ("Startup branding", "/startup-branding/"), ("Brand guidelines", "/brand-guidelines/"),
             ("Rebranding", "/rebranding/"), ("Packaging design", "/packaging-design/"),
