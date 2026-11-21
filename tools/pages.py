@@ -50,7 +50,7 @@ PAGES_CSS = """
 .links-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
 .links-row a{text-decoration:none;padding:10px 16px;border-radius:999px;background:#fff;box-shadow:0 0 0 1px var(--line);font-size:15px}
 .links-row a:hover{box-shadow:0 0 0 1px var(--ink)}
-.case-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.pgrid figure{margin:0}.pgrid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:22px;background:#e9e9e4}.pgrid figcaption{font-size:14px;color:var(--ink-3);margin-top:8px}@media(max-width:760px){.pgrid{grid-template-columns:1fr 1fr}}.ziplist{columns:6;column-gap:18px;font-size:15px;line-height:1.9}@media(max-width:760px){.ziplist{columns:3}}.case-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .case-mini a{text-decoration:none}
 .case-mini img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:22px;background:#111}
 .case-mini h3{font-size:22px;font-weight:450;margin:14px 0 4px;letter-spacing:-.03em}
@@ -402,7 +402,9 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
         ]
         return (custom.get("faqs", []) if custom else []) + f
 
-    from florida import county_slug
+    from florida import county_slug, zip_index, portfolio_html
+    PORT = json.loads((ROOT / "content" / "portfolio.json").read_text(encoding="utf-8"))
+    ZIPS = json.loads((ROOT / "content" / "fl_zips.json").read_text(encoding="utf-8"))
     fl_svcs = yaml.safe_load((ROOT / "content" / "florida.yaml").read_text(encoding="utf-8"))["services"]
     fl_intro = [
         "I design logos and brand identities for {city} businesses and the rest of {county_txt}. Human-made, delivered online, at fixed prices from $250, with a first brand board within 48 hours.",
@@ -446,7 +448,9 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
             if c.get("metro"):
                 fl_line += f', part of the {esc(c["metro"])} metro area'
             pick = [fl_svcs[(h + i) % len(fl_svcs)] for i in range(3)]
-            secs += f"<h2>Branding for {esc(name)} and {esc(c['county'])} County</h2><p>{fl_line}. I work with businesses in every town and community in the county, and across <a href=\"/florida/\">all of Florida</a>. Popular with Florida clients: " + ", ".join(f'<a href="/florida/{x["slug"]}/">{esc(x["kw"])}</a>' for x in pick) + ".</p>"
+            zs = zip_index(ZIPS, c)
+            zip_p = (f"<p>ZIP codes I serve in and around {esc(name)}: " + ", ".join(zs) + f'. See <a href="/florida/zip-codes/">every Florida ZIP code</a>.</p>') if zs else ""
+            secs += f"<h2>Branding for {esc(name)} and {esc(c['county'])} County</h2>{zip_p}<p>{fl_line}. I work with businesses in every town and community in the county, and across <a href=\"/florida/\">all of Florida</a>. Popular with Florida clients: " + ", ".join(f'<a href="/florida/{x["slug"]}/">{esc(x["kw"])}</a>' for x in pick) + ".</p>"
         faqs = city_faqs(c, custom)
         if st == "FL":
             others = sorted([o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]],
@@ -469,6 +473,7 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
 <section class="band" style="padding-top:0"><div class="inner"><div class="svc">{secs}</div></div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Branding packages for {esc(name)} businesses</h2><p class="lede">Fixed, one-time pricing in US dollars. One designer, start to finish.</p></div>{plans_html()}</div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards([works[(h + i) % len(works)] for i in range(3)])}</div></section>
+{portfolio_html(PORT, h, esc, "More brand identities I've designed") if st == "FL" else ""}
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(name)} logo and branding FAQs</h2></div>{faq_html(faqs[h % len(faqs):] + faqs[:h % len(faqs)])}</div></section>
 {cta_block("Let's design your " + name + " brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
 <section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">More cities in {esc(sn)}</p><div class="links-row"><a href="/{c['state_slug']}/">All of {esc(sn)}</a>{other_links}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Services</p><div class="links-row">{svc_links_row()}</div></div></section>"""
