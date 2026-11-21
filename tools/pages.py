@@ -402,6 +402,14 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
         ]
         return (custom.get("faqs", []) if custom else []) + f
 
+    from florida import county_slug
+    fl_svcs = yaml.safe_load((ROOT / "content" / "florida.yaml").read_text(encoding="utf-8"))["services"]
+    fl_intro = [
+        "I design logos and brand identities for {city} businesses and the rest of {county_txt}. Human-made, delivered online, at fixed prices from $250, with a first brand board within 48 hours.",
+        "Florida is crowded with new businesses, and {city} is no exception. A clear, professional identity is how a {city} business looks established from its first sign, post or Google listing. I design them remotely, start to finish.",
+        "From a new LLC registered on Sunbiz to a {city} business that has outgrown a DIY logo, I design brand identities that work on storefronts, vehicles, Instagram and Google Maps. Remote, fixed prices, first board in 48 hours.",
+        "{city} founders get the same senior designer and the same fixed prices as my clients in Miami or New York: a short call, a first brand board in 48 hours, and an identity you own outright.",
+    ]
     for c in us_cities:
         name, st, sn = c["name"], c["state"], c["state_name"]
         custom = us_custom.get(name) if st in ("NY", "CA", "FL", "TX", "IL") else None
@@ -413,7 +421,7 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
         url = f"{SITE}/{path}"
         county_txt = c["county"] if c["county"].startswith("the ") else (f'{c["county"]} County' if c["county"] else sn)
         h = sum(map(ord, name + st))
-        v = intro_variants[h % len(intro_variants)]
+        v = (intro_variants + fl_intro)[h % 8] if st == "FL" else intro_variants[h % len(intro_variants)]
         intro = custom["intro"] if custom else v.format(city=name, pop=fmt_pop(c["pop"]), county_txt=county_txt)
         secs = ""
         if custom:
@@ -430,8 +438,21 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
         tzline = (f'{esc(name)} is on {c["tz"]} Time, and Pakistan (where I work) is {c["off_lo"]} hours ahead' if c["off_lo"] == c["off_hi"]
                   else f'{esc(name)} is on {c["tz"]} Time, and Pakistan (where I work) is {c["off_lo"]}–{c["off_hi"]} hours ahead, depending on daylight saving')
         secs += f"<h2>Working with a remote designer from {esc(name)}</h2><p>{tzline}. Calls are booked on Calendly, which shows open times in your own time zone, and a brief sent at the end of your day is worked on while you sleep. Everything else happens by email, WhatsApp and shared files.</p>"
+        if st == "FL":
+            cs_ = county_slug(c["county"])
+            fl_line = f'{esc(name)} is in <a href="/florida/{cs_}/">{esc(c["county"])} County</a>'
+            if c.get("seat"):
+                fl_line += ", where it's the county seat"
+            if c.get("metro"):
+                fl_line += f', part of the {esc(c["metro"])} metro area'
+            pick = [fl_svcs[(h + i) % len(fl_svcs)] for i in range(3)]
+            secs += f"<h2>Branding for {esc(name)} and {esc(c['county'])} County</h2><p>{fl_line}. I work with businesses in every town and community in the county, and across <a href=\"/florida/\">all of Florida</a>. Popular with Florida clients: " + ", ".join(f'<a href="/florida/{x["slug"]}/">{esc(x["kw"])}</a>' for x in pick) + ".</p>"
         faqs = city_faqs(c, custom)
-        others = [o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]][:12]
+        if st == "FL":
+            others = sorted([o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]],
+                            key=lambda o: (o["county"] != c["county"], (o["lat"] - c["lat"]) ** 2 + (o["lon"] - c["lon"]) ** 2))[:12]
+        else:
+            others = [o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]][:12]
         other_links = "".join(f'<a href="/{o["state_slug"]}/{o["slug"]}/">{esc(o["name"])}</a>' for o in others)
         title = f"Logo Designer for {name}, {st} Businesses | Shahab"
         if len(title) > 60:
@@ -460,7 +481,13 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
             bc_ld(("USA", f"{SITE}/usa/"), (sn, f"{SITE}/{c['state_slug']}/"), (name, url))]}
         write_page(f"{path}index.html", page(title, desc, url, "img/a018.jpg", ld, body), url)
 
+    from florida import build_florida
+    build_florida(dict(ROOT=ROOT, SITE=SITE, CAL=CAL, esc=esc, page=page, crumbs=crumbs, bc_ld=bc_ld, faq_ld=faq_ld, faq_html=faq_html,
+                       cta_block=cta_block, plans_html=plans_html, cards=cards, works=works, svc_links_row=svc_links_row, provider=provider,
+                       offers=offers, arrow=arrow, write_page=write_page, us_cities=us_cities))
     for ss, stt in sorted(us_states.items()):
+        if ss == "florida":
+            continue
         url = f"{SITE}/{ss}/"
         sn = stt["name"]
         cs = sorted(stt["cities"], key=lambda x: -x["pop"])

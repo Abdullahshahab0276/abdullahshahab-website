@@ -1,0 +1,7618 @@
+[
+{
+"name": "Jacksonville",
+"county": "Duval",
+"pop": 1009833,
+"slug": "jacksonville",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Miami",
+"county": "Miami-Dade",
+"pop": 487014,
+"slug": "miami",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Tampa",
+"county": "Hillsborough",
+"pop": 414547,
+"slug": "tampa",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Orlando",
+"county": "Orange",
+"pop": 334854,
+"slug": "orlando",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "St. Petersburg",
+"county": "Pinellas",
+"pop": 257083,
+"slug": "saint-petersburg",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hialeah",
+"county": "Miami-Dade",
+"pop": 237069,
+"slug": "hialeah",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tallahassee",
+"county": "Leon",
+"pop": 201731,
+"slug": "tallahassee",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Fort Lauderdale",
+"county": "Broward",
+"pop": 183146,
+"slug": "fort-lauderdale",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Cape Coral",
+"county": "Lee",
+"pop": 175229,
+"slug": "cape-coral",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pembroke Pines",
+"county": "Broward",
+"pop": 166611,
+"slug": "pembroke-pines",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port Saint Lucie",
+"county": "St. Lucie",
+"pop": 164603,
+"slug": "port-saint-lucie",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hollywood",
+"county": "Broward",
+"pop": 149728,
+"slug": "hollywood",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gainesville",
+"county": "Alachua",
+"pop": 145214,
+"slug": "gainesville",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Miramar",
+"county": "Broward",
+"pop": 137132,
+"slug": "miramar",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Coral Springs",
+"county": "Broward",
+"pop": 129485,
+"slug": "coral-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Palm Beach",
+"county": "Palm Beach",
+"pop": 120932,
+"slug": "west-palm-beach",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Palm Bay",
+"county": "Brevard",
+"pop": 119760,
+"slug": "palm-bay",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Clearwater",
+"county": "Pinellas",
+"pop": 117292,
+"slug": "clearwater",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Miami Gardens",
+"county": "Miami-Dade",
+"pop": 113187,
+"slug": "miami-gardens",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pompano Beach",
+"county": "Broward",
+"pop": 107762,
+"slug": "pompano-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lakeland",
+"county": "Polk",
+"pop": 104401,
+"slug": "lakeland",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Brandon",
+"county": "Hillsborough",
+"pop": 103483,
+"slug": "brandon",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Davie",
+"county": "Broward",
+"pop": 100882,
+"slug": "davie",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Spring Hill",
+"county": "Hernando",
+"pop": 98621,
+"slug": "spring-hill",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Boca Raton",
+"county": "Palm Beach",
+"pop": 93235,
+"slug": "boca-raton",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Plantation",
+"county": "Broward",
+"pop": 92560,
+"slug": "plantation",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Miami Beach",
+"county": "Miami-Dade",
+"pop": 92312,
+"slug": "miami-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Deltona",
+"county": "Volusia",
+"pop": 88474,
+"slug": "deltona",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lehigh Acres",
+"county": "Lee",
+"pop": 86784,
+"slug": "lehigh-acres",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Melbourne",
+"county": "Brevard",
+"pop": 84678,
+"slug": "melbourne",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sunrise",
+"county": "Broward",
+"pop": 84439,
+"slug": "sunrise",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Coast",
+"county": "Flagler",
+"pop": 82893,
+"slug": "palm-coast",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Largo",
+"county": "Pinellas",
+"pop": 81000,
+"slug": "largo",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Homestead",
+"county": "Miami-Dade",
+"pop": 80737,
+"slug": "homestead",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kendall",
+"county": "Miami-Dade",
+"pop": 80241,
+"slug": "kendall",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Deerfield Beach",
+"county": "Broward",
+"pop": 79768,
+"slug": "deerfield-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Town 'n' Country",
+"county": "Hillsborough",
+"pop": 78442,
+"slug": "town-n-country",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Alafaya",
+"county": "Orange",
+"pop": 78113,
+"slug": "alafaya",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Doral",
+"county": "Miami-Dade",
+"pop": 75874,
+"slug": "doral",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Myers",
+"county": "Lee",
+"pop": 74013,
+"slug": "fort-myers",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Boynton Beach",
+"county": "Palm Beach",
+"pop": 73966,
+"slug": "boynton-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Daytona Beach",
+"county": "Volusia",
+"pop": 72647,
+"slug": "daytona-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lauderhill",
+"county": "Broward",
+"pop": 71579,
+"slug": "lauderhill",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Riverview",
+"county": "Hillsborough",
+"pop": 71050,
+"slug": "riverview",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Weston",
+"county": "Broward",
+"pop": 69959,
+"slug": "weston",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kissimmee",
+"county": "Osceola",
+"pop": 69152,
+"slug": "kissimmee",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Delray Beach",
+"county": "Palm Beach",
+"pop": 66255,
+"slug": "delray-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tamarac",
+"county": "Broward",
+"pop": 64681,
+"slug": "tamarac",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Carol City",
+"county": "Miami-Dade",
+"pop": 63031,
+"slug": "carol-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jupiter",
+"county": "Palm Beach",
+"pop": 62707,
+"slug": "jupiter",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wellington",
+"county": "Palm Beach",
+"pop": 62560,
+"slug": "wellington",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Miami",
+"county": "Miami-Dade",
+"pop": 62435,
+"slug": "north-miami",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Port",
+"county": "Sarasota",
+"pop": 62345,
+"slug": "north-port",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Hills",
+"county": "Orange",
+"pop": 60076,
+"slug": "pine-hills",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port Orange",
+"county": "Volusia",
+"pop": 59866,
+"slug": "port-orange",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fountainebleau",
+"county": "Miami-Dade",
+"pop": 59764,
+"slug": "fountainebleau",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Coconut Creek",
+"county": "Broward",
+"pop": 59302,
+"slug": "coconut-creek",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ocala",
+"county": "Marion",
+"pop": 58218,
+"slug": "ocala",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Sanford",
+"county": "Seminole",
+"pop": 58111,
+"slug": "sanford",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Palm Harbor",
+"county": "Pinellas",
+"pop": 57439,
+"slug": "palm-harbor",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Margate",
+"county": "Broward",
+"pop": 57234,
+"slug": "margate",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kendale Lakes",
+"county": "Miami-Dade",
+"pop": 56148,
+"slug": "kendale-lakes",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tamiami",
+"county": "Miami-Dade",
+"pop": 55271,
+"slug": "tamiami",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sarasota",
+"county": "Sarasota",
+"pop": 55118,
+"slug": "sarasota",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Bradenton",
+"county": "Manatee",
+"pop": 54437,
+"slug": "bradenton",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Port Charlotte",
+"county": "Charlotte",
+"pop": 54392,
+"slug": "port-charlotte",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Allapattah",
+"county": "Miami-Dade",
+"pop": 54289,
+"slug": "allapattah",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Pensacola Heights",
+"county": "Escambia",
+"pop": 54104,
+"slug": "east-pensacola-heights",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Pensacola",
+"county": "Escambia",
+"pop": 53724,
+"slug": "pensacola",
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Poinciana",
+"county": "Osceola",
+"pop": 53193,
+"slug": "poinciana",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Beach Gardens",
+"county": "Palm Beach",
+"pop": 52923,
+"slug": "palm-beach-gardens",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bonita Springs",
+"county": "Lee",
+"pop": 51704,
+"slug": "bonita-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pinellas Park",
+"county": "Pinellas",
+"pop": 51617,
+"slug": "pinellas-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "The Villages",
+"county": "Sumter",
+"pop": 51442,
+"slug": "the-villages",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Coral Gables",
+"county": "Miami-Dade",
+"pop": 51117,
+"slug": "coral-gables",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "The Hammocks",
+"county": "Miami-Dade",
+"pop": 51003,
+"slug": "the-hammocks",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Flagami",
+"county": "Miami-Dade",
+"pop": 50834,
+"slug": "flagami",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Apopka",
+"county": "Orange",
+"pop": 48382,
+"slug": "apopka",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Country Club",
+"county": "Miami-Dade",
+"pop": 47105,
+"slug": "country-club",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cutler Bay",
+"county": "Miami-Dade",
+"pop": 45425,
+"slug": "cutler-bay",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Titusville",
+"county": "Brevard",
+"pop": 45393,
+"slug": "titusville",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Fort Pierce",
+"county": "St. Lucie",
+"pop": 44484,
+"slug": "fort-pierce",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Oakland Park",
+"county": "Broward",
+"pop": 44319,
+"slug": "oakland-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wesley Chapel",
+"county": "Pasco",
+"pop": 44092,
+"slug": "wesley-chapel",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Miami Beach",
+"county": "Miami-Dade",
+"pop": 43971,
+"slug": "north-miami-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Lauderdale",
+"county": "Broward",
+"pop": 43703,
+"slug": "north-lauderdale",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ocoee",
+"county": "Orange",
+"pop": 43608,
+"slug": "ocoee",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Altamonte Springs",
+"county": "Seminole",
+"pop": 43159,
+"slug": "altamonte-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "University",
+"county": "Hillsborough",
+"pop": 41163,
+"slug": "university",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ormond Beach",
+"county": "Volusia",
+"pop": 40970,
+"slug": "ormond-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Carrollwood Village",
+"county": "Hillsborough",
+"pop": 40949,
+"slug": "carrollwood-village",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Winter Garden",
+"county": "Orange",
+"pop": 40356,
+"slug": "winter-garden",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hallandale Beach",
+"county": "Broward",
+"pop": 39488,
+"slug": "hallandale-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Fort Myers",
+"county": "Lee",
+"pop": 39407,
+"slug": "north-fort-myers",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Princeton",
+"county": "Miami-Dade",
+"pop": 39308,
+"slug": "princeton",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "The Acreage",
+"county": "Palm Beach",
+"pop": 38704,
+"slug": "the-acreage",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Oviedo",
+"county": "Seminole",
+"pop": 38551,
+"slug": "oviedo",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Panama City",
+"county": "Bay",
+"pop": 38286,
+"slug": "panama-city",
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Winter Haven",
+"county": "Polk",
+"pop": 37689,
+"slug": "winter-haven",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Aventura",
+"county": "Miami-Dade",
+"pop": 37649,
+"slug": "aventura",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Royal Palm Beach",
+"county": "Palm Beach",
+"pop": 37633,
+"slug": "royal-palm-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Worth Beach",
+"county": "Palm Beach",
+"pop": 37498,
+"slug": "lake-worth-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Plant City",
+"county": "Hillsborough",
+"pop": 37406,
+"slug": "plant-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Miami Heights",
+"county": "Miami-Dade",
+"pop": 36770,
+"slug": "south-miami-heights",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dunedin",
+"county": "Pinellas",
+"pop": 36164,
+"slug": "dunedin",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kendall West",
+"county": "Miami-Dade",
+"pop": 36154,
+"slug": "kendall-west",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Richmond West",
+"county": "Miami-Dade",
+"pop": 35884,
+"slug": "richmond-west",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Valrico",
+"county": "Hillsborough",
+"pop": 35545,
+"slug": "valrico",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ponte Vedra Beach",
+"county": "St. Johns",
+"pop": 35400,
+"slug": "ponte-vedra-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cooper City",
+"county": "Broward",
+"pop": 35364,
+"slug": "cooper-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Egypt Lake-Leto",
+"county": "Hillsborough",
+"pop": 35282,
+"slug": "egypt-lake-leto",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint Cloud",
+"county": "Osceola",
+"pop": 35183,
+"slug": "saint-cloud",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lauderdale Lakes",
+"county": "Broward",
+"pop": 34796,
+"slug": "lauderdale-lakes",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Winter Springs",
+"county": "Seminole",
+"pop": 34789,
+"slug": "winter-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Merritt Island",
+"county": "Brevard",
+"pop": 34743,
+"slug": "merritt-island",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Little River",
+"county": "Miami-Dade",
+"pop": 34699,
+"slug": "west-little-river",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Riviera Beach",
+"county": "Palm Beach",
+"pop": 34005,
+"slug": "riviera-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Carrollwood",
+"county": "Hillsborough",
+"pop": 33365,
+"slug": "carrollwood",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Golden Glades",
+"county": "Miami-Dade",
+"pop": 33145,
+"slug": "golden-glades",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Greenacres City",
+"county": "Palm Beach",
+"pop": 32963,
+"slug": "greenacres-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Santa Rosa Beach",
+"county": "Walton",
+"pop": 32459,
+"slug": "santa-rosa-beach",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Clermont",
+"county": "Lake",
+"pop": 32390,
+"slug": "clermont",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Land O' Lakes",
+"county": "Pasco",
+"pop": 31996,
+"slug": "land-o-lakes",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dania Beach",
+"county": "Broward",
+"pop": 31446,
+"slug": "dania-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Navarre",
+"county": "Santa Rosa",
+"pop": 31378,
+"slug": "navarre",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Miami Lakes",
+"county": "Miami-Dade",
+"pop": 30972,
+"slug": "miami-lakes",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Lake",
+"county": "Pinellas",
+"pop": 30962,
+"slug": "east-lake",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lakeside",
+"county": "Clay",
+"pop": 30943,
+"slug": "lakeside",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Estero",
+"county": "Lee",
+"pop": 30799,
+"slug": "estero",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "DeLand",
+"county": "Volusia",
+"pop": 30195,
+"slug": "deland",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Parkland",
+"county": "Broward",
+"pop": 30177,
+"slug": "parkland",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Winter Park",
+"county": "Orange",
+"pop": 29943,
+"slug": "winter-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Westchester",
+"county": "Miami-Dade",
+"pop": 29862,
+"slug": "westchester",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fruit Cove",
+"county": "St. Johns",
+"pop": 29362,
+"slug": "fruit-cove",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ferry Pass",
+"county": "Escambia",
+"pop": 28921,
+"slug": "ferry-pass",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Lake Magdalene",
+"county": "Hillsborough",
+"pop": 28509,
+"slug": "lake-magdalene",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fleming Island",
+"county": "Clay",
+"pop": 27126,
+"slug": "fleming-island",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Casselberry",
+"county": "Seminole",
+"pop": 27056,
+"slug": "casselberry",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "University Park",
+"county": "Miami-Dade",
+"pop": 26995,
+"slug": "university-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cutler Ridge",
+"county": "Miami-Dade",
+"pop": 26831,
+"slug": "cutler-ridge",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Leisure City",
+"county": "Miami-Dade",
+"pop": 26324,
+"slug": "leisure-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Four Corners",
+"county": "Lake",
+"pop": 26116,
+"slug": "four-corners",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Buenaventura Lakes",
+"county": "Osceola",
+"pop": 26079,
+"slug": "buenaventura-lakes",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Key West",
+"county": "Monroe",
+"pop": 25755,
+"slug": "key-west",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Temple Terrace",
+"county": "Hillsborough",
+"pop": 25731,
+"slug": "temple-terrace",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Meadow Woods",
+"county": "Orange",
+"pop": 25558,
+"slug": "meadow-woods",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Rockledge",
+"county": "Brevard",
+"pop": 24926,
+"slug": "rockledge",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tarpon Springs",
+"county": "Pinellas",
+"pop": 24605,
+"slug": "tarpon-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palmetto Bay",
+"county": "Miami-Dade",
+"pop": 24439,
+"slug": "palmetto-bay",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Coral Terrace",
+"county": "Miami-Dade",
+"pop": 24376,
+"slug": "coral-terrace",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "New Smyrna Beach",
+"county": "Volusia",
+"pop": 24298,
+"slug": "new-smyrna-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Citrus Park",
+"county": "Hillsborough",
+"pop": 24252,
+"slug": "citrus-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Boca Del Mar",
+"county": "Palm Beach",
+"pop": 24244,
+"slug": "boca-del-mar",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Immokalee",
+"county": "Collier",
+"pop": 24154,
+"slug": "immokalee",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Keystone",
+"county": "Hillsborough",
+"pop": 24039,
+"slug": "keystone",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sebastian",
+"county": "Indian River",
+"pop": 24007,
+"slug": "sebastian",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Golden Gate",
+"county": "Collier",
+"pop": 23961,
+"slug": "golden-gate",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hialeah Gardens",
+"county": "Miami-Dade",
+"pop": 23926,
+"slug": "hialeah-gardens",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Norland",
+"county": "Miami-Dade",
+"pop": 23604,
+"slug": "norland",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bayonet Point",
+"county": "Pasco",
+"pop": 23467,
+"slug": "bayonet-point",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Eloise",
+"county": "Polk",
+"pop": 23366,
+"slug": "eloise",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bellview",
+"county": "Escambia",
+"pop": 23355,
+"slug": "bellview",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Crestview",
+"county": "Okaloosa",
+"pop": 23270,
+"slug": "crestview",
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Wright",
+"county": "Okaloosa",
+"pop": 23127,
+"slug": "wright",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Palm City",
+"county": "Martin",
+"pop": 23120,
+"slug": "palm-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Vero Beach South",
+"county": "Indian River",
+"pop": 23092,
+"slug": "vero-beach-south",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jacksonville Beach",
+"county": "Duval",
+"pop": 23064,
+"slug": "jacksonville-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Naples",
+"county": "Collier",
+"pop": 22951,
+"slug": "east-naples",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Haines City",
+"county": "Polk",
+"pop": 22807,
+"slug": "haines-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "The Crossings",
+"county": "Miami-Dade",
+"pop": 22758,
+"slug": "the-crossings",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Lake-Orient Park",
+"county": "Hillsborough",
+"pop": 22753,
+"slug": "east-lake-orient-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bloomingdale",
+"county": "Hillsborough",
+"pop": 22711,
+"slug": "bloomingdale",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Oak Ridge",
+"county": "Orange",
+"pop": 22685,
+"slug": "oak-ridge",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Holiday",
+"county": "Pasco",
+"pop": 22403,
+"slug": "holiday",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Springs",
+"county": "Palm Beach",
+"pop": 22341,
+"slug": "palm-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Venice",
+"county": "Sarasota",
+"pop": 22211,
+"slug": "venice",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Bradenton",
+"county": "Manatee",
+"pop": 22178,
+"slug": "south-bradenton",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sunny Isles Beach",
+"county": "Miami-Dade",
+"pop": 22123,
+"slug": "sunny-isles-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Greater Northdale",
+"county": "Hillsborough",
+"pop": 22079,
+"slug": "greater-northdale",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Northdale",
+"county": "Hillsborough",
+"pop": 22079,
+"slug": "northdale",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wekiwa Springs",
+"county": "Seminole",
+"pop": 21998,
+"slug": "wekiwa-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Leesburg",
+"county": "Lake",
+"pop": 21993,
+"slug": "leesburg",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West and East Lealman",
+"county": "Pinellas",
+"pop": 21924,
+"slug": "west-and-east-lealman",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Walton Beach",
+"county": "Okaloosa",
+"pop": 21817,
+"slug": "fort-walton-beach",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Brent",
+"county": "Escambia",
+"pop": 21804,
+"slug": "brent",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Westchase",
+"county": "Hillsborough",
+"pop": 21747,
+"slug": "westchase",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Naples",
+"county": "Collier",
+"pop": 21512,
+"slug": "naples",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "West Pensacola",
+"county": "Escambia",
+"pop": 21339,
+"slug": "west-pensacola",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Palm River-Clair Mel",
+"county": "Hillsborough",
+"pop": 21024,
+"slug": "palm-river-clair-mel",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sweetwater",
+"county": "Miami-Dade",
+"pop": 20840,
+"slug": "sweetwater",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Melbourne",
+"county": "Brevard",
+"pop": 20679,
+"slug": "west-melbourne",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Worth Corridor",
+"county": "Palm Beach",
+"pop": 20635,
+"slug": "lake-worth-corridor",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ensley",
+"county": "Escambia",
+"pop": 20602,
+"slug": "ensley",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Oakleaf Plantation",
+"county": "Clay",
+"pop": 20315,
+"slug": "oakleaf-plantation",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lynn Haven",
+"county": "Bay",
+"pop": 20156,
+"slug": "lynn-haven",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Pace",
+"county": "Santa Rosa",
+"pop": 20039,
+"slug": "pace",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Palm Valley",
+"county": "St. Johns",
+"pop": 20019,
+"slug": "palm-valley",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "DeBary",
+"county": "Volusia",
+"pop": 19998,
+"slug": "debary",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Eustis",
+"county": "Lake",
+"pop": 19986,
+"slug": "eustis",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lealman",
+"county": "Pinellas",
+"pop": 19879,
+"slug": "lealman",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ives Estates",
+"county": "Miami-Dade",
+"pop": 19525,
+"slug": "ives-estates",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pinecrest",
+"county": "Miami-Dade",
+"pop": 19452,
+"slug": "pinecrest",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lutz",
+"county": "Hillsborough",
+"pop": 19344,
+"slug": "lutz",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sun City Center",
+"county": "Hillsborough",
+"pop": 19258,
+"slug": "sun-city-center",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Marion Oaks",
+"county": "Marion",
+"pop": 19034,
+"slug": "marion-oaks",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jasmine Estates",
+"county": "Pasco",
+"pop": 18989,
+"slug": "jasmine-estates",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bartow",
+"county": "Polk",
+"pop": 18972,
+"slug": "bartow",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Punta Gorda Isles",
+"county": "Charlotte",
+"pop": 18306,
+"slug": "punta-gorda-isles",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belle Glade",
+"county": "Palm Beach",
+"pop": 18251,
+"slug": "belle-glade",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Florida Ridge",
+"county": "Indian River",
+"pop": 18164,
+"slug": "florida-ridge",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Seminole",
+"county": "Pinellas",
+"pop": 18153,
+"slug": "seminole",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Punta Gorda",
+"county": "Charlotte",
+"pop": 18150,
+"slug": "punta-gorda",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Cutler",
+"county": "Miami-Dade",
+"pop": 18117,
+"slug": "cutler",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ojus",
+"county": "Miami-Dade",
+"pop": 18036,
+"slug": "ojus",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cocoa",
+"county": "Brevard",
+"pop": 17711,
+"slug": "cocoa",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Marco Island",
+"county": "Collier",
+"pop": 17690,
+"slug": "marco-island",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Maitland",
+"county": "Orange",
+"pop": 17463,
+"slug": "maitland",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Safety Harbor",
+"county": "Pinellas",
+"pop": 17454,
+"slug": "safety-harbor",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ruskin",
+"county": "Hillsborough",
+"pop": 17208,
+"slug": "ruskin",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Glenvar Heights",
+"county": "Miami-Dade",
+"pop": 16898,
+"slug": "glenvar-heights",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "San Carlos Park",
+"county": "Lee",
+"pop": 16824,
+"slug": "san-carlos-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sandalfoot Cove",
+"county": "Palm Beach",
+"pop": 16582,
+"slug": "sandalfoot-cove",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Opa-locka",
+"county": "Miami-Dade",
+"pop": 16565,
+"slug": "opa-locka",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pinewood",
+"county": "Miami-Dade",
+"pop": 16520,
+"slug": "pinewood",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Stuart",
+"county": "Martin",
+"pop": 16462,
+"slug": "stuart",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Sunset",
+"county": "Miami-Dade",
+"pop": 16389,
+"slug": "sunset",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Vero Beach",
+"county": "Indian River",
+"pop": 16358,
+"slug": "vero-beach",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Bayshore Gardens",
+"county": "Manatee",
+"pop": 16323,
+"slug": "bayshore-gardens",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Midway",
+"county": "Santa Rosa",
+"pop": 16115,
+"slug": "midway",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Lake Mary",
+"county": "Seminole",
+"pop": 16021,
+"slug": "lake-mary",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Country Walk",
+"county": "Miami-Dade",
+"pop": 15997,
+"slug": "country-walk",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Southchase",
+"county": "Orange",
+"pop": 15921,
+"slug": "southchase",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Myrtle Grove",
+"county": "Escambia",
+"pop": 15870,
+"slug": "myrtle-grove",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "New Port Richey",
+"county": "Pasco",
+"pop": 15842,
+"slug": "new-port-richey",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Wales",
+"county": "Polk",
+"pop": 15541,
+"slug": "lake-wales",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tavares",
+"county": "Lake",
+"pop": 15430,
+"slug": "tavares",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Lake Butler",
+"county": "Orange",
+"pop": 15400,
+"slug": "lake-butler",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Iona",
+"county": "Lee",
+"pop": 15369,
+"slug": "iona",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Brownsville",
+"county": "Miami-Dade",
+"pop": 15313,
+"slug": "brownsville",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Park",
+"county": "Broward",
+"pop": 15097,
+"slug": "west-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Three Lakes",
+"county": "Miami-Dade",
+"pop": 15047,
+"slug": "three-lakes",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Auburndale",
+"county": "Polk",
+"pop": 15035,
+"slug": "auburndale",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Marco",
+"county": "Collier",
+"pop": 14879,
+"slug": "marco",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Englewood",
+"county": "Sarasota",
+"pop": 14863,
+"slug": "englewood",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lady Lake",
+"county": "Lake",
+"pop": 14717,
+"slug": "lady-lake",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Niceville",
+"county": "Okaloosa",
+"pop": 14714,
+"slug": "niceville",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Zephyrhills",
+"county": "Pasco",
+"pop": 14611,
+"slug": "zephyrhills",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Warrington",
+"county": "Escambia",
+"pop": 14531,
+"slug": "warrington",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Miami Springs",
+"county": "Miami-Dade",
+"pop": 14490,
+"slug": "miami-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Scott Lake",
+"county": "Miami-Dade",
+"pop": 14425,
+"slug": "scott-lake",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Callaway",
+"county": "Bay",
+"pop": 14405,
+"slug": "callaway",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Sarasota Springs",
+"county": "Sarasota",
+"pop": 14395,
+"slug": "sarasota-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hunters Creek",
+"county": "Orange",
+"pop": 14321,
+"slug": "hunters-creek",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gibsonton",
+"county": "Hillsborough",
+"pop": 14234,
+"slug": "gibsonton",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Oldsmar",
+"county": "Pinellas",
+"pop": 14170,
+"slug": "oldsmar",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fish Hawk",
+"county": "Hillsborough",
+"pop": 14087,
+"slug": "fish-hawk",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Longwood",
+"county": "Seminole",
+"pop": 14085,
+"slug": "longwood",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Apollo Beach",
+"county": "Hillsborough",
+"pop": 14055,
+"slug": "apollo-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Horizon West",
+"county": "Orange",
+"pop": 14000,
+"slug": "horizon-west",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Elfers",
+"county": "Pasco",
+"pop": 13986,
+"slug": "elfers",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Upper Grand Lagoon",
+"county": "Bay",
+"pop": 13963,
+"slug": "upper-grand-lagoon",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "South Venice",
+"county": "Sarasota",
+"pop": 13949,
+"slug": "south-venice",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Forest City",
+"county": "Seminole",
+"pop": 13854,
+"slug": "forest-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Homosassa Springs",
+"county": "Citrus",
+"pop": 13791,
+"slug": "homosassa-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Destin",
+"county": "Okaloosa",
+"pop": 13523,
+"slug": "destin",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Mount Dora",
+"county": "Lake",
+"pop": 13519,
+"slug": "mount-dora",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Naranja",
+"county": "Miami-Dade",
+"pop": 13509,
+"slug": "naranja",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palmetto Estates",
+"county": "Miami-Dade",
+"pop": 13498,
+"slug": "palmetto-estates",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Olympia Heights",
+"county": "Miami-Dade",
+"pop": 13488,
+"slug": "olympia-heights",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Conway",
+"county": "Orange",
+"pop": 13467,
+"slug": "conway",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bellair-Meadowbrook Terrace",
+"county": "Clay",
+"pop": 13343,
+"slug": "bellair-meadowbrook-terrace",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Citrus Ridge",
+"county": "Polk",
+"pop": 13285,
+"slug": "citrus-ridge",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gonzalez",
+"county": "Escambia",
+"pop": 13273,
+"slug": "gonzalez",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Palmetto",
+"county": "Manatee",
+"pop": 13249,
+"slug": "palmetto",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fruitville",
+"county": "Sarasota",
+"pop": 13224,
+"slug": "fruitville",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Atlantic Beach",
+"county": "Duval",
+"pop": 13193,
+"slug": "atlantic-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Florida City",
+"county": "Miami-Dade",
+"pop": 13085,
+"slug": "florida-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lockhart",
+"county": "Orange",
+"pop": 13060,
+"slug": "lockhart",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Thonotosassa",
+"county": "Hillsborough",
+"pop": 13014,
+"slug": "thonotosassa",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Middleburg",
+"county": "Clay",
+"pop": 13008,
+"slug": "middleburg",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Key Biscayne",
+"county": "Miami-Dade",
+"pop": 12990,
+"slug": "key-biscayne",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint Augustine",
+"county": "St. Johns",
+"pop": 12975,
+"slug": "saint-augustine",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "On Top of the World",
+"county": "Marion",
+"pop": 12668,
+"slug": "on-top-of-the-world",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Panama City Beach",
+"county": "Bay",
+"pop": 12624,
+"slug": "panama-city-beach",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "South Daytona",
+"county": "Volusia",
+"pop": 12584,
+"slug": "south-daytona",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Azalea Park",
+"county": "Orange",
+"pop": 12556,
+"slug": "azalea-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wilton Manors",
+"county": "Broward",
+"pop": 12385,
+"slug": "wilton-manors",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fernandina Beach",
+"county": "Nassau",
+"pop": 12339,
+"slug": "fernandina-beach",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Gulfport",
+"county": "Pinellas",
+"pop": 12322,
+"slug": "gulfport",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port Saint John",
+"county": "Brevard",
+"pop": 12267,
+"slug": "port-saint-john",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Miami",
+"county": "Miami-Dade",
+"pop": 12242,
+"slug": "south-miami",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kings Point",
+"county": "Palm Beach",
+"pop": 12201,
+"slug": "kings-point",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake City",
+"county": "Columbia",
+"pop": 12161,
+"slug": "lake-city",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Hudson",
+"county": "Pasco",
+"pop": 12158,
+"slug": "hudson",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Goldenrod",
+"county": "Seminole",
+"pop": 12039,
+"slug": "goldenrod",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Palm Beach",
+"county": "Palm Beach",
+"pop": 12015,
+"slug": "north-palm-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Holly Hill",
+"county": "Volusia",
+"pop": 11943,
+"slug": "holly-hill",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cypress Lake",
+"county": "Lee",
+"pop": 11846,
+"slug": "cypress-lake",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Westwood Lake",
+"county": "Miami-Dade",
+"pop": 11838,
+"slug": "westwood-lake",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jensen Beach",
+"county": "Martin",
+"pop": 11707,
+"slug": "jensen-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cocoa Beach",
+"county": "Brevard",
+"pop": 11595,
+"slug": "cocoa-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Villas",
+"county": "Lee",
+"pop": 11569,
+"slug": "villas",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gladeview",
+"county": "Miami-Dade",
+"pop": 11535,
+"slug": "gladeview",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Groveland",
+"county": "Lake",
+"pop": 11528,
+"slug": "groveland",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Shady Hills",
+"county": "Pasco",
+"pop": 11523,
+"slug": "shady-hills",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hobe Sound",
+"county": "Martin",
+"pop": 11521,
+"slug": "hobe-sound",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Yulee",
+"county": "Nassau",
+"pop": 11491,
+"slug": "yulee",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Goulds",
+"county": "Miami-Dade",
+"pop": 11446,
+"slug": "goulds",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lakes by the Bay",
+"county": "Miami-Dade",
+"pop": 11422,
+"slug": "lakes-by-the-bay",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lakewood Park",
+"county": "St. Lucie",
+"pop": 11323,
+"slug": "lakewood-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mango",
+"county": "Hillsborough",
+"pop": 11313,
+"slug": "mango",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Orange City",
+"county": "Volusia",
+"pop": 11210,
+"slug": "orange-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lantana",
+"county": "Palm Beach",
+"pop": 11136,
+"slug": "lantana",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lighthouse Point",
+"county": "Broward",
+"pop": 11104,
+"slug": "lighthouse-point",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Milton",
+"county": "Santa Rosa",
+"pop": 11074,
+"slug": "east-milton",
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Lakeland Highlands",
+"county": "Polk",
+"pop": 11056,
+"slug": "lakeland-highlands",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Doctor Phillips",
+"county": "Orange",
+"pop": 10981,
+"slug": "doctor-phillips",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gulf Gate Estates",
+"county": "Sarasota",
+"pop": 10911,
+"slug": "gulf-gate-estates",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Trinity",
+"county": "Pasco",
+"pop": 10907,
+"slug": "trinity",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Highland City",
+"county": "Polk",
+"pop": 10834,
+"slug": "highland-city",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Miami Shores",
+"county": "Miami-Dade",
+"pop": 10831,
+"slug": "miami-shores",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Castle",
+"county": "Orange",
+"pop": 10805,
+"slug": "pine-castle",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Viera East",
+"county": "Brevard",
+"pop": 10757,
+"slug": "viera-east",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Minneola",
+"county": "Lake",
+"pop": 10735,
+"slug": "minneola",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cheval",
+"county": "Hillsborough",
+"pop": 10702,
+"slug": "cheval",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Satellite Beach",
+"county": "Brevard",
+"pop": 10633,
+"slug": "satellite-beach",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Perrine",
+"county": "Miami-Dade",
+"pop": 10602,
+"slug": "west-perrine",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sebring",
+"county": "Highlands",
+"pop": 10497,
+"slug": "sebring",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Key Largo",
+"county": "Monroe",
+"pop": 10433,
+"slug": "key-largo",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palatka",
+"county": "Putnam",
+"pop": 10390,
+"slug": "palatka",
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Silver Springs",
+"county": "Marion",
+"pop": 10334,
+"slug": "silver-springs",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fairview Shores",
+"county": "Orange",
+"pop": 10239,
+"slug": "fairview-shores",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port Salerno",
+"county": "Martin",
+"pop": 10091,
+"slug": "port-salerno",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Avon Park",
+"county": "Highlands",
+"pop": 10086,
+"slug": "avon-park",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Andrews Gardens",
+"county": "Broward",
+"pop": 10056,
+"slug": "north-andrews-gardens",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "New Port Richey East",
+"county": "Pasco",
+"pop": 10036,
+"slug": "new-port-richey-east",
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cape Canaveral",
+"county": "Brevard",
+"pop": 9912,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Andover",
+"county": "Miami-Dade",
+"pop": 9877,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Union Park",
+"county": "Orange",
+"pop": 9765,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Alachua",
+"county": "Alachua",
+"pop": 9757,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Westview",
+"county": "Miami-Dade",
+"pop": 9650,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Milton",
+"county": "Santa Rosa",
+"pop": 9628,
+"slug": null,
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Bee Ridge",
+"county": "Sarasota",
+"pop": 9598,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Ridge",
+"county": "Citrus",
+"pop": 9598,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gifford",
+"county": "Indian River",
+"pop": 9590,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Springfield",
+"county": "Bay",
+"pop": 9442,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Saint Pete Beach",
+"county": "Pinellas",
+"pop": 9346,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Marianna",
+"county": "Jackson",
+"pop": 9100,
+"slug": null,
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Hernando",
+"county": "Citrus",
+"pop": 9054,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Micco",
+"county": "Brevard",
+"pop": 9052,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Winston",
+"county": "Polk",
+"pop": 9050,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Lucerne",
+"county": "Miami-Dade",
+"pop": 9044,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cypress Gardens",
+"county": "Polk",
+"pop": 8917,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Medulla",
+"county": "Polk",
+"pop": 8892,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Isle of Normandy",
+"county": "Miami-Dade",
+"pop": 8841,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Rotonda West",
+"county": "Charlotte",
+"pop": 8759,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fuller Heights",
+"county": "Polk",
+"pop": 8758,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Marathon",
+"county": "Monroe",
+"pop": 8750,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Orange Park",
+"county": "Clay",
+"pop": 8702,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Asbury Lake",
+"county": "Clay",
+"pop": 8700,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Citrus Springs",
+"county": "Citrus",
+"pop": 8622,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Beach",
+"county": "Palm Beach",
+"pop": 8612,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Richmond Heights",
+"county": "Miami-Dade",
+"pop": 8541,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Park",
+"county": "Palm Beach",
+"pop": 8538,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Weeki Wachee",
+"county": "Hernando",
+"pop": 8524,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indian Harbour Beach",
+"county": "Brevard",
+"pop": 8471,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Beverly Hills",
+"county": "Citrus",
+"pop": 8445,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gateway",
+"county": "Lee",
+"pop": 8401,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Bay Village",
+"county": "Miami-Dade",
+"pop": 8302,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sugarmill Woods",
+"county": "Citrus",
+"pop": 8287,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bithlo",
+"county": "Orange",
+"pop": 8268,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Laurel",
+"county": "Sarasota",
+"pop": 8171,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Gate",
+"county": "Palm Beach",
+"pop": 7975,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Brooksville",
+"county": "Hernando",
+"pop": 7854,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Southwest Ranches",
+"county": "Broward",
+"pop": 7852,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Arcadia",
+"county": "DeSoto",
+"pop": 7851,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Memphis",
+"county": "Manatee",
+"pop": 7848,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Quincy",
+"county": "Gadsden",
+"pop": 7830,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Fern Park",
+"county": "Seminole",
+"pop": 7704,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Williamsburg",
+"county": "Orange",
+"pop": 7646,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pebble Creek",
+"county": "Hillsborough",
+"pop": 7622,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Seffner",
+"county": "Hillsborough",
+"pop": 7579,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pasadena Hills",
+"county": "Pasco",
+"pop": 7570,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Clewiston",
+"county": "Hendry",
+"pop": 7505,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Melrose Park",
+"county": "Broward",
+"pop": 7492,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Citrus Hills",
+"county": "Citrus",
+"pop": 7470,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Celebration",
+"county": "Osceola",
+"pop": 7427,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "McGregor",
+"county": "Lee",
+"pop": 7406,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ormond-by-the-Sea",
+"county": "Volusia",
+"pop": 7406,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint Augustine Shores",
+"county": "St. Johns",
+"pop": 7359,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Green Cove Springs",
+"county": "Clay",
+"pop": 7277,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Neptune Beach",
+"county": "Duval",
+"pop": 7269,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Odessa",
+"county": "Pasco",
+"pop": 7267,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Longboat Key",
+"county": "Manatee",
+"pop": 7266,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sanibel",
+"county": "Lee",
+"pop": 7236,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Inverness",
+"county": "Citrus",
+"pop": 7233,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Beacon Square",
+"county": "Pasco",
+"pop": 7224,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pompano Beach Highlands",
+"county": "Broward",
+"pop": 7192,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Southgate",
+"county": "Sarasota",
+"pop": 7173,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Perrine",
+"county": "Miami-Dade",
+"pop": 7156,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Vero Corridor",
+"county": "Indian River",
+"pop": 7138,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Islamorada",
+"county": "Monroe",
+"pop": 7131,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Broadview Park",
+"county": "Broward",
+"pop": 7125,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Venice Gardens",
+"county": "Sarasota",
+"pop": 7104,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mims",
+"county": "Brevard",
+"pop": 7058,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Perry",
+"county": "Taylor",
+"pop": 7055,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Lake Lorraine",
+"county": "Okaloosa",
+"pop": 7010,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Eglin Village",
+"county": "Okaloosa",
+"pop": 7000,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Fort Myers Beach",
+"county": "Lee",
+"pop": 6983,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Sarasota",
+"county": "Sarasota",
+"pop": 6982,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dade City",
+"county": "Pasco",
+"pop": 6955,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Live Oak",
+"county": "Suwannee",
+"pop": 6931,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Treasure Island",
+"county": "Pinellas",
+"pop": 6887,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Willow Oak",
+"county": "Polk",
+"pop": 6732,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wedgefield",
+"county": "Orange",
+"pop": 6705,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belle Isle",
+"county": "Orange",
+"pop": 6689,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Viera West",
+"county": "Brevard",
+"pop": 6641,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wildwood",
+"county": "Sumter",
+"pop": 6590,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Siesta Key",
+"county": "Sarasota",
+"pop": 6565,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Southeast Arcadia",
+"county": "DeSoto",
+"pop": 6554,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Inverness Highlands South",
+"county": "Citrus",
+"pop": 6542,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Silver Springs Shores",
+"county": "Marion",
+"pop": 6539,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Boyette",
+"county": "Hillsborough",
+"pop": 6518,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Macclenny",
+"county": "Baker",
+"pop": 6487,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Fort Pierce North",
+"county": "St. Lucie",
+"pop": 6474,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lauderdale-by-the-Sea",
+"county": "Broward",
+"pop": 6460,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Inwood",
+"county": "Polk",
+"pop": 6403,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wimauma",
+"county": "Hillsborough",
+"pop": 6373,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pelican Bay",
+"county": "Collier",
+"pop": 6346,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pembroke Park",
+"county": "Broward",
+"pop": 6333,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kathleen",
+"county": "Polk",
+"pop": 6332,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gulf Breeze",
+"county": "Santa Rosa",
+"pop": 6323,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Ave Maria",
+"county": "Collier",
+"pop": 6242,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indian River Estates",
+"county": "St. Lucie",
+"pop": 6220,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint Augustine Beach",
+"county": "St. Johns",
+"pop": 6176,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sky Lake",
+"county": "Orange",
+"pop": 6153,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Miramar Beach",
+"county": "Walton",
+"pop": 6146,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Orlovista",
+"county": "Orange",
+"pop": 6123,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Osprey",
+"county": "Sarasota",
+"pop": 6100,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indiantown",
+"county": "Martin",
+"pop": 6083,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pahokee",
+"county": "Palm Beach",
+"pop": 6071,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bay Harbor Islands",
+"county": "Miami-Dade",
+"pop": 6036,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Surfside",
+"county": "Miami-Dade",
+"pop": 6024,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Meade",
+"county": "Polk",
+"pop": 5975,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Naples Park",
+"county": "Collier",
+"pop": 5967,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Miami",
+"county": "Miami-Dade",
+"pop": 5965,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cocoa West",
+"county": "Brevard",
+"pop": 5925,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Heathrow",
+"county": "Seminole",
+"pop": 5896,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lecanto",
+"county": "Citrus",
+"pop": 5882,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Patrick Shores",
+"county": "Brevard",
+"pop": 5875,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Zephyrhills West",
+"county": "Pasco",
+"pop": 5865,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "High Springs",
+"county": "Alachua",
+"pop": 5831,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "DeFuniak Springs",
+"county": "Walton",
+"pop": 5795,
+"slug": null,
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Citra",
+"county": "Marion",
+"pop": 5732,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Apopka",
+"county": "Orange",
+"pop": 5728,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Gate Ridge",
+"county": "Sarasota",
+"pop": 5688,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tequesta",
+"county": "Palm Beach",
+"pop": 5629,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Okeechobee",
+"county": "Okeechobee",
+"pop": 5608,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "West Samoset",
+"county": "Manatee",
+"pop": 5583,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Combee Settlement",
+"county": "Polk",
+"pop": 5577,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jan-Phyl Village",
+"county": "Polk",
+"pop": 5573,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Newberry",
+"county": "Alachua",
+"pop": 5564,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Naples Manor",
+"county": "Collier",
+"pop": 5562,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fussels Corner",
+"county": "Polk",
+"pop": 5561,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ocean City",
+"county": "Okaloosa",
+"pop": 5550,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Crystal Lake",
+"county": "Polk",
+"pop": 5514,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fellsmere",
+"county": "Indian River",
+"pop": 5514,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Myers Shores",
+"county": "Lee",
+"pop": 5487,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Alfred",
+"county": "Polk",
+"pop": 5475,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mascotte",
+"county": "Lake",
+"pop": 5473,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Starke",
+"county": "Bradford",
+"pop": 5397,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Progress Village",
+"county": "Hillsborough",
+"pop": 5392,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Timber Pines",
+"county": "Hernando",
+"pop": 5386,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Nassau Village-Ratliff",
+"county": "Nassau",
+"pop": 5337,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Zephyrhills South",
+"county": "Pasco",
+"pop": 5276,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Springs North",
+"county": "Miami-Dade",
+"pop": 5253,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "River Park",
+"county": "St. Lucie",
+"pop": 5222,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Island Ridge",
+"county": "Broward",
+"pop": 5218,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Floral City",
+"county": "Citrus",
+"pop": 5217,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hutchinson Island South",
+"county": "St. Lucie",
+"pop": 5201,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Highpoint",
+"county": "Pinellas",
+"pop": 5195,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Bay",
+"county": "Palm Beach",
+"pop": 5101,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wahneta",
+"county": "Polk",
+"pop": 5091,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Pasadena",
+"county": "Pinellas",
+"pop": 5081,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kenneth City",
+"county": "Pinellas",
+"pop": 5072,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Pierce South",
+"county": "St. Lucie",
+"pop": 5062,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Warm Mineral Springs",
+"county": "Sarasota",
+"pop": 5061,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Samsula-Spruce Creek",
+"county": "Volusia",
+"pop": 5047,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Valparaiso",
+"county": "Okaloosa",
+"pop": 5023,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Saint Augustine South",
+"county": "St. Johns",
+"pop": 4998,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Butler Beach",
+"county": "St. Johns",
+"pop": 4951,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Sarasota",
+"county": "Sarasota",
+"pop": 4950,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wauchula",
+"county": "Hardee",
+"pop": 4935,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Plantation",
+"county": "Sarasota",
+"pop": 4919,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bay Hill",
+"county": "Orange",
+"pop": 4884,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sawgrass",
+"county": "St. Johns",
+"pop": 4880,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Flagler Beach",
+"county": "Flagler",
+"pop": 4869,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ridge Wood Heights",
+"county": "Sarasota",
+"pop": 4795,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belleview",
+"county": "Marion",
+"pop": 4765,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Villages of Oriole",
+"county": "Palm Beach",
+"pop": 4755,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "LaBelle",
+"county": "Hendry",
+"pop": 4753,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Vamo",
+"county": "Sarasota",
+"pop": 4727,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Sarasota",
+"county": "Sarasota",
+"pop": 4679,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Whiskey Creek",
+"county": "Lee",
+"pop": 4655,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lely Resort",
+"county": "Collier",
+"pop": 4646,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Parker",
+"county": "Bay",
+"pop": 4603,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Gibsonia",
+"county": "Polk",
+"pop": 4571,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Nocatee",
+"county": "DeSoto",
+"pop": 4524,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Nocatee",
+"county": "St. Johns",
+"pop": 4524,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ridge Manor",
+"county": "Hernando",
+"pop": 4513,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fruitland Park",
+"county": "Lake",
+"pop": 4483,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tice",
+"county": "Lee",
+"pop": 4470,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Brookridge",
+"county": "Hernando",
+"pop": 4420,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Orangetree",
+"county": "Collier",
+"pop": 4406,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Daytona Beach Shores",
+"county": "Volusia",
+"pop": 4389,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Suncoast Estates",
+"county": "Lee",
+"pop": 4384,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Madeira Beach",
+"county": "Pinellas",
+"pop": 4380,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Taylor Creek",
+"county": "Okeechobee",
+"pop": 4348,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Youngstown",
+"county": "Bay",
+"pop": 4324,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Ellenton",
+"county": "Manatee",
+"pop": 4275,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Big Pine Key",
+"county": "Monroe",
+"pop": 4252,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cortez",
+"county": "Manatee",
+"pop": 4241,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mary Esther",
+"county": "Okaloosa",
+"pop": 4238,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Lochmoor Waterway Estates",
+"county": "Lee",
+"pop": 4204,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Holmes Beach",
+"county": "Manatee",
+"pop": 4199,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West Bradenton",
+"county": "Manatee",
+"pop": 4192,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Alturas",
+"county": "Polk",
+"pop": 4185,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indian River Shores",
+"county": "Indian River",
+"pop": 4156,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jasper",
+"county": "Hamilton",
+"pop": 4155,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Indian Rocks Beach",
+"county": "Pinellas",
+"pop": 4113,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Goulding",
+"county": "Escambia",
+"pop": 4102,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "June Park",
+"county": "Brevard",
+"pop": 4094,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dundee",
+"county": "Polk",
+"pop": 4090,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bunche Park",
+"county": "Miami-Dade",
+"pop": 4080,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Boca Pointe",
+"county": "Palm Beach",
+"pop": 4073,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Grant-Valkaria",
+"county": "Brevard",
+"pop": 4056,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Buckingham",
+"county": "Lee",
+"pop": 4036,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mount Plymouth",
+"county": "Lake",
+"pop": 4011,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Brooksville",
+"county": "Hernando",
+"pop": 4007,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "The Meadows",
+"county": "Sarasota",
+"pop": 3994,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belleair",
+"county": "Pinellas",
+"pop": 3992,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mulberry",
+"county": "Polk",
+"pop": 3976,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Laguna Beach",
+"county": "Bay",
+"pop": 3932,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Stock Island",
+"county": "Monroe",
+"pop": 3919,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kensington Park",
+"county": "Sarasota",
+"pop": 3901,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lower Grand Lagoon",
+"county": "Bay",
+"pop": 3881,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Samoset",
+"county": "Manatee",
+"pop": 3854,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint James City",
+"county": "Lee",
+"pop": 3784,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Broward Estates",
+"county": "Broward",
+"pop": 3777,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bagdad",
+"county": "Santa Rosa",
+"pop": 3761,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Highland Beach",
+"county": "Palm Beach",
+"pop": 3729,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tierra Verde",
+"county": "Pinellas",
+"pop": 3721,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "White City",
+"county": "St. Lucie",
+"pop": 3719,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Placid Lakes",
+"county": "Highlands",
+"pop": 3716,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Charlotte Harbor",
+"county": "Charlotte",
+"pop": 3714,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Crawfordville",
+"county": "Wakulla",
+"pop": 3702,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Dover",
+"county": "Hillsborough",
+"pop": 3702,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Umatilla",
+"county": "Lake",
+"pop": 3702,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "High Point",
+"county": "Hernando",
+"pop": 3686,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Holden Heights",
+"county": "Orange",
+"pop": 3679,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Desoto Lakes",
+"county": "Sarasota",
+"pop": 3646,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Three Oaks",
+"county": "Lee",
+"pop": 3592,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Chipley",
+"county": "Washington",
+"pop": 3565,
+"slug": null,
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Lake Clarke Shores",
+"county": "Palm Beach",
+"pop": 3552,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Panasoffkee",
+"county": "Sumter",
+"pop": 3551,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Brooksville",
+"county": "Hernando",
+"pop": 3544,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "West DeLand",
+"county": "Volusia",
+"pop": 3535,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Davenport",
+"county": "Polk",
+"pop": 3534,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port LaBelle",
+"county": "Hendry",
+"pop": 3530,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Juno Beach",
+"county": "Palm Beach",
+"pop": 3474,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lely",
+"county": "Collier",
+"pop": 3451,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port Saint Joe",
+"county": "Gulf",
+"pop": 3445,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Pine Manor",
+"county": "Lee",
+"pop": 3428,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Feather Sound",
+"county": "Pinellas",
+"pop": 3420,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sharpes",
+"county": "Brevard",
+"pop": 3411,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cedar Grove",
+"county": "Bay",
+"pop": 3397,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Loxahatchee Groves",
+"county": "Palm Beach",
+"pop": 3397,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Vineyards",
+"county": "Collier",
+"pop": 3375,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Montura",
+"county": "Hendry",
+"pop": 3343,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Belvedere Estates",
+"county": "Palm Beach",
+"pop": 3334,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Midway",
+"county": "Gadsden",
+"pop": 3276,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Windermere",
+"county": "Orange",
+"pop": 3249,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Melbourne Beach",
+"county": "Brevard",
+"pop": 3219,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Biscayne Park",
+"county": "Miami-Dade",
+"pop": 3216,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Flagler Estates",
+"county": "St. Johns",
+"pop": 3215,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pretty Bayou",
+"county": "Bay",
+"pop": 3206,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Nokomis",
+"county": "Sarasota",
+"pop": 3167,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ponce Inlet",
+"county": "Volusia",
+"pop": 3157,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hilliard",
+"county": "Nassau",
+"pop": 3154,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Chattahoochee",
+"county": "Gadsden",
+"pop": 3144,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Frostproof",
+"county": "Polk",
+"pop": 3134,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dade City North",
+"county": "Pasco",
+"pop": 3113,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tiger Point",
+"county": "Santa Rosa",
+"pop": 3090,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Crystal River",
+"county": "Citrus",
+"pop": 3089,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North River Shores",
+"county": "Martin",
+"pop": 3079,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Rock Island",
+"county": "Broward",
+"pop": 3076,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Kendall Green",
+"county": "Broward",
+"pop": 3048,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Island Walk",
+"county": "Collier",
+"pop": 3035,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Royal Palm Estates",
+"county": "Palm Beach",
+"pop": 3025,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bushnell",
+"county": "Sumter",
+"pop": 2995,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Tyndall Air Force Base",
+"county": "Bay",
+"pop": 2994,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Point Baker",
+"county": "Santa Rosa",
+"pop": 2991,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Clarcona",
+"county": "Orange",
+"pop": 2990,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cleveland",
+"county": "Charlotte",
+"pop": 2990,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Harbour Heights",
+"county": "Charlotte",
+"pop": 2987,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Woodville",
+"county": "Leon",
+"pop": 2978,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Geneva",
+"county": "Seminole",
+"pop": 2940,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Malabar",
+"county": "Brevard",
+"pop": 2936,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bay Pines",
+"county": "Pinellas",
+"pop": 2931,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bowling Green",
+"county": "Hardee",
+"pop": 2919,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Terra Mar",
+"county": "Broward",
+"pop": 2909,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Whitfield",
+"county": "Manatee",
+"pop": 2882,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Madison",
+"county": "Madison",
+"pop": 2880,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Bal Harbour",
+"county": "Miami-Dade",
+"pop": 2877,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tangerine",
+"county": "Orange",
+"pop": 2865,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Harbor Bluffs",
+"county": "Pinellas",
+"pop": 2860,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indialantic",
+"county": "Brevard",
+"pop": 2837,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Oakland",
+"county": "Orange",
+"pop": 2829,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Watertown",
+"county": "Columbia",
+"pop": 2829,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bunnell",
+"county": "Flagler",
+"pop": 2828,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Zellwood",
+"county": "Orange",
+"pop": 2817,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Edgewood",
+"county": "Orange",
+"pop": 2795,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Port Richey",
+"county": "Pasco",
+"pop": 2761,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Williston",
+"county": "Levy",
+"pop": 2746,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Carrabelle",
+"county": "Franklin",
+"pop": 2729,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bonifay",
+"county": "Holmes",
+"pop": 2726,
+"slug": null,
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "Wellborn",
+"county": "Suwannee",
+"pop": 2724,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hypoluxo",
+"county": "Palm Beach",
+"pop": 2719,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint George",
+"county": "Pinellas",
+"pop": 2709,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Helen",
+"county": "Volusia",
+"pop": 2687,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Loughman",
+"county": "Polk",
+"pop": 2680,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Villano Beach",
+"county": "St. Johns",
+"pop": 2678,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Aberdeen",
+"county": "Palm Beach",
+"pop": 2672,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Harlem",
+"county": "Hendry",
+"pop": 2658,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Seminole Manor",
+"county": "Palm Beach",
+"pop": 2621,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "De Leon Springs",
+"county": "Volusia",
+"pop": 2614,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Zephyrhills North",
+"county": "Pasco",
+"pop": 2600,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Alva",
+"county": "Lee",
+"pop": 2596,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Glencoe",
+"county": "Volusia",
+"pop": 2582,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Homosassa",
+"county": "Citrus",
+"pop": 2578,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ridgecrest",
+"county": "Pinellas",
+"pop": 2558,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Greenbriar",
+"county": "Pinellas",
+"pop": 2502,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Blountstown",
+"county": "Calhoun",
+"pop": 2497,
+"slug": null,
+"seat": true,
+"tz": "Central"
+},
+{
+"name": "El Portal",
+"county": "Miami-Dade",
+"pop": 2491,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Virginia Gardens",
+"county": "Miami-Dade",
+"pop": 2487,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Chuluota",
+"county": "Seminole",
+"pop": 2483,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Campbell",
+"county": "Osceola",
+"pop": 2479,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Eagle Lake",
+"county": "Polk",
+"pop": 2474,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Big Coppitt Key",
+"county": "Monroe",
+"pop": 2458,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Roosevelt Gardens",
+"county": "Broward",
+"pop": 2456,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Meadow Oaks",
+"county": "Pasco",
+"pop": 2442,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Monticello",
+"county": "Jefferson",
+"pop": 2411,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Inverness Highlands North",
+"county": "Citrus",
+"pop": 2401,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Eastpoint",
+"county": "Franklin",
+"pop": 2337,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Charlotte Park",
+"county": "Charlotte",
+"pop": 2325,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hernando Beach",
+"county": "Hernando",
+"pop": 2299,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tedder",
+"county": "Broward",
+"pop": 2299,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Apalachicola",
+"county": "Franklin",
+"pop": 2281,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Williston Highlands",
+"county": "Levy",
+"pop": 2275,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Eglin Air Force Base",
+"county": "Okaloosa",
+"pop": 2274,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Eatonville",
+"county": "Orange",
+"pop": 2271,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Manatee Road",
+"county": "Levy",
+"pop": 2244,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tangelo Park",
+"county": "Orange",
+"pop": 2231,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Graceville",
+"county": "Jackson",
+"pop": 2222,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Chiefland",
+"county": "Levy",
+"pop": 2218,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Redington Shores",
+"county": "Pinellas",
+"pop": 2205,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Taft",
+"county": "Orange",
+"pop": 2205,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Placid",
+"county": "Highlands",
+"pop": 2164,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sewall's Point",
+"county": "Martin",
+"pop": 2149,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Malone",
+"county": "Jackson",
+"pop": 2145,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Tavernier",
+"county": "Monroe",
+"pop": 2136,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Heritage Pines",
+"county": "Pasco",
+"pop": 2136,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Connerton",
+"county": "Pasco",
+"pop": 2116,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Atlantis",
+"county": "Palm Beach",
+"pop": 2106,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belleair Bluffs",
+"county": "Pinellas",
+"pop": 2095,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Twin Lakes",
+"county": "Broward",
+"pop": 2073,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Winter Beach",
+"county": "Indian River",
+"pop": 2067,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Trenton",
+"county": "Gilchrist",
+"pop": 2066,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Freeport",
+"county": "Walton",
+"pop": 2052,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Gandy",
+"county": "Pinellas",
+"pop": 2031,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Haverhill",
+"county": "Palm Beach",
+"pop": 2025,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hillsboro Beach",
+"county": "Broward",
+"pop": 2004,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Seaside",
+"county": "Walton",
+"pop": 2000,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Wewahitchka",
+"county": "Gulf",
+"pop": 1995,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Mangonia Park",
+"county": "Palm Beach",
+"pop": 1979,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Harlem Heights",
+"county": "Lee",
+"pop": 1975,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Olga",
+"county": "Lee",
+"pop": 1952,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Bronson",
+"county": "Levy",
+"pop": 1945,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hill 'n Dale",
+"county": "Hernando",
+"pop": 1934,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Ridge",
+"county": "Collier",
+"pop": 1918,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Astatula",
+"county": "Lake",
+"pop": 1917,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gotha",
+"county": "Orange",
+"pop": 1915,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Polk City",
+"county": "Polk",
+"pop": 1907,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ocean Ridge",
+"county": "Palm Beach",
+"pop": 1904,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Plantation",
+"county": "Monroe",
+"pop": 1885,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sunshine Ranches",
+"county": "Broward",
+"pop": 1884,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Silver Lake",
+"county": "Lake",
+"pop": 1879,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Island Center",
+"county": "Lee",
+"pop": 1854,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wabasso Beach",
+"county": "Indian River",
+"pop": 1853,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Oak Hill",
+"county": "Volusia",
+"pop": 1846,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Butler",
+"county": "Union",
+"pop": 1845,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Grove City",
+"county": "Charlotte",
+"pop": 1804,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Zolfo Springs",
+"county": "Hardee",
+"pop": 1803,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Moore Haven",
+"county": "Glades",
+"pop": 1794,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Burnt Store Marina",
+"county": "Lee",
+"pop": 1793,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Estates of Fort Lauderdale (historical)",
+"county": "Broward",
+"pop": 1791,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wallace",
+"county": "Santa Rosa",
+"pop": 1785,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Woodlawn Beach",
+"county": "Santa Rosa",
+"pop": 1785,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Verona Walk",
+"county": "Collier",
+"pop": 1782,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bokeelia",
+"county": "Lee",
+"pop": 1780,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dunnellon",
+"county": "Marion",
+"pop": 1777,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sneads",
+"county": "Jackson",
+"pop": 1776,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Pierson",
+"county": "Volusia",
+"pop": 1772,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cudjoe Key",
+"county": "Monroe",
+"pop": 1763,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Century",
+"county": "Escambia",
+"pop": 1762,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Key Vista",
+"county": "Pasco",
+"pop": 1757,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Punta Rassa",
+"county": "Lee",
+"pop": 1750,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Crooked Lake Park",
+"county": "Polk",
+"pop": 1722,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lacoochee",
+"county": "Pasco",
+"pop": 1714,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cross City",
+"county": "Dixie",
+"pop": 1707,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Midway",
+"county": "Seminole",
+"pop": 1705,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Aire",
+"county": "Broward",
+"pop": 1702,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Havana",
+"county": "Gadsden",
+"pop": 1688,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Washington Park",
+"county": "Broward",
+"pop": 1672,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Anna Maria",
+"county": "Manatee",
+"pop": 1669,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Palatka",
+"county": "Putnam",
+"pop": 1654,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Holley",
+"county": "Santa Rosa",
+"pop": 1630,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Belleair Beach",
+"county": "Pinellas",
+"pop": 1609,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Montverde",
+"county": "Lake",
+"pop": 1607,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Astor",
+"county": "Lake",
+"pop": 1556,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Crescent City",
+"county": "Putnam",
+"pop": 1540,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hawthorne",
+"county": "Alachua",
+"pop": 1492,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hawthorne",
+"county": "Lake",
+"pop": 1475,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Roseland",
+"county": "Indian River",
+"pop": 1472,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Redington Beach",
+"county": "Pinellas",
+"pop": 1471,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indian Shores",
+"county": "Pinellas",
+"pop": 1470,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Redington Beach",
+"county": "Pinellas",
+"pop": 1463,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Balm",
+"county": "Hillsborough",
+"pop": 1457,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Baldwin",
+"county": "Duval",
+"pop": 1453,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Buckhead Ridge",
+"county": "Glades",
+"pop": 1450,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North DeLand",
+"county": "Volusia",
+"pop": 1450,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Keystone Heights",
+"county": "Clay",
+"pop": 1433,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "South Palm Beach",
+"county": "Palm Beach",
+"pop": 1424,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Oriole Beach",
+"county": "Santa Rosa",
+"pop": 1420,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Gretna",
+"county": "Gadsden",
+"pop": 1386,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Yalaha",
+"county": "Lake",
+"pop": 1364,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Babson Park",
+"county": "Polk",
+"pop": 1356,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Interlachen",
+"county": "Putnam",
+"pop": 1355,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Hamilton",
+"county": "Polk",
+"pop": 1346,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint Leo",
+"county": "Pasco",
+"pop": 1340,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Crystal Springs",
+"county": "Pasco",
+"pop": 1327,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Inglis",
+"county": "Levy",
+"pop": 1311,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "San Antonio",
+"county": "Pasco",
+"pop": 1308,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Molino",
+"county": "Escambia",
+"pop": 1277,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Boulevard Gardens",
+"county": "Broward",
+"pop": 1274,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "North Key Largo",
+"county": "Monroe",
+"pop": 1244,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mayo",
+"county": "Lafayette",
+"pop": 1237,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Manasota Key",
+"county": "Charlotte",
+"pop": 1229,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cypress Quarters",
+"county": "Okeechobee",
+"pop": 1215,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Paradise Heights",
+"county": "Orange",
+"pop": 1215,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palm Beach Shores",
+"county": "Palm Beach",
+"pop": 1208,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Center Hill",
+"county": "Sumter",
+"pop": 1194,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Callahan",
+"county": "Nassau",
+"pop": 1185,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Archer",
+"county": "Alachua",
+"pop": 1173,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bradenton Beach",
+"county": "Manatee",
+"pop": 1171,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belle Glade Camp",
+"county": "Palm Beach",
+"pop": 1167,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mexico Beach",
+"county": "Bay",
+"pop": 1167,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Christmas",
+"county": "Orange",
+"pop": 1146,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Palmona Park",
+"county": "Lee",
+"pop": 1146,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Weeki Wachee Gardens",
+"county": "Hernando",
+"pop": 1146,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Schall Circle",
+"county": "Palm Beach",
+"pop": 1117,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bronson",
+"county": "Levy",
+"pop": 1110,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Hiland Park",
+"county": "Bay",
+"pop": 1105,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Black Diamond",
+"county": "Citrus",
+"pop": 1101,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Howey-in-the-Hills",
+"county": "Lake",
+"pop": 1098,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "De Land Southwest",
+"county": "Volusia",
+"pop": 1052,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Steinhatchee",
+"county": "Taylor",
+"pop": 1047,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Masaryktown",
+"county": "Hernando",
+"pop": 1040,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Quail Ridge",
+"county": "Pasco",
+"pop": 1040,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Waldo",
+"county": "Alachua",
+"pop": 1030,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Limestone Creek",
+"county": "Palm Beach",
+"pop": 1014,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Mack-Forest Hills",
+"county": "Lake",
+"pop": 1010,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Webster",
+"county": "Sumter",
+"pop": 995,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fanning Springs",
+"county": "Gilchrist",
+"pop": 985,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bristol",
+"county": "Liberty",
+"pop": 976,
+"slug": null,
+"seat": true,
+"tz": "Eastern"
+},
+{
+"name": "Golden Beach",
+"county": "Miami-Dade",
+"pop": 972,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Rio",
+"county": "Martin",
+"pop": 965,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Crescent Beach",
+"county": "St. Johns",
+"pop": 931,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Kathryn",
+"county": "Lake",
+"pop": 920,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cottondale",
+"county": "Jackson",
+"pop": 900,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Palm Shores",
+"county": "Brevard",
+"pop": 900,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Allentown",
+"county": "Santa Rosa",
+"pop": 894,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Jupiter Island",
+"county": "Martin",
+"pop": 887,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pomona Park",
+"county": "Putnam",
+"pop": 879,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Grand Ridge",
+"county": "Jackson",
+"pop": 872,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Jennings",
+"county": "Hamilton",
+"pop": 870,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pine Lakes",
+"county": "Lake",
+"pop": 862,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sorrento",
+"county": "Lake",
+"pop": 861,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Franklin Park",
+"county": "Broward",
+"pop": 860,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Stacey Street",
+"county": "Palm Beach",
+"pop": 858,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Key Colony Beach",
+"county": "Monroe",
+"pop": 851,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Medley",
+"county": "Miami-Dade",
+"pop": 851,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Chumuckla",
+"county": "Santa Rosa",
+"pop": 850,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Coleman",
+"county": "Sumter",
+"pop": 843,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gulf Stream",
+"county": "Palm Beach",
+"pop": 836,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Harold",
+"county": "Santa Rosa",
+"pop": 823,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Paisley",
+"county": "Lake",
+"pop": 818,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Panacea",
+"county": "Wakulla",
+"pop": 816,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Penney Farms",
+"county": "Clay",
+"pop": 815,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Greenville",
+"county": "Madison",
+"pop": 803,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Andrews",
+"county": "Levy",
+"pop": 798,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Shalimar",
+"county": "Okaloosa",
+"pop": 796,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Gun Club Estates",
+"county": "Palm Beach",
+"pop": 776,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "White Springs",
+"county": "Hamilton",
+"pop": 773,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Waverly",
+"county": "Polk",
+"pop": 767,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Paxton",
+"county": "Walton",
+"pop": 749,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Solana",
+"county": "Charlotte",
+"pop": 742,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Utopia",
+"county": "Sarasota",
+"pop": 732,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Branford",
+"county": "Suwannee",
+"pop": 721,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lawtey",
+"county": "Bradford",
+"pop": 719,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Juno Ridge",
+"county": "Palm Beach",
+"pop": 718,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wiscon",
+"county": "Hernando",
+"pop": 706,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cedar Key",
+"county": "Levy",
+"pop": 703,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "East Williston",
+"county": "Levy",
+"pop": 694,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Melbourne Village",
+"county": "Brevard",
+"pop": 691,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bradley Junction",
+"county": "Polk",
+"pop": 686,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Welaka",
+"county": "Putnam",
+"pop": 681,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Vernon",
+"county": "Washington",
+"pop": 679,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Matlacha",
+"county": "Lee",
+"pop": 677,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Garden Grove",
+"county": "Hernando",
+"pop": 674,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sea Ranch Lakes",
+"county": "Broward",
+"pop": 670,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Greenwood",
+"county": "Jackson",
+"pop": 657,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Lemon Grove",
+"county": "Hardee",
+"pop": 657,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hosford",
+"county": "Liberty",
+"pop": 650,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hastings",
+"county": "St. Johns",
+"pop": 632,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Micanopy",
+"county": "Alachua",
+"pop": 630,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Duck Key",
+"county": "Monroe",
+"pop": 621,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Seville",
+"county": "Volusia",
+"pop": 614,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wabasso",
+"county": "Indian River",
+"pop": 609,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Roeville",
+"county": "Santa Rosa",
+"pop": 608,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Greensboro",
+"county": "Gadsden",
+"pop": 605,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Briny Breezes",
+"county": "Palm Beach",
+"pop": 603,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Saint Lucie",
+"county": "St. Lucie",
+"pop": 590,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Captiva",
+"county": "Lee",
+"pop": 583,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Laurel Hill",
+"county": "Okaloosa",
+"pop": 582,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Jay",
+"county": "Santa Rosa",
+"pop": 578,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Fort White",
+"county": "Columbia",
+"pop": 566,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ponce de Leon",
+"county": "Holmes",
+"pop": 549,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Lake Hart",
+"county": "Orange",
+"pop": 542,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Altha",
+"county": "Calhoun",
+"pop": 529,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Reddick",
+"county": "Marion",
+"pop": 518,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Page Park",
+"county": "Lee",
+"pop": 514,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Tildenville",
+"county": "Orange",
+"pop": 511,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Yankeetown",
+"county": "Levy",
+"pop": 501,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hampton",
+"county": "Bradford",
+"pop": 488,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ferndale",
+"county": "Lake",
+"pop": 472,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Brownsdale",
+"county": "Santa Rosa",
+"pop": 471,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Alford",
+"county": "Jackson",
+"pop": 467,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Bell",
+"county": "Gilchrist",
+"pop": 464,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Gardner",
+"county": "Hardee",
+"pop": 463,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Sopchoppy",
+"county": "Wakulla",
+"pop": 462,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "McIntosh",
+"county": "Marion",
+"pop": 461,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Spring Lake",
+"county": "Hernando",
+"pop": 458,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Manalapan",
+"county": "Palm Beach",
+"pop": 449,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Hillsboro Pines",
+"county": "Broward",
+"pop": 446,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Berrydale",
+"county": "Santa Rosa",
+"pop": 441,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Orchid",
+"county": "Indian River",
+"pop": 439,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Glen Saint Mary",
+"county": "Baker",
+"pop": 437,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dunes Road",
+"county": "Palm Beach",
+"pop": 432,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cinco Bayou",
+"county": "Okaloosa",
+"pop": 420,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Trilby",
+"county": "Pasco",
+"pop": 419,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pineland",
+"county": "Lee",
+"pop": 407,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Worthington Springs",
+"county": "Union",
+"pop": 389,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wacissa",
+"county": "Jefferson",
+"pop": 386,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Everglades City",
+"county": "Collier",
+"pop": 379,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "La Crosse",
+"county": "Alachua",
+"pop": 378,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Wausau",
+"county": "Washington",
+"pop": 375,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Raleigh",
+"county": "Levy",
+"pop": 373,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Munson",
+"county": "Santa Rosa",
+"pop": 372,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Jupiter Inlet Beach Colony",
+"county": "Palm Beach",
+"pop": 368,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Canal Point",
+"county": "Palm Beach",
+"pop": 367,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Homeland",
+"county": "Polk",
+"pop": 366,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Chokoloskee",
+"county": "Collier",
+"pop": 359,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Beverly Beach",
+"county": "Flagler",
+"pop": 358,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ocean Breeze Park",
+"county": "Martin",
+"pop": 355,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Esto",
+"county": "Holmes",
+"pop": 354,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Brooker",
+"county": "Bradford",
+"pop": 332,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lee",
+"county": "Madison",
+"pop": 331,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ona",
+"county": "Hardee",
+"pop": 314,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Aripeka",
+"county": "Pasco",
+"pop": 308,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Whitfield",
+"county": "Santa Rosa",
+"pop": 295,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Saint Marks",
+"county": "Wakulla",
+"pop": 293,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Nobleton",
+"county": "Hernando",
+"pop": 282,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Caryville",
+"county": "Washington",
+"pop": 280,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Westville",
+"county": "Holmes",
+"pop": 275,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Waukeenah",
+"county": "Jefferson",
+"pop": 272,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Ebro",
+"county": "Washington",
+"pop": 270,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Goodland",
+"county": "Collier",
+"pop": 267,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Okahumpka",
+"county": "Lake",
+"pop": 267,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lisbon",
+"county": "Lake",
+"pop": 260,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mulat",
+"county": "Santa Rosa",
+"pop": 259,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Hillcrest Heights",
+"county": "Polk",
+"pop": 254,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Golf",
+"county": "Palm Beach",
+"pop": 252,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Highland Park",
+"county": "Polk",
+"pop": 249,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Raiford",
+"county": "Union",
+"pop": 248,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Floridatown",
+"county": "Santa Rosa",
+"pop": 244,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Jacob City",
+"county": "Jackson",
+"pop": 244,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Yeehaw Junction",
+"county": "Osceola",
+"pop": 240,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Jacobs",
+"county": "Jackson",
+"pop": 239,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Glen Ridge",
+"county": "Palm Beach",
+"pop": 234,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Green Springs",
+"county": "Hardee",
+"pop": 231,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Matlacha Isles-Matlacha Shores",
+"county": "Lee",
+"pop": 229,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Mount Carmel",
+"county": "Santa Rosa",
+"pop": 227,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Campbellton",
+"county": "Jackson",
+"pop": 221,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Charleston Park",
+"county": "Lee",
+"pop": 218,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lloyd",
+"county": "Jefferson",
+"pop": 215,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Noma",
+"county": "Holmes",
+"pop": 205,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Layton",
+"county": "Monroe",
+"pop": 190,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Pittman",
+"county": "Lake",
+"pop": 180,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lamont",
+"county": "Jefferson",
+"pop": 178,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Horseshoe Beach",
+"county": "Dixie",
+"pop": 168,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Morriston",
+"county": "Levy",
+"pop": 164,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Golfview",
+"county": "Palm Beach",
+"pop": 163,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Plantation Island",
+"county": "Collier",
+"pop": 163,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Spring Hill",
+"county": "Santa Rosa",
+"pop": 160,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Fidelis",
+"county": "Santa Rosa",
+"pop": 156,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Sumatra",
+"county": "Liberty",
+"pop": 148,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Dickerson City",
+"county": "Calhoun",
+"pop": 146,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Cloud Lake",
+"county": "Palm Beach",
+"pop": 135,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Otter Creek",
+"county": "Levy",
+"pop": 134,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fisher Island",
+"county": "Miami-Dade",
+"pop": 132,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Limestone",
+"county": "Hardee",
+"pop": 132,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bascom",
+"county": "Jackson",
+"pop": 118,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Day",
+"county": "Lafayette",
+"pop": 116,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Istachatta",
+"county": "Hernando",
+"pop": 116,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Belleair Shores",
+"county": "Pinellas",
+"pop": 109,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Fort Green",
+"county": "Hardee",
+"pop": 101,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Aucilla",
+"county": "Jefferson",
+"pop": 100,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Altoona",
+"county": "Lake",
+"pop": 89,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Lindsey Village",
+"county": "Hernando",
+"pop": 71,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Lindsey",
+"county": "Hernando",
+"pop": 71,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Cobbtown",
+"county": "Santa Rosa",
+"pop": 67,
+"slug": null,
+"seat": false,
+"tz": "Central"
+},
+{
+"name": "Pine Island",
+"county": "Hernando",
+"pop": 64,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bay Lake",
+"county": "Orange",
+"pop": 50,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Harbor",
+"county": "Palm Beach",
+"pop": 45,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Bayport",
+"county": "Hernando",
+"pop": 43,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Indian Creek Village",
+"county": "Miami-Dade",
+"pop": 33,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lazy Lake",
+"county": "Broward",
+"pop": 26,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Islandia",
+"county": "Miami-Dade",
+"pop": 18,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Marineland",
+"county": "Flagler",
+"pop": 17,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Weeki Wachee",
+"county": "Hernando",
+"pop": 12,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+},
+{
+"name": "Lake Buena Vista",
+"county": "Orange",
+"pop": 10,
+"slug": null,
+"seat": false,
+"tz": "Eastern"
+}
+]
