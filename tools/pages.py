@@ -321,11 +321,18 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
     locs = yaml.safe_load((ROOT / "content" / "locations.yaml").read_text(encoding="utf-8"))
     ind_by = {i["slug"]: i for i in inds}
     hubs = {l["slug"]: l for l in locs if l.get("hub")}
+    us_custom = {l["name"]: l for l in locs if l.get("parent") == "usa"}
+    us_cities = json.loads((ROOT / "content" / "us_cities.json").read_text(encoding="utf-8"))
+    us_states = {}
+    for c in us_cities:
+        us_states.setdefault(c["state_slug"], {"name": c["state_name"], "code": c["state"], "cities": []})["cities"].append(c)
     for loc in locs:
+        if loc.get("parent") == "usa":
+            continue
         hub = loc if loc.get("hub") else hubs[loc["parent"]]
         path = f"{loc['slug']}/" if loc.get("hub") else f"{hub['slug']}/{loc['slug']}/"
         url = f"{SITE}/{path}"
-        children = [c for c in locs if c.get("parent") == hub["slug"]]
+        children = [c for c in locs if c.get("parent") == hub["slug"] and hub["slug"] != "usa"]
         secs = ""
         for sec in loc.get("sections", []):
             secs += f'<h2>{esc(sec["h2"])}</h2>' + "".join(f"<p>{x}</p>" for x in sec.get("p", []))
@@ -339,6 +346,8 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
             secs += f'<h2>Working with a remote designer from {esc(loc["name"])}</h2><p>{esc(loc["timezone"])} Calls are booked on Calendly in your own time zone, and everything else happens by email, WhatsApp and shared files. Your first full brand board arrives within 48 hours of the brief.</p>'
             secs += "<h2>Industries I design for in " + esc(loc["name"]) + "</h2><p>" + ", ".join(f'<a href="/branding/{x}/">{esc(ind_by[x]["name"].lower())} branding</a>' for x in loc["industries"] if x in ind_by) + ". Every identity is designed by me, with source files and copyright included.</p>"
         sib = "".join(f'<a href="/{hub["slug"]}/{c["slug"]}/">{esc(c["name"])}</a>' for c in children if c["slug"] != loc["slug"])
+        if hub["slug"] == "usa":
+            sib = "".join(f'<a href="/{k}/">{esc(v["name"])}</a>' for k, v in sorted(us_states.items(), key=lambda kv: kv[1]["name"]))
         area_links = (f'<a href="/{hub["slug"]}/">All of the {esc(hub["name"])}</a>' if not loc.get("hub") else "") + sib
         other_hub = "".join(f'<a href="/{h}/">Branding in the {esc(hubs[h]["name"])}</a>' for h in hubs if h != hub["slug"])
         crumb_parts = [(hub["name"], None)] if loc.get("hub") else [(hub["name"], f"/{hub['slug']}/"), (loc["name"], None)]
@@ -355,7 +364,7 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards(works[:3])}</div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(loc["name"])} branding FAQs</h2></div>{faq_html(loc["faqs"])}</div></section>
 {cta_block("Let's design your " + loc["name"] + " brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
-<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">{'Cities' if loc.get('hub') else 'More service areas'}</p><div class="links-row">{area_links}{other_hub}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Services</p><div class="links-row">{svc_links_row()}</div></div></section>"""
+<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">{('States' if hub['slug'] == 'usa' else 'Cities') if loc.get('hub') else 'More service areas'}</p><div class="links-row">{area_links}{other_hub}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Services</p><div class="links-row">{svc_links_row()}</div></div></section>"""
         if loc.get("hub"):
             area = {"@type": "Country", "name": hub["country"]}
         else:
@@ -366,6 +375,126 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
             faq_ld(loc["faqs"]),
             bc_ld(*([(hub["name"], url)] if loc.get("hub") else [(hub["name"], f"{SITE}/{hub['slug']}/"), (loc["name"], url)]))]}
         write_page(f"{path}index.html", page(loc["title"], loc["description"], url, "img/a018.jpg", ld, body), url)
+
+    # ---------- US state hubs (/<state>/) and city pages (/<state>/<city>/) ----------
+    # Data: content/us_cities.json (tools/gen_us.py): every US city with 100k+ people, its county,
+    # time zone, nearby cities and (for big cities) neighborhoods. Remote service only: no addresses.
+    page_of = {(c["state"], c["name"]): f'/{c["state_slug"]}/{c["slug"]}/' for c in us_cities}
+    IND_LINKS = [("beauty-wellness", "skincare, beauty and wellness brands"), ("food-drink", "restaurants, cafés and food brands"),
+                 ("tech-fintech", "tech, SaaS and fintech startups"), ("fashion-luxury", "fashion and luxury labels"), ("sports", "gyms, sports clubs and fitness brands")]
+    intro_variants = [
+        "Customers in {city} judge a business in seconds, from a storefront, a website or an Instagram profile. I design logos and complete brand identities for {city} founders and small businesses who need to look established, without agency prices or agency timelines.",
+        "{city} is home to about {pop} people and a lot of competition for their attention. I'm a brand identity designer who works remotely with {city} businesses: a short call, a first brand board in 48 hours, and a finished identity you own.",
+        "Whether you're launching in {city} or rebranding a business that has outgrown its look, a professional identity is what makes people trust you before they talk to you. I design human-made logos and brand systems for {city} businesses, remotely, at fixed prices.",
+        "I design logos and brand identities for businesses across {city} and {county_txt}. Everything is designed by me, by hand, and delivered online, so {city} founders get studio-quality branding with a first brand board in 48 hours.",
+    ]
+
+    def fmt_pop(n):
+        return f"{round(n / 1_000_000, 1)} million" if n >= 1_000_000 else f"{round(n / 1000):,}" + ",000"
+
+    def city_faqs(c, custom):
+        name, st, sn = c["name"], c["state"], c["state_name"]
+        f = [
+            [f"How much does a logo cost for a {name} business?", f"My packages are fixed for every client, wherever you are in {sn}: $250 for a logo with colours, type, mockups and guidelines; $450 for three concepts, complete guidelines and a social kit; $1,050 for the full Brand Ecosystem."],
+            [f"Do you work with {name} businesses remotely?", f"Yes. All work is online: a call booked in your own time zone, concepts as a brand board, feedback by email or WhatsApp, and final files by download. You never need to travel or meet in person."],
+            [f"How fast can I get a logo in {name}?", "Your first full brand board arrives within 48 hours of the brief. Basic and Premium packages are completed in 2 days; The Brand Ecosystem takes 5 business days."],
+            [f"Can my logo be trademarked in {sn}?", "I don't file trademarks, but every logo is original and human-designed, and you receive clean source files. A trademark attorney can advise on a federal USPTO registration, which covers every state."],
+        ]
+        return (custom.get("faqs", []) if custom else []) + f
+
+    for c in us_cities:
+        name, st, sn = c["name"], c["state"], c["state_name"]
+        custom = us_custom.get(name) if st in ("NY", "CA", "FL", "TX", "IL") else None
+        if custom and custom.get("state") and custom["state"] != sn and not (custom["name"] == "New York" and name == "New York City"):
+            custom = None
+        if name == "New York City":
+            custom = us_custom.get("New York")
+        path = f'{c["state_slug"]}/{c["slug"]}/'
+        url = f"{SITE}/{path}"
+        county_txt = c["county"] if c["county"].startswith("the ") else (f'{c["county"]} County' if c["county"] else sn)
+        h = sum(map(ord, name + st))
+        v = intro_variants[h % len(intro_variants)]
+        intro = custom["intro"] if custom else v.format(city=name, pop=fmt_pop(c["pop"]), county_txt=county_txt)
+        secs = ""
+        if custom:
+            secs += f"<h2>What {esc(name)} businesses ask me for</h2><ul>" + "".join(f"<li>{esc(n)}</li>" for n in custom["needs"]) + "</ul>"
+        secs += f"<h2>Who I design for in {esc(name)}</h2><p>Brand identities for " + ", ".join(f'<a href="/branding/{s_}/">{esc(t)}</a>' for s_, t in IND_LINKS) + f". Plus service businesses, real estate, home services and professional firms across {esc(county_txt)}. Need only a mark? See <a href=\"/logo-design/\">logo design</a>; launching something new? See <a href=\"/startup-branding/\">startup branding</a>.</p>"
+        nb = c.get("nb") or []
+        near_links = [f'<a href="{page_of[(st, n)]}">{esc(n)}</a>' if (st, n) in page_of else esc(n) for n in c["near"]]
+        if nb or near_links:
+            secs += f"<h2>Areas I serve in and around {esc(name)}</h2>"
+            if nb:
+                secs += f"<p>Businesses in every part of {esc(name)}, including " + ", ".join(esc(x) for x in nb[:-1]) + (" and " if len(nb) > 1 else "") + esc(nb[-1]) + ".</p>"
+            if near_links:
+                secs += f"<p>Nearby cities I also work with: " + ", ".join(near_links) + ".</p>"
+        tzline = (f'{esc(name)} is on {c["tz"]} Time, and Pakistan (where I work) is {c["off_lo"]} hours ahead' if c["off_lo"] == c["off_hi"]
+                  else f'{esc(name)} is on {c["tz"]} Time, and Pakistan (where I work) is {c["off_lo"]}–{c["off_hi"]} hours ahead, depending on daylight saving')
+        secs += f"<h2>Working with a remote designer from {esc(name)}</h2><p>{tzline}. Calls are booked on Calendly, which shows open times in your own time zone, and a brief sent at the end of your day is worked on while you sleep. Everything else happens by email, WhatsApp and shared files.</p>"
+        faqs = city_faqs(c, custom)
+        others = [o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]][:12]
+        other_links = "".join(f'<a href="/{o["state_slug"]}/{o["slug"]}/">{esc(o["name"])}</a>' for o in others)
+        title = f"Logo Designer for {name}, {st} Businesses | Shahab"
+        if len(title) > 60:
+            title = f"Logo Designer for {name}, {st} | Shahab"
+        desc = f"Human-designed logos and brand identities for {name}, {st} businesses. Remote, fixed prices from $250, first brand board in 48 hours."
+        body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
+  {crumbs(("USA", "/usa/"), (sn, f"/{c['state_slug']}/"), (name, None))}
+  <span class="tagc">{esc(name)}, {st} · remote brand designer</span>
+  <h1>Logo and brand identity design for {esc(name)} businesses</h1>
+  <p class="lede">{esc(intro)}</p>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a call in your time zone {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/pricing/">See packages &amp; pricing</a></div>
+  <div class="trust" style="margin:26px 0 40px"><span><svg><use href="#i-check"/></svg>First brand board in 48 hours</span><span><svg><use href="#i-check"/></svg>Fixed prices in USD</span><span><svg><use href="#i-check"/></svg>Source files &amp; copyright included</span></div>
+</div></section>
+<section class="band" style="padding-top:0"><div class="inner"><div class="svc">{secs}</div></div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Branding packages for {esc(name)} businesses</h2><p class="lede">Fixed, one-time pricing in US dollars. One designer, start to finish.</p></div>{plans_html()}</div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards([works[(h + i) % len(works)] for i in range(3)])}</div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(name)} logo and branding FAQs</h2></div>{faq_html(faqs[h % len(faqs):] + faqs[:h % len(faqs)])}</div></section>
+{cta_block("Let's design your " + name + " brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
+<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">More cities in {esc(sn)}</p><div class="links-row"><a href="/{c['state_slug']}/">All of {esc(sn)}</a>{other_links}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Services</p><div class="links-row">{svc_links_row()}</div></div></section>"""
+        ld = {"@context": "https://schema.org", "@graph": [
+            {"@type": "Service", "name": f"Logo and brand identity design for {name}, {st} businesses", "serviceType": "Brand identity design",
+             "description": desc, "url": url, "provider": provider,
+             "areaServed": {"@type": "City", "name": name, "containedInPlace": {"@type": "State", "name": sn}},
+             "availableChannel": {"@type": "ServiceChannel", "serviceUrl": url, "name": "Remote (video call, email, WhatsApp)"}, "offers": offers},
+            faq_ld(faqs),
+            bc_ld(("USA", f"{SITE}/usa/"), (sn, f"{SITE}/{c['state_slug']}/"), (name, url))]}
+        write_page(f"{path}index.html", page(title, desc, url, "img/a018.jpg", ld, body), url)
+
+    for ss, stt in sorted(us_states.items()):
+        url = f"{SITE}/{ss}/"
+        sn = stt["name"]
+        cs = sorted(stt["cities"], key=lambda x: -x["pop"])
+        tzs = sorted({(x["tz"], x["off_lo"], x["off_hi"]) for x in cs})
+        tz_txt = "; ".join(f'{t} Time: Pakistan is {lo} hours ahead' if lo == hi else f'{t} Time: Pakistan is {lo}–{hi} hours ahead' for t, lo, hi in tzs)
+        links = "".join(f'<a href="/{ss}/{x["slug"]}/">{esc(x["name"])}</a>' for x in cs)
+        top = ", ".join(x["name"] for x in cs[:4])
+        faqs = [[f"Do you work with businesses across {sn}?", f"Yes. All work is remote, so it doesn't matter whether you're in {top} or a small town anywhere in {sn}."],
+                [f"How much does branding cost for a {sn} business?", "Fixed packages: $250, $450 or $1,050, paid once in US dollars, with source files and copyright included."],
+                ["How fast is the first draft?", "Your first full brand board arrives within 48 hours of the brief."]]
+        title = f"Logo & Brand Identity Designer for {sn} Businesses | Shahab"
+        if len(title) > 60:
+            title = f"Logo Designer for {sn} Businesses | Shahab"
+        desc = f"Human-designed logos and brand identities for businesses across {sn}, including {top}. Remote, from $250, first brand board in 48 hours."
+        if len(desc) > 160:
+            desc = f"Human-designed logos and brand identities for businesses across {sn}. Remote, fixed prices from $250, first brand board in 48 hours."
+        body = f"""<section class="hero ph"><div class="aura"><i></i><i></i><i></i><i></i></div><div class="inner">
+  {crumbs(("USA", "/usa/"), (sn, None))}
+  <span class="tagc">{esc(sn)} · remote brand designer</span>
+  <h1>Logo and brand identity design for {esc(sn)} businesses</h1>
+  <p class="lede">I design logos and complete brand identities for founders and small businesses across {esc(sn)}, from {esc(top)} to smaller towns. Remote, fixed prices from $250, and a first brand board in 48 hours.</p>
+  <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a call in your time zone {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/pricing/">See packages &amp; pricing</a></div>
+</div></section>
+<section class="band" style="padding-top:0"><div class="inner"><div class="head rv-up"><h2 class="md">Cities I serve in {esc(sn)}</h2></div><div class="links-row">{links}</div>
+<div class="svc" style="margin-top:40px"><h2>Time zones</h2><p>{esc(tz_txt)}. Calls are booked on Calendly in your own time zone.</p></div></div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Branding packages for {esc(sn)} businesses</h2></div>{plans_html()}</div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(sn)} branding FAQs</h2></div>{faq_html(faqs)}</div></section>
+{cta_block("Let's design your brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
+<section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">Services</p><div class="links-row">{svc_links_row()}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px"><a href="/usa/">All US states</a></p></div></section>"""
+        ld = {"@context": "https://schema.org", "@graph": [
+            {"@type": "Service", "name": f"Logo and brand identity design for {sn} businesses", "serviceType": "Brand identity design", "description": desc, "url": url,
+             "provider": provider, "areaServed": {"@type": "State", "name": sn}, "offers": offers},
+            faq_ld(faqs), bc_ld(("USA", f"{SITE}/usa/"), (sn, url))]}
+        write_page(f"{ss}/index.html", page(title, desc, url, "img/a018.jpg", ld, body), url)
 
     # ---------- about ----------
     url = f"{SITE}/about/"

@@ -11,3 +11,11 @@
 /content/* / 301
 /functions/* / 301
 /README.md / 301
+
+# US city pages moved to /<state>/<city>/ (Nov 2026)
+/usa/new-york/ /new-york/new-york-city/ 301
+/usa/los-angeles/ /california/los-angeles/ 301
+/usa/miami/ /florida/miami/ 301
+/usa/austin/ /texas/austin/ 301
+/usa/chicago/ /illinois/chicago/ 301
+/usa/dallas/ /texas/dallas/ 301
