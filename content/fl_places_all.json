@@ -2691,7 +2691,7 @@
 "name": "Cape Canaveral",
 "county": "Brevard",
 "pop": 9912,
-"slug": null,
+"slug": "cape-canaveral",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2699,7 +2699,7 @@
 "name": "Andover",
 "county": "Miami-Dade",
 "pop": 9877,
-"slug": null,
+"slug": "andover",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2707,7 +2707,7 @@
 "name": "Union Park",
 "county": "Orange",
 "pop": 9765,
-"slug": null,
+"slug": "union-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2715,7 +2715,7 @@
 "name": "Alachua",
 "county": "Alachua",
 "pop": 9757,
-"slug": null,
+"slug": "alachua",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2723,7 +2723,7 @@
 "name": "Westview",
 "county": "Miami-Dade",
 "pop": 9650,
-"slug": null,
+"slug": "westview",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2731,7 +2731,7 @@
 "name": "Milton",
 "county": "Santa Rosa",
 "pop": 9628,
-"slug": null,
+"slug": "milton",
 "seat": true,
 "tz": "Central"
 },
@@ -2739,7 +2739,7 @@
 "name": "Bee Ridge",
 "county": "Sarasota",
 "pop": 9598,
-"slug": null,
+"slug": "bee-ridge",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2747,7 +2747,7 @@
 "name": "Pine Ridge",
 "county": "Citrus",
 "pop": 9598,
-"slug": null,
+"slug": "pine-ridge",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2755,7 +2755,7 @@
 "name": "Gifford",
 "county": "Indian River",
 "pop": 9590,
-"slug": null,
+"slug": "gifford",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2763,7 +2763,7 @@
 "name": "Springfield",
 "county": "Bay",
 "pop": 9442,
-"slug": null,
+"slug": "springfield",
 "seat": false,
 "tz": "Central"
 },
@@ -2771,7 +2771,7 @@
 "name": "Saint Pete Beach",
 "county": "Pinellas",
 "pop": 9346,
-"slug": null,
+"slug": "saint-pete-beach",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2779,7 +2779,7 @@
 "name": "Marianna",
 "county": "Jackson",
 "pop": 9100,
-"slug": null,
+"slug": "marianna",
 "seat": true,
 "tz": "Central"
 },
@@ -2787,7 +2787,7 @@
 "name": "Hernando",
 "county": "Citrus",
 "pop": 9054,
-"slug": null,
+"slug": "hernando",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2795,7 +2795,7 @@
 "name": "Micco",
 "county": "Brevard",
 "pop": 9052,
-"slug": null,
+"slug": "micco",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2803,7 +2803,7 @@
 "name": "Winston",
 "county": "Polk",
 "pop": 9050,
-"slug": null,
+"slug": "winston",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2811,7 +2811,7 @@
 "name": "Lake Lucerne",
 "county": "Miami-Dade",
 "pop": 9044,
-"slug": null,
+"slug": "lake-lucerne",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2819,7 +2819,7 @@
 "name": "Cypress Gardens",
 "county": "Polk",
 "pop": 8917,
-"slug": null,
+"slug": "cypress-gardens",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2827,7 +2827,7 @@
 "name": "Medulla",
 "county": "Polk",
 "pop": 8892,
-"slug": null,
+"slug": "medulla",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2835,7 +2835,7 @@
 "name": "Isle of Normandy",
 "county": "Miami-Dade",
 "pop": 8841,
-"slug": null,
+"slug": "isle-of-normandy",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2843,7 +2843,7 @@
 "name": "Rotonda West",
 "county": "Charlotte",
 "pop": 8759,
-"slug": null,
+"slug": "rotonda-west",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2851,7 +2851,7 @@
 "name": "Fuller Heights",
 "county": "Polk",
 "pop": 8758,
-"slug": null,
+"slug": "fuller-heights",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2859,7 +2859,7 @@
 "name": "Marathon",
 "county": "Monroe",
 "pop": 8750,
-"slug": null,
+"slug": "marathon",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2867,7 +2867,7 @@
 "name": "Orange Park",
 "county": "Clay",
 "pop": 8702,
-"slug": null,
+"slug": "orange-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2875,7 +2875,7 @@
 "name": "Asbury Lake",
 "county": "Clay",
 "pop": 8700,
-"slug": null,
+"slug": "asbury-lake",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2883,7 +2883,7 @@
 "name": "Citrus Springs",
 "county": "Citrus",
 "pop": 8622,
-"slug": null,
+"slug": "citrus-springs",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2891,7 +2891,7 @@
 "name": "Palm Beach",
 "county": "Palm Beach",
 "pop": 8612,
-"slug": null,
+"slug": "palm-beach",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2899,7 +2899,7 @@
 "name": "Richmond Heights",
 "county": "Miami-Dade",
 "pop": 8541,
-"slug": null,
+"slug": "richmond-heights",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2907,7 +2907,7 @@
 "name": "Lake Park",
 "county": "Palm Beach",
 "pop": 8538,
-"slug": null,
+"slug": "lake-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2915,7 +2915,7 @@
 "name": "North Weeki Wachee",
 "county": "Hernando",
 "pop": 8524,
-"slug": null,
+"slug": "north-weeki-wachee",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2923,7 +2923,7 @@
 "name": "Indian Harbour Beach",
 "county": "Brevard",
 "pop": 8471,
-"slug": null,
+"slug": "indian-harbour-beach",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2931,7 +2931,7 @@
 "name": "Beverly Hills",
 "county": "Citrus",
 "pop": 8445,
-"slug": null,
+"slug": "beverly-hills",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2939,7 +2939,7 @@
 "name": "Gateway",
 "county": "Lee",
 "pop": 8401,
-"slug": null,
+"slug": "gateway",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2947,7 +2947,7 @@
 "name": "North Bay Village",
 "county": "Miami-Dade",
 "pop": 8302,
-"slug": null,
+"slug": "north-bay-village",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2955,7 +2955,7 @@
 "name": "Sugarmill Woods",
 "county": "Citrus",
 "pop": 8287,
-"slug": null,
+"slug": "sugarmill-woods",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2963,7 +2963,7 @@
 "name": "Bithlo",
 "county": "Orange",
 "pop": 8268,
-"slug": null,
+"slug": "bithlo",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2971,7 +2971,7 @@
 "name": "Laurel",
 "county": "Sarasota",
 "pop": 8171,
-"slug": null,
+"slug": "laurel",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2979,7 +2979,7 @@
 "name": "West Gate",
 "county": "Palm Beach",
 "pop": 7975,
-"slug": null,
+"slug": "west-gate",
 "seat": false,
 "tz": "Eastern"
 },
@@ -2987,7 +2987,7 @@
 "name": "Brooksville",
 "county": "Hernando",
 "pop": 7854,
-"slug": null,
+"slug": "brooksville",
 "seat": true,
 "tz": "Eastern"
 },
@@ -2995,7 +2995,7 @@
 "name": "Southwest Ranches",
 "county": "Broward",
 "pop": 7852,
-"slug": null,
+"slug": "southwest-ranches",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3003,7 +3003,7 @@
 "name": "Arcadia",
 "county": "DeSoto",
 "pop": 7851,
-"slug": null,
+"slug": "arcadia",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3011,7 +3011,7 @@
 "name": "Memphis",
 "county": "Manatee",
 "pop": 7848,
-"slug": null,
+"slug": "memphis",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3019,7 +3019,7 @@
 "name": "Quincy",
 "county": "Gadsden",
 "pop": 7830,
-"slug": null,
+"slug": "quincy",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3027,7 +3027,7 @@
 "name": "Fern Park",
 "county": "Seminole",
 "pop": 7704,
-"slug": null,
+"slug": "fern-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3035,7 +3035,7 @@
 "name": "Williamsburg",
 "county": "Orange",
 "pop": 7646,
-"slug": null,
+"slug": "williamsburg",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3043,7 +3043,7 @@
 "name": "Pebble Creek",
 "county": "Hillsborough",
 "pop": 7622,
-"slug": null,
+"slug": "pebble-creek",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3051,7 +3051,7 @@
 "name": "Seffner",
 "county": "Hillsborough",
 "pop": 7579,
-"slug": null,
+"slug": "seffner",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3059,7 +3059,7 @@
 "name": "Pasadena Hills",
 "county": "Pasco",
 "pop": 7570,
-"slug": null,
+"slug": "pasadena-hills",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3067,7 +3067,7 @@
 "name": "Clewiston",
 "county": "Hendry",
 "pop": 7505,
-"slug": null,
+"slug": "clewiston",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3075,7 +3075,7 @@
 "name": "Melrose Park",
 "county": "Broward",
 "pop": 7492,
-"slug": null,
+"slug": "melrose-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3083,7 +3083,7 @@
 "name": "Citrus Hills",
 "county": "Citrus",
 "pop": 7470,
-"slug": null,
+"slug": "citrus-hills",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3091,7 +3091,7 @@
 "name": "Celebration",
 "county": "Osceola",
 "pop": 7427,
-"slug": null,
+"slug": "celebration",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3099,7 +3099,7 @@
 "name": "McGregor",
 "county": "Lee",
 "pop": 7406,
-"slug": null,
+"slug": "mcgregor",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3107,7 +3107,7 @@
 "name": "Ormond-by-the-Sea",
 "county": "Volusia",
 "pop": 7406,
-"slug": null,
+"slug": "ormond-by-the-sea",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3115,7 +3115,7 @@
 "name": "Saint Augustine Shores",
 "county": "St. Johns",
 "pop": 7359,
-"slug": null,
+"slug": "saint-augustine-shores",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3123,7 +3123,7 @@
 "name": "Green Cove Springs",
 "county": "Clay",
 "pop": 7277,
-"slug": null,
+"slug": "green-cove-springs",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3131,7 +3131,7 @@
 "name": "Neptune Beach",
 "county": "Duval",
 "pop": 7269,
-"slug": null,
+"slug": "neptune-beach",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3139,7 +3139,7 @@
 "name": "Odessa",
 "county": "Pasco",
 "pop": 7267,
-"slug": null,
+"slug": "odessa",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3147,7 +3147,7 @@
 "name": "Longboat Key",
 "county": "Manatee",
 "pop": 7266,
-"slug": null,
+"slug": "longboat-key",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3155,7 +3155,7 @@
 "name": "Sanibel",
 "county": "Lee",
 "pop": 7236,
-"slug": null,
+"slug": "sanibel",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3163,7 +3163,7 @@
 "name": "Inverness",
 "county": "Citrus",
 "pop": 7233,
-"slug": null,
+"slug": "inverness",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3171,7 +3171,7 @@
 "name": "Beacon Square",
 "county": "Pasco",
 "pop": 7224,
-"slug": null,
+"slug": "beacon-square",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3179,7 +3179,7 @@
 "name": "Pompano Beach Highlands",
 "county": "Broward",
 "pop": 7192,
-"slug": null,
+"slug": "pompano-beach-highlands",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3187,7 +3187,7 @@
 "name": "Southgate",
 "county": "Sarasota",
 "pop": 7173,
-"slug": null,
+"slug": "southgate",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3195,7 +3195,7 @@
 "name": "East Perrine",
 "county": "Miami-Dade",
 "pop": 7156,
-"slug": null,
+"slug": "east-perrine",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3203,7 +3203,7 @@
 "name": "West Vero Corridor",
 "county": "Indian River",
 "pop": 7138,
-"slug": null,
+"slug": "west-vero-corridor",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3211,7 +3211,7 @@
 "name": "Islamorada",
 "county": "Monroe",
 "pop": 7131,
-"slug": null,
+"slug": "islamorada",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3219,7 +3219,7 @@
 "name": "Broadview Park",
 "county": "Broward",
 "pop": 7125,
-"slug": null,
+"slug": "broadview-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3227,7 +3227,7 @@
 "name": "Venice Gardens",
 "county": "Sarasota",
 "pop": 7104,
-"slug": null,
+"slug": "venice-gardens",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3235,7 +3235,7 @@
 "name": "Mims",
 "county": "Brevard",
 "pop": 7058,
-"slug": null,
+"slug": "mims",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3243,7 +3243,7 @@
 "name": "Perry",
 "county": "Taylor",
 "pop": 7055,
-"slug": null,
+"slug": "perry",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3251,7 +3251,7 @@
 "name": "Lake Lorraine",
 "county": "Okaloosa",
 "pop": 7010,
-"slug": null,
+"slug": "lake-lorraine",
 "seat": false,
 "tz": "Central"
 },
@@ -3259,7 +3259,7 @@
 "name": "Eglin Village",
 "county": "Okaloosa",
 "pop": 7000,
-"slug": null,
+"slug": "eglin-village",
 "seat": false,
 "tz": "Central"
 },
@@ -3267,7 +3267,7 @@
 "name": "Fort Myers Beach",
 "county": "Lee",
 "pop": 6983,
-"slug": null,
+"slug": "fort-myers-beach",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3275,7 +3275,7 @@
 "name": "North Sarasota",
 "county": "Sarasota",
 "pop": 6982,
-"slug": null,
+"slug": "north-sarasota",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3283,7 +3283,7 @@
 "name": "Dade City",
 "county": "Pasco",
 "pop": 6955,
-"slug": null,
+"slug": "dade-city",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3291,7 +3291,7 @@
 "name": "Live Oak",
 "county": "Suwannee",
 "pop": 6931,
-"slug": null,
+"slug": "live-oak",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3299,7 +3299,7 @@
 "name": "Treasure Island",
 "county": "Pinellas",
 "pop": 6887,
-"slug": null,
+"slug": "treasure-island",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3307,7 +3307,7 @@
 "name": "Willow Oak",
 "county": "Polk",
 "pop": 6732,
-"slug": null,
+"slug": "willow-oak",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3315,7 +3315,7 @@
 "name": "Wedgefield",
 "county": "Orange",
 "pop": 6705,
-"slug": null,
+"slug": "wedgefield",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3323,7 +3323,7 @@
 "name": "Belle Isle",
 "county": "Orange",
 "pop": 6689,
-"slug": null,
+"slug": "belle-isle",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3331,7 +3331,7 @@
 "name": "Viera West",
 "county": "Brevard",
 "pop": 6641,
-"slug": null,
+"slug": "viera-west",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3339,7 +3339,7 @@
 "name": "Wildwood",
 "county": "Sumter",
 "pop": 6590,
-"slug": null,
+"slug": "wildwood",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3347,7 +3347,7 @@
 "name": "Siesta Key",
 "county": "Sarasota",
 "pop": 6565,
-"slug": null,
+"slug": "siesta-key",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3355,7 +3355,7 @@
 "name": "Southeast Arcadia",
 "county": "DeSoto",
 "pop": 6554,
-"slug": null,
+"slug": "southeast-arcadia",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3363,7 +3363,7 @@
 "name": "Inverness Highlands South",
 "county": "Citrus",
 "pop": 6542,
-"slug": null,
+"slug": "inverness-highlands-south",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3371,7 +3371,7 @@
 "name": "Silver Springs Shores",
 "county": "Marion",
 "pop": 6539,
-"slug": null,
+"slug": "silver-springs-shores",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3379,7 +3379,7 @@
 "name": "Boyette",
 "county": "Hillsborough",
 "pop": 6518,
-"slug": null,
+"slug": "boyette",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3387,7 +3387,7 @@
 "name": "Macclenny",
 "county": "Baker",
 "pop": 6487,
-"slug": null,
+"slug": "macclenny",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3395,7 +3395,7 @@
 "name": "Fort Pierce North",
 "county": "St. Lucie",
 "pop": 6474,
-"slug": null,
+"slug": "fort-pierce-north",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3403,7 +3403,7 @@
 "name": "Lauderdale-by-the-Sea",
 "county": "Broward",
 "pop": 6460,
-"slug": null,
+"slug": "lauderdale-by-the-sea",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3411,7 +3411,7 @@
 "name": "Inwood",
 "county": "Polk",
 "pop": 6403,
-"slug": null,
+"slug": "inwood",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3419,7 +3419,7 @@
 "name": "Wimauma",
 "county": "Hillsborough",
 "pop": 6373,
-"slug": null,
+"slug": "wimauma",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3427,7 +3427,7 @@
 "name": "Pelican Bay",
 "county": "Collier",
 "pop": 6346,
-"slug": null,
+"slug": "pelican-bay",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3435,7 +3435,7 @@
 "name": "Pembroke Park",
 "county": "Broward",
 "pop": 6333,
-"slug": null,
+"slug": "pembroke-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3443,7 +3443,7 @@
 "name": "Kathleen",
 "county": "Polk",
 "pop": 6332,
-"slug": null,
+"slug": "kathleen",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3451,7 +3451,7 @@
 "name": "Gulf Breeze",
 "county": "Santa Rosa",
 "pop": 6323,
-"slug": null,
+"slug": "gulf-breeze",
 "seat": false,
 "tz": "Central"
 },
@@ -3459,7 +3459,7 @@
 "name": "Ave Maria",
 "county": "Collier",
 "pop": 6242,
-"slug": null,
+"slug": "ave-maria",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3467,7 +3467,7 @@
 "name": "Indian River Estates",
 "county": "St. Lucie",
 "pop": 6220,
-"slug": null,
+"slug": "indian-river-estates",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3475,7 +3475,7 @@
 "name": "Saint Augustine Beach",
 "county": "St. Johns",
 "pop": 6176,
-"slug": null,
+"slug": "saint-augustine-beach",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3483,7 +3483,7 @@
 "name": "Sky Lake",
 "county": "Orange",
 "pop": 6153,
-"slug": null,
+"slug": "sky-lake",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3491,7 +3491,7 @@
 "name": "Miramar Beach",
 "county": "Walton",
 "pop": 6146,
-"slug": null,
+"slug": "miramar-beach",
 "seat": false,
 "tz": "Central"
 },
@@ -3499,7 +3499,7 @@
 "name": "Orlovista",
 "county": "Orange",
 "pop": 6123,
-"slug": null,
+"slug": "orlovista",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3507,7 +3507,7 @@
 "name": "Osprey",
 "county": "Sarasota",
 "pop": 6100,
-"slug": null,
+"slug": "osprey",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3515,7 +3515,7 @@
 "name": "Indiantown",
 "county": "Martin",
 "pop": 6083,
-"slug": null,
+"slug": "indiantown",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3523,7 +3523,7 @@
 "name": "Pahokee",
 "county": "Palm Beach",
 "pop": 6071,
-"slug": null,
+"slug": "pahokee",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3531,7 +3531,7 @@
 "name": "Bay Harbor Islands",
 "county": "Miami-Dade",
 "pop": 6036,
-"slug": null,
+"slug": "bay-harbor-islands",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3539,7 +3539,7 @@
 "name": "Surfside",
 "county": "Miami-Dade",
 "pop": 6024,
-"slug": null,
+"slug": "surfside",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3547,7 +3547,7 @@
 "name": "Fort Meade",
 "county": "Polk",
 "pop": 5975,
-"slug": null,
+"slug": "fort-meade",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3555,7 +3555,7 @@
 "name": "Naples Park",
 "county": "Collier",
 "pop": 5967,
-"slug": null,
+"slug": "naples-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3563,7 +3563,7 @@
 "name": "West Miami",
 "county": "Miami-Dade",
 "pop": 5965,
-"slug": null,
+"slug": "west-miami",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3571,7 +3571,7 @@
 "name": "Cocoa West",
 "county": "Brevard",
 "pop": 5925,
-"slug": null,
+"slug": "cocoa-west",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3579,7 +3579,7 @@
 "name": "Heathrow",
 "county": "Seminole",
 "pop": 5896,
-"slug": null,
+"slug": "heathrow",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3587,7 +3587,7 @@
 "name": "Lecanto",
 "county": "Citrus",
 "pop": 5882,
-"slug": null,
+"slug": "lecanto",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3595,7 +3595,7 @@
 "name": "South Patrick Shores",
 "county": "Brevard",
 "pop": 5875,
-"slug": null,
+"slug": "south-patrick-shores",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3603,7 +3603,7 @@
 "name": "Zephyrhills West",
 "county": "Pasco",
 "pop": 5865,
-"slug": null,
+"slug": "zephyrhills-west",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3611,7 +3611,7 @@
 "name": "High Springs",
 "county": "Alachua",
 "pop": 5831,
-"slug": null,
+"slug": "high-springs",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3619,7 +3619,7 @@
 "name": "DeFuniak Springs",
 "county": "Walton",
 "pop": 5795,
-"slug": null,
+"slug": "defuniak-springs",
 "seat": true,
 "tz": "Central"
 },
@@ -3627,7 +3627,7 @@
 "name": "Citra",
 "county": "Marion",
 "pop": 5732,
-"slug": null,
+"slug": "citra",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3635,7 +3635,7 @@
 "name": "South Apopka",
 "county": "Orange",
 "pop": 5728,
-"slug": null,
+"slug": "south-apopka",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3643,7 +3643,7 @@
 "name": "South Gate Ridge",
 "county": "Sarasota",
 "pop": 5688,
-"slug": null,
+"slug": "south-gate-ridge",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3651,7 +3651,7 @@
 "name": "Tequesta",
 "county": "Palm Beach",
 "pop": 5629,
-"slug": null,
+"slug": "tequesta",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3659,7 +3659,7 @@
 "name": "Okeechobee",
 "county": "Okeechobee",
 "pop": 5608,
-"slug": null,
+"slug": "okeechobee",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3667,7 +3667,7 @@
 "name": "West Samoset",
 "county": "Manatee",
 "pop": 5583,
-"slug": null,
+"slug": "west-samoset",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3675,7 +3675,7 @@
 "name": "Combee Settlement",
 "county": "Polk",
 "pop": 5577,
-"slug": null,
+"slug": "combee-settlement",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3683,7 +3683,7 @@
 "name": "Jan-Phyl Village",
 "county": "Polk",
 "pop": 5573,
-"slug": null,
+"slug": "jan-phyl-village",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3691,7 +3691,7 @@
 "name": "Newberry",
 "county": "Alachua",
 "pop": 5564,
-"slug": null,
+"slug": "newberry",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3699,7 +3699,7 @@
 "name": "Naples Manor",
 "county": "Collier",
 "pop": 5562,
-"slug": null,
+"slug": "naples-manor",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3707,7 +3707,7 @@
 "name": "Fussels Corner",
 "county": "Polk",
 "pop": 5561,
-"slug": null,
+"slug": "fussels-corner",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3715,7 +3715,7 @@
 "name": "Ocean City",
 "county": "Okaloosa",
 "pop": 5550,
-"slug": null,
+"slug": "ocean-city",
 "seat": false,
 "tz": "Central"
 },
@@ -3723,7 +3723,7 @@
 "name": "Crystal Lake",
 "county": "Polk",
 "pop": 5514,
-"slug": null,
+"slug": "crystal-lake",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3731,7 +3731,7 @@
 "name": "Fellsmere",
 "county": "Indian River",
 "pop": 5514,
-"slug": null,
+"slug": "fellsmere",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3739,7 +3739,7 @@
 "name": "Fort Myers Shores",
 "county": "Lee",
 "pop": 5487,
-"slug": null,
+"slug": "fort-myers-shores",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3747,7 +3747,7 @@
 "name": "Lake Alfred",
 "county": "Polk",
 "pop": 5475,
-"slug": null,
+"slug": "lake-alfred",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3755,7 +3755,7 @@
 "name": "Mascotte",
 "county": "Lake",
 "pop": 5473,
-"slug": null,
+"slug": "mascotte",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3763,7 +3763,7 @@
 "name": "Starke",
 "county": "Bradford",
 "pop": 5397,
-"slug": null,
+"slug": "starke",
 "seat": true,
 "tz": "Eastern"
 },
@@ -3771,7 +3771,7 @@
 "name": "Progress Village",
 "county": "Hillsborough",
 "pop": 5392,
-"slug": null,
+"slug": "progress-village",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3779,7 +3779,7 @@
 "name": "Timber Pines",
 "county": "Hernando",
 "pop": 5386,
-"slug": null,
+"slug": "timber-pines",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3787,7 +3787,7 @@
 "name": "Nassau Village-Ratliff",
 "county": "Nassau",
 "pop": 5337,
-"slug": null,
+"slug": "nassau-village-ratliff",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3795,7 +3795,7 @@
 "name": "Zephyrhills South",
 "county": "Pasco",
 "pop": 5276,
-"slug": null,
+"slug": "zephyrhills-south",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3803,7 +3803,7 @@
 "name": "Palm Springs North",
 "county": "Miami-Dade",
 "pop": 5253,
-"slug": null,
+"slug": "palm-springs-north",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3811,7 +3811,7 @@
 "name": "River Park",
 "county": "St. Lucie",
 "pop": 5222,
-"slug": null,
+"slug": "river-park",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3819,7 +3819,7 @@
 "name": "Pine Island Ridge",
 "county": "Broward",
 "pop": 5218,
-"slug": null,
+"slug": "pine-island-ridge",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3827,7 +3827,7 @@
 "name": "Floral City",
 "county": "Citrus",
 "pop": 5217,
-"slug": null,
+"slug": "floral-city",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3835,7 +3835,7 @@
 "name": "Hutchinson Island South",
 "county": "St. Lucie",
 "pop": 5201,
-"slug": null,
+"slug": "hutchinson-island-south",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3843,7 +3843,7 @@
 "name": "South Highpoint",
 "county": "Pinellas",
 "pop": 5195,
-"slug": null,
+"slug": "south-highpoint",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3851,7 +3851,7 @@
 "name": "South Bay",
 "county": "Palm Beach",
 "pop": 5101,
-"slug": null,
+"slug": "south-bay",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3859,7 +3859,7 @@
 "name": "Wahneta",
 "county": "Polk",
 "pop": 5091,
-"slug": null,
+"slug": "wahneta",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3867,7 +3867,7 @@
 "name": "South Pasadena",
 "county": "Pinellas",
 "pop": 5081,
-"slug": null,
+"slug": "south-pasadena",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3875,7 +3875,7 @@
 "name": "Kenneth City",
 "county": "Pinellas",
 "pop": 5072,
-"slug": null,
+"slug": "kenneth-city",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3883,7 +3883,7 @@
 "name": "Fort Pierce South",
 "county": "St. Lucie",
 "pop": 5062,
-"slug": null,
+"slug": "fort-pierce-south",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3891,7 +3891,7 @@
 "name": "Warm Mineral Springs",
 "county": "Sarasota",
 "pop": 5061,
-"slug": null,
+"slug": "warm-mineral-springs",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3899,7 +3899,7 @@
 "name": "Samsula-Spruce Creek",
 "county": "Volusia",
 "pop": 5047,
-"slug": null,
+"slug": "samsula-spruce-creek",
 "seat": false,
 "tz": "Eastern"
 },
@@ -3907,7 +3907,7 @@
 "name": "Valparaiso",
 "county": "Okaloosa",
 "pop": 5023,
-"slug": null,
+"slug": "valparaiso",
 "seat": false,
 "tz": "Central"
 },

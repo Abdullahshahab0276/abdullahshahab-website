@@ -31,7 +31,7 @@ for x in P:
     seen.add(k); allp.append(x)
 old={c['slug']:c for c in json.load(open(ROOT+'content/us_cities.json')) if c['state']=='FL'}
 pages=[]; used=set()
-big=[x for x in allp if x['pop']>=10000]
+big=[x for x in allp if x['pop']>=5000]
 for x in big:
     s=slug(x['name'])
     if s in used: s=slug(x['name']+' '+x['county'])

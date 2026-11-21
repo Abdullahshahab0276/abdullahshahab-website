@@ -35,7 +35,8 @@ SAME_AS = ["https://www.instagram.com/imabdullahshahab"]
 SERVICES = [("Logo design", "/logo-design/"), ("Brand identity design", "/brand-identity-design/"),
             ("Startup branding", "/startup-branding/"), ("Brand guidelines", "/brand-guidelines/"),
             ("Rebranding", "/rebranding/"), ("Packaging design", "/packaging-design/"),
-            ("Social media & ad design", "/social-media-design/"), ("Packages & pricing", "/pricing/")]
+            ("Social media & ad design", "/social-media-design/"), ("48-hour logo design", "/fast-logo-design/"),
+            ("Affordable brand identity", "/affordable-brand-identity-design/"), ("Packages & pricing", "/pricing/")]
 PAGES = []   # (url, html) of every page written, for the sitemap
 CAL = "https://calendly.com/imabdullahshahab/30min"
 POSTS_DIR = ROOT / "content" / "posts"

@@ -6811,13 +6811,13 @@
 "off_hi": 10,
 "near": [
 "Bellair-Meadowbrook Terrace",
+"Orange Park",
 "Fruit Cove",
 "Atlantic Beach",
+"Nassau Village-Ratliff",
 "Oakleaf Plantation",
 "Lakeside",
-"Jacksonville Beach",
-"Fleming Island",
-"Ponte Vedra Beach"
+"Neptune Beach"
 ],
 "nb": [
 "Downtown",
@@ -6847,10 +6847,10 @@
 "Miami Beach",
 "Brownsville",
 "Gladeview",
+"North Bay Village",
 "Key Biscayne",
 "Coral Gables",
-"Miami Shores",
-"West Little River"
+"Miami Shores"
 ],
 "nb": [
 "Brickell",
@@ -6883,11 +6883,11 @@
 "Palm River-Clair Mel",
 "East Lake-Orient Park",
 "Egypt Lake-Leto",
+"Progress Village",
 "Carrollwood",
 "Temple Terrace",
 "Gibsonton",
-"Town 'n' Country",
-"Lake Magdalene"
+"Town 'n' Country"
 ],
 "nb": [
 "Downtown",
@@ -6921,8 +6921,8 @@
 "Pine Hills",
 "Azalea Park",
 "Winter Park",
-"Oak Ridge",
-"Maitland"
+"Orlovista",
+"Oak Ridge"
 ],
 "nb": [
 "Downtown",
@@ -6953,11 +6953,11 @@
 "Gulfport",
 "West and East Lealman",
 "Lealman",
+"South Pasadena",
+"Kenneth City",
+"Saint Pete Beach",
 "Pinellas Park",
-"Seminole",
-"Largo",
-"Safety Harbor",
-"Clearwater"
+"Treasure Island"
 ],
 "nb": [
 "Downtown",
@@ -6984,12 +6984,12 @@
 "near": [
 "Miami Springs",
 "West Little River",
+"Westview",
 "Hialeah Gardens",
 "Gladeview",
 "Brownsville",
 "Opa-locka",
-"Pinewood",
-"Miami Lakes"
+"Pinewood"
 ],
 "nb": []
 },
@@ -7029,12 +7029,12 @@
 "near": [
 "Sunrise",
 "Wilton Manors",
+"Melrose Park",
 "Oakland Park",
+"Broadview Park",
 "Lauderhill",
 "North Andrews Gardens",
-"Dania Beach",
-"Lauderdale Lakes",
-"Plantation"
+"Dania Beach"
 ],
 "nb": [
 "Las Olas",
@@ -7058,13 +7058,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"McGregor",
 "Iona",
 "Cypress Lake",
 "Villas",
+"Fort Myers Beach",
 "Fort Myers",
 "North Fort Myers",
-"San Carlos Park",
-"Estero"
+"Sanibel"
 ],
 "nb": []
 },
@@ -7086,12 +7087,12 @@
 "near": [
 "Miramar",
 "West Park",
+"Andover",
+"Lake Lucerne",
+"Pembroke Park",
 "Norland",
 "Ives Estates",
-"Davie",
-"Scott Lake",
-"Miami Gardens",
-"Carol City"
+"Davie"
 ],
 "nb": []
 },
@@ -7111,12 +7112,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"River Park",
+"Indian River Estates",
 "Jensen Beach",
+"Hutchinson Island South",
+"Fort Pierce South",
 "Stuart",
 "Palm City",
-"Fort Pierce",
-"Port Salerno",
-"Lakewood Park"
+"Fort Pierce"
 ],
 "nb": []
 },
@@ -7137,13 +7140,13 @@
 "off_hi": 10,
 "near": [
 "Hallandale Beach",
+"Pembroke Park",
 "Dania Beach",
 "West Park",
 "Ives Estates",
 "Aventura",
 "Ojus",
-"Sunny Isles Beach",
-"Pembroke Pines"
+"Sunny Isles Beach"
 ],
 "nb": []
 },
@@ -7162,7 +7165,10 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"Alachua",
+"Newberry"
+],
 "nb": []
 },
 {
@@ -7182,13 +7188,13 @@
 "off_hi": 10,
 "near": [
 "Pembroke Pines",
+"Lake Lucerne",
+"Andover",
 "West Park",
 "Norland",
 "Scott Lake",
 "Miami Gardens",
-"Carol City",
-"Ives Estates",
-"Davie"
+"Carol City"
 ],
 "nb": []
 },
@@ -7235,14 +7241,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Palm Beach",
+"West Gate",
 "Riviera Beach",
+"Lake Park",
 "Palm Springs",
 "Lake Worth Beach",
 "North Palm Beach",
-"Lake Worth Corridor",
-"Greenacres City",
-"Lantana",
-"Palm Beach Gardens"
+"Lake Worth Corridor"
 ],
 "nb": []
 },
@@ -7264,9 +7270,12 @@
 "near": [
 "Melbourne",
 "West Melbourne",
+"Indian Harbour Beach",
 "Satellite Beach",
+"South Patrick Shores",
+"Micco",
 "Sebastian",
-"Viera East"
+"Viera West"
 ],
 "nb": []
 },
@@ -7288,12 +7297,12 @@
 "near": [
 "Largo",
 "Dunedin",
+"South Highpoint",
 "Safety Harbor",
 "Palm Harbor",
 "Seminole",
 "Oldsmar",
-"Pinellas Park",
-"East Lake"
+"Pinellas Park"
 ],
 "nb": []
 },
@@ -7315,12 +7324,12 @@
 "near": [
 "Carol City",
 "Scott Lake",
+"Lake Lucerne",
 "Norland",
+"Andover",
 "Opa-locka",
 "Miramar",
-"Golden Glades",
-"West Park",
-"Pembroke Pines"
+"Golden Glades"
 ],
 "nb": []
 },
@@ -7340,14 +7349,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Pompano Beach Highlands",
 "North Andrews Gardens",
 "Coconut Creek",
 "Lighthouse Point",
+"Lauderdale-by-the-Sea",
 "Oakland Park",
 "Margate",
-"Wilton Manors",
-"Deerfield Beach",
-"North Lauderdale"
+"Wilton Manors"
 ],
 "nb": []
 },
@@ -7367,13 +7376,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Crystal Lake",
+"Combee Settlement",
+"Winston",
+"Medulla",
 "Lakeland Highlands",
+"Fussels Corner",
 "Highland City",
-"Auburndale",
-"Plant City",
-"Bartow",
-"Eloise",
-"Winter Haven"
+"Kathleen"
 ],
 "nb": []
 },
@@ -7395,12 +7405,12 @@
 "near": [
 "Valrico",
 "Mango",
+"Seffner",
 "Bloomingdale",
+"Progress Village",
 "Riverview",
 "Palm River-Clair Mel",
-"East Lake-Orient Park",
-"Fish Hawk",
-"Gibsonton"
+"East Lake-Orient Park"
 ],
 "nb": []
 },
@@ -7421,13 +7431,13 @@
 "off_hi": 10,
 "near": [
 "Cooper City",
+"Broadview Park",
+"Pine Island Ridge",
 "Pembroke Pines",
+"Melrose Park",
 "Plantation",
 "Miramar",
-"Lauderhill",
-"Dania Beach",
-"West Park",
-"Hollywood"
+"Lauderhill"
 ],
 "nb": []
 },
@@ -7448,11 +7458,13 @@
 "off_hi": 10,
 "near": [
 "Shady Hills",
+"Timber Pines",
+"North Weeki Wachee",
+"Brooksville",
 "Hudson",
 "Bayonet Point",
 "Jasmine Estates",
-"New Port Richey East",
-"Land O' Lakes"
+"Sugarmill Woods"
 ],
 "nb": []
 },
@@ -7474,12 +7486,12 @@
 "near": [
 "Deerfield Beach",
 "Boca Del Mar",
+"Pompano Beach Highlands",
 "Lighthouse Point",
 "Sandalfoot Cove",
 "Kings Point",
 "Delray Beach",
-"Pompano Beach",
-"Coconut Creek"
+"Pompano Beach"
 ],
 "nb": []
 },
@@ -7501,12 +7513,12 @@
 "near": [
 "Lauderhill",
 "Lauderdale Lakes",
+"Melrose Park",
+"Broadview Park",
+"Pine Island Ridge",
 "Davie",
 "Tamarac",
-"Fort Lauderdale",
-"North Lauderdale",
-"Cooper City",
-"Wilton Manors"
+"Fort Lauderdale"
 ],
 "nb": []
 },
@@ -7527,13 +7539,13 @@
 "off_hi": 10,
 "near": [
 "Miami",
+"North Bay Village",
+"Isle of Normandy",
 "Allapattah",
+"Surfside",
 "Miami Shores",
-"Key Biscayne",
-"Brownsville",
-"Gladeview",
-"Pinewood",
-"North Miami"
+"Bay Harbor Islands",
+"Key Biscayne"
 ],
 "nb": [
 "South Beach",
@@ -7562,9 +7574,9 @@
 "Sanford",
 "DeLand",
 "Lake Mary",
+"Heathrow",
 "Winter Springs",
-"Longwood",
-"Casselberry"
+"Longwood"
 ],
 "nb": []
 },
@@ -7584,6 +7596,8 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Gateway",
+"Fort Myers Shores",
 "Fort Myers",
 "San Carlos Park",
 "Villas",
@@ -7611,9 +7625,12 @@
 "near": [
 "West Melbourne",
 "Palm Bay",
+"Indian Harbour Beach",
 "Satellite Beach",
+"South Patrick Shores",
+"Viera West",
 "Viera East",
-"Cocoa Beach"
+"Micco"
 ],
 "nb": []
 },
@@ -7636,11 +7653,11 @@
 "Fort Lauderdale",
 "Wilton Manors",
 "Oakland Park",
+"Lauderdale-by-the-Sea",
 "North Andrews Gardens",
+"Melrose Park",
 "Dania Beach",
-"Lauderhill",
-"Lauderdale Lakes",
-"Pompano Beach"
+"Lauderhill"
 ],
 "nb": []
 },
@@ -7659,7 +7676,11 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"Saint Augustine Shores",
+"Ormond-by-the-Sea",
+"Saint Augustine Beach"
+],
 "nb": []
 },
 {
@@ -7679,13 +7700,13 @@
 "off_hi": 10,
 "near": [
 "Clearwater",
+"South Highpoint",
 "Seminole",
 "Pinellas Park",
 "Dunedin",
+"Kenneth City",
 "Safety Harbor",
-"West and East Lealman",
-"Lealman",
-"Oldsmar"
+"West and East Lealman"
 ],
 "nb": []
 },
@@ -7759,14 +7780,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Pompano Beach Highlands",
 "Boca Raton",
 "Lighthouse Point",
 "Boca Del Mar",
 "Sandalfoot Cove",
 "Pompano Beach",
 "Coconut Creek",
-"Margate",
-"Parkland"
+"Margate"
 ],
 "nb": []
 },
@@ -7813,14 +7834,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Union Park",
 "Azalea Park",
 "Goldenrod",
+"Bithlo",
 "Oviedo",
 "Winter Park",
 "Conway",
-"Maitland",
-"Orlando",
-"Casselberry"
+"Wedgefield"
 ],
 "nb": []
 },
@@ -7869,12 +7890,12 @@
 "near": [
 "North Fort Myers",
 "Villas",
+"McGregor",
+"Gateway",
 "Cypress Lake",
 "Cape Coral",
-"Iona",
-"San Carlos Park",
-"Estero",
-"Lehigh Acres"
+"Fort Myers Shores",
+"Iona"
 ],
 "nb": [
 "Downtown River District"
@@ -7927,6 +7948,8 @@
 "South Daytona",
 "Port Orange",
 "Ormond Beach",
+"Ormond-by-the-Sea",
+"Samsula-Spruce Creek",
 "New Smyrna Beach"
 ],
 "nb": []
@@ -7949,12 +7972,12 @@
 "near": [
 "Plantation",
 "Lauderdale Lakes",
+"Melrose Park",
+"Broadview Park",
 "Fort Lauderdale",
 "Wilton Manors",
-"North Lauderdale",
-"Davie",
-"Tamarac",
-"Oakland Park"
+"Pine Island Ridge",
+"North Lauderdale"
 ],
 "nb": []
 },
@@ -7974,14 +7997,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Progress Village",
 "Gibsonton",
 "Palm River-Clair Mel",
 "Brandon",
 "Bloomingdale",
 "Fish Hawk",
-"Valrico",
-"Mango",
-"Apollo Beach"
+"Boyette",
+"Valrico"
 ],
 "nb": []
 },
@@ -8001,14 +8024,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Southwest Ranches",
+"Pine Island Ridge",
 "Cooper City",
 "Davie",
 "Plantation",
 "Country Club",
-"Lauderhill",
-"Tamarac",
-"Lauderdale Lakes",
-"Pembroke Pines"
+"Broadview Park",
+"Lauderhill"
 ],
 "nb": []
 },
@@ -8032,10 +8055,10 @@
 "Buenaventura Lakes",
 "Meadow Woods",
 "Southchase",
+"Celebration",
+"Williamsburg",
 "Saint Cloud",
-"Doctor Phillips",
-"Oak Ridge",
-"Poinciana"
+"Sky Lake"
 ],
 "nb": []
 },
@@ -8111,12 +8134,12 @@
 "near": [
 "Miami Gardens",
 "Scott Lake",
+"Lake Lucerne",
 "Norland",
 "Opa-locka",
+"Andover",
 "Miramar",
-"Golden Glades",
-"West Park",
-"Country Club"
+"Golden Glades"
 ],
 "nb": []
 },
@@ -8136,14 +8159,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Tequesta",
 "North Palm Beach",
 "Palm Beach Gardens",
 "Hobe Sound",
+"Lake Park",
 "Riviera Beach",
 "The Acreage",
-"West Palm Beach",
-"Port Salerno",
-"Royal Palm Beach"
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -8167,10 +8190,10 @@
 "Greenacres City",
 "Palm Springs",
 "Lake Worth Corridor",
+"West Gate",
 "The Acreage",
 "Lake Worth Beach",
-"West Palm Beach",
-"Lantana"
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -8194,10 +8217,10 @@
 "Miami Shores",
 "Pinewood",
 "North Miami Beach",
-"West Little River",
-"Opa-locka",
-"Norland",
-"Scott Lake"
+"Bay Harbor Islands",
+"Westview",
+"North Bay Village",
+"West Little River"
 ],
 "nb": []
 },
@@ -8217,12 +8240,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Warm Mineral Springs",
 "Englewood",
 "Port Charlotte",
+"Venice Gardens",
+"Rotonda West",
 "South Venice",
 "Punta Gorda Isles",
-"Venice",
-"Punta Gorda"
+"Venice"
 ],
 "nb": []
 },
@@ -8242,14 +8267,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Orlovista",
 "Fairview Shores",
 "Lockhart",
 "Orlando",
 "Ocoee",
 "Oak Ridge",
 "Lake Butler",
-"Maitland",
-"Winter Park"
+"Maitland"
 ],
 "nb": []
 },
@@ -8271,9 +8296,11 @@
 "near": [
 "South Daytona",
 "Daytona Beach",
+"Samsula-Spruce Creek",
 "Holly Hill",
 "New Smyrna Beach",
-"Ormond Beach"
+"Ormond Beach",
+"Ormond-by-the-Sea"
 ],
 "nb": []
 },
@@ -8300,7 +8327,7 @@
 "Olympia Heights",
 "Doral",
 "Coral Terrace",
-"Tamiami"
+"West Miami"
 ],
 "nb": []
 },
@@ -8324,10 +8351,10 @@
 "Pompano Beach",
 "North Lauderdale",
 "North Andrews Gardens",
+"Pompano Beach Highlands",
 "Tamarac",
 "Parkland",
-"Coral Springs",
-"Lighthouse Point"
+"Coral Springs"
 ],
 "nb": []
 },
@@ -8348,8 +8375,10 @@
 "off_hi": 10,
 "near": [
 "Silver Springs",
+"Silver Springs Shores",
 "On Top of the World",
-"Marion Oaks"
+"Marion Oaks",
+"Citra"
 ],
 "nb": []
 },
@@ -8371,12 +8400,12 @@
 "near": [
 "Lake Mary",
 "DeBary",
+"Heathrow",
 "Deltona",
 "Winter Springs",
 "Longwood",
 "Casselberry",
-"Oviedo",
-"Orange City"
+"Oviedo"
 ],
 "nb": []
 },
@@ -8504,14 +8533,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Southgate",
+"North Sarasota",
 "Sarasota Springs",
+"South Gate Ridge",
 "Fruitville",
-"Gulf Gate Estates",
-"Bayshore Gardens",
-"South Bradenton",
-"Bradenton",
-"Palmetto",
-"Venice"
+"Bee Ridge",
+"Siesta Key",
+"Gulf Gate Estates"
 ],
 "nb": [
 "Downtown",
@@ -8535,13 +8564,13 @@
 "off_hi": 10,
 "near": [
 "Palmetto",
+"West Samoset",
 "South Bradenton",
+"Memphis",
 "Bayshore Gardens",
-"Sarasota",
-"Fruitville",
-"Sarasota Springs",
-"Gulf Gate Estates",
-"Ruskin"
+"Longboat Key",
+"North Sarasota",
+"Sarasota"
 ],
 "nb": []
 },
@@ -8564,6 +8593,8 @@
 "Punta Gorda Isles",
 "Punta Gorda",
 "North Port",
+"Warm Mineral Springs",
+"Rotonda West",
 "Englewood"
 ],
 "nb": []
@@ -8613,12 +8644,12 @@
 "near": [
 "Pensacola",
 "Brent",
+"Gulf Breeze",
 "West Pensacola",
 "Ferry Pass",
 "Warrington",
 "Myrtle Grove",
-"Ensley",
-"Bellview"
+"Ensley"
 ],
 "nb": []
 },
@@ -8643,9 +8674,9 @@
 "West Pensacola",
 "Warrington",
 "Myrtle Grove",
+"Gulf Breeze",
 "Ferry Pass",
-"Bellview",
-"Ensley"
+"Bellview"
 ],
 "nb": []
 },
@@ -8668,11 +8699,11 @@
 "Haines City",
 "Kissimmee",
 "Saint Cloud",
+"Celebration",
 "Buenaventura Lakes",
 "Hunters Creek",
-"Citrus Ridge",
-"Four Corners",
-"Meadow Woods"
+"Lake Alfred",
+"Cypress Gardens"
 ],
 "nb": []
 },
@@ -8693,13 +8724,13 @@
 "off_hi": 10,
 "near": [
 "North Palm Beach",
+"Lake Park",
 "Riviera Beach",
 "Jupiter",
 "The Acreage",
+"West Gate",
 "West Palm Beach",
-"Royal Palm Beach",
-"Wellington",
-"Palm Springs"
+"Royal Palm Beach"
 ],
 "nb": []
 },
@@ -8719,14 +8750,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Naples Park",
 "Estero",
+"Pelican Bay",
 "San Carlos Park",
 "Golden Gate",
+"Fort Myers Beach",
 "Naples",
-"East Naples",
-"Villas",
-"Cypress Lake",
-"Iona"
+"East Naples"
 ],
 "nb": []
 },
@@ -8748,12 +8779,12 @@
 "near": [
 "West and East Lealman",
 "Lealman",
+"Kenneth City",
 "St. Petersburg",
+"South Highpoint",
 "Seminole",
-"Gulfport",
-"Largo",
-"Safety Harbor",
-"Clearwater"
+"South Pasadena",
+"Gulfport"
 ],
 "nb": []
 },
@@ -8774,7 +8805,9 @@
 "off_hi": 10,
 "near": [
 "Lady Lake",
+"Wildwood",
 "Leesburg",
+"Silver Springs Shores",
 "Marion Oaks",
 "Tavares",
 "Eustis"
@@ -8799,12 +8832,12 @@
 "near": [
 "South Miami",
 "Coral Terrace",
+"West Miami",
 "Glenvar Heights",
 "Flagami",
 "Kendall",
 "Westchester",
-"Pinecrest",
-"Sunset"
+"Pinecrest"
 ],
 "nb": []
 },
@@ -8830,8 +8863,8 @@
 "Kendale Lakes",
 "Three Lakes",
 "Richmond West",
-"Westwood Lake",
-"Palmetto Estates"
+"Richmond Heights",
+"Westwood Lake"
 ],
 "nb": []
 },
@@ -8852,13 +8885,13 @@
 "off_hi": 10,
 "near": [
 "Westchester",
+"West Miami",
 "Coral Terrace",
 "Fountainebleau",
 "University Park",
 "Olympia Heights",
 "Sweetwater",
-"Glenvar Heights",
-"South Miami"
+"Glenvar Heights"
 ],
 "nb": []
 },
@@ -8878,14 +8911,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"South Apopka",
 "Forest City",
 "Wekiwa Springs",
 "Lockhart",
 "Ocoee",
 "Winter Garden",
 "Pine Hills",
-"Altamonte Springs",
-"Fairview Shores"
+"Altamonte Springs"
 ],
 "nb": []
 },
@@ -8905,14 +8938,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Palm Springs North",
 "Miami Lakes",
 "Miami Gardens",
 "Carol City",
+"Lake Lucerne",
 "Opa-locka",
 "Scott Lake",
-"Hialeah Gardens",
-"Miramar",
-"Norland"
+"Hialeah Gardens"
 ],
 "nb": []
 },
@@ -8934,12 +8967,12 @@
 "near": [
 "Cutler Ridge",
 "Lakes by the Bay",
+"East Perrine",
 "West Perrine",
 "Goulds",
 "South Miami Heights",
 "Cutler",
-"Palmetto Bay",
-"Palmetto Estates"
+"Palmetto Bay"
 ],
 "nb": []
 },
@@ -8959,8 +8992,12 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Mims",
 "Port Saint John",
-"Cocoa"
+"Cocoa",
+"Cocoa West",
+"Wedgefield",
+"Bithlo"
 ],
 "nb": []
 },
@@ -8980,13 +9017,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Fort Pierce North",
+"Fort Pierce South",
+"Indian River Estates",
 "Lakewood Park",
+"River Park",
 "Florida Ridge",
 "Port Saint Lucie",
-"Vero Beach South",
-"Vero Beach",
-"Jensen Beach",
-"Stuart"
+"Hutchinson Island South"
 ],
 "nb": []
 },
@@ -9008,12 +9046,12 @@
 "near": [
 "Wilton Manors",
 "North Andrews Gardens",
+"Lauderdale-by-the-Sea",
 "Sunrise",
 "Fort Lauderdale",
 "Pompano Beach",
 "Lauderdale Lakes",
-"Lauderhill",
-"Coconut Creek"
+"Lauderhill"
 ],
 "nb": []
 },
@@ -9033,14 +9071,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Pebble Creek",
+"Pasadena Hills",
+"Zephyrhills West",
 "Land O' Lakes",
+"Zephyrhills South",
 "Zephyrhills",
 "Lutz",
-"Thonotosassa",
-"Cheval",
-"University",
-"Lake Magdalene",
-"Temple Terrace"
+"Dade City"
 ],
 "nb": []
 },
@@ -9116,12 +9154,12 @@
 "near": [
 "Winter Garden",
 "Lake Butler",
+"Orlovista",
 "Pine Hills",
+"South Apopka",
 "Lockhart",
 "Apopka",
-"Doctor Phillips",
-"Forest City",
-"Fairview Shores"
+"Doctor Phillips"
 ],
 "nb": []
 },
@@ -9141,14 +9179,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Fern Park",
 "Maitland",
 "Casselberry",
 "Longwood",
 "Winter Springs",
 "Wekiwa Springs",
 "Winter Park",
-"Forest City",
-"Fairview Shores"
+"Forest City"
 ],
 "nb": []
 },
@@ -9196,9 +9234,11 @@
 "off_hi": 10,
 "near": [
 "Holly Hill",
+"Ormond-by-the-Sea",
 "Daytona Beach",
 "South Daytona",
-"Port Orange"
+"Port Orange",
+"Samsula-Spruce Creek"
 ],
 "nb": []
 },
@@ -9247,12 +9287,12 @@
 "near": [
 "Ocoee",
 "Lake Butler",
+"Orlovista",
 "Pine Hills",
+"South Apopka",
 "Apopka",
 "Horizon West",
-"Lockhart",
-"Minneola",
-"Doctor Phillips"
+"Lockhart"
 ],
 "nb": []
 },
@@ -9272,14 +9312,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Pembroke Park",
 "Aventura",
 "Hollywood",
 "Ives Estates",
 "Ojus",
 "Sunny Isles Beach",
 "West Park",
-"North Miami Beach",
-"Norland"
+"North Miami Beach"
 ],
 "nb": []
 },
@@ -9300,13 +9340,13 @@
 "off_hi": 10,
 "near": [
 "Fort Myers",
+"McGregor",
 "Villas",
 "Cape Coral",
+"Fort Myers Shores",
 "Cypress Lake",
-"Iona",
-"San Carlos Park",
-"Lehigh Acres",
-"Estero"
+"Gateway",
+"Iona"
 ],
 "nb": []
 },
@@ -9357,10 +9397,10 @@
 "Palm Beach Gardens",
 "Wellington",
 "North Palm Beach",
+"West Gate",
+"Lake Park",
 "Riviera Beach",
-"West Palm Beach",
-"Jupiter",
-"Greenacres City"
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -9385,9 +9425,9 @@
 "Casselberry",
 "Alafaya",
 "Longwood",
-"Lake Mary",
-"Winter Park",
-"Altamonte Springs"
+"Union Park",
+"Fern Park",
+"Lake Mary"
 ],
 "nb": []
 },
@@ -9407,6 +9447,7 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Springfield",
 "Upper Grand Lagoon",
 "Callaway",
 "Lynn Haven",
@@ -9431,13 +9472,13 @@
 "off_hi": 10,
 "near": [
 "Eloise",
+"Inwood",
+"Jan-Phyl Village",
+"Cypress Gardens",
 "Auburndale",
-"Haines City",
-"Highland City",
-"Bartow",
-"Lake Wales",
-"Lakeland",
-"Lakeland Highlands"
+"Wahneta",
+"Lake Alfred",
+"Fussels Corner"
 ],
 "nb": []
 },
@@ -9462,9 +9503,9 @@
 "Hallandale Beach",
 "North Miami Beach",
 "Ives Estates",
+"Pembroke Park",
 "Hollywood",
-"West Park",
-"Norland"
+"West Park"
 ],
 "nb": []
 },
@@ -9486,12 +9527,12 @@
 "near": [
 "Wellington",
 "The Acreage",
+"West Gate",
 "Greenacres City",
 "Palm Springs",
 "Palm Beach Gardens",
 "Lake Worth Corridor",
-"West Palm Beach",
-"Riviera Beach"
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -9515,10 +9556,10 @@
 "Palm Springs",
 "Lantana",
 "Greenacres City",
+"West Gate",
 "Boynton Beach",
-"West Palm Beach",
-"Delray Beach",
-"Wellington"
+"Palm Beach",
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -9538,14 +9579,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Winston",
+"Kathleen",
+"Willow Oak",
 "Valrico",
+"Medulla",
+"Seffner",
 "Lakeland",
-"Lakeland Highlands",
-"Bloomingdale",
-"Thonotosassa",
-"Brandon",
-"Mango",
-"Fish Hawk"
+"Fuller Heights"
 ],
 "nb": []
 },
@@ -9569,10 +9610,10 @@
 "Palmetto Estates",
 "Cutler Ridge",
 "Goulds",
+"Richmond Heights",
+"East Perrine",
 "Cutler Bay",
-"Richmond West",
-"Three Lakes",
-"Palmetto Bay"
+"Richmond West"
 ],
 "nb": []
 },
@@ -9598,8 +9639,8 @@
 "Oldsmar",
 "Largo",
 "East Lake",
-"Tarpon Springs",
-"Westchase"
+"South Highpoint",
+"Tarpon Springs"
 ],
 "nb": []
 },
@@ -9649,11 +9690,11 @@
 "Country Walk",
 "Three Lakes",
 "South Miami Heights",
+"Richmond Heights",
 "West Perrine",
 "Palmetto Estates",
 "The Hammocks",
-"Goulds",
-"The Crossings"
+"Goulds"
 ],
 "nb": []
 },
@@ -9675,12 +9716,12 @@
 "near": [
 "Brandon",
 "Bloomingdale",
+"Seffner",
 "Mango",
 "Fish Hawk",
 "Riverview",
-"Palm River-Clair Mel",
-"East Lake-Orient Park",
-"Plant City"
+"Progress Village",
+"Boyette"
 ],
 "nb": []
 },
@@ -9702,6 +9743,7 @@
 "near": [
 "Jacksonville Beach",
 "Palm Valley",
+"Neptune Beach",
 "Atlantic Beach",
 "Jacksonville",
 "Fruit Cove"
@@ -9725,13 +9767,13 @@
 "off_hi": 10,
 "near": [
 "Davie",
+"Pine Island Ridge",
+"Southwest Ranches",
 "Pembroke Pines",
+"Broadview Park",
 "Miramar",
 "Plantation",
-"West Park",
-"Lauderhill",
-"Dania Beach",
-"Country Club"
+"Melrose Park"
 ],
 "nb": []
 },
@@ -9784,8 +9826,8 @@
 "Hunters Creek",
 "Southchase",
 "Poinciana",
-"Pine Castle",
-"Oak Ridge"
+"Williamsburg",
+"Belle Isle"
 ],
 "nb": []
 },
@@ -9808,11 +9850,11 @@
 "Lauderhill",
 "Plantation",
 "North Lauderdale",
+"Melrose Park",
 "Tamarac",
 "Wilton Manors",
 "North Andrews Gardens",
-"Oakland Park",
-"Fort Lauderdale"
+"Broadview Park"
 ],
 "nb": []
 },
@@ -9835,11 +9877,11 @@
 "Longwood",
 "Casselberry",
 "Lake Mary",
+"Fern Park",
 "Altamonte Springs",
+"Heathrow",
 "Maitland",
-"Goldenrod",
-"Oviedo",
-"Winter Park"
+"Goldenrod"
 ],
 "nb": []
 },
@@ -9861,10 +9903,12 @@
 "near": [
 "Rockledge",
 "Cocoa",
+"Cocoa West",
 "Cocoa Beach",
+"Cape Canaveral",
 "Viera East",
-"Port Saint John",
-"Satellite Beach"
+"Viera West",
+"Port Saint John"
 ],
 "nb": []
 },
@@ -9886,12 +9930,12 @@
 "near": [
 "Gladeview",
 "Pinewood",
+"Westview",
 "Brownsville",
 "Hialeah",
 "Miami Shores",
 "Allapattah",
-"Opa-locka",
-"North Miami"
+"Opa-locka"
 ],
 "nb": []
 },
@@ -9911,14 +9955,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Lake Park",
 "North Palm Beach",
 "West Palm Beach",
+"Palm Beach",
+"West Gate",
 "Palm Beach Gardens",
 "Palm Springs",
-"Lake Worth Beach",
-"Jupiter",
-"Greenacres City",
-"Lake Worth Corridor"
+"Lake Worth Beach"
 ],
 "nb": []
 },
@@ -9971,8 +10015,8 @@
 "Scott Lake",
 "Pinewood",
 "Opa-locka",
-"Miami Shores",
-"Carol City"
+"Westview",
+"Miami Shores"
 ],
 "nb": []
 },
@@ -9996,10 +10040,10 @@
 "Palm Springs",
 "Lake Worth Beach",
 "Lantana",
+"West Gate",
 "Wellington",
 "Boynton Beach",
-"West Palm Beach",
-"Royal Palm Beach"
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -10019,8 +10063,10 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Miramar Beach",
 "Destin",
-"Niceville"
+"Niceville",
+"Valparaiso"
 ],
 "nb": []
 },
@@ -10042,12 +10088,12 @@
 "near": [
 "Minneola",
 "Groveland",
+"Mascotte",
 "Winter Garden",
 "Horizon West",
 "Ocoee",
 "Lake Butler",
-"Four Corners",
-"Citrus Ridge"
+"Four Corners"
 ],
 "nb": []
 },
@@ -10070,11 +10116,11 @@
 "Lutz",
 "Cheval",
 "Wesley Chapel",
+"Odessa",
+"Pebble Creek",
 "Greater Northdale",
 "Northdale",
-"Lake Magdalene",
-"University",
-"Keystone"
+"Lake Magdalene"
 ],
 "nb": []
 },
@@ -10096,12 +10142,12 @@
 "near": [
 "Hollywood",
 "Fort Lauderdale",
+"Pembroke Park",
 "Hallandale Beach",
+"Broadview Park",
+"Melrose Park",
 "Davie",
-"West Park",
-"Sunrise",
-"Pembroke Pines",
-"Ives Estates"
+"West Park"
 ],
 "nb": []
 },
@@ -10124,7 +10170,10 @@
 "Midway",
 "Wright",
 "Fort Walton Beach",
-"East Milton"
+"Ocean City",
+"East Milton",
+"Lake Lorraine",
+"Gulf Breeze"
 ],
 "nb": []
 },
@@ -10144,14 +10193,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Palm Springs North",
 "Country Club",
 "Hialeah Gardens",
 "Opa-locka",
 "Hialeah",
 "Carol City",
-"Miami Gardens",
-"Scott Lake",
-"West Little River"
+"Westview",
+"Miami Gardens"
 ],
 "nb": []
 },
@@ -10200,10 +10249,12 @@
 "near": [
 "Bellair-Meadowbrook Terrace",
 "Fleming Island",
+"Orange Park",
 "Oakleaf Plantation",
+"Asbury Lake",
 "Middleburg",
 "Fruit Cove",
-"Jacksonville"
+"Green Cove Springs"
 ],
 "nb": []
 },
@@ -10226,11 +10277,11 @@
 "San Carlos Park",
 "Bonita Springs",
 "Villas",
+"Fort Myers Beach",
 "Cypress Lake",
-"Iona",
-"Cape Coral",
-"Fort Myers",
-"North Fort Myers"
+"Gateway",
+"McGregor",
+"Iona"
 ],
 "nb": []
 },
@@ -10253,6 +10304,7 @@
 "Orange City",
 "Deltona",
 "DeBary",
+"Samsula-Spruce Creek",
 "Sanford",
 "Lake Mary"
 ],
@@ -10281,7 +10333,7 @@
 "Boca Del Mar",
 "North Lauderdale",
 "Tamarac",
-"Deerfield Beach"
+"Pompano Beach Highlands"
 ],
 "nb": []
 },
@@ -10304,11 +10356,11 @@
 "Maitland",
 "Goldenrod",
 "Fairview Shores",
+"Fern Park",
+"Union Park",
 "Altamonte Springs",
 "Azalea Park",
-"Orlando",
-"Casselberry",
-"Lockhart"
+"Orlando"
 ],
 "nb": []
 },
@@ -10331,11 +10383,11 @@
 "Flagami",
 "Coral Terrace",
 "Fountainebleau",
+"West Miami",
 "University Park",
 "Olympia Heights",
 "Sweetwater",
-"Glenvar Heights",
-"Westwood Lake"
+"Glenvar Heights"
 ],
 "nb": []
 },
@@ -10356,13 +10408,13 @@
 "off_hi": 10,
 "near": [
 "Fleming Island",
+"Orange Park",
 "Lakeside",
 "Bellair-Meadowbrook Terrace",
+"Green Cove Springs",
+"Asbury Lake",
 "Oakleaf Plantation",
-"Middleburg",
-"Jacksonville",
-"Palm Valley",
-"Ponte Vedra Beach"
+"Middleburg"
 ],
 "nb": []
 },
@@ -10438,10 +10490,12 @@
 "near": [
 "Lakeside",
 "Fruit Cove",
+"Orange Park",
 "Bellair-Meadowbrook Terrace",
+"Asbury Lake",
+"Green Cove Springs",
 "Middleburg",
-"Oakleaf Plantation",
-"Jacksonville"
+"Oakleaf Plantation"
 ],
 "nb": []
 },
@@ -10463,12 +10517,12 @@
 "near": [
 "Longwood",
 "Winter Springs",
+"Fern Park",
 "Altamonte Springs",
 "Maitland",
 "Goldenrod",
 "Winter Park",
-"Lake Mary",
-"Wekiwa Springs"
+"Lake Mary"
 ],
 "nb": []
 },
@@ -10517,12 +10571,12 @@
 "near": [
 "Cutler Bay",
 "Lakes by the Bay",
+"East Perrine",
 "West Perrine",
 "South Miami Heights",
 "Goulds",
 "Palmetto Estates",
-"Palmetto Bay",
-"Cutler"
+"Palmetto Bay"
 ],
 "nb": []
 },
@@ -10570,13 +10624,13 @@
 "off_hi": 10,
 "near": [
 "Citrus Ridge",
+"Celebration",
 "Horizon West",
 "Doctor Phillips",
 "Lake Butler",
+"Williamsburg",
 "Hunters Creek",
-"Kissimmee",
-"Haines City",
-"Winter Garden"
+"Kissimmee"
 ],
 "nb": []
 },
@@ -10601,9 +10655,9 @@
 "Kissimmee",
 "Hunters Creek",
 "Saint Cloud",
-"Pine Castle",
-"Oak Ridge",
-"Doctor Phillips"
+"Williamsburg",
+"Belle Isle",
+"Sky Lake"
 ],
 "nb": []
 },
@@ -10671,11 +10725,11 @@
 "Southchase",
 "Buenaventura Lakes",
 "Hunters Creek",
+"Belle Isle",
+"Williamsburg",
+"Sky Lake",
 "Pine Castle",
-"Kissimmee",
-"Oak Ridge",
-"Conway",
-"Doctor Phillips"
+"Kissimmee"
 ],
 "nb": []
 },
@@ -10697,10 +10751,12 @@
 "near": [
 "Merritt Island",
 "Cocoa",
+"Cocoa West",
 "Viera East",
+"Viera West",
 "Cocoa Beach",
-"Port Saint John",
-"Satellite Beach"
+"Cape Canaveral",
+"Port Saint John"
 ],
 "nb": []
 },
@@ -10721,13 +10777,13 @@
 "off_hi": 10,
 "near": [
 "Holiday",
+"Beacon Square",
 "East Lake",
 "Palm Harbor",
 "Trinity",
 "Elfers",
 "New Port Richey",
-"Keystone",
-"Dunedin"
+"Keystone"
 ],
 "nb": []
 },
@@ -10748,13 +10804,13 @@
 "off_hi": 10,
 "near": [
 "Cutler",
+"East Perrine",
 "Palmetto Estates",
 "West Perrine",
+"Richmond Heights",
 "Cutler Bay",
 "Cutler Ridge",
-"Pinecrest",
-"Lakes by the Bay",
-"South Miami Heights"
+"Pinecrest"
 ],
 "nb": []
 },
@@ -10774,14 +10830,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"West Miami",
 "Flagami",
 "Westchester",
 "South Miami",
 "Coral Gables",
 "Glenvar Heights",
 "Fountainebleau",
-"Olympia Heights",
-"University Park"
+"Olympia Heights"
 ],
 "nb": []
 },
@@ -10801,6 +10857,7 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Samsula-Spruce Creek",
 "Port Orange",
 "South Daytona",
 "Daytona Beach",
@@ -10854,11 +10911,11 @@
 "Sandalfoot Cove",
 "Deerfield Beach",
 "Boca Raton",
+"Pompano Beach Highlands",
 "Lighthouse Point",
 "Parkland",
 "Coconut Creek",
-"Kings Point",
-"Pompano Beach"
+"Kings Point"
 ],
 "nb": []
 },
@@ -10877,7 +10934,9 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"Ave Maria"
+],
 "nb": []
 },
 {
@@ -10896,14 +10955,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Odessa",
 "Trinity",
 "East Lake",
 "Citrus Park",
 "Cheval",
 "Greater Northdale",
 "Westchase",
-"Elfers",
-"Holiday"
+"Elfers"
 ],
 "nb": []
 },
@@ -10923,6 +10982,10 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Micco",
+"Fellsmere",
+"Gifford",
+"West Vero Corridor",
 "Vero Beach",
 "Vero Beach South",
 "Palm Bay",
@@ -10948,10 +11011,12 @@
 "near": [
 "East Naples",
 "Naples",
+"Naples Manor",
+"Pelican Bay",
+"Naples Park",
 "Bonita Springs",
 "Marco",
-"Marco Island",
-"Estero"
+"Marco Island"
 ],
 "nb": []
 },
@@ -10975,10 +11040,10 @@
 "Miami Lakes",
 "Miami Springs",
 "Doral",
+"Palm Springs North",
+"Westview",
 "Opa-locka",
-"West Little River",
-"Country Club",
-"Gladeview"
+"West Little River"
 ],
 "nb": []
 },
@@ -10999,13 +11064,13 @@
 "off_hi": 10,
 "near": [
 "Scott Lake",
+"Andover",
 "Miami Gardens",
+"Lake Lucerne",
 "Carol City",
 "Ives Estates",
 "West Park",
-"Golden Glades",
-"Miramar",
-"North Miami Beach"
+"Golden Glades"
 ],
 "nb": []
 },
@@ -11030,9 +11095,9 @@
 "New Port Richey East",
 "New Port Richey",
 "Elfers",
+"Beacon Square",
 "Trinity",
-"Holiday",
-"Shady Hills"
+"Holiday"
 ],
 "nb": []
 },
@@ -11053,13 +11118,13 @@
 "off_hi": 10,
 "near": [
 "Winter Haven",
+"Jan-Phyl Village",
+"Cypress Gardens",
+"Wahneta",
+"Inwood",
 "Auburndale",
-"Highland City",
-"Bartow",
-"Haines City",
-"Lake Wales",
-"Lakeland Highlands",
-"Lakeland"
+"Lake Alfred",
+"Fussels Corner"
 ],
 "nb": []
 },
@@ -11106,7 +11171,8 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
-"Niceville"
+"Niceville",
+"Valparaiso"
 ],
 "nb": []
 },
@@ -11126,7 +11192,11 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Ocean City",
 "Fort Walton Beach",
+"Lake Lorraine",
+"Eglin Village",
+"Valparaiso",
 "Destin",
 "Niceville",
 "Navarre"
@@ -11152,8 +11222,11 @@
 "Stuart",
 "Port Salerno",
 "Jensen Beach",
+"Hutchinson Island South",
 "Port Saint Lucie",
-"Hobe Sound"
+"Hobe Sound",
+"River Park",
+"Indian River Estates"
 ],
 "nb": []
 },
@@ -11175,7 +11248,10 @@
 "near": [
 "Vero Beach",
 "Florida Ridge",
+"Gifford",
+"West Vero Corridor",
 "Lakewood Park",
+"Fort Pierce North",
 "Fort Pierce",
 "Sebastian"
 ],
@@ -11197,6 +11273,7 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Neptune Beach",
 "Atlantic Beach",
 "Ponte Vedra Beach",
 "Palm Valley",
@@ -11221,7 +11298,10 @@
 "off_hi": 10,
 "near": [
 "Naples",
+"Naples Manor",
 "Golden Gate",
+"Pelican Bay",
+"Naples Park",
 "Marco",
 "Bonita Springs",
 "Marco Island"
@@ -11244,14 +11324,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Lake Alfred",
+"Cypress Gardens",
 "Winter Haven",
 "Poinciana",
+"Inwood",
 "Auburndale",
 "Eloise",
-"Lake Wales",
-"Four Corners",
-"Citrus Ridge",
-"Kissimmee"
+"Jan-Phyl Village"
 ],
 "nb": []
 },
@@ -11275,10 +11355,10 @@
 "Kendale Lakes",
 "The Hammocks",
 "Country Walk",
+"Richmond Heights",
 "Kendall West",
 "Sunset",
-"Palmetto Estates",
-"Westwood Lake"
+"Palmetto Estates"
 ],
 "nb": []
 },
@@ -11302,10 +11382,10 @@
 "Palm River-Clair Mel",
 "Mango",
 "Tampa",
+"Progress Village",
+"Seffner",
 "Brandon",
-"Thonotosassa",
-"University",
-"Egypt Lake-Leto"
+"Thonotosassa"
 ],
 "nb": []
 },
@@ -11328,11 +11408,11 @@
 "Valrico",
 "Fish Hawk",
 "Brandon",
+"Boyette",
 "Riverview",
+"Seffner",
 "Mango",
-"Palm River-Clair Mel",
-"Gibsonton",
-"East Lake-Orient Park"
+"Progress Village"
 ],
 "nb": []
 },
@@ -11352,14 +11432,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Sky Lake",
 "Pine Castle",
+"Belle Isle",
+"Williamsburg",
 "Doctor Phillips",
+"Orlovista",
 "Orlando",
-"Southchase",
-"Conway",
-"Pine Hills",
-"Meadow Woods",
-"Lake Butler"
+"Southchase"
 ],
 "nb": []
 },
@@ -11379,14 +11459,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Beacon Square",
 "Elfers",
 "Tarpon Springs",
 "Trinity",
 "New Port Richey",
 "New Port Richey East",
 "East Lake",
-"Keystone",
-"Palm Harbor"
+"Keystone"
 ],
 "nb": []
 },
@@ -11410,10 +11490,10 @@
 "Lake Worth Beach",
 "Greenacres City",
 "Lantana",
+"West Gate",
+"Palm Beach",
 "West Palm Beach",
-"Boynton Beach",
-"Wellington",
-"Royal Palm Beach"
+"Boynton Beach"
 ],
 "nb": []
 },
@@ -11433,13 +11513,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Laurel",
+"Venice Gardens",
 "South Venice",
+"Osprey",
 "Gulf Gate Estates",
 "Englewood",
-"North Port",
-"Sarasota Springs",
-"Fruitville",
-"Sarasota"
+"Warm Mineral Springs",
+"Bee Ridge"
 ],
 "nb": []
 },
@@ -11459,13 +11540,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"West Samoset",
 "Bradenton",
 "Bayshore Gardens",
 "Palmetto",
-"Sarasota",
-"Fruitville",
-"Sarasota Springs",
-"Gulf Gate Estates"
+"Memphis",
+"Longboat Key",
+"North Sarasota",
+"Sarasota"
 ],
 "nb": []
 },
@@ -11490,9 +11572,9 @@
 "Hallandale Beach",
 "North Miami Beach",
 "Ives Estates",
-"Hollywood",
-"West Park",
-"Golden Glades"
+"Pembroke Park",
+"Bay Harbor Islands",
+"Hollywood"
 ],
 "nb": []
 },
@@ -11570,10 +11652,10 @@
 "Altamonte Springs",
 "Longwood",
 "Apopka",
+"Heathrow",
 "Lockhart",
-"Casselberry",
-"Maitland",
-"Winter Springs"
+"Fern Park",
+"South Apopka"
 ],
 "nb": []
 },
@@ -11596,10 +11678,11 @@
 "Lady Lake",
 "Tavares",
 "The Villages",
+"Wildwood",
 "Eustis",
 "Mount Dora",
-"Groveland",
-"Minneola"
+"Mascotte",
+"Groveland"
 ],
 "nb": []
 },
@@ -11621,12 +11704,12 @@
 "near": [
 "Lealman",
 "Pinellas Park",
+"Kenneth City",
 "St. Petersburg",
 "Gulfport",
-"Seminole",
-"Largo",
-"Safety Harbor",
-"Clearwater"
+"South Pasadena",
+"Treasure Island",
+"Seminole"
 ],
 "nb": []
 },
@@ -11646,8 +11729,12 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Ocean City",
 "Wright",
+"Lake Lorraine",
+"Eglin Village",
 "Destin",
+"Valparaiso",
 "Niceville",
 "Navarre"
 ],
@@ -11724,7 +11811,10 @@
 "off_hi": 10,
 "near": [
 "East Naples",
+"Naples Manor",
+"Pelican Bay",
 "Golden Gate",
+"Naples Park",
 "Marco",
 "Bonita Springs",
 "Marco Island"
@@ -11774,14 +11864,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Progress Village",
 "East Lake-Orient Park",
 "Gibsonton",
 "Tampa",
 "Riverview",
 "Brandon",
 "Mango",
-"Temple Terrace",
-"Bloomingdale"
+"Seffner"
 ],
 "nb": []
 },
@@ -11830,9 +11920,12 @@
 "near": [
 "Melbourne",
 "Palm Bay",
+"Indian Harbour Beach",
 "Satellite Beach",
+"South Patrick Shores",
+"Viera West",
 "Viera East",
-"Cocoa Beach"
+"Micco"
 ],
 "nb": []
 },
@@ -11856,10 +11949,10 @@
 "Greenacres City",
 "Lake Worth Beach",
 "Lantana",
+"West Gate",
 "Boynton Beach",
-"West Palm Beach",
-"Wellington",
-"Royal Palm Beach"
+"Palm Beach",
+"West Palm Beach"
 ],
 "nb": []
 },
@@ -11909,6 +12002,8 @@
 "Lakeside",
 "Bellair-Meadowbrook Terrace",
 "Middleburg",
+"Orange Park",
+"Asbury Lake",
 "Fleming Island",
 "Fruit Cove",
 "Jacksonville"
@@ -11932,6 +12027,7 @@
 "off_hi": 11,
 "near": [
 "Panama City",
+"Springfield",
 "Callaway",
 "Upper Grand Lagoon",
 "Panama City Beach"
@@ -11955,13 +12051,13 @@
 "off_hi": 11,
 "near": [
 "Ferry Pass",
+"Milton",
 "Gonzalez",
 "East Milton",
 "Ensley",
 "Brent",
 "East Pensacola Heights",
-"Pensacola",
-"Bellview"
+"Pensacola"
 ],
 "nb": []
 },
@@ -11983,6 +12079,7 @@
 "near": [
 "Ponte Vedra Beach",
 "Jacksonville Beach",
+"Neptune Beach",
 "Atlantic Beach",
 "Fruit Cove"
 ],
@@ -12008,10 +12105,10 @@
 "Orange City",
 "Sanford",
 "Lake Mary",
+"Heathrow",
 "DeLand",
 "Longwood",
-"Winter Springs",
-"Casselberry"
+"Winter Springs"
 ],
 "nb": []
 },
@@ -12036,6 +12133,7 @@
 "Leesburg",
 "Lady Lake",
 "Apopka",
+"South Apopka",
 "The Villages"
 ],
 "nb": []
@@ -12058,12 +12156,12 @@
 "near": [
 "West and East Lealman",
 "Pinellas Park",
+"Kenneth City",
 "St. Petersburg",
 "Gulfport",
-"Seminole",
-"Largo",
-"Safety Harbor",
-"Clearwater"
+"South Pasadena",
+"Treasure Island",
+"South Highpoint"
 ],
 "nb": []
 },
@@ -12083,14 +12181,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Pembroke Park",
 "Ojus",
 "West Park",
 "Hallandale Beach",
 "North Miami Beach",
+"Andover",
 "Aventura",
-"Norland",
-"Sunny Isles Beach",
-"Scott Lake"
+"Norland"
 ],
 "nb": []
 },
@@ -12116,8 +12214,8 @@
 "Palmetto Bay",
 "Cutler",
 "Sunset",
-"Coral Gables",
-"Palmetto Estates"
+"East Perrine",
+"Coral Gables"
 ],
 "nb": []
 },
@@ -12144,7 +12242,7 @@
 "Lake Magdalene",
 "University",
 "Carrollwood Village",
-"Carrollwood"
+"Pebble Creek"
 ],
 "nb": []
 },
@@ -12164,14 +12262,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Wimauma",
 "Ruskin",
 "Apollo Beach",
 "Gibsonton",
 "Riverview",
+"Boyette",
 "Fish Hawk",
-"Bloomingdale",
-"Palm River-Clair Mel",
-"Brandon"
+"Progress Village"
 ],
 "nb": []
 },
@@ -12192,10 +12290,13 @@
 "off_hi": 10,
 "near": [
 "On Top of the World",
+"Silver Springs Shores",
 "Ocala",
+"Wildwood",
+"Hernando",
 "The Villages",
-"Silver Springs",
-"Lady Lake"
+"Inverness",
+"Silver Springs"
 ],
 "nb": []
 },
@@ -12220,9 +12321,9 @@
 "New Port Richey",
 "Hudson",
 "Elfers",
+"Beacon Square",
 "Trinity",
-"Holiday",
-"Keystone"
+"Holiday"
 ],
 "nb": []
 },
@@ -12244,12 +12345,12 @@
 "near": [
 "Highland City",
 "Lakeland Highlands",
+"Wahneta",
+"Jan-Phyl Village",
 "Eloise",
-"Winter Haven",
-"Lakeland",
-"Auburndale",
-"Lake Wales",
-"Plant City"
+"Medulla",
+"Fuller Heights",
+"Fort Meade"
 ],
 "nb": []
 },
@@ -12272,6 +12373,8 @@
 "Punta Gorda",
 "Port Charlotte",
 "North Port",
+"Rotonda West",
+"Warm Mineral Springs",
 "Englewood"
 ],
 "nb": []
@@ -12291,7 +12394,11 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"South Bay",
+"Pahokee",
+"Clewiston"
+],
 "nb": []
 },
 {
@@ -12313,8 +12420,11 @@
 "Lakewood Park",
 "Vero Beach South",
 "Vero Beach",
+"Gifford",
+"West Vero Corridor",
+"Fort Pierce North",
 "Fort Pierce",
-"Sebastian"
+"Fort Pierce South"
 ],
 "nb": []
 },
@@ -12334,14 +12444,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Kenneth City",
 "Largo",
+"Treasure Island",
 "Pinellas Park",
 "West and East Lealman",
+"South Pasadena",
 "Lealman",
-"Gulfport",
-"St. Petersburg",
-"Clearwater",
-"Safety Harbor"
+"South Highpoint"
 ],
 "nb": []
 },
@@ -12363,7 +12473,9 @@
 "near": [
 "Punta Gorda Isles",
 "Port Charlotte",
-"North Port"
+"North Port",
+"Rotonda West",
+"Warm Mineral Springs"
 ],
 "nb": []
 },
@@ -12384,13 +12496,13 @@
 "off_hi": 10,
 "near": [
 "Palmetto Bay",
+"East Perrine",
 "Cutler Bay",
 "Lakes by the Bay",
 "Palmetto Estates",
 "Cutler Ridge",
 "West Perrine",
-"Pinecrest",
-"Kendall"
+"Pinecrest"
 ],
 "nb": []
 },
@@ -12415,9 +12527,9 @@
 "Sunny Isles Beach",
 "Ives Estates",
 "Hallandale Beach",
+"Pembroke Park",
 "Norland",
-"West Park",
-"Golden Glades"
+"West Park"
 ],
 "nb": []
 },
@@ -12437,13 +12549,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Cocoa West",
 "Rockledge",
 "Merritt Island",
 "Port Saint John",
+"Cape Canaveral",
 "Viera East",
 "Cocoa Beach",
-"Titusville",
-"Satellite Beach"
+"Viera West"
 ],
 "nb": []
 },
@@ -12464,6 +12577,7 @@
 "off_hi": 10,
 "near": [
 "Marco",
+"Naples Manor",
 "East Naples",
 "Naples",
 "Golden Gate"
@@ -12486,14 +12600,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Fern Park",
 "Altamonte Springs",
 "Winter Park",
 "Fairview Shores",
 "Casselberry",
 "Goldenrod",
 "Lockhart",
-"Longwood",
-"Forest City"
+"Longwood"
 ],
 "nb": []
 },
@@ -12514,13 +12628,13 @@
 "off_hi": 10,
 "near": [
 "Oldsmar",
+"South Highpoint",
 "Dunedin",
 "Westchase",
 "Clearwater",
 "Town 'n' Country",
 "Palm Harbor",
-"Largo",
-"East Lake"
+"Largo"
 ],
 "nb": []
 },
@@ -12542,12 +12656,12 @@
 "near": [
 "Apollo Beach",
 "Sun City Center",
+"Wimauma",
 "Gibsonton",
 "Riverview",
+"Progress Village",
 "Palm River-Clair Mel",
-"St. Petersburg",
-"Tampa",
-"Palmetto"
+"Boyette"
 ],
 "nb": []
 },
@@ -12597,11 +12711,11 @@
 "Estero",
 "Villas",
 "Cypress Lake",
+"Gateway",
 "Bonita Springs",
-"Iona",
-"Fort Myers",
-"Cape Coral",
-"North Fort Myers"
+"Fort Myers Beach",
+"McGregor",
+"Iona"
 ],
 "nb": []
 },
@@ -12625,10 +12739,10 @@
 "Parkland",
 "Deerfield Beach",
 "Coconut Creek",
+"Pompano Beach Highlands",
 "Boca Raton",
 "Margate",
-"Coral Springs",
-"Lighthouse Point"
+"Coral Springs"
 ],
 "nb": []
 },
@@ -12648,14 +12762,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Westview",
 "Carol City",
 "Miami Gardens",
 "Scott Lake",
 "Pinewood",
 "Golden Glades",
 "West Little River",
-"Hialeah",
-"Miami Lakes"
+"Hialeah"
 ],
 "nb": []
 },
@@ -12677,12 +12791,12 @@
 "near": [
 "West Little River",
 "Miami Shores",
+"Westview",
 "Gladeview",
 "North Miami",
 "Opa-locka",
 "Golden Glades",
-"Brownsville",
-"Allapattah"
+"Brownsville"
 ],
 "nb": []
 },
@@ -12705,9 +12819,11 @@
 "Palm City",
 "Jensen Beach",
 "Port Salerno",
+"Hutchinson Island South",
 "Port Saint Lucie",
+"River Park",
 "Hobe Sound",
-"Fort Pierce"
+"Indian River Estates"
 ],
 "nb": []
 },
@@ -12755,8 +12871,11 @@
 "off_hi": 10,
 "near": [
 "Vero Beach South",
+"Gifford",
 "Florida Ridge",
+"West Vero Corridor",
 "Lakewood Park",
+"Fort Pierce North",
 "Sebastian",
 "Fort Pierce"
 ],
@@ -12779,12 +12898,13 @@
 "off_hi": 10,
 "near": [
 "South Bradenton",
+"West Samoset",
+"Longboat Key",
 "Bradenton",
+"North Sarasota",
 "Palmetto",
 "Sarasota",
-"Fruitville",
-"Sarasota Springs",
-"Gulf Gate Estates"
+"Memphis"
 ],
 "nb": []
 },
@@ -12805,13 +12925,13 @@
 "off_hi": 11,
 "near": [
 "Navarre",
+"Gulf Breeze",
 "East Pensacola Heights",
 "Pensacola",
 "Ferry Pass",
 "Brent",
 "East Milton",
-"Warrington",
-"Pace"
+"Milton"
 ],
 "nb": []
 },
@@ -12831,14 +12951,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Heathrow",
 "Sanford",
 "Longwood",
 "Winter Springs",
 "Casselberry",
 "Altamonte Springs",
 "Wekiwa Springs",
-"DeBary",
-"Oviedo"
+"Fern Park"
 ],
 "nb": []
 },
@@ -12862,10 +12982,10 @@
 "Three Lakes",
 "The Hammocks",
 "The Crossings",
+"Richmond Heights",
 "South Miami Heights",
 "Palmetto Estates",
-"West Perrine",
-"Kendall West"
+"West Perrine"
 ],
 "nb": []
 },
@@ -12887,12 +13007,12 @@
 "near": [
 "Meadow Woods",
 "Hunters Creek",
+"Williamsburg",
 "Buenaventura Lakes",
+"Sky Lake",
+"Belle Isle",
 "Pine Castle",
-"Oak Ridge",
-"Kissimmee",
-"Doctor Phillips",
-"Conway"
+"Oak Ridge"
 ],
 "nb": []
 },
@@ -12941,12 +13061,12 @@
 "near": [
 "Elfers",
 "New Port Richey East",
+"Beacon Square",
 "Jasmine Estates",
 "Holiday",
 "Trinity",
 "Bayonet Point",
-"Tarpon Springs",
-"Hudson"
+"Tarpon Springs"
 ],
 "nb": []
 },
@@ -12966,13 +13086,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Cypress Gardens",
+"Wahneta",
 "Eloise",
 "Winter Haven",
+"Jan-Phyl Village",
+"Inwood",
 "Haines City",
-"Bartow",
-"Auburndale",
-"Poinciana",
-"Highland City"
+"Lake Alfred"
 ],
 "nb": []
 },
@@ -12998,8 +13119,8 @@
 "Lady Lake",
 "Apopka",
 "Minneola",
-"The Villages",
-"Clermont"
+"South Apopka",
+"The Villages"
 ],
 "nb": []
 },
@@ -13022,11 +13143,11 @@
 "Doctor Phillips",
 "Ocoee",
 "Winter Garden",
+"Orlovista",
 "Pine Hills",
 "Horizon West",
 "Oak Ridge",
-"Lockhart",
-"Orlando"
+"Williamsburg"
 ],
 "nb": []
 },
@@ -13047,13 +13168,13 @@
 "off_hi": 10,
 "near": [
 "Cape Coral",
+"McGregor",
 "Cypress Lake",
+"Fort Myers Beach",
+"Sanibel",
 "Villas",
 "Fort Myers",
-"San Carlos Park",
-"Estero",
-"North Fort Myers",
-"Bonita Springs"
+"San Carlos Park"
 ],
 "nb": []
 },
@@ -13080,7 +13201,7 @@
 "Hialeah",
 "Pinewood",
 "Miami Shores",
-"Miami"
+"Westview"
 ],
 "nb": []
 },
@@ -13100,14 +13221,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Andover",
+"Pembroke Park",
 "Pembroke Pines",
 "Ives Estates",
 "Miramar",
 "Norland",
-"Hallandale Beach",
-"Hollywood",
-"Scott Lake",
-"Ojus"
+"Lake Lucerne",
+"Hallandale Beach"
 ],
 "nb": []
 },
@@ -13127,14 +13248,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Richmond Heights",
 "The Crossings",
 "Country Walk",
 "Palmetto Estates",
 "Richmond West",
 "South Miami Heights",
 "West Perrine",
-"The Hammocks",
-"Kendale Lakes"
+"The Hammocks"
 ],
 "nb": []
 },
@@ -13154,14 +13275,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Inwood",
+"Jan-Phyl Village",
+"Lake Alfred",
+"Fussels Corner",
 "Winter Haven",
 "Eloise",
-"Highland City",
-"Lakeland",
-"Haines City",
-"Bartow",
-"Lakeland Highlands",
-"Lake Wales"
+"Combee Settlement",
+"Crystal Lake"
 ],
 "nb": []
 },
@@ -13182,9 +13303,11 @@
 "off_hi": 10,
 "near": [
 "Marco Island",
+"Naples Manor",
 "East Naples",
 "Naples",
-"Golden Gate"
+"Golden Gate",
+"Pelican Bay"
 ],
 "nb": []
 },
@@ -13204,11 +13327,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Rotonda West",
 "South Venice",
+"Venice Gardens",
+"Warm Mineral Springs",
 "North Port",
 "Venice",
-"Port Charlotte",
-"Punta Gorda Isles"
+"Laurel",
+"Port Charlotte"
 ],
 "nb": []
 },
@@ -13230,6 +13356,8 @@
 "near": [
 "The Villages",
 "Leesburg",
+"Wildwood",
+"Silver Springs Shores",
 "Tavares",
 "Eustis",
 "Marion Oaks",
@@ -13253,11 +13381,14 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Valparaiso",
+"Eglin Village",
+"Lake Lorraine",
 "Destin",
+"Ocean City",
 "Wright",
 "Fort Walton Beach",
-"Santa Rosa Beach",
-"Crestview"
+"Miramar Beach"
 ],
 "nb": []
 },
@@ -13277,12 +13408,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Zephyrhills South",
+"Zephyrhills West",
+"Pasadena Hills",
 "Wesley Chapel",
-"Thonotosassa",
-"Plant City",
-"Land O' Lakes",
-"Lutz",
-"Temple Terrace"
+"Dade City",
+"Pebble Creek",
+"Kathleen",
+"Thonotosassa"
 ],
 "nb": []
 },
@@ -13308,8 +13441,8 @@
 "Bellview",
 "Brent",
 "East Pensacola Heights",
-"Ensley",
-"Ferry Pass"
+"Gulf Breeze",
+"Ensley"
 ],
 "nb": []
 },
@@ -13334,9 +13467,9 @@
 "Gladeview",
 "Hialeah Gardens",
 "West Little River",
+"West Miami",
 "Doral",
-"Allapattah",
-"Flagami"
+"Allapattah"
 ],
 "nb": []
 },
@@ -13359,11 +13492,11 @@
 "Miami Gardens",
 "Carol City",
 "Norland",
+"Lake Lucerne",
+"Andover",
 "Golden Glades",
 "Opa-locka",
-"Miramar",
-"West Park",
-"Ives Estates"
+"Miramar"
 ],
 "nb": []
 },
@@ -13383,6 +13516,7 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Springfield",
 "Panama City",
 "Lynn Haven",
 "Upper Grand Lagoon",
@@ -13406,14 +13540,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Bee Ridge",
+"Southgate",
+"South Gate Ridge",
 "Fruitville",
 "Sarasota",
 "Gulf Gate Estates",
-"Bayshore Gardens",
-"South Bradenton",
-"Bradenton",
-"Venice",
-"Palmetto"
+"Siesta Key",
+"North Sarasota"
 ],
 "nb": []
 },
@@ -13436,11 +13570,11 @@
 "Southchase",
 "Meadow Woods",
 "Kissimmee",
+"Williamsburg",
 "Buenaventura Lakes",
-"Doctor Phillips",
-"Oak Ridge",
-"Pine Castle",
-"Conway"
+"Sky Lake",
+"Celebration",
+"Doctor Phillips"
 ],
 "nb": []
 },
@@ -13460,14 +13594,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Progress Village",
 "Riverview",
 "Palm River-Clair Mel",
 "Apollo Beach",
 "Tampa",
 "Brandon",
 "East Lake-Orient Park",
-"Bloomingdale",
-"Sun City Center"
+"Bloomingdale"
 ],
 "nb": []
 },
@@ -13494,7 +13628,7 @@
 "Citrus Park",
 "Dunedin",
 "Palm Harbor",
-"Keystone"
+"South Highpoint"
 ],
 "nb": []
 },
@@ -13514,14 +13648,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Boyette",
 "Bloomingdale",
 "Valrico",
 "Riverview",
 "Brandon",
-"Gibsonton",
-"Mango",
-"Palm River-Clair Mel",
-"Sun City Center"
+"Progress Village",
+"Seffner",
+"Gibsonton"
 ],
 "nb": []
 },
@@ -13544,11 +13678,11 @@
 "Winter Springs",
 "Casselberry",
 "Altamonte Springs",
+"Fern Park",
 "Lake Mary",
+"Heathrow",
 "Wekiwa Springs",
-"Maitland",
-"Forest City",
-"Goldenrod"
+"Maitland"
 ],
 "nb": []
 },
@@ -13571,11 +13705,11 @@
 "Ruskin",
 "Sun City Center",
 "Gibsonton",
+"Wimauma",
 "Riverview",
+"Progress Village",
 "Palm River-Clair Mel",
-"Tampa",
-"Fish Hawk",
-"Bloomingdale"
+"Boyette"
 ],
 "nb": []
 },
@@ -13599,10 +13733,10 @@
 "Citrus Ridge",
 "Four Corners",
 "Doctor Phillips",
+"Celebration",
 "Winter Garden",
 "Ocoee",
-"Clermont",
-"Minneola"
+"Williamsburg"
 ],
 "nb": []
 },
@@ -13623,13 +13757,13 @@
 "off_hi": 10,
 "near": [
 "New Port Richey",
+"Beacon Square",
 "Holiday",
 "Trinity",
 "New Port Richey East",
 "Tarpon Springs",
 "Jasmine Estates",
-"Keystone",
-"East Lake"
+"Keystone"
 ],
 "nb": []
 },
@@ -13651,6 +13785,7 @@
 "near": [
 "Panama City Beach",
 "Panama City",
+"Springfield",
 "Lynn Haven",
 "Callaway"
 ],
@@ -13672,11 +13807,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Venice Gardens",
 "Venice",
+"Laurel",
 "Englewood",
+"Warm Mineral Springs",
+"Osprey",
 "North Port",
-"Gulf Gate Estates",
-"Sarasota Springs"
+"Rotonda West"
 ],
 "nb": []
 },
@@ -13698,12 +13836,12 @@
 "near": [
 "Wekiwa Springs",
 "Lockhart",
+"South Apopka",
 "Apopka",
 "Altamonte Springs",
 "Maitland",
-"Fairview Shores",
-"Longwood",
-"Casselberry"
+"Fern Park",
+"Fairview Shores"
 ],
 "nb": []
 },
@@ -13722,7 +13860,16 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"Lecanto",
+"Sugarmill Woods",
+"Citrus Hills",
+"Beverly Hills",
+"Pine Ridge",
+"Hernando",
+"Inverness Highlands South",
+"Citrus Springs"
+],
 "nb": []
 },
 {
@@ -13741,10 +13888,14 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Lake Lorraine",
+"Eglin Village",
 "Fort Walton Beach",
+"Ocean City",
+"Valparaiso",
+"Miramar Beach",
 "Niceville",
-"Wright",
-"Santa Rosa Beach"
+"Wright"
 ],
 "nb": []
 },
@@ -13767,11 +13918,11 @@
 "Eustis",
 "Tavares",
 "Apopka",
+"South Apopka",
 "Leesburg",
 "Wekiwa Springs",
 "Forest City",
-"Winter Garden",
-"Minneola"
+"Heathrow"
 ],
 "nb": []
 },
@@ -13818,14 +13969,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Richmond Heights",
 "West Perrine",
+"East Perrine",
 "South Miami Heights",
 "Palmetto Bay",
 "Three Lakes",
 "Cutler Ridge",
-"Cutler",
-"Cutler Bay",
-"Lakes by the Bay"
+"Cutler"
 ],
 "nb": []
 },
@@ -13874,12 +14025,12 @@
 "near": [
 "Pine Castle",
 "Azalea Park",
+"Belle Isle",
 "Orlando",
+"Sky Lake",
+"Union Park",
 "Oak Ridge",
-"Winter Park",
-"Fairview Shores",
-"Goldenrod",
-"Southchase"
+"Winter Park"
 ],
 "nb": []
 },
@@ -13899,10 +14050,12 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Orange Park",
 "Lakeside",
 "Oakleaf Plantation",
 "Fleming Island",
 "Fruit Cove",
+"Asbury Lake",
 "Middleburg",
 "Jacksonville"
 ],
@@ -13925,13 +14078,13 @@
 "off_hi": 10,
 "near": [
 "Four Corners",
+"Celebration",
 "Horizon West",
 "Doctor Phillips",
 "Lake Butler",
+"Williamsburg",
 "Hunters Creek",
-"Kissimmee",
-"Haines City",
-"Southchase"
+"Kissimmee"
 ],
 "nb": []
 },
@@ -13978,14 +14131,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Memphis",
 "Bradenton",
+"West Samoset",
 "South Bradenton",
 "Bayshore Gardens",
-"Sarasota",
-"Fruitville",
-"Sarasota Springs",
-"Ruskin",
-"Gulfport"
+"Longboat Key",
+"North Sarasota",
+"Sarasota"
 ],
 "nb": []
 },
@@ -14006,13 +14159,13 @@
 "off_hi": 10,
 "near": [
 "Sarasota Springs",
+"Bee Ridge",
+"Southgate",
+"South Gate Ridge",
 "Sarasota",
+"North Sarasota",
 "Gulf Gate Estates",
-"Bayshore Gardens",
-"South Bradenton",
-"Bradenton",
-"Palmetto",
-"Venice"
+"Siesta Key"
 ],
 "nb": []
 },
@@ -14032,6 +14185,7 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Neptune Beach",
 "Jacksonville Beach",
 "Ponte Vedra Beach",
 "Palm Valley",
@@ -14086,10 +14240,10 @@
 "Fairview Shores",
 "Pine Hills",
 "Maitland",
+"South Apopka",
 "Altamonte Springs",
 "Wekiwa Springs",
-"Apopka",
-"Winter Park"
+"Orlovista"
 ],
 "nb": []
 },
@@ -14110,13 +14264,13 @@
 "off_hi": 10,
 "near": [
 "Temple Terrace",
+"Seffner",
 "Mango",
+"Pebble Creek",
 "East Lake-Orient Park",
 "University",
 "Brandon",
-"Valrico",
-"Lake Magdalene",
-"Palm River-Clair Mel"
+"Valrico"
 ],
 "nb": []
 },
@@ -14136,10 +14290,13 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Asbury Lake",
 "Lakeside",
 "Oakleaf Plantation",
 "Fleming Island",
 "Bellair-Meadowbrook Terrace",
+"Orange Park",
+"Green Cove Springs",
 "Fruit Cove"
 ],
 "nb": []
@@ -14167,7 +14324,7 @@
 "Allapattah",
 "Pinecrest",
 "Coral Terrace",
-"Kendall"
+"West Miami"
 ],
 "nb": []
 },
@@ -14186,7 +14343,10 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"Saint Augustine Beach",
+"Saint Augustine Shores"
+],
 "nb": []
 },
 {
@@ -14207,7 +14367,12 @@
 "near": [
 "Marion Oaks",
 "Ocala",
-"Silver Springs"
+"Citrus Springs",
+"Hernando",
+"Silver Springs",
+"Silver Springs Shores",
+"Pine Ridge",
+"Beverly Hills"
 ],
 "nb": []
 },
@@ -14230,6 +14395,7 @@
 "Upper Grand Lagoon",
 "Panama City",
 "Lynn Haven",
+"Springfield",
 "Callaway"
 ],
 "nb": []
@@ -14253,8 +14419,10 @@
 "Port Orange",
 "Daytona Beach",
 "Holly Hill",
+"Samsula-Spruce Creek",
 "Ormond Beach",
-"New Smyrna Beach"
+"New Smyrna Beach",
+"Ormond-by-the-Sea"
 ],
 "nb": []
 },
@@ -14274,14 +14442,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Union Park",
 "Conway",
 "Winter Park",
 "Orlando",
 "Goldenrod",
 "Alafaya",
 "Pine Castle",
-"Fairview Shores",
-"Maitland"
+"Fairview Shores"
 ],
 "nb": []
 },
@@ -14305,10 +14473,10 @@
 "North Andrews Gardens",
 "Sunrise",
 "Fort Lauderdale",
+"Lauderdale-by-the-Sea",
 "Lauderdale Lakes",
-"Lauderhill",
-"Pompano Beach",
-"Plantation"
+"Melrose Park",
+"Lauderhill"
 ],
 "nb": []
 },
@@ -14348,14 +14516,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"South Pasadena",
 "St. Petersburg",
+"Saint Pete Beach",
+"Treasure Island",
+"Kenneth City",
 "West and East Lealman",
 "Lealman",
-"Pinellas Park",
-"Seminole",
-"Largo",
-"Clearwater",
-"Ruskin"
+"Pinellas Park"
 ],
 "nb": []
 },
@@ -14376,11 +14544,13 @@
 "off_hi": 10,
 "near": [
 "Cocoa",
+"Cocoa West",
 "Titusville",
 "Rockledge",
 "Merritt Island",
-"Cocoa Beach",
-"Viera East"
+"Cape Canaveral",
+"Mims",
+"Cocoa Beach"
 ],
 "nb": []
 },
@@ -14406,8 +14576,8 @@
 "Coral Terrace",
 "Pinecrest",
 "Sunset",
-"Westchester",
-"Flagami"
+"West Miami",
+"Westchester"
 ],
 "nb": []
 },
@@ -14476,10 +14646,10 @@
 "Jasmine Estates",
 "New Port Richey East",
 "New Port Richey",
+"Timber Pines",
 "Shady Hills",
 "Elfers",
-"Holiday",
-"Trinity"
+"Beacon Square"
 ],
 "nb": []
 },
@@ -14499,14 +14669,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Union Park",
 "Winter Park",
+"Fern Park",
 "Maitland",
 "Azalea Park",
 "Casselberry",
 "Alafaya",
-"Altamonte Springs",
-"Winter Springs",
-"Oviedo"
+"Altamonte Springs"
 ],
 "nb": []
 },
@@ -14526,14 +14696,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Lake Park",
 "Riviera Beach",
 "Palm Beach Gardens",
 "West Palm Beach",
+"West Gate",
 "Jupiter",
-"The Acreage",
-"Royal Palm Beach",
-"Palm Springs",
-"Greenacres City"
+"Palm Beach",
+"Tequesta"
 ],
 "nb": []
 },
@@ -14556,7 +14726,9 @@
 "Daytona Beach",
 "Ormond Beach",
 "South Daytona",
+"Ormond-by-the-Sea",
 "Port Orange",
+"Samsula-Spruce Creek",
 "New Smyrna Beach"
 ],
 "nb": []
@@ -14577,14 +14749,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"McGregor",
 "Villas",
 "Cape Coral",
 "Iona",
+"Fort Myers Beach",
 "Fort Myers",
 "San Carlos Park",
-"Estero",
-"North Fort Myers",
-"Bonita Springs"
+"Estero"
 ],
 "nb": []
 },
@@ -14631,12 +14803,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Hutchinson Island South",
 "Stuart",
 "Palm City",
 "Port Salerno",
 "Port Saint Lucie",
-"Fort Pierce",
-"Hobe Sound"
+"River Park",
+"Indian River Estates",
+"Fort Pierce South"
 ],
 "nb": []
 },
@@ -14657,13 +14831,13 @@
 "off_hi": 10,
 "near": [
 "Merritt Island",
+"Cape Canaveral",
 "Rockledge",
 "Viera East",
+"South Patrick Shores",
+"Viera West",
 "Cocoa",
-"Satellite Beach",
-"Port Saint John",
-"Melbourne",
-"West Melbourne"
+"Satellite Beach"
 ],
 "nb": []
 },
@@ -14684,13 +14858,13 @@
 "off_hi": 10,
 "near": [
 "Cypress Lake",
+"McGregor",
 "Cape Coral",
 "Fort Myers",
 "Iona",
 "San Carlos Park",
-"North Fort Myers",
-"Estero",
-"Bonita Springs"
+"Gateway",
+"North Fort Myers"
 ],
 "nb": []
 },
@@ -14715,9 +14889,9 @@
 "Allapattah",
 "Pinewood",
 "Hialeah",
+"Westview",
 "Miami Shores",
-"Miami Springs",
-"Opa-locka"
+"Miami Springs"
 ],
 "nb": []
 },
@@ -14737,6 +14911,7 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Mascotte",
 "Clermont",
 "Minneola",
 "Winter Garden",
@@ -14764,13 +14939,13 @@
 "off_hi": 10,
 "near": [
 "Spring Hill",
+"Timber Pines",
 "Hudson",
+"North Weeki Wachee",
 "Bayonet Point",
 "Jasmine Estates",
-"New Port Richey East",
-"Land O' Lakes",
-"New Port Richey",
-"Elfers"
+"Brooksville",
+"New Port Richey East"
 ],
 "nb": []
 },
@@ -14791,6 +14966,7 @@
 "off_hi": 10,
 "near": [
 "Port Salerno",
+"Tequesta",
 "Jupiter",
 "Palm City",
 "Stuart",
@@ -14816,7 +14992,8 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
-"Fernandina Beach"
+"Fernandina Beach",
+"Nassau Village-Ratliff"
 ],
 "nb": []
 },
@@ -14843,7 +15020,7 @@
 "West Perrine",
 "Lakes by the Bay",
 "Naranja",
-"Palmetto Estates"
+"East Perrine"
 ],
 "nb": []
 },
@@ -14865,12 +15042,12 @@
 "near": [
 "Cutler Bay",
 "Cutler Ridge",
+"East Perrine",
 "Cutler",
 "West Perrine",
 "Palmetto Bay",
 "Goulds",
-"South Miami Heights",
-"Palmetto Estates"
+"South Miami Heights"
 ],
 "nb": []
 },
@@ -14892,9 +15069,12 @@
 "near": [
 "Florida Ridge",
 "Vero Beach South",
+"Fort Pierce North",
 "Vero Beach",
 "Fort Pierce",
-"Port Saint Lucie"
+"West Vero Corridor",
+"Gifford",
+"Fort Pierce South"
 ],
 "nb": []
 },
@@ -14914,14 +15094,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Seffner",
 "Brandon",
 "East Lake-Orient Park",
 "Valrico",
 "Thonotosassa",
 "Palm River-Clair Mel",
 "Temple Terrace",
-"Bloomingdale",
-"Riverview"
+"Progress Village"
 ],
 "nb": []
 },
@@ -14946,8 +15126,9 @@
 "DeLand",
 "Sanford",
 "Lake Mary",
-"Longwood",
-"Winter Springs"
+"Heathrow",
+"Samsula-Spruce Creek",
+"Longwood"
 ],
 "nb": []
 },
@@ -14972,9 +15153,9 @@
 "Boynton Beach",
 "Palm Springs",
 "Greenacres City",
-"Delray Beach",
-"West Palm Beach",
-"Kings Point"
+"Palm Beach",
+"West Gate",
+"Delray Beach"
 ],
 "nb": []
 },
@@ -14994,14 +15175,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Pompano Beach Highlands",
 "Deerfield Beach",
 "Pompano Beach",
 "Boca Raton",
+"Lauderdale-by-the-Sea",
 "Coconut Creek",
 "Boca Del Mar",
-"North Andrews Gardens",
-"Sandalfoot Cove",
-"Oakland Park"
+"North Andrews Gardens"
 ],
 "nb": []
 },
@@ -15021,14 +15202,14 @@
 "off_lo": 10,
 "off_hi": 11,
 "near": [
+"Milton",
 "Pace",
 "Ferry Pass",
 "Midway",
 "East Pensacola Heights",
 "Gonzalez",
 "Brent",
-"Ensley",
-"Navarre"
+"Ensley"
 ],
 "nb": []
 },
@@ -15048,14 +15229,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Medulla",
 "Highland City",
+"Fuller Heights",
+"Willow Oak",
 "Lakeland",
-"Bartow",
-"Plant City",
-"Auburndale",
-"Eloise",
-"Winter Haven",
-"Valrico"
+"Crystal Lake",
+"Winston",
+"Combee Settlement"
 ],
 "nb": []
 },
@@ -15075,14 +15256,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Williamsburg",
 "Oak Ridge",
 "Lake Butler",
+"Sky Lake",
+"Orlovista",
 "Hunters Creek",
 "Southchase",
-"Pine Castle",
-"Pine Hills",
-"Horizon West",
-"Meadow Woods"
+"Pine Castle"
 ],
 "nb": []
 },
@@ -15102,14 +15283,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Siesta Key",
+"South Gate Ridge",
+"Bee Ridge",
+"Southgate",
+"Osprey",
 "Sarasota Springs",
 "Sarasota",
-"Fruitville",
-"Venice",
-"Bayshore Gardens",
-"South Venice",
-"South Bradenton",
-"Bradenton"
+"Fruitville"
 ],
 "nb": []
 },
@@ -15132,11 +15313,11 @@
 "Elfers",
 "Holiday",
 "Keystone",
+"Beacon Square",
 "East Lake",
 "New Port Richey",
 "Tarpon Springs",
-"New Port Richey East",
-"Jasmine Estates"
+"New Port Richey East"
 ],
 "nb": []
 },
@@ -15157,13 +15338,13 @@
 "off_hi": 10,
 "near": [
 "Lakeland Highlands",
+"Crystal Lake",
 "Bartow",
+"Medulla",
+"Fussels Corner",
+"Combee Settlement",
 "Lakeland",
-"Eloise",
-"Auburndale",
-"Winter Haven",
-"Plant City",
-"Lake Wales"
+"Jan-Phyl Village"
 ],
 "nb": []
 },
@@ -15185,12 +15366,12 @@
 "near": [
 "Pinewood",
 "North Miami",
+"North Bay Village",
 "West Little River",
 "Gladeview",
+"Westview",
 "Golden Glades",
-"Allapattah",
-"Brownsville",
-"Opa-locka"
+"Isle of Normandy"
 ],
 "nb": []
 },
@@ -15210,14 +15391,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Belle Isle",
+"Sky Lake",
 "Conway",
 "Oak Ridge",
 "Orlando",
 "Southchase",
 "Meadow Woods",
-"Azalea Park",
-"Doctor Phillips",
-"Pine Hills"
+"Williamsburg"
 ],
 "nb": []
 },
@@ -15237,14 +15418,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Viera West",
 "Rockledge",
 "Merritt Island",
+"Cocoa West",
 "Cocoa Beach",
+"South Patrick Shores",
 "Cocoa",
-"Satellite Beach",
-"West Melbourne",
-"Melbourne",
-"Port Saint John"
+"Satellite Beach"
 ],
 "nb": []
 },
@@ -15266,12 +15447,12 @@
 "near": [
 "Clermont",
 "Groveland",
+"Mascotte",
 "Winter Garden",
 "Horizon West",
 "Ocoee",
 "Lake Butler",
-"Apopka",
-"Tavares"
+"South Apopka"
 ],
 "nb": []
 },
@@ -15295,10 +15476,10 @@
 "Lutz",
 "Northdale",
 "Carrollwood Village",
+"Odessa",
 "Lake Magdalene",
 "Citrus Park",
-"Land O' Lakes",
-"Keystone"
+"Land O' Lakes"
 ],
 "nb": []
 },
@@ -15318,14 +15499,14 @@
 "off_lo": 9,
 "off_hi": 10,
 "near": [
+"Indian Harbour Beach",
+"South Patrick Shores",
 "Melbourne",
 "West Melbourne",
 "Viera East",
 "Palm Bay",
-"Cocoa Beach",
-"Merritt Island",
-"Rockledge",
-"Cocoa"
+"Viera West",
+"Cocoa Beach"
 ],
 "nb": []
 },
@@ -15347,12 +15528,12 @@
 "near": [
 "Palmetto Estates",
 "South Miami Heights",
+"East Perrine",
+"Richmond Heights",
 "Cutler Ridge",
 "Cutler Bay",
 "Palmetto Bay",
-"Goulds",
-"Lakes by the Bay",
-"Cutler"
+"Goulds"
 ],
 "nb": []
 },
@@ -15391,7 +15572,9 @@
 "tz": "Eastern",
 "off_lo": 9,
 "off_hi": 10,
-"near": [],
+"near": [
+"Islamorada"
+],
 "nb": []
 },
 {
@@ -15429,6 +15612,8 @@
 "off_hi": 10,
 "near": [
 "Ocala",
+"Silver Springs Shores",
+"Citra",
 "On Top of the World",
 "Marion Oaks"
 ],
@@ -15455,9 +15640,9 @@
 "Lockhart",
 "Orlando",
 "Pine Hills",
+"Fern Park",
 "Altamonte Springs",
-"Forest City",
-"Goldenrod"
+"Orlovista"
 ],
 "nb": []
 },
@@ -15481,8 +15666,10 @@
 "Stuart",
 "Hobe Sound",
 "Jensen Beach",
+"Hutchinson Island South",
 "Port Saint Lucie",
-"Jupiter"
+"Tequesta",
+"River Park"
 ],
 "nb": []
 },
@@ -15524,12 +15711,12 @@
 "near": [
 "Oakland Park",
 "Wilton Manors",
+"Lauderdale-by-the-Sea",
 "Pompano Beach",
 "Lauderdale Lakes",
 "Sunrise",
 "Coconut Creek",
-"Fort Lauderdale",
-"Margate"
+"Fort Lauderdale"
 ],
 "nb": []
 },
@@ -15553,10 +15740,3960 @@
 "Jasmine Estates",
 "Elfers",
 "Bayonet Point",
+"Beacon Square",
 "Trinity",
 "Holiday",
+"Hudson"
+],
+"nb": []
+},
+{
+"name": "Cape Canaveral",
+"state": "FL",
+"state_name": "Florida",
+"slug": "cape-canaveral",
+"state_slug": "florida",
+"pop": 9912,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 28.40584,
+"lon": -80.60477,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Cocoa Beach",
+"Merritt Island",
+"Rockledge",
+"Cocoa",
+"Cocoa West",
+"Viera East",
+"Port Saint John",
+"Viera West"
+],
+"nb": []
+},
+{
+"name": "Andover",
+"state": "FL",
+"state_name": "Florida",
+"slug": "andover",
+"state_slug": "florida",
+"pop": 9877,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.96843,
+"lon": -80.21283,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Norland",
+"West Park",
+"Miramar",
+"Lake Lucerne",
+"Scott Lake",
+"Ives Estates",
+"Pembroke Pines",
+"Pembroke Park"
+],
+"nb": []
+},
+{
+"name": "Union Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "union-park",
+"state_slug": "florida",
+"pop": 9765,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.56806,
+"lon": -81.28618,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Azalea Park",
+"Goldenrod",
+"Winter Park",
+"Alafaya",
+"Conway",
+"Orlando",
+"Maitland",
+"Fairview Shores"
+],
+"nb": []
+},
+{
+"name": "Alachua",
+"state": "FL",
+"state_name": "Florida",
+"slug": "alachua",
+"state_slug": "florida",
+"pop": 9757,
+"county": "Alachua",
+"metro": "Gainesville",
+"seat": false,
+"lat": 29.75163,
+"lon": -82.42483,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Gainesville",
+"High Springs",
+"Newberry"
+],
+"nb": []
+},
+{
+"name": "Westview",
+"state": "FL",
+"state_name": "Florida",
+"slug": "westview",
+"state_slug": "florida",
+"pop": 9650,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.88204,
+"lon": -80.24199,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Opa-locka",
+"West Little River",
+"Pinewood",
+"Hialeah",
+"Gladeview",
+"Golden Glades",
+"Miami Shores",
+"North Miami"
+],
+"nb": []
+},
+{
+"name": "Milton",
+"state": "FL",
+"state_name": "Florida",
+"slug": "milton",
+"state_slug": "florida",
+"pop": 9628,
+"county": "Santa Rosa",
+"metro": "Pensacola",
+"seat": true,
+"lat": 30.63241,
+"lon": -87.03969,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"East Milton",
+"Pace",
+"Ferry Pass",
+"Gonzalez",
+"Midway",
+"Ensley",
+"Brent",
+"East Pensacola Heights"
+],
+"nb": []
+},
+{
+"name": "Bee Ridge",
+"state": "FL",
+"state_name": "Florida",
+"slug": "bee-ridge",
+"state_slug": "florida",
+"pop": 9598,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.28394,
+"lon": -82.48065,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Gate Ridge",
+"Sarasota Springs",
+"Southgate",
+"Gulf Gate Estates",
+"Fruitville",
+"Siesta Key",
+"Sarasota",
+"Osprey"
+],
+"nb": []
+},
+{
+"name": "Pine Ridge",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pine-ridge",
+"state_slug": "florida",
+"pop": 9598,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.93831,
+"lon": -82.47343,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Beverly Hills",
+"Citrus Springs",
+"Citrus Hills",
+"Lecanto",
+"Hernando",
+"Inverness",
+"Homosassa Springs",
+"Inverness Highlands South"
+],
+"nb": []
+},
+{
+"name": "Gifford",
+"state": "FL",
+"state_name": "Florida",
+"slug": "gifford",
+"state_slug": "florida",
+"pop": 9590,
+"county": "Indian River",
+"metro": "Vero Beach",
+"seat": false,
+"lat": 27.67531,
+"lon": -80.40922,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Vero Beach",
+"Vero Beach South",
+"West Vero Corridor",
+"Florida Ridge",
+"Lakewood Park",
+"Sebastian",
+"Fellsmere",
+"Fort Pierce North"
+],
+"nb": []
+},
+{
+"name": "Springfield",
+"state": "FL",
+"state_name": "Florida",
+"slug": "springfield",
+"state_slug": "florida",
+"pop": 9442,
+"county": "Bay",
+"metro": "Panama City",
+"seat": false,
+"lat": 30.15326,
+"lon": -85.61132,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"Callaway",
+"Panama City",
+"Lynn Haven",
+"Upper Grand Lagoon",
+"Panama City Beach"
+],
+"nb": []
+},
+{
+"name": "Saint Pete Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "saint-pete-beach",
+"state_slug": "florida",
+"pop": 9346,
+"county": "Pinellas",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.72531,
+"lon": -82.74121,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Pasadena",
+"Gulfport",
+"Treasure Island",
+"St. Petersburg",
+"Kenneth City",
+"West and East Lealman",
+"Lealman",
+"Seminole"
+],
+"nb": []
+},
+{
+"name": "Marianna",
+"state": "FL",
+"state_name": "Florida",
+"slug": "marianna",
+"state_slug": "florida",
+"pop": 9100,
+"county": "Jackson",
+"metro": "",
+"seat": true,
+"lat": 30.77436,
+"lon": -85.22687,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [],
+"nb": []
+},
+{
+"name": "Hernando",
+"state": "FL",
+"state_name": "Florida",
+"slug": "hernando",
+"state_slug": "florida",
+"pop": 9054,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.89998,
+"lon": -82.37454,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Citrus Hills",
+"Inverness",
+"Beverly Hills",
+"Pine Ridge",
+"Inverness Highlands South",
+"Lecanto",
+"Citrus Springs",
+"Floral City"
+],
+"nb": []
+},
+{
+"name": "Micco",
+"state": "FL",
+"state_name": "Florida",
+"slug": "micco",
+"state_slug": "florida",
+"pop": 9052,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 27.88058,
+"lon": -80.50033,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Sebastian",
+"Fellsmere",
+"Palm Bay",
+"Gifford",
+"Melbourne",
+"West Melbourne",
+"West Vero Corridor",
+"Vero Beach"
+],
+"nb": []
+},
+{
+"name": "Winston",
+"state": "FL",
+"state_name": "Florida",
+"slug": "winston",
+"state_slug": "florida",
+"pop": 9050,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.03169,
+"lon": -82.01481,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Lakeland",
+"Medulla",
+"Plant City",
+"Kathleen",
+"Lakeland Highlands",
+"Crystal Lake",
+"Combee Settlement",
+"Willow Oak"
+],
+"nb": []
+},
+{
+"name": "Lake Lucerne",
+"state": "FL",
+"state_name": "Florida",
+"slug": "lake-lucerne",
+"state_slug": "florida",
+"pop": 9044,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.96509,
+"lon": -80.24144,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Miami Gardens",
+"Miramar",
+"Carol City",
+"Scott Lake",
+"Andover",
+"Norland",
+"Pembroke Pines",
+"West Park"
+],
+"nb": []
+},
+{
+"name": "Cypress Gardens",
+"state": "FL",
+"state_name": "Florida",
+"slug": "cypress-gardens",
+"state_slug": "florida",
+"pop": 8917,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 27.99391,
+"lon": -81.69008,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Eloise",
+"Winter Haven",
+"Wahneta",
+"Jan-Phyl Village",
+"Inwood",
+"Lake Alfred",
+"Auburndale",
+"Lake Wales"
+],
+"nb": []
+},
+{
+"name": "Medulla",
+"state": "FL",
+"state_name": "Florida",
+"slug": "medulla",
+"state_slug": "florida",
+"pop": 8892,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 27.9678,
+"lon": -81.97342,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Lakeland Highlands",
+"Fuller Heights",
+"Willow Oak",
+"Winston",
+"Lakeland",
+"Highland City",
+"Crystal Lake",
+"Combee Settlement"
+],
+"nb": []
+},
+{
+"name": "Isle of Normandy",
+"state": "FL",
+"state_name": "Florida",
+"slug": "isle-of-normandy",
+"state_slug": "florida",
+"pop": 8841,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.85287,
+"lon": -80.13505,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"North Bay Village",
+"Surfside",
+"Bay Harbor Islands",
+"Miami Shores",
+"North Miami",
+"Miami Beach",
+"Pinewood",
+"Golden Glades"
+],
+"nb": []
+},
+{
+"name": "Rotonda West",
+"state": "FL",
+"state_name": "Florida",
+"slug": "rotonda-west",
+"state_slug": "florida",
+"pop": 8759,
+"county": "Charlotte",
+"metro": "Punta Gorda",
+"seat": false,
+"lat": 26.88368,
+"lon": -82.29009,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Englewood",
+"North Port",
+"Warm Mineral Springs",
+"Punta Gorda Isles",
+"Port Charlotte",
+"South Venice",
+"Venice Gardens",
+"Punta Gorda"
+],
+"nb": []
+},
+{
+"name": "Fuller Heights",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fuller-heights",
+"state_slug": "florida",
+"pop": 8758,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 27.90919,
+"lon": -81.99814,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Willow Oak",
+"Medulla",
+"Lakeland Highlands",
+"Highland City",
+"Winston",
+"Lakeland",
+"Bartow",
+"Crystal Lake"
+],
+"nb": []
+},
+{
+"name": "Marathon",
+"state": "FL",
+"state_name": "Florida",
+"slug": "marathon",
+"state_slug": "florida",
+"pop": 8750,
+"county": "Monroe",
+"metro": "",
+"seat": false,
+"lat": 24.71375,
+"lon": -81.09035,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [],
+"nb": []
+},
+{
+"name": "Orange Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "orange-park",
+"state_slug": "florida",
+"pop": 8702,
+"county": "Clay",
+"metro": "Jacksonville",
+"seat": false,
+"lat": 30.16607,
+"lon": -81.70648,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Bellair-Meadowbrook Terrace",
+"Lakeside",
+"Fleming Island",
+"Fruit Cove",
+"Oakleaf Plantation",
+"Asbury Lake",
+"Middleburg",
+"Jacksonville"
+],
+"nb": []
+},
+{
+"name": "Asbury Lake",
+"state": "FL",
+"state_name": "Florida",
+"slug": "asbury-lake",
+"state_slug": "florida",
+"pop": 8700,
+"county": "Clay",
+"metro": "Jacksonville",
+"seat": false,
+"lat": 30.04913,
+"lon": -81.82149,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Middleburg",
+"Lakeside",
+"Fleming Island",
+"Oakleaf Plantation",
+"Green Cove Springs",
+"Bellair-Meadowbrook Terrace",
+"Orange Park",
+"Fruit Cove"
+],
+"nb": []
+},
+{
+"name": "Citrus Springs",
+"state": "FL",
+"state_name": "Florida",
+"slug": "citrus-springs",
+"state_slug": "florida",
+"pop": 8622,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.99748,
+"lon": -82.47065,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pine Ridge",
+"Beverly Hills",
+"Citrus Hills",
+"Hernando",
+"Lecanto",
+"On Top of the World",
+"Inverness",
+"Homosassa Springs"
+],
+"nb": []
+},
+{
+"name": "Palm Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "palm-beach",
+"state_slug": "florida",
+"pop": 8612,
+"county": "Palm Beach",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.70562,
+"lon": -80.03643,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"West Palm Beach",
+"West Gate",
+"Riviera Beach",
+"Palm Springs",
+"Lake Worth Beach",
+"Lake Park",
+"Lake Worth Corridor",
+"Greenacres City"
+],
+"nb": []
+},
+{
+"name": "Richmond Heights",
+"state": "FL",
+"state_name": "Florida",
+"slug": "richmond-heights",
+"state_slug": "florida",
+"pop": 8541,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.63149,
+"lon": -80.36894,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Palmetto Estates",
+"West Perrine",
+"Three Lakes",
+"East Perrine",
+"South Miami Heights",
+"Palmetto Bay",
+"The Crossings",
+"Cutler Ridge"
+],
+"nb": []
+},
+{
+"name": "Lake Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "lake-park",
+"state_slug": "florida",
+"pop": 8538,
+"county": "Palm Beach",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.80034,
+"lon": -80.06643,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"North Palm Beach",
+"Riviera Beach",
+"Palm Beach Gardens",
+"West Palm Beach",
+"Palm Beach",
+"West Gate",
+"Jupiter",
+"Tequesta"
+],
+"nb": []
+},
+{
+"name": "North Weeki Wachee",
+"state": "FL",
+"state_name": "Florida",
+"slug": "north-weeki-wachee",
+"state_slug": "florida",
+"pop": 8524,
+"county": "Hernando",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.55014,
+"lon": -82.55888,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Spring Hill",
+"Timber Pines",
+"Shady Hills",
+"Brooksville",
+"Sugarmill Woods",
 "Hudson",
-"Keystone"
+"Bayonet Point",
+"Homosassa Springs"
+],
+"nb": []
+},
+{
+"name": "Indian Harbour Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "indian-harbour-beach",
+"state_slug": "florida",
+"pop": 8471,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 28.1489,
+"lon": -80.58839,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Satellite Beach",
+"South Patrick Shores",
+"Melbourne",
+"West Melbourne",
+"Palm Bay",
+"Viera East",
+"Viera West",
+"Cocoa Beach"
+],
+"nb": []
+},
+{
+"name": "Beverly Hills",
+"state": "FL",
+"state_name": "Florida",
+"slug": "beverly-hills",
+"state_slug": "florida",
+"pop": 8445,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.91692,
+"lon": -82.45815,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pine Ridge",
+"Citrus Hills",
+"Lecanto",
+"Hernando",
+"Citrus Springs",
+"Inverness",
+"Homosassa Springs",
+"Inverness Highlands South"
+],
+"nb": []
+},
+{
+"name": "Gateway",
+"state": "FL",
+"state_name": "Florida",
+"slug": "gateway",
+"state_slug": "florida",
+"pop": 8401,
+"county": "Lee",
+"metro": "Cape Coral–Fort Myers",
+"seat": false,
+"lat": 26.57757,
+"lon": -81.75036,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fort Myers",
+"Villas",
+"San Carlos Park",
+"Lehigh Acres",
+"Fort Myers Shores",
+"Cypress Lake",
+"North Fort Myers",
+"McGregor"
+],
+"nb": []
+},
+{
+"name": "North Bay Village",
+"state": "FL",
+"state_name": "Florida",
+"slug": "north-bay-village",
+"state_slug": "florida",
+"pop": 8302,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.84621,
+"lon": -80.15394,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Isle of Normandy",
+"Miami Shores",
+"Surfside",
+"Bay Harbor Islands",
+"North Miami",
+"Miami Beach",
+"Pinewood",
+"Allapattah"
+],
+"nb": []
+},
+{
+"name": "Sugarmill Woods",
+"state": "FL",
+"state_name": "Florida",
+"slug": "sugarmill-woods",
+"state_slug": "florida",
+"pop": 8287,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.73221,
+"lon": -82.50621,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Homosassa Springs",
+"Lecanto",
+"Inverness Highlands South",
+"Citrus Hills",
+"Floral City",
+"Inverness",
+"North Weeki Wachee",
+"Beverly Hills"
+],
+"nb": []
+},
+{
+"name": "Bithlo",
+"state": "FL",
+"state_name": "Florida",
+"slug": "bithlo",
+"state_slug": "florida",
+"pop": 8268,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.55472,
+"lon": -81.10645,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Wedgefield",
+"Alafaya",
+"Oviedo",
+"Union Park",
+"Goldenrod",
+"Azalea Park",
+"Conway",
+"Winter Park"
+],
+"nb": []
+},
+{
+"name": "Laurel",
+"state": "FL",
+"state_name": "Florida",
+"slug": "laurel",
+"state_slug": "florida",
+"pop": 8171,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.14378,
+"lon": -82.46158,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Venice",
+"Osprey",
+"Venice Gardens",
+"South Venice",
+"Gulf Gate Estates",
+"Bee Ridge",
+"Siesta Key",
+"South Gate Ridge"
+],
+"nb": []
+},
+{
+"name": "West Gate",
+"state": "FL",
+"state_name": "Florida",
+"slug": "west-gate",
+"state_slug": "florida",
+"pop": 7975,
+"county": "Palm Beach",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.70257,
+"lon": -80.0981,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"West Palm Beach",
+"Palm Beach",
+"Palm Springs",
+"Riviera Beach",
+"Greenacres City",
+"Lake Worth Corridor",
+"Lake Worth Beach",
+"Lake Park"
+],
+"nb": []
+},
+{
+"name": "Brooksville",
+"state": "FL",
+"state_name": "Florida",
+"slug": "brooksville",
+"state_slug": "florida",
+"pop": 7854,
+"county": "Hernando",
+"metro": "Tampa–St. Petersburg",
+"seat": true,
+"lat": 28.55554,
+"lon": -82.38991,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Spring Hill",
+"North Weeki Wachee",
+"Shady Hills",
+"Sugarmill Woods",
+"Timber Pines",
+"Floral City",
+"Inverness Highlands South",
+"Dade City"
+],
+"nb": []
+},
+{
+"name": "Southwest Ranches",
+"state": "FL",
+"state_name": "Florida",
+"slug": "southwest-ranches",
+"state_slug": "florida",
+"pop": 7852,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.0587,
+"lon": -80.33727,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Cooper City",
+"Pine Island Ridge",
+"Weston",
+"Davie",
+"Country Club",
+"Pembroke Pines",
+"Miramar",
+"Plantation"
+],
+"nb": []
+},
+{
+"name": "Arcadia",
+"state": "FL",
+"state_name": "Florida",
+"slug": "arcadia",
+"state_slug": "florida",
+"pop": 7851,
+"county": "DeSoto",
+"metro": "",
+"seat": true,
+"lat": 27.21588,
+"lon": -81.85842,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Southeast Arcadia"
+],
+"nb": []
+},
+{
+"name": "Memphis",
+"state": "FL",
+"state_name": "Florida",
+"slug": "memphis",
+"state_slug": "florida",
+"pop": 7848,
+"county": "Manatee",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.53587,
+"lon": -82.56121,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Palmetto",
+"Bradenton",
+"West Samoset",
+"South Bradenton",
+"Bayshore Gardens",
+"Longboat Key",
+"North Sarasota",
+"Sarasota"
+],
+"nb": []
+},
+{
+"name": "Quincy",
+"state": "FL",
+"state_name": "Florida",
+"slug": "quincy",
+"state_slug": "florida",
+"pop": 7830,
+"county": "Gadsden",
+"metro": "Tallahassee",
+"seat": true,
+"lat": 30.58714,
+"lon": -84.58325,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [],
+"nb": []
+},
+{
+"name": "Fern Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fern-park",
+"state_slug": "florida",
+"pop": 7704,
+"county": "Seminole",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.64916,
+"lon": -81.35118,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Altamonte Springs",
+"Maitland",
+"Casselberry",
+"Winter Park",
+"Longwood",
+"Winter Springs",
+"Goldenrod",
+"Fairview Shores"
+],
+"nb": []
+},
+{
+"name": "Williamsburg",
+"state": "FL",
+"state_name": "Florida",
+"slug": "williamsburg",
+"state_slug": "florida",
+"pop": 7646,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.41445,
+"lon": -81.44285,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Doctor Phillips",
+"Southchase",
+"Hunters Creek",
+"Oak Ridge",
+"Sky Lake",
+"Meadow Woods",
+"Belle Isle",
+"Pine Castle"
+],
+"nb": []
+},
+{
+"name": "Pebble Creek",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pebble-creek",
+"state_slug": "florida",
+"pop": 7622,
+"county": "Hillsborough",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.14835,
+"lon": -82.34565,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Wesley Chapel",
+"Thonotosassa",
+"Lutz",
+"University",
+"Temple Terrace",
+"Land O' Lakes",
+"Lake Magdalene",
+"Zephyrhills West"
+],
+"nb": []
+},
+{
+"name": "Seffner",
+"state": "FL",
+"state_name": "Florida",
+"slug": "seffner",
+"state_slug": "florida",
+"pop": 7579,
+"county": "Hillsborough",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.98363,
+"lon": -82.27565,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Mango",
+"Brandon",
+"Valrico",
+"Thonotosassa",
+"East Lake-Orient Park",
+"Bloomingdale",
+"Palm River-Clair Mel",
+"Temple Terrace"
+],
+"nb": []
+},
+{
+"name": "Pasadena Hills",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pasadena-hills",
+"state_slug": "florida",
+"pop": 7570,
+"county": "Pasco",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.28001,
+"lon": -82.22438,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Zephyrhills West",
+"Zephyrhills",
+"Zephyrhills South",
+"Dade City",
+"Wesley Chapel",
+"Pebble Creek",
+"Land O' Lakes",
+"Thonotosassa"
+],
+"nb": []
+},
+{
+"name": "Clewiston",
+"state": "FL",
+"state_name": "Florida",
+"slug": "clewiston",
+"state_slug": "florida",
+"pop": 7505,
+"county": "Hendry",
+"metro": "",
+"seat": false,
+"lat": 26.75423,
+"lon": -80.93368,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Bay",
+"Belle Glade",
+"Pahokee"
+],
+"nb": []
+},
+{
+"name": "Melrose Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "melrose-park",
+"state_slug": "florida",
+"pop": 7492,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.11342,
+"lon": -80.19338,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Broadview Park",
+"Lauderhill",
+"Plantation",
+"Fort Lauderdale",
+"Lauderdale Lakes",
+"Davie",
+"Wilton Manors",
+"Pine Island Ridge"
+],
+"nb": []
+},
+{
+"name": "Citrus Hills",
+"state": "FL",
+"state_name": "Florida",
+"slug": "citrus-hills",
+"state_slug": "florida",
+"pop": 7470,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.88831,
+"lon": -82.4326,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Beverly Hills",
+"Hernando",
+"Lecanto",
+"Pine Ridge",
+"Inverness",
+"Citrus Springs",
+"Inverness Highlands South",
+"Homosassa Springs"
+],
+"nb": []
+},
+{
+"name": "Celebration",
+"state": "FL",
+"state_name": "Florida",
+"slug": "celebration",
+"state_slug": "florida",
+"pop": 7427,
+"county": "Osceola",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.32529,
+"lon": -81.53313,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Citrus Ridge",
+"Four Corners",
+"Hunters Creek",
+"Kissimmee",
+"Williamsburg",
+"Doctor Phillips",
+"Horizon West",
+"Southchase"
+],
+"nb": []
+},
+{
+"name": "McGregor",
+"state": "FL",
+"state_name": "Florida",
+"slug": "mcgregor",
+"state_slug": "florida",
+"pop": 7406,
+"county": "Lee",
+"metro": "Cape Coral–Fort Myers",
+"seat": false,
+"lat": 26.56091,
+"lon": -81.91453,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Cypress Lake",
+"Cape Coral",
+"Villas",
+"Iona",
+"Fort Myers",
+"North Fort Myers",
+"Fort Myers Beach",
+"San Carlos Park"
+],
+"nb": []
+},
+{
+"name": "Ormond-by-the-Sea",
+"state": "FL",
+"state_name": "Florida",
+"slug": "ormond-by-the-sea",
+"state_slug": "florida",
+"pop": 7406,
+"county": "Volusia",
+"metro": "Daytona Beach–Deltona",
+"seat": false,
+"lat": 29.34914,
+"lon": -81.06645,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Ormond Beach",
+"Holly Hill",
+"Daytona Beach",
+"South Daytona",
+"Port Orange",
+"Palm Coast"
+],
+"nb": []
+},
+{
+"name": "Saint Augustine Shores",
+"state": "FL",
+"state_name": "Florida",
+"slug": "saint-augustine-shores",
+"state_slug": "florida",
+"pop": 7359,
+"county": "St. Johns",
+"metro": "Jacksonville",
+"seat": false,
+"lat": 29.8108,
+"lon": -81.31035,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Saint Augustine Beach",
+"Saint Augustine",
+"Palm Coast"
+],
+"nb": []
+},
+{
+"name": "Green Cove Springs",
+"state": "FL",
+"state_name": "Florida",
+"slug": "green-cove-springs",
+"state_slug": "florida",
+"pop": 7277,
+"county": "Clay",
+"metro": "Jacksonville",
+"seat": true,
+"lat": 29.99191,
+"lon": -81.67815,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fleming Island",
+"Fruit Cove",
+"Asbury Lake",
+"Lakeside",
+"Middleburg",
+"Orange Park",
+"Bellair-Meadowbrook Terrace",
+"Oakleaf Plantation"
+],
+"nb": []
+},
+{
+"name": "Neptune Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "neptune-beach",
+"state_slug": "florida",
+"pop": 7269,
+"county": "Duval",
+"metro": "Jacksonville",
+"seat": false,
+"lat": 30.31191,
+"lon": -81.39647,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Jacksonville Beach",
+"Atlantic Beach",
+"Ponte Vedra Beach",
+"Palm Valley",
+"Jacksonville"
+],
+"nb": []
+},
+{
+"name": "Odessa",
+"state": "FL",
+"state_name": "Florida",
+"slug": "odessa",
+"state_slug": "florida",
+"pop": 7267,
+"county": "Pasco",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.1939,
+"lon": -82.59176,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Keystone",
+"Trinity",
+"Cheval",
+"Greater Northdale",
+"New Port Richey East",
+"Citrus Park",
+"Elfers",
+"Land O' Lakes"
+],
+"nb": []
+},
+{
+"name": "Longboat Key",
+"state": "FL",
+"state_name": "Florida",
+"slug": "longboat-key",
+"state_slug": "florida",
+"pop": 7266,
+"county": "Manatee",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.41254,
+"lon": -82.65899,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Bayshore Gardens",
+"South Bradenton",
+"West Samoset",
+"Bradenton",
+"North Sarasota",
+"Palmetto",
+"Sarasota",
+"Memphis"
+],
+"nb": []
+},
+{
+"name": "Sanibel",
+"state": "FL",
+"state_name": "Florida",
+"slug": "sanibel",
+"state_slug": "florida",
+"pop": 7236,
+"county": "Lee",
+"metro": "Cape Coral–Fort Myers",
+"seat": false,
+"lat": 26.44897,
+"lon": -82.02231,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fort Myers Beach",
+"Iona",
+"Cape Coral",
+"Cypress Lake",
+"McGregor",
+"Villas",
+"Estero",
+"San Carlos Park"
+],
+"nb": []
+},
+{
+"name": "Inverness",
+"state": "FL",
+"state_name": "Florida",
+"slug": "inverness",
+"state_slug": "florida",
+"pop": 7233,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": true,
+"lat": 28.83582,
+"lon": -82.33037,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Inverness Highlands South",
+"Hernando",
+"Floral City",
+"Citrus Hills",
+"Beverly Hills",
+"Lecanto",
+"Pine Ridge",
+"Sugarmill Woods"
+],
+"nb": []
+},
+{
+"name": "Beacon Square",
+"state": "FL",
+"state_name": "Florida",
+"slug": "beacon-square",
+"state_slug": "florida",
+"pop": 7224,
+"county": "Pasco",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.20862,
+"lon": -82.75538,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Holiday",
+"Elfers",
+"New Port Richey",
+"Tarpon Springs",
+"Trinity",
+"New Port Richey East",
+"Jasmine Estates",
+"East Lake"
+],
+"nb": []
+},
+{
+"name": "Pompano Beach Highlands",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pompano-beach-highlands",
+"state_slug": "florida",
+"pop": 7192,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.28286,
+"lon": -80.10699,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Lighthouse Point",
+"Deerfield Beach",
+"Pompano Beach",
+"Coconut Creek",
+"Boca Del Mar",
+"Boca Raton",
+"Sandalfoot Cove",
+"Lauderdale-by-the-Sea"
+],
+"nb": []
+},
+{
+"name": "Southgate",
+"state": "FL",
+"state_name": "Florida",
+"slug": "southgate",
+"state_slug": "florida",
+"pop": 7173,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.3081,
+"lon": -82.50982,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Gate Ridge",
+"Sarasota Springs",
+"Sarasota",
+"Bee Ridge",
+"Siesta Key",
+"Fruitville",
+"Gulf Gate Estates",
+"North Sarasota"
+],
+"nb": []
+},
+{
+"name": "East Perrine",
+"state": "FL",
+"state_name": "Florida",
+"slug": "east-perrine",
+"state_slug": "florida",
+"pop": 7156,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.60872,
+"lon": -80.33894,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Palmetto Bay",
+"West Perrine",
+"Palmetto Estates",
+"Cutler",
+"Cutler Ridge",
+"Cutler Bay",
+"Richmond Heights",
+"Lakes by the Bay"
+],
+"nb": []
+},
+{
+"name": "West Vero Corridor",
+"state": "FL",
+"state_name": "Florida",
+"slug": "west-vero-corridor",
+"state_slug": "florida",
+"pop": 7138,
+"county": "Indian River",
+"metro": "Vero Beach",
+"seat": false,
+"lat": 27.63775,
+"lon": -80.48576,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Vero Beach South",
+"Gifford",
+"Vero Beach",
+"Florida Ridge",
+"Lakewood Park",
+"Fellsmere",
+"Sebastian",
+"Fort Pierce North"
+],
+"nb": []
+},
+{
+"name": "Islamorada",
+"state": "FL",
+"state_name": "Florida",
+"slug": "islamorada",
+"state_slug": "florida",
+"pop": 7131,
+"county": "Monroe",
+"metro": "",
+"seat": false,
+"lat": 24.9243,
+"lon": -80.62784,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Key Largo"
+],
+"nb": []
+},
+{
+"name": "Broadview Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "broadview-park",
+"state_slug": "florida",
+"pop": 7125,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.09953,
+"lon": -80.20866,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Melrose Park",
+"Plantation",
+"Lauderhill",
+"Davie",
+"Pine Island Ridge",
+"Fort Lauderdale",
+"Lauderdale Lakes",
+"Cooper City"
+],
+"nb": []
+},
+{
+"name": "Venice Gardens",
+"state": "FL",
+"state_name": "Florida",
+"slug": "venice-gardens",
+"state_slug": "florida",
+"pop": 7104,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.07311,
+"lon": -82.4076,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Venice",
+"Venice",
+"Laurel",
+"Englewood",
+"Warm Mineral Springs",
+"Osprey",
+"North Port",
+"Gulf Gate Estates"
+],
+"nb": []
+},
+{
+"name": "Mims",
+"state": "FL",
+"state_name": "Florida",
+"slug": "mims",
+"state_slug": "florida",
+"pop": 7058,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 28.66527,
+"lon": -80.84478,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Titusville",
+"Port Saint John",
+"Bithlo"
+],
+"nb": []
+},
+{
+"name": "Perry",
+"state": "FL",
+"state_name": "Florida",
+"slug": "perry",
+"state_slug": "florida",
+"pop": 7055,
+"county": "Taylor",
+"metro": "",
+"seat": true,
+"lat": 30.11766,
+"lon": -83.58274,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [],
+"nb": []
+},
+{
+"name": "Lake Lorraine",
+"state": "FL",
+"state_name": "Florida",
+"slug": "lake-lorraine",
+"state_slug": "florida",
+"pop": 7010,
+"county": "Okaloosa",
+"metro": "Fort Walton Beach–Destin",
+"seat": false,
+"lat": 30.44159,
+"lon": -86.56523,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"Eglin Village",
+"Ocean City",
+"Fort Walton Beach",
+"Wright",
+"Destin",
+"Valparaiso",
+"Niceville",
+"Miramar Beach"
+],
+"nb": []
+},
+{
+"name": "Eglin Village",
+"state": "FL",
+"state_name": "Florida",
+"slug": "eglin-village",
+"state_slug": "florida",
+"pop": 7000,
+"county": "Okaloosa",
+"metro": "Fort Walton Beach–Destin",
+"seat": false,
+"lat": 30.46298,
+"lon": -86.5394,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"Lake Lorraine",
+"Valparaiso",
+"Ocean City",
+"Niceville",
+"Destin",
+"Fort Walton Beach",
+"Wright",
+"Miramar Beach"
+],
+"nb": []
+},
+{
+"name": "Fort Myers Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fort-myers-beach",
+"state_slug": "florida",
+"pop": 6983,
+"county": "Lee",
+"metro": "Cape Coral–Fort Myers",
+"seat": false,
+"lat": 26.45271,
+"lon": -81.95011,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Sanibel",
+"Iona",
+"Cypress Lake",
+"Cape Coral",
+"McGregor",
+"Villas",
+"Estero",
+"San Carlos Park"
+],
+"nb": []
+},
+{
+"name": "North Sarasota",
+"state": "FL",
+"state_name": "Florida",
+"slug": "north-sarasota",
+"state_slug": "florida",
+"pop": 6982,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.37393,
+"lon": -82.51843,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Sarasota",
+"Southgate",
+"Fruitville",
+"Sarasota Springs",
+"Bayshore Gardens",
+"South Gate Ridge",
+"Bee Ridge",
+"West Samoset"
+],
+"nb": []
+},
+{
+"name": "Dade City",
+"state": "FL",
+"state_name": "Florida",
+"slug": "dade-city",
+"state_slug": "florida",
+"pop": 6955,
+"county": "Pasco",
+"metro": "Tampa–St. Petersburg",
+"seat": true,
+"lat": 28.36472,
+"lon": -82.19592,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pasadena Hills",
+"Zephyrhills",
+"Zephyrhills West",
+"Zephyrhills South",
+"Wesley Chapel",
+"Pebble Creek",
+"Brooksville"
+],
+"nb": []
+},
+{
+"name": "Live Oak",
+"state": "FL",
+"state_name": "Florida",
+"slug": "live-oak",
+"state_slug": "florida",
+"pop": 6931,
+"county": "Suwannee",
+"metro": "",
+"seat": true,
+"lat": 30.29495,
+"lon": -82.98402,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [],
+"nb": []
+},
+{
+"name": "Treasure Island",
+"state": "FL",
+"state_name": "Florida",
+"slug": "treasure-island",
+"state_slug": "florida",
+"pop": 6887,
+"county": "Pinellas",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.76919,
+"lon": -82.76899,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Pasadena",
+"Saint Pete Beach",
+"Gulfport",
+"Kenneth City",
+"Seminole",
+"St. Petersburg",
+"West and East Lealman",
+"Lealman"
+],
+"nb": []
+},
+{
+"name": "Willow Oak",
+"state": "FL",
+"state_name": "Florida",
+"slug": "willow-oak",
+"state_slug": "florida",
+"pop": 6732,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 27.91614,
+"lon": -82.01786,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fuller Heights",
+"Medulla",
+"Lakeland Highlands",
+"Winston",
+"Highland City",
+"Plant City",
+"Lakeland",
+"Crystal Lake"
+],
+"nb": []
+},
+{
+"name": "Wedgefield",
+"state": "FL",
+"state_name": "Florida",
+"slug": "wedgefield",
+"state_slug": "florida",
+"pop": 6705,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.48778,
+"lon": -81.07729,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Bithlo",
+"Alafaya",
+"Union Park",
+"Azalea Park",
+"Oviedo",
+"Goldenrod",
+"Conway",
+"Belle Isle"
+],
+"nb": []
+},
+{
+"name": "Belle Isle",
+"state": "FL",
+"state_name": "Florida",
+"slug": "belle-isle",
+"state_slug": "florida",
+"pop": 6689,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.45834,
+"lon": -81.35924,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pine Castle",
+"Sky Lake",
+"Conway",
+"Oak Ridge",
+"Southchase",
+"Meadow Woods",
+"Orlando",
+"Williamsburg"
+],
+"nb": []
+},
+{
+"name": "Viera West",
+"state": "FL",
+"state_name": "Florida",
+"slug": "viera-west",
+"state_slug": "florida",
+"pop": 6641,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 28.24504,
+"lon": -80.7338,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Viera East",
+"Rockledge",
+"South Patrick Shores",
+"Cocoa West",
+"Merritt Island",
+"Cocoa Beach",
+"Cocoa",
+"Satellite Beach"
+],
+"nb": []
+},
+{
+"name": "Wildwood",
+"state": "FL",
+"state_name": "Florida",
+"slug": "wildwood",
+"state_slug": "florida",
+"pop": 6590,
+"county": "Sumter",
+"metro": "The Villages",
+"seat": false,
+"lat": 28.86542,
+"lon": -82.04058,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"The Villages",
+"Lady Lake",
+"Leesburg",
+"Marion Oaks",
+"Silver Springs Shores",
+"Floral City",
+"Inverness",
+"Inverness Highlands South"
+],
+"nb": []
+},
+{
+"name": "Siesta Key",
+"state": "FL",
+"state_name": "Florida",
+"slug": "siesta-key",
+"state_slug": "florida",
+"pop": 6565,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.26785,
+"lon": -82.54526,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Gulf Gate Estates",
+"South Gate Ridge",
+"Southgate",
+"Bee Ridge",
+"Sarasota",
+"Sarasota Springs",
+"Osprey",
+"Fruitville"
+],
+"nb": []
+},
+{
+"name": "Southeast Arcadia",
+"state": "FL",
+"state_name": "Florida",
+"slug": "southeast-arcadia",
+"state_slug": "florida",
+"pop": 6554,
+"county": "DeSoto",
+"metro": "",
+"seat": false,
+"lat": 27.18629,
+"lon": -81.8521,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Arcadia"
+],
+"nb": []
+},
+{
+"name": "Inverness Highlands South",
+"state": "FL",
+"state_name": "Florida",
+"slug": "inverness-highlands-south",
+"state_slug": "florida",
+"pop": 6542,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.80055,
+"lon": -82.3371,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Inverness",
+"Floral City",
+"Hernando",
+"Citrus Hills",
+"Lecanto",
+"Beverly Hills",
+"Sugarmill Woods",
+"Pine Ridge"
+],
+"nb": []
+},
+{
+"name": "Silver Springs Shores",
+"state": "FL",
+"state_name": "Florida",
+"slug": "silver-springs-shores",
+"state_slug": "florida",
+"pop": 6539,
+"county": "Marion",
+"metro": "Ocala",
+"seat": false,
+"lat": 29.10442,
+"lon": -82.02064,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Silver Springs",
+"Ocala",
+"Marion Oaks",
+"The Villages",
+"Lady Lake",
+"On Top of the World",
+"Wildwood"
+],
+"nb": []
+},
+{
+"name": "Boyette",
+"state": "FL",
+"state_name": "Florida",
+"slug": "boyette",
+"state_slug": "florida",
+"pop": 6518,
+"county": "Hillsborough",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.81753,
+"lon": -82.22259,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fish Hawk",
+"Bloomingdale",
+"Riverview",
+"Valrico",
+"Wimauma",
+"Brandon",
+"Gibsonton",
+"Progress Village"
+],
+"nb": []
+},
+{
+"name": "Macclenny",
+"state": "FL",
+"state_name": "Florida",
+"slug": "macclenny",
+"state_slug": "florida",
+"pop": 6487,
+"county": "Baker",
+"metro": "Jacksonville",
+"seat": true,
+"lat": 30.28218,
+"lon": -82.12206,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [],
+"nb": []
+},
+{
+"name": "Fort Pierce North",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fort-pierce-north",
+"state_slug": "florida",
+"pop": 6474,
+"county": "St. Lucie",
+"metro": "Port St. Lucie",
+"seat": false,
+"lat": 27.47364,
+"lon": -80.3593,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fort Pierce",
+"Fort Pierce South",
+"Lakewood Park",
+"Florida Ridge",
+"Indian River Estates",
+"Vero Beach South",
+"River Park",
+"Vero Beach"
+],
+"nb": []
+},
+{
+"name": "Lauderdale-by-the-Sea",
+"state": "FL",
+"state_name": "Florida",
+"slug": "lauderdale-by-the-sea",
+"state_slug": "florida",
+"pop": 6460,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.19203,
+"lon": -80.09643,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Oakland Park",
+"North Andrews Gardens",
+"Wilton Manors",
+"Pompano Beach",
+"Sunrise",
+"Fort Lauderdale",
+"Lighthouse Point",
+"Pompano Beach Highlands"
+],
+"nb": []
+},
+{
+"name": "Inwood",
+"state": "FL",
+"state_name": "Florida",
+"slug": "inwood",
+"state_slug": "florida",
+"pop": 6403,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.03697,
+"lon": -81.76508,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Jan-Phyl Village",
+"Winter Haven",
+"Auburndale",
+"Eloise",
+"Lake Alfred",
+"Cypress Gardens",
+"Fussels Corner",
+"Wahneta"
+],
+"nb": []
+},
+{
+"name": "Wimauma",
+"state": "FL",
+"state_name": "Florida",
+"slug": "wimauma",
+"state_slug": "florida",
+"pop": 6373,
+"county": "Hillsborough",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.71253,
+"lon": -82.29898,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Sun City Center",
+"Apollo Beach",
+"Ruskin",
+"Boyette",
+"Riverview",
+"Fish Hawk",
+"Gibsonton",
+"Bloomingdale"
+],
+"nb": []
+},
+{
+"name": "Pelican Bay",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pelican-bay",
+"state_slug": "florida",
+"pop": 6346,
+"county": "Collier",
+"metro": "Naples",
+"seat": false,
+"lat": 26.2312,
+"lon": -81.80564,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Naples Park",
+"Naples",
+"East Naples",
+"Golden Gate",
+"Bonita Springs",
+"Naples Manor",
+"Estero",
+"San Carlos Park"
+],
+"nb": []
+},
+{
+"name": "Pembroke Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pembroke-park",
+"state_slug": "florida",
+"pop": 6333,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.98787,
+"lon": -80.17477,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"West Park",
+"Hallandale Beach",
+"Ives Estates",
+"Hollywood",
+"Andover",
+"Aventura",
+"Ojus",
+"Pembroke Pines"
+],
+"nb": []
+},
+{
+"name": "Kathleen",
+"state": "FL",
+"state_name": "Florida",
+"slug": "kathleen",
+"state_slug": "florida",
+"pop": 6332,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.12085,
+"lon": -82.02314,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Winston",
+"Lakeland",
+"Combee Settlement",
+"Plant City",
+"Crystal Lake",
+"Fussels Corner",
+"Medulla",
+"Lakeland Highlands"
+],
+"nb": []
+},
+{
+"name": "Gulf Breeze",
+"state": "FL",
+"state_name": "Florida",
+"slug": "gulf-breeze",
+"state_slug": "florida",
+"pop": 6323,
+"county": "Santa Rosa",
+"metro": "Pensacola",
+"seat": false,
+"lat": 30.35714,
+"lon": -87.16386,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"East Pensacola Heights",
+"Pensacola",
+"Warrington",
+"West Pensacola",
+"Brent",
+"Myrtle Grove",
+"Midway",
+"Ferry Pass"
+],
+"nb": []
+},
+{
+"name": "Ave Maria",
+"state": "FL",
+"state_name": "Florida",
+"slug": "ave-maria",
+"state_slug": "florida",
+"pop": 6242,
+"county": "Collier",
+"metro": "Naples",
+"seat": false,
+"lat": 26.33667,
+"lon": -81.43806,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Immokalee"
+],
+"nb": []
+},
+{
+"name": "Indian River Estates",
+"state": "FL",
+"state_name": "Florida",
+"slug": "indian-river-estates",
+"state_slug": "florida",
+"pop": 6220,
+"county": "St. Lucie",
+"metro": "Port St. Lucie",
+"seat": false,
+"lat": 27.36449,
+"lon": -80.30977,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"River Park",
+"Fort Pierce South",
+"Port Saint Lucie",
+"Fort Pierce",
+"Hutchinson Island South",
+"Fort Pierce North",
+"Jensen Beach",
+"Stuart"
+],
+"nb": []
+},
+{
+"name": "Saint Augustine Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "saint-augustine-beach",
+"state_slug": "florida",
+"pop": 6176,
+"county": "St. Johns",
+"metro": "Jacksonville",
+"seat": false,
+"lat": 29.85053,
+"lon": -81.26535,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Saint Augustine Shores",
+"Saint Augustine",
+"Palm Coast"
+],
+"nb": []
+},
+{
+"name": "Sky Lake",
+"state": "FL",
+"state_name": "Florida",
+"slug": "sky-lake",
+"state_slug": "florida",
+"pop": 6153,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.45723,
+"lon": -81.39146,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pine Castle",
+"Belle Isle",
+"Oak Ridge",
+"Williamsburg",
+"Southchase",
+"Conway",
+"Meadow Woods",
+"Orlando"
+],
+"nb": []
+},
+{
+"name": "Miramar Beach",
+"state": "FL",
+"state_name": "Florida",
+"slug": "miramar-beach",
+"state_slug": "florida",
+"pop": 6146,
+"county": "Walton",
+"metro": "Fort Walton Beach–Destin",
+"seat": false,
+"lat": 30.37437,
+"lon": -86.35856,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"Santa Rosa Beach",
+"Destin",
+"Niceville",
+"Eglin Village",
+"Valparaiso",
+"Lake Lorraine",
+"Fort Walton Beach",
+"Ocean City"
+],
+"nb": []
+},
+{
+"name": "Orlovista",
+"state": "FL",
+"state_name": "Florida",
+"slug": "orlovista",
+"state_slug": "florida",
+"pop": 6123,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.53834,
+"lon": -81.46035,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pine Hills",
+"Orlando",
+"Oak Ridge",
+"Fairview Shores",
+"Ocoee",
+"Lake Butler",
+"Lockhart",
+"Doctor Phillips"
+],
+"nb": []
+},
+{
+"name": "Osprey",
+"state": "FL",
+"state_name": "Florida",
+"slug": "osprey",
+"state_slug": "florida",
+"pop": 6100,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.19616,
+"lon": -82.49037,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Laurel",
+"Gulf Gate Estates",
+"Siesta Key",
+"Bee Ridge",
+"South Gate Ridge",
+"Venice",
+"Sarasota Springs",
+"Southgate"
+],
+"nb": []
+},
+{
+"name": "Indiantown",
+"state": "FL",
+"state_name": "Florida",
+"slug": "indiantown",
+"state_slug": "florida",
+"pop": 6083,
+"county": "Martin",
+"metro": "Port St. Lucie",
+"seat": false,
+"lat": 27.02728,
+"lon": -80.48561,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Palm City",
+"Pahokee",
+"Stuart"
+],
+"nb": []
+},
+{
+"name": "Pahokee",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pahokee",
+"state_slug": "florida",
+"pop": 6071,
+"county": "Palm Beach",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.82006,
+"lon": -80.66534,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Belle Glade",
+"South Bay",
+"Clewiston",
+"Indiantown"
+],
+"nb": []
+},
+{
+"name": "Bay Harbor Islands",
+"state": "FL",
+"state_name": "Florida",
+"slug": "bay-harbor-islands",
+"state_slug": "florida",
+"pop": 6036,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.88759,
+"lon": -80.13116,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Surfside",
+"Isle of Normandy",
+"North Bay Village",
+"North Miami",
+"North Miami Beach",
+"Miami Shores",
+"Ojus",
+"Sunny Isles Beach"
+],
+"nb": []
+},
+{
+"name": "Surfside",
+"state": "FL",
+"state_name": "Florida",
+"slug": "surfside",
+"state_slug": "florida",
+"pop": 6024,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.87843,
+"lon": -80.1256,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Bay Harbor Islands",
+"Isle of Normandy",
+"North Bay Village",
+"North Miami",
+"Miami Shores",
+"North Miami Beach",
+"Sunny Isles Beach",
+"Ojus"
+],
+"nb": []
+},
+{
+"name": "Fort Meade",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fort-meade",
+"state_slug": "florida",
+"pop": 5975,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 27.75225,
+"lon": -81.80175,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Bartow",
+"Wahneta",
+"Highland City",
+"Fuller Heights",
+"Lake Wales",
+"Lakeland Highlands",
+"Eloise",
+"Willow Oak"
+],
+"nb": []
+},
+{
+"name": "Naples Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "naples-park",
+"state_slug": "florida",
+"pop": 5967,
+"county": "Collier",
+"metro": "Naples",
+"seat": false,
+"lat": 26.26175,
+"lon": -81.80925,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Pelican Bay",
+"Bonita Springs",
+"Naples",
+"Golden Gate",
+"East Naples",
+"Estero",
+"Naples Manor",
+"San Carlos Park"
+],
+"nb": []
+},
+{
+"name": "West Miami",
+"state": "FL",
+"state_name": "Florida",
+"slug": "west-miami",
+"state_slug": "florida",
+"pop": 5965,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.76343,
+"lon": -80.29616,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Flagami",
+"Coral Terrace",
+"Westchester",
+"Fountainebleau",
+"Coral Gables",
+"South Miami",
+"Miami Springs",
+"Glenvar Heights"
+],
+"nb": []
+},
+{
+"name": "Cocoa West",
+"state": "FL",
+"state_name": "Florida",
+"slug": "cocoa-west",
+"state_slug": "florida",
+"pop": 5925,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 28.35942,
+"lon": -80.77109,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Cocoa",
+"Rockledge",
+"Merritt Island",
+"Viera East",
+"Port Saint John",
+"Viera West",
+"Cocoa Beach",
+"Cape Canaveral"
+],
+"nb": []
+},
+{
+"name": "Heathrow",
+"state": "FL",
+"state_name": "Florida",
+"slug": "heathrow",
+"state_slug": "florida",
+"pop": 5896,
+"county": "Seminole",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.76333,
+"lon": -81.37225,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Lake Mary",
+"Longwood",
+"Wekiwa Springs",
+"Winter Springs",
+"Casselberry",
+"Sanford",
+"Altamonte Springs",
+"Forest City"
+],
+"nb": []
+},
+{
+"name": "Lecanto",
+"state": "FL",
+"state_name": "Florida",
+"slug": "lecanto",
+"state_slug": "florida",
+"pop": 5882,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.85165,
+"lon": -82.4876,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Citrus Hills",
+"Beverly Hills",
+"Pine Ridge",
+"Homosassa Springs",
+"Hernando",
+"Sugarmill Woods",
+"Inverness",
+"Inverness Highlands South"
+],
+"nb": []
+},
+{
+"name": "South Patrick Shores",
+"state": "FL",
+"state_name": "Florida",
+"slug": "south-patrick-shores",
+"state_slug": "florida",
+"pop": 5875,
+"county": "Brevard",
+"metro": "Palm Bay–Melbourne",
+"seat": false,
+"lat": 28.20223,
+"lon": -80.6095,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Satellite Beach",
+"Indian Harbour Beach",
+"Viera East",
+"Viera West",
+"Cocoa Beach",
+"Melbourne",
+"West Melbourne",
+"Palm Bay"
+],
+"nb": []
+},
+{
+"name": "Zephyrhills West",
+"state": "FL",
+"state_name": "Florida",
+"slug": "zephyrhills-west",
+"state_slug": "florida",
+"pop": 5865,
+"county": "Pasco",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.23081,
+"lon": -82.20556,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Zephyrhills",
+"Zephyrhills South",
+"Pasadena Hills",
+"Wesley Chapel",
+"Dade City",
+"Pebble Creek",
+"Thonotosassa",
+"Kathleen"
+],
+"nb": []
+},
+{
+"name": "High Springs",
+"state": "FL",
+"state_name": "Florida",
+"slug": "high-springs",
+"state_slug": "florida",
+"pop": 5831,
+"county": "Alachua",
+"metro": "Gainesville",
+"seat": false,
+"lat": 29.82691,
+"lon": -82.59678,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Alachua",
+"Newberry"
+],
+"nb": []
+},
+{
+"name": "DeFuniak Springs",
+"state": "FL",
+"state_name": "Florida",
+"slug": "defuniak-springs",
+"state_slug": "florida",
+"pop": 5795,
+"county": "Walton",
+"metro": "Fort Walton Beach–Destin",
+"seat": true,
+"lat": 30.72102,
+"lon": -86.11522,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [],
+"nb": []
+},
+{
+"name": "Citra",
+"state": "FL",
+"state_name": "Florida",
+"slug": "citra",
+"state_slug": "florida",
+"pop": 5732,
+"county": "Marion",
+"metro": "Ocala",
+"seat": false,
+"lat": 29.41192,
+"lon": -82.10982,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Silver Springs",
+"Ocala"
+],
+"nb": []
+},
+{
+"name": "South Apopka",
+"state": "FL",
+"state_name": "Florida",
+"slug": "south-apopka",
+"state_slug": "florida",
+"pop": 5728,
+"county": "Orange",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.66194,
+"lon": -81.50952,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Apopka",
+"Forest City",
+"Lockhart",
+"Wekiwa Springs",
+"Ocoee",
+"Pine Hills",
+"Winter Garden",
+"Fairview Shores"
+],
+"nb": []
+},
+{
+"name": "South Gate Ridge",
+"state": "FL",
+"state_name": "Florida",
+"slug": "south-gate-ridge",
+"state_slug": "florida",
+"pop": 5688,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.28644,
+"lon": -82.49676,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Bee Ridge",
+"Southgate",
+"Sarasota Springs",
+"Gulf Gate Estates",
+"Siesta Key",
+"Fruitville",
+"Sarasota",
+"North Sarasota"
+],
+"nb": []
+},
+{
+"name": "Tequesta",
+"state": "FL",
+"state_name": "Florida",
+"slug": "tequesta",
+"state_slug": "florida",
+"pop": 5629,
+"county": "Palm Beach",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.959,
+"lon": -80.088,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Jupiter",
+"Hobe Sound",
+"North Palm Beach",
+"Palm Beach Gardens",
+"Lake Park",
+"Riviera Beach",
+"Port Salerno",
+"The Acreage"
+],
+"nb": []
+},
+{
+"name": "Okeechobee",
+"state": "FL",
+"state_name": "Florida",
+"slug": "okeechobee",
+"state_slug": "florida",
+"pop": 5608,
+"county": "Okeechobee",
+"metro": "",
+"seat": true,
+"lat": 27.24393,
+"lon": -80.82978,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [],
+"nb": []
+},
+{
+"name": "West Samoset",
+"state": "FL",
+"state_name": "Florida",
+"slug": "west-samoset",
+"state_slug": "florida",
+"pop": 5583,
+"county": "Manatee",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.46948,
+"lon": -82.55676,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"South Bradenton",
+"Bradenton",
+"Bayshore Gardens",
+"Palmetto",
+"Memphis",
+"North Sarasota",
+"Longboat Key",
+"Sarasota"
+],
+"nb": []
+},
+{
+"name": "Combee Settlement",
+"state": "FL",
+"state_name": "Florida",
+"slug": "combee-settlement",
+"state_slug": "florida",
+"pop": 5577,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.05835,
+"lon": -81.90536,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Crystal Lake",
+"Fussels Corner",
+"Lakeland",
+"Highland City",
+"Winston",
+"Auburndale",
+"Lakeland Highlands",
+"Medulla"
+],
+"nb": []
+},
+{
+"name": "Jan-Phyl Village",
+"state": "FL",
+"state_name": "Florida",
+"slug": "jan-phyl-village",
+"state_slug": "florida",
+"pop": 5573,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.01474,
+"lon": -81.77175,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Inwood",
+"Winter Haven",
+"Eloise",
+"Auburndale",
+"Wahneta",
+"Cypress Gardens",
+"Fussels Corner",
+"Lake Alfred"
+],
+"nb": []
+},
+{
+"name": "Newberry",
+"state": "FL",
+"state_name": "Florida",
+"slug": "newberry",
+"state_slug": "florida",
+"pop": 5564,
+"county": "Alachua",
+"metro": "Gainesville",
+"seat": false,
+"lat": 29.64635,
+"lon": -82.6065,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"High Springs",
+"Alachua",
+"Gainesville"
+],
+"nb": []
+},
+{
+"name": "Naples Manor",
+"state": "FL",
+"state_name": "Florida",
+"slug": "naples-manor",
+"state_slug": "florida",
+"pop": 5562,
+"county": "Collier",
+"metro": "Naples",
+"seat": false,
+"lat": 26.0887,
+"lon": -81.7262,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"East Naples",
+"Naples",
+"Golden Gate",
+"Marco",
+"Marco Island",
+"Pelican Bay",
+"Naples Park",
+"Bonita Springs"
+],
+"nb": []
+},
+{
+"name": "Fussels Corner",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fussels-corner",
+"state_slug": "florida",
+"pop": 5561,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.05419,
+"lon": -81.86064,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Combee Settlement",
+"Crystal Lake",
+"Auburndale",
+"Lakeland",
+"Inwood",
+"Jan-Phyl Village",
+"Highland City",
+"Winter Haven"
+],
+"nb": []
+},
+{
+"name": "Ocean City",
+"state": "FL",
+"state_name": "Florida",
+"slug": "ocean-city",
+"state_slug": "florida",
+"pop": 5550,
+"county": "Okaloosa",
+"metro": "Fort Walton Beach–Destin",
+"seat": false,
+"lat": 30.44103,
+"lon": -86.61356,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"Fort Walton Beach",
+"Wright",
+"Lake Lorraine",
+"Eglin Village",
+"Destin",
+"Valparaiso",
+"Niceville",
+"Navarre"
+],
+"nb": []
+},
+{
+"name": "Crystal Lake",
+"state": "FL",
+"state_name": "Florida",
+"slug": "crystal-lake",
+"state_slug": "florida",
+"pop": 5514,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.03558,
+"lon": -81.90841,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Combee Settlement",
+"Lakeland",
+"Fussels Corner",
+"Highland City",
+"Lakeland Highlands",
+"Medulla",
+"Winston",
+"Auburndale"
+],
+"nb": []
+},
+{
+"name": "Fellsmere",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fellsmere",
+"state_slug": "florida",
+"pop": 5514,
+"county": "Indian River",
+"metro": "Vero Beach",
+"seat": false,
+"lat": 27.76781,
+"lon": -80.60144,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Sebastian",
+"Micco",
+"West Vero Corridor",
+"Gifford",
+"Vero Beach",
+"Vero Beach South",
+"Palm Bay",
+"Florida Ridge"
+],
+"nb": []
+},
+{
+"name": "Fort Myers Shores",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fort-myers-shores",
+"state_slug": "florida",
+"pop": 5487,
+"county": "Lee",
+"metro": "Cape Coral–Fort Myers",
+"seat": false,
+"lat": 26.70924,
+"lon": -81.74592,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fort Myers",
+"North Fort Myers",
+"Gateway",
+"Lehigh Acres",
+"Villas",
+"McGregor",
+"Cypress Lake",
+"Cape Coral"
+],
+"nb": []
+},
+{
+"name": "Lake Alfred",
+"state": "FL",
+"state_name": "Florida",
+"slug": "lake-alfred",
+"state_slug": "florida",
+"pop": 5475,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 28.09196,
+"lon": -81.72341,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Auburndale",
+"Inwood",
+"Winter Haven",
+"Jan-Phyl Village",
+"Haines City",
+"Eloise",
+"Cypress Gardens",
+"Fussels Corner"
+],
+"nb": []
+},
+{
+"name": "Mascotte",
+"state": "FL",
+"state_name": "Florida",
+"slug": "mascotte",
+"state_slug": "florida",
+"pop": 5473,
+"county": "Lake",
+"metro": "Orlando",
+"seat": false,
+"lat": 28.57833,
+"lon": -81.88675,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Groveland",
+"Clermont",
+"Minneola",
+"Leesburg",
+"Winter Garden",
+"Tavares"
+],
+"nb": []
+},
+{
+"name": "Starke",
+"state": "FL",
+"state_name": "Florida",
+"slug": "starke",
+"state_slug": "florida",
+"pop": 5397,
+"county": "Bradford",
+"metro": "",
+"seat": true,
+"lat": 29.94413,
+"lon": -82.10983,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Middleburg"
+],
+"nb": []
+},
+{
+"name": "Progress Village",
+"state": "FL",
+"state_name": "Florida",
+"slug": "progress-village",
+"state_slug": "florida",
+"pop": 5392,
+"county": "Hillsborough",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.9003,
+"lon": -82.36454,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Palm River-Clair Mel",
+"Riverview",
+"Gibsonton",
+"Brandon",
+"East Lake-Orient Park",
+"Mango",
+"Tampa",
+"Bloomingdale"
+],
+"nb": []
+},
+{
+"name": "Timber Pines",
+"state": "FL",
+"state_name": "Florida",
+"slug": "timber-pines",
+"state_slug": "florida",
+"pop": 5386,
+"county": "Hernando",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.47028,
+"lon": -82.60316,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Spring Hill",
+"Shady Hills",
+"North Weeki Wachee",
+"Hudson",
+"Bayonet Point",
+"Jasmine Estates",
+"Brooksville",
+"New Port Richey East"
+],
+"nb": []
+},
+{
+"name": "Nassau Village-Ratliff",
+"state": "FL",
+"state_name": "Florida",
+"slug": "nassau-village-ratliff",
+"state_slug": "florida",
+"pop": 5337,
+"county": "Nassau",
+"metro": "Jacksonville",
+"seat": false,
+"lat": 30.51111,
+"lon": -81.80925,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Yulee",
+"Jacksonville"
+],
+"nb": []
+},
+{
+"name": "Zephyrhills South",
+"state": "FL",
+"state_name": "Florida",
+"slug": "zephyrhills-south",
+"state_slug": "florida",
+"pop": 5276,
+"county": "Pasco",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 28.21492,
+"lon": -82.18873,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Zephyrhills",
+"Zephyrhills West",
+"Pasadena Hills",
+"Wesley Chapel",
+"Dade City",
+"Pebble Creek",
+"Kathleen",
+"Thonotosassa"
+],
+"nb": []
+},
+{
+"name": "Palm Springs North",
+"state": "FL",
+"state_name": "Florida",
+"slug": "palm-springs-north",
+"state_slug": "florida",
+"pop": 5253,
+"county": "Miami-Dade",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 25.9351,
+"lon": -80.33383,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Country Club",
+"Miami Lakes",
+"Hialeah Gardens",
+"Carol City",
+"Miami Gardens",
+"Opa-locka",
+"Lake Lucerne",
+"Scott Lake"
+],
+"nb": []
+},
+{
+"name": "River Park",
+"state": "FL",
+"state_name": "Florida",
+"slug": "river-park",
+"state_slug": "florida",
+"pop": 5222,
+"county": "St. Lucie",
+"metro": "Port St. Lucie",
+"seat": false,
+"lat": 27.31421,
+"lon": -80.34727,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Port Saint Lucie",
+"Indian River Estates",
+"Fort Pierce South",
+"Hutchinson Island South",
+"Jensen Beach",
+"Fort Pierce",
+"Stuart",
+"Fort Pierce North"
+],
+"nb": []
+},
+{
+"name": "Pine Island Ridge",
+"state": "FL",
+"state_name": "Florida",
+"slug": "pine-island-ridge",
+"state_slug": "florida",
+"pop": 5218,
+"county": "Broward",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.09481,
+"lon": -80.27394,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Cooper City",
+"Davie",
+"Plantation",
+"Broadview Park",
+"Southwest Ranches",
+"Lauderhill",
+"Melrose Park",
+"Lauderdale Lakes"
+],
+"nb": []
+},
+{
+"name": "Floral City",
+"state": "FL",
+"state_name": "Florida",
+"slug": "floral-city",
+"state_slug": "florida",
+"pop": 5217,
+"county": "Citrus",
+"metro": "Homosassa Springs",
+"seat": false,
+"lat": 28.74999,
+"lon": -82.29676,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Inverness Highlands South",
+"Inverness",
+"Hernando",
+"Citrus Hills",
+"Sugarmill Woods",
+"Lecanto",
+"Brooksville",
+"Beverly Hills"
+],
+"nb": []
+},
+{
+"name": "Hutchinson Island South",
+"state": "FL",
+"state_name": "Florida",
+"slug": "hutchinson-island-south",
+"state_slug": "florida",
+"pop": 5201,
+"county": "St. Lucie",
+"metro": "Port St. Lucie",
+"seat": false,
+"lat": 27.29949,
+"lon": -80.22045,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Jensen Beach",
+"Indian River Estates",
+"Stuart",
+"River Park",
+"Port Saint Lucie",
+"Palm City",
+"Port Salerno",
+"Fort Pierce South"
+],
+"nb": []
+},
+{
+"name": "South Highpoint",
+"state": "FL",
+"state_name": "Florida",
+"slug": "south-highpoint",
+"state_slug": "florida",
+"pop": 5195,
+"county": "Pinellas",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.91697,
+"lon": -82.71288,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Largo",
+"Pinellas Park",
+"Safety Harbor",
+"Clearwater",
+"West and East Lealman",
+"Lealman",
+"Kenneth City",
+"Seminole"
+],
+"nb": []
+},
+{
+"name": "South Bay",
+"state": "FL",
+"state_name": "Florida",
+"slug": "south-bay",
+"state_slug": "florida",
+"pop": 5101,
+"county": "Palm Beach",
+"metro": "Miami–Fort Lauderdale–West Palm Beach",
+"seat": false,
+"lat": 26.66396,
+"lon": -80.71617,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Belle Glade",
+"Pahokee",
+"Clewiston"
+],
+"nb": []
+},
+{
+"name": "Wahneta",
+"state": "FL",
+"state_name": "Florida",
+"slug": "wahneta",
+"state_slug": "florida",
+"pop": 5091,
+"county": "Polk",
+"metro": "Lakeland–Winter Haven",
+"seat": false,
+"lat": 27.9528,
+"lon": -81.72702,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Eloise",
+"Cypress Gardens",
+"Winter Haven",
+"Jan-Phyl Village",
+"Inwood",
+"Bartow",
+"Auburndale",
+"Highland City"
+],
+"nb": []
+},
+{
+"name": "South Pasadena",
+"state": "FL",
+"state_name": "Florida",
+"slug": "south-pasadena",
+"state_slug": "florida",
+"pop": 5081,
+"county": "Pinellas",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.75503,
+"lon": -82.7376,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Saint Pete Beach",
+"Gulfport",
+"Treasure Island",
+"St. Petersburg",
+"Kenneth City",
+"West and East Lealman",
+"Lealman",
+"Pinellas Park"
+],
+"nb": []
+},
+{
+"name": "Kenneth City",
+"state": "FL",
+"state_name": "Florida",
+"slug": "kenneth-city",
+"state_slug": "florida",
+"pop": 5072,
+"county": "Pinellas",
+"metro": "Tampa–St. Petersburg",
+"seat": false,
+"lat": 27.81558,
+"lon": -82.7201,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"West and East Lealman",
+"Pinellas Park",
+"Lealman",
+"St. Petersburg",
+"South Pasadena",
+"Treasure Island",
+"Seminole",
+"Gulfport"
+],
+"nb": []
+},
+{
+"name": "Fort Pierce South",
+"state": "FL",
+"state_name": "Florida",
+"slug": "fort-pierce-south",
+"state_slug": "florida",
+"pop": 5062,
+"county": "St. Lucie",
+"metro": "Port St. Lucie",
+"seat": false,
+"lat": 27.40962,
+"lon": -80.35483,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Fort Pierce",
+"Indian River Estates",
+"Fort Pierce North",
+"River Park",
+"Port Saint Lucie",
+"Lakewood Park",
+"Hutchinson Island South",
+"Florida Ridge"
+],
+"nb": []
+},
+{
+"name": "Warm Mineral Springs",
+"state": "FL",
+"state_name": "Florida",
+"slug": "warm-mineral-springs",
+"state_slug": "florida",
+"pop": 5061,
+"county": "Sarasota",
+"metro": "Sarasota–Bradenton",
+"seat": false,
+"lat": 27.05978,
+"lon": -82.26009,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"North Port",
+"Englewood",
+"Venice Gardens",
+"South Venice",
+"Port Charlotte",
+"Venice",
+"Rotonda West",
+"Laurel"
+],
+"nb": []
+},
+{
+"name": "Samsula-Spruce Creek",
+"state": "FL",
+"state_name": "Florida",
+"slug": "samsula-spruce-creek",
+"state_slug": "florida",
+"pop": 5047,
+"county": "Volusia",
+"metro": "Daytona Beach–Deltona",
+"seat": false,
+"lat": 29.04932,
+"lon": -81.06192,
+"tz": "Eastern",
+"off_lo": 9,
+"off_hi": 10,
+"near": [
+"Port Orange",
+"New Smyrna Beach",
+"South Daytona",
+"Daytona Beach",
+"Holly Hill",
+"DeLand",
+"Orange City",
+"Deltona"
+],
+"nb": []
+},
+{
+"name": "Valparaiso",
+"state": "FL",
+"state_name": "Florida",
+"slug": "valparaiso",
+"state_slug": "florida",
+"pop": 5023,
+"county": "Okaloosa",
+"metro": "Fort Walton Beach–Destin",
+"seat": false,
+"lat": 30.50853,
+"lon": -86.50273,
+"tz": "Central",
+"off_lo": 10,
+"off_hi": 11,
+"near": [
+"Niceville",
+"Eglin Village",
+"Lake Lorraine",
+"Destin",
+"Ocean City",
+"Wright",
+"Fort Walton Beach",
+"Miramar Beach"
 ],
 "nb": []
 }

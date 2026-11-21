@@ -107,3 +107,63 @@
     - ["Can you design kits and merchandise?", "Yes. Merchandising is included in The Brand Ecosystem package, and every package includes mockups of your brand on real products."]
     - ["We're a new padel club. What do we need first?", "Start with the logo system, colours and a social media kit, so your launch posts, signage and booking pages match from day one. Premium Branding covers this, from $450."]
     - ["Can you rebrand an existing club?", "Yes. We start with a short call about your history and members, so the new identity feels like an upgrade rather than a stranger."]
+
+- slug: real-estate
+  name: Real Estate
+  h1: "Branding for realtors, real estate teams and property businesses"
+  title: "Real Estate Logo & Brand Identity Design | Shahab"
+  description: "Human-designed logos and brand identities for realtors, real estate teams, brokerages and property managers: signs, cards, listing templates."
+  keywords: [real estate, property]
+  gradient: g-ocean
+  intro: >-
+    In real estate, your brand is on yard signs, listing flyers, business cards and every Instagram
+    post. A clear, premium identity makes an agent or team look established before the first call.
+    I design brands for realtors, teams, brokerages and property managers.
+  points:
+    - ["A logo that reads on a yard sign", "Bold enough to read from a passing car, simple enough for a rider sign."]
+    - ["Room for your brokerage", "Layouts that sit cleanly next to your brokerage's required branding."]
+    - ["Listing templates", "Just listed, just sold and open-house posts that look consistent every week."]
+    - ["Premium, not flashy", "Colours and type that signal trust for buyers and sellers."]
+  faqs:
+    - ["Can I use my own logo with my brokerage?", "Usually yes, but brokerages and state real estate commissions have advertising rules about showing the brokerage name. Check with your broker before printing."]
+    - ["Do you design yard signs and riders?", "Yes. Sign and rider designs are included as mockups in every package and designed as print files in The Brand Ecosystem."]
+
+- slug: cleaning-home-services
+  name: Cleaning & Home Services
+  h1: "Branding for cleaning companies and home service businesses"
+  title: "Cleaning Company Logo & Branding Design | Shahab"
+  description: "Human-designed logos and brand identities for cleaning, maintenance, pool, landscaping and home service businesses: vans, uniforms, door hangers."
+  keywords: [cleaning, logistics, home]
+  gradient: g-mint
+  intro: >-
+    Home service customers choose who to let into their home in seconds, from a van, a door hanger or
+    a Google listing. A clean, trustworthy brand wins more of those calls. I design identities for
+    cleaning, maintenance, pool, landscaping and other home service companies.
+  points:
+    - ["Readable on a moving van", "A logo and phone layout that work on vehicle wraps at a glance."]
+    - ["Uniforms and equipment", "One-colour versions for embroidered shirts, caps and equipment."]
+    - ["Door hangers and flyers", "Print designs that look professional, not like a template."]
+    - ["Google Business Profile ready", "A square icon and cover image that stand out in Maps results."]
+  faqs:
+    - ["What does a cleaning company need first?", "A logo, colours and a van, uniform and door hanger design. Premium Branding ($450) covers the identity; The Brand Ecosystem ($1,050) adds the print and vehicle designs."]
+    - ["Can you design a van wrap?", "Yes. Send the vehicle make and model and I'll design a wrap layout your installer can print."]
+
+- slug: professional-services
+  name: Professional Services
+  h1: "Branding for law firms, consultants and professional services"
+  title: "Law Firm & Consultant Brand Identity Design | Shahab"
+  description: "Human-designed logos and brand identities for law firms, accountants, consultants and agencies: trustworthy, premium and consistent everywhere."
+  keywords: [luxury branding, logistics, fintech]
+  gradient: g-violet
+  intro: >-
+    Clients of law firms, accountants and consultants buy trust before they buy expertise. A premium,
+    consistent identity makes a small firm look as credible as a large one. I design identities for
+    professional services firms that want to look established and modern.
+  points:
+    - ["Trust first", "Calm colours and confident typography that signal experience."]
+    - ["Works in documents", "Letterhead, proposals and slide templates that look sharp in print and PDF."]
+    - ["Partner and service structure", "A system that can grow with new partners, offices or services."]
+    - ["Different from the template look", "Not another blue scales-of-justice or upward-arrow logo."]
+  faqs:
+    - ["Do law firms have branding rules?", "Bar associations have advertising rules about claims and wording, not about visual design. Check marketing copy with your bar's rules; the identity itself is flexible."]
+    - ["Can you design proposal and slide templates?", "Yes. Document and presentation templates are part of The Brand Ecosystem package."]

@@ -316,3 +316,85 @@
     - ["Do you manage the accounts or run the ads?", "No. I design the creative assets; posting and ad buying stay with you or your marketer."]
   related_posts: [brand-identity-checklist, logo-file-formats]
   related_cases: [voitex, pingup, ovenox]
+
+- slug: fast-logo-design
+  name: 48-hour logo design
+  keyword: fast logo design
+  title: "Fast Logo Design: First Concepts in 48 Hours | Shahab"
+  description: "Need a logo fast? Human-designed logo concepts within 48 hours of your brief, final files in 2 days. Fixed prices from $250, copyright included."
+  h1: "Fast logo design: your first concepts within 48 hours"
+  kicker: 48-hour logo design
+  image: img/a009.jpg
+  image_alt: Logo concepts on a brand board delivered within 48 hours
+  intro: >-
+    Launching next week? Printing for an event? I design professional logos fast without cutting
+    corners: your first full brand board arrives within 48 hours of the brief, and Basic and Premium
+    packages are finished in 2 days. Every logo is still researched and drawn by me, never generated.
+  sections:
+    - h2: How can a logo be done in 48 hours?
+      p:
+        - "Speed comes from process, not shortcuts. One designer (me) handles the whole project, so there are no handovers or account managers. The brief call collects everything up front, and I work while you sleep: a brief sent at the end of a US or UK day is usually designed overnight."
+    - h2: The 48-hour timeline
+      table:
+        - ["Time", "What happens"]
+        - ["Hour 0", "30-minute brief call or written brief"]
+        - ["Within 48 hours", "Brand board: logo concept(s), colours, type and real-world mockups"]
+        - ["Day 2", "Revisions on the chosen direction"]
+        - ["Day 2 (Basic and Premium)", "Final source files, guidelines and copyright"]
+        - ["Day 5 (Brand Ecosystem)", "Full identity, social creatives and ad assets"]
+    - h2: What you still get, even when it's fast
+      ul:
+        - "Market and competitor research before any sketching"
+        - "Up to 3 original concepts (Premium)"
+        - "AI, EPS, SVG, PDF and PNG source files"
+        - "Written copyright transfer"
+    - h2: When you shouldn't rush
+      p:
+        - "If you haven't settled on a name, or you're unsure who your customers are, take a day to decide first. A fast logo for the wrong name costs more than a slow one. My guide to <a href=\"/blog/brand-identity-checklist/\">brand identity basics</a> helps you prepare."
+  faqs:
+    - ["Can you deliver a logo in 24 hours?", "The first brand board is promised within 48 hours. If you have a hard deadline, mention it on the brief call and I'll tell you honestly whether it's possible."]
+    - ["Is a fast logo lower quality?", "No. The time saved comes from one designer and no meetings, not from skipping research or using templates."]
+    - ["Do you charge extra for rush delivery?", "No. 48-hour first concepts are standard on every package."]
+  related_posts: [how-much-does-a-logo-cost, ai-logo-generator-vs-human-designer, logo-file-formats]
+  related_cases: [voitex, ovenox, pingup]
+
+- slug: affordable-brand-identity-design
+  name: Affordable brand identity
+  keyword: affordable brand identity design
+  title: "Affordable Brand Identity Design From $250 | Shahab"
+  description: "Affordable, professional brand identity design for small businesses and startups: logo, colours, type and guidelines from $250. No agency fees."
+  h1: "Affordable brand identity design that doesn't look cheap"
+  kicker: Affordable branding
+  image: img/a044.jpg
+  image_alt: Complete small business brand identity board
+  intro: >-
+    Agencies often charge several thousand dollars for a brand identity. My packages cost $250 to
+    $1,050, fixed, with the same research, original concepts, source files and copyright. You work
+    directly with the designer, so you pay for design, not overheads.
+  sections:
+    - h2: Why my branding costs less than an agency
+      ul:
+        - "<b>One designer:</b> no account managers, project managers or office overheads."
+        - "<b>Fixed packages:</b> no hourly billing, no scope creep, no surprise invoices."
+        - "<b>Remote:</b> calls on Calendly in your time zone, files delivered online."
+    - h2: Price comparison
+      table:
+        - ["Option", "Typical price", "Includes"]
+        - ["AI logo maker", "About $35–$129", "Template-based logo files"]
+        - ["Marketplace gig", "Under $55 to $500+", "Varies widely by seller"]
+        - ["Shahab (independent)", "$250–$1,050", "Original concepts, guidelines, source files, copyright"]
+        - ["Branding agency", "$3,000–$10,000+", "Strategy, team, identity"]
+      p:
+        - "Market ranges from my guides: <a href=\"/blog/looka-vs-hiring-a-designer/\">Looka vs hiring a designer</a> and <a href=\"/blog/fiverr-vs-freelancer-vs-agency/\">Fiverr vs freelancer vs agency</a>."
+    - h2: What's never cut to save money
+      ul:
+        - "Research into your market and competitors"
+        - "Original, hand-drawn concepts (no templates, no AI)"
+        - "Vector source files and full copyright"
+        - "Guidelines so the brand stays consistent"
+  faqs:
+    - ["What's the cheapest package?", "Basic is $250: one logo concept, colour palette, typography, mockups, stationery and simple guidelines, delivered in 2 days."]
+    - ["Is affordable branding good enough for a growing business?", "Yes. The identity system is the same quality as my larger packages; higher packages add more concepts and applications, not better design."]
+    - ["Are there extra costs later?", "No subscriptions or file fees. Extra items like new packaging or signage can be quoted separately when you need them."]
+  related_posts: [brand-identity-cost, how-much-does-a-logo-cost, 99designs-alternatives]
+  related_cases: [mavion, voitex, ovenox]

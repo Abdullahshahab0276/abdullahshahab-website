@@ -194,7 +194,7 @@ def build_florida(x):
 <section class="band" style="padding-top:0"><div class="inner"><div class="svc"><h2>Branding services for Florida businesses</h2><ul>{svc_cards}</ul>
 <h2>Florida at a glance for new brands</h2>{facts}<p>Planning a name? Search <a href="https://dos.fl.gov/sunbiz/" target="_blank" rel="noopener">Sunbiz</a> first, and register a fictitious name if you'll trade under a name other than your legal or company name.</p>
 <h2>Every Florida county</h2>{metro_html}<p>Looking for your ZIP code? See <a href="/florida/zip-codes/">all {len(zips):,} Florida ZIP codes I serve</a>.</p></div></div></section>
-<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{len(top)} Florida cities and towns with their own page</h2><p class="lede">Every place with 10,000+ residents. Smaller towns, villages and communities are listed on each county page.</p></div><div class="links-row">{city_links}</div></div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{len(top)} Florida cities and towns with their own page</h2><p class="lede">Every place with 5,000+ residents. Smaller towns, villages and communities are listed on each county page.</p></div><div class="links-row">{city_links}</div></div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Branding packages for Florida businesses</h2></div>{plans_html()}</div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards(works[:3])}</div></section>
 {portfolio_html(port, 3, esc, "Brand identities I've designed")}

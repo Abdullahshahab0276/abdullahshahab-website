@@ -1,0 +1,122 @@
+# Extra sections and FAQs appended to service pages (content/services.yaml) and industry pages.
+# Keep facts consistent with PLANS: Basic $250 (1 concept, 2-day), Premium $450 (3 concepts, 2-day),
+# The Brand Ecosystem $1,050 (5 business days). First brand board within 48 hours.
+services:
+  logo-design:
+    sections:
+      - h2: "What makes a logo work?"
+        p:
+          - "A good logo is simple enough to recognise at 16 pixels, distinctive in its category and built to work in one colour. I test every concept as a favicon, on a dark background, in black only and at billboard size before you see it."
+        ul:
+          - "<b>Recognisable:</b> one clear idea, not three small ones competing."
+          - "<b>Ownable:</b> different from the competitors you'll be compared with."
+          - "<b>Flexible:</b> a primary logo, a stacked version and an icon that belong together."
+          - "<b>Timeless:</b> no trend effects that date the mark in two years."
+      - h2: "Logo types and when to use them"
+        table:
+          - ["Type", "Example use", "Best for"]
+          - ["Wordmark", "The name set in custom-adjusted type", "Short, distinctive names; professional services"]
+          - ["Lettermark / monogram", "Initials, like a vtx or AS mark", "Long names; fashion and luxury"]
+          - ["Symbol + wordmark", "Icon beside or above the name", "Apps, consumer brands, food and drink"]
+          - ["Emblem", "Name inside a badge or crest", "Sports clubs, breweries, heritage brands"]
+          - ["Mascot / character", "Illustrated character", "Kids' brands, games, food trucks"]
+      - h2: "What to send before we start"
+        ul:
+          - "Your business name exactly as it should appear, and a tagline if you have one"
+          - "Who your customers are and the 2–3 competitors you're compared with"
+          - "Where the logo will be used first (website, packaging, signage, uniforms)"
+          - "Logos or brands you like and dislike, and why"
+    faqs:
+      - ["Can I trademark the logo you design?", "Yes. Every logo is original and you receive the copyright in writing. A trademark attorney can file it with the USPTO, the UKIPO or your state."]
+      - ["What files will I receive?", "AI, EPS, SVG, PDF and PNG files in full colour, black and white, plus the fonts' licence details. See my guide to logo file formats."]
+  brand-identity-design:
+    sections:
+      - h2: "Brand identity deliverables by package"
+        table:
+          - ["Deliverable", "Basic $250", "Premium $450", "Brand Ecosystem $1,050"]
+          - ["Logo concepts", "1", "3", "3"]
+          - ["Colour palette and typography", "Yes", "Yes", "Yes"]
+          - ["Brand guidelines", "Simple", "Complete", "Complete"]
+          - ["Social media kit", "No", "Yes", "Yes, plus 10 social creatives"]
+          - ["Stationery, packaging or signage", "Mockups", "Mockups", "Designed"]
+          - ["Ad creatives and UI assets", "No", "No", "Yes"]
+          - ["Delivery", "2 days", "2 days", "5 business days"]
+      - h2: "Identity vs logo vs brand"
+        p:
+          - "The <b>logo</b> is one mark. The <b>brand identity</b> is every visual element around it: colours, typography, imagery, layouts and the guidelines that hold them together. The <b>brand</b> is what customers think and feel about you, which the identity shapes but doesn't fully control. I design the identity so the brand people experience is consistent everywhere."
+    faqs:
+      - ["How long does a brand identity last?", "A well-designed identity should last 7 to 10 years with small updates. Trend-led identities often need replacing after 2 or 3."]
+      - ["Can you work with my existing logo?", "Yes. If the logo is strong, I build the colour, type and guidelines around it. If not, see rebranding."]
+  startup-branding:
+    sections:
+      - h2: "A startup branding timeline"
+        table:
+          - ["When", "What happens"]
+          - ["Day 0", "30-minute brief call: product, customers, competitors and launch date"]
+          - ["Within 48 hours", "First brand board with logo directions, colour, type and mockups"]
+          - ["Days 2–3", "Feedback and refinement of the chosen direction"]
+          - ["Day 2 to 5 (by package)", "Final files, guidelines and launch kit delivered"]
+      - h2: "Branding mistakes startups make"
+        ul:
+          - "Building the website and pitch deck first, then rebranding everything a month later"
+          - "Choosing a name before checking the domain, social handles and trademarks"
+          - "Using an AI logo that looks like three competitors' logos"
+          - "No guidelines, so every freelancer interprets the brand differently"
+    faqs:
+      - ["Should a startup pay for branding before product-market fit?", "Start with the Basic or Premium package: enough to look credible and consistent, without over-investing before you know what works."]
+  brand-guidelines:
+    sections:
+      - h2: "What a brand guidelines document looks like"
+        table:
+          - ["Section", "What it covers"]
+          - ["Logo", "Versions, clear space, minimum size and what not to do"]
+          - ["Colour", "Primary and secondary colours with HEX, RGB, CMYK and Pantone references"]
+          - ["Typography", "Typefaces, weights, sizes and how to set headlines and body text"]
+          - ["Imagery", "Photo and illustration style, with examples"]
+          - ["Applications", "Social posts, stationery, signage and packaging examples"]
+          - ["Voice (Brand Ecosystem)", "Tone of voice and messaging examples"]
+    faqs:
+      - ["Can you write guidelines for a logo someone else designed?", "Yes, as long as you have the source files. I build the system around the existing logo."]
+  rebranding:
+    sections:
+      - h2: "Refresh vs full rebrand"
+        table:
+          - ["", "Refresh", "Full rebrand"]
+          - ["Logo", "Redrawn and simplified", "New concept"]
+          - ["Name", "Kept", "Kept or changed"]
+          - ["Colours and type", "Updated", "Replaced"]
+          - ["Best when", "Customers recognise you, but the brand looks dated", "The business has changed, or the current brand hurts sales"]
+          - ["Typical package", "Premium ($450)", "Premium or The Brand Ecosystem"]
+      - h2: "How to roll out a rebrand"
+        ul:
+          - "Update digital first: website, Google Business Profile, social profiles and email signature"
+          - "Replace printed items as stock runs out, starting with the most visible (signage, packaging)"
+          - "Tell customers why: a short post or email about the new look avoids confusion"
+    faqs:
+      - ["Will a rebrand hurt my SEO or recognition?", "Not if the name and website stay the same. Visual changes don't affect rankings, and a gradual rollout keeps customers with you."]
+  packaging-design:
+    sections:
+      - h2: "Packaging design process"
+        ul:
+          - "<b>Specs:</b> you send the dieline or container size from your printer or manufacturer."
+          - "<b>Layout:</b> I design the front, back and side panels with space for required information."
+          - "<b>Mockups:</b> 3D renders show the pack on a shelf and in hand."
+          - "<b>Print files:</b> press-ready PDFs with bleed, CMYK colours and fonts outlined."
+    faqs:
+      - ["Can you design labels for multiple product variants?", "Yes. I design one system with colour or pattern changes per variant, so the range looks like a family on the shelf."]
+  social-media-design:
+    sections:
+      - h2: "Social media templates that stay on brand"
+        p:
+          - "Templates are designed in your brand fonts and colours and delivered as editable files, so your team can post every week without a designer. The Brand Ecosystem adds 10 social creatives, 5 Google ad banners and 5 static ad creatives sized for Meta and Google."
+    faqs:
+      - ["Can I edit the templates in Canva?", "Yes. I can deliver templates as Canva files or as Figma or Adobe files, whichever your team uses."]
+  pricing:
+    sections:
+      - h2: "What you won't pay for"
+        ul:
+          - "No hourly billing or surprise extras: prices are fixed and paid once"
+          - "No extra fee for source files or copyright"
+          - "No subscription to keep using your logo"
+    faqs:
+      - ["Are prices the same for US and UK clients?", "Yes. Prices are fixed in US dollars for every client, wherever you are."]
