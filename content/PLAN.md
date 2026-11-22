@@ -26,7 +26,7 @@ the related questions people ask (check Google "People also ask" and autocomplet
   Census, county sites). Never invent local details.
 
 ## Queue (take the first unchecked item; tick it with the slug when published)
-- [ ] Restaurant logo ideas: how to design a logo that fills tables (kw "restaurant logo", 9,900/mo, KD 0)
+- [x] Restaurant logo ideas: how to design a logo that fills tables (kw "restaurant logo", 9,900/mo, KD 0) → restaurant-logo
 - [ ] Clothing brand logo: how to design one people want to wear (kw "clothing brand logo", 6,600, KD 3; also "how to start a clothing brand" 5,400, KD 5)
 - [ ] FL: How to start a business in Florida: the branding checklist (Sunbiz, DBA, trademark, logo) (kw "how to start a business in florida", 880, KD 24; "florida dba" 1,000; "florida business license" 4,400, KD 0)
 - [ ] Realtor logo: what works for agents, teams and brokerages (kw "realtor logo", 6,600, KD 32; "real estate logo" 1,600, KD 0)
@@ -82,6 +82,7 @@ autocomplete, People also ask, competitor blogs), prefer low-difficulty buyer to
 - 2026-11-17: skincare-brand-identity
 - 2026-11-20: logo-file-formats
 - 2026-11-20: ai-logo-generator-vs-human-designer, brand-identity-cost, 99designs-alternatives
+- 2026-11-22: restaurant-logo
 
 ## Site structure (link every new article to its hub)
 - Service pages: /logo-design/ /brand-identity-design/ /startup-branding/ /brand-guidelines/
