@@ -482,7 +482,11 @@ def build_sitemap():
         rows.append(f"<url><loc>{u}</loc><lastmod>{seo.lastmod(u, h)}</lastmod><priority>{pri(u)}</priority>{photo if u in (SITE + "/", SITE + "/about/") else ""}</url>")
     seo.save_lastmod()
     (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">' + "".join(rows) + "</urlset>\n", encoding="utf-8")
-    (ROOT / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+    bots = ["Googlebot", "Bingbot", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User",
+            "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "DuckDuckBot", "CCBot"]
+    (ROOT / "robots.txt").write_text("# Search engines and AI assistants are welcome to read and cite this site.\n"
+                                     + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)
+                                     + f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 
 
 def finalize_static():
