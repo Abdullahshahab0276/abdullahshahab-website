@@ -30,7 +30,7 @@ the related questions people ask (check Google "People also ask" and autocomplet
 - [x] Clothing brand logo: how to design one people want to wear (kw "clothing brand logo", 6,600, KD 3; also "how to start a clothing brand" 5,400, KD 5) → clothing-brand-logo
 - [x] FL: How to start a business in Florida: the branding checklist (Sunbiz, DBA, trademark, logo) (kw "how to start a business in florida", 880, KD 24; "florida dba" 1,000; "florida business license" 4,400, KD 0) → how-to-start-a-business-in-florida
 - [x] Realtor logo: what works for agents, teams and brokerages (kw "realtor logo", 6,600, KD 32; "real estate logo" 1,600, KD 0) → realtor-logo
-- [ ] Rebranding: when to rebrand and how to do it without losing customers (kw "rebranding", 12,100, KD 34; "logo redesign" 880)
+- [x] Rebranding: when to rebrand and how to do it without losing customers (kw "rebranding", 12,100, KD 34; "logo redesign" 880) → rebranding-guide
 - [ ] FL: Florida cottage food law: start a home bakery and brand it legally (kw "florida cottage food law", 4,400, KD 0; "bakery logo" 3,600, KD 0)
 - [ ] Construction company logo: designs that win bids and look good on trucks (kw "construction logo", 4,400, KD 0)
 - [ ] Gym and fitness logo design: a complete guide (kw "gym logo", 4,400, KD 0; "fitness logo" 1,300)
@@ -86,6 +86,7 @@ autocomplete, People also ask, competitor blogs), prefer low-difficulty buyer to
 - 2026-11-23: clothing-brand-logo
 - 2026-11-24: how-to-start-a-business-in-florida
 - 2026-11-25: realtor-logo
+- 2026-11-26: rebranding-guide
 
 ## Site structure (link every new article to its hub)
 - Service pages: /logo-design/ /brand-identity-design/ /startup-branding/ /brand-guidelines/
