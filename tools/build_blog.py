@@ -486,7 +486,7 @@ def build_sitemap():
             "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot", "Applebot-Extended", "DuckDuckBot", "CCBot"]
     (ROOT / "robots.txt").write_text("# Search engines and AI assistants are welcome to read and cite this site.\n"
                                      + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots)
-                                     + f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+                                     + f"User-agent: *\nAllow: /\nDisallow: /cdn-cgi/\nDisallow: /api/\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
 
 
 def finalize_static():

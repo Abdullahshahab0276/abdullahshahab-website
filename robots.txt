@@ -46,5 +46,7 @@ Allow: /
 
 User-agent: *
 Allow: /
+Disallow: /cdn-cgi/
+Disallow: /api/
 
 Sitemap: https://www.abdullahshahab.com/sitemap.xml

@@ -419,6 +419,16 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
     from florida import county_slug, zip_index, portfolio_html
     PORT = json.loads((ROOT / "content" / "portfolio.json").read_text(encoding="utf-8"))
     ZIPS = json.loads((ROOT / "content" / "fl_zips.json").read_text(encoding="utf-8"))
+    US_ZIPS = {}
+    for z_, pl_, st_, la_, lo_ in json.loads((ROOT / "content" / "us_zips.json").read_text(encoding="utf-8")):
+        US_ZIPS.setdefault(st_, []).append((z_, pl_, la_, lo_))
+
+    def us_zip_index(c):
+        out_ = []
+        for z_, pl_, la_, lo_ in US_ZIPS.get(c["state"], []):
+            if pl_ == c["name"] or ((la_ - c["lat"]) * 111) ** 2 + ((lo_ - c["lon"]) * 111 * 0.8) ** 2 < 36:
+                out_.append(z_)
+        return sorted(set(out_))
     fl_svcs = yaml.safe_load((ROOT / "content" / "florida.yaml").read_text(encoding="utf-8"))["services"]
     fl_intro = [
         "I design logos and brand identities for {city} businesses and the rest of {county_txt}. Human-made, delivered online, at fixed prices from $250, with a first brand board within 48 hours.",
@@ -465,12 +475,25 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
             zs = zip_index(ZIPS, c)
             zip_p = (f"<p>ZIP codes I serve in and around {esc(name)}: " + ", ".join(zs) + f'. See <a href="/florida/zip-codes/">every Florida ZIP code</a>.</p>') if zs else ""
             secs += f"<h2>Branding for {esc(name)} and {esc(c['county'])} County</h2>{zip_p}<p>{fl_line}. I work with businesses in every town and community in the county, and across <a href=\"/florida/\">all of Florida</a>. Popular with Florida clients: " + ", ".join(f'<a href="/florida/{x["slug"]}/">{esc(x["kw"])}</a>' for x in pick) + ".</p>"
+        if st != "FL":
+            import math as _m
+            sc_ = sorted(us_states[c["state_slug"]]["cities"], key=lambda o: -o["pop"])
+            rank_ = next((i for i, o in enumerate(sc_, 1) if o["slug"] == c["slug"]), None)
+            big_ = sc_[0] if sc_[0]["slug"] != c["slug"] else (sc_[1] if len(sc_) > 1 else None)
+            km_ = lambda a, b: _m.hypot((a["lat"] - b["lat"]) * 111, (a["lon"] - b["lon"]) * 111 * _m.cos(_m.radians(a["lat"])))
+            rows_ = [("Population", f'{c["pop"]:,}'), ("County", (c.get("county") or "") + (" County" if c.get("county") and "County" not in c["county"] and "Parish" not in c["county"] else "")),
+                     (f"Size rank in {sn}", f"#{rank_} of the {len(sc_)} {sn} cities on this site" if rank_ else ""),
+                     ("Time zone", f'{c["tz"]} Time'), ("ZIP codes nearby", str(len(us_zip_index(c))))]
+            if big_:
+                rows_.append((f"Distance to {big_['name']}", f"about {round(km_(c, big_) * 0.621):,} miles"))
+            rows_ = [r for r in rows_ if r[1]]
+            secs += f"<h2>{esc(name)} at a glance</h2>" + tbl([["", ""]] + [[a, b] for a, b in rows_])
+            zs = us_zip_index(c)
+            if zs:
+                secs += f"<h2>ZIP codes I serve in and around {esc(name)}</h2><p>{esc(name)} businesses in " + ", ".join(zs[:60]) + (" and more" if len(zs) > 60 else "") + f". All work is remote, so every ZIP code in {esc(c['county'] + ' County' if c.get('county') else sn)} gets the same packages and the same 48-hour first draft.</p>"
         faqs = city_faqs(c, custom)
-        if st == "FL":
-            others = sorted([o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]],
-                            key=lambda o: (o["county"] != c["county"], (o["lat"] - c["lat"]) ** 2 + (o["lon"] - c["lon"]) ** 2))[:12]
-        else:
-            others = [o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]][:12]
+        others = sorted([o for o in us_states[c["state_slug"]]["cities"] if o["slug"] != c["slug"]],
+                        key=lambda o: (o["county"] != c["county"], (o["lat"] - c["lat"]) ** 2 + (o["lon"] - c["lon"]) ** 2))[:12]
         other_links = "".join(f'<a href="/{o["state_slug"]}/{o["slug"]}/">{esc(o["name"])}</a>' for o in others)
         title = f"Logo Designer for {name}, {st} Businesses | Shahab"
         if len(title) > 60:
@@ -487,7 +510,7 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
 <section class="band" style="padding-top:0"><div class="inner"><div class="svc">{secs}</div></div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Branding packages for {esc(name)} businesses</h2><p class="lede">Fixed, one-time pricing in US dollars. One designer, start to finish.</p></div>{plans_html()}</div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards([works[(h + i) % len(works)] for i in range(3)])}</div></section>
-{portfolio_html(PORT, h, esc, "More brand identities I've designed") if st == "FL" else ""}
+{portfolio_html(PORT, h, esc, "More brand identities I've designed")}
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(name)} logo and branding FAQs</h2></div>{faq_html(faqs[h % len(faqs):] + faqs[:h % len(faqs)])}</div></section>
 {cta_block("Let's design your " + name + " brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
 <section class="band" style="padding:56px 0"><div class="inner"><p class="cta-note" style="text-align:center;margin-bottom:16px">More cities in {esc(sn)}</p><div class="links-row"><a href="/{c['state_slug']}/">All of {esc(sn)}</a>{other_links}</div><p class="cta-note" style="text-align:center;margin:28px 0 16px">Services</p><div class="links-row">{svc_links_row()}</div></div></section>"""
@@ -514,6 +537,16 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
         tz_txt = "; ".join(f'{t} Time: Pakistan is {lo} hours ahead' if lo == hi else f'{t} Time: Pakistan is {lo}–{hi} hours ahead' for t, lo, hi in tzs)
         links = "".join(f'<a href="/{ss}/{x["slug"]}/">{esc(x["name"])}</a>' for x in cs)
         top = ", ".join(x["name"] for x in cs[:4])
+        st_code = cs[0]["state"]
+        nzip = len({z_[0] for z_ in US_ZIPS.get(st_code, [])})
+        counties_ = sorted({x["county"] for x in cs if x.get("county")})
+        hh = sum(map(ord, sn))
+        big_rows = "".join(f'<tr><td><a href="/{ss}/{x["slug"]}/">{esc(x["name"])}</a></td><td>{esc(x.get("county") or "")}</td><td>{x["pop"]:,}</td><td>{esc(", ".join(x["near"][:3]))}</td></tr>' for x in cs[:15])
+        big_tbl = f'<div class="twrap"><table class="ptable"><thead><tr><th>City</th><th>County</th><th>Population</th><th>Nearby</th></tr></thead><tbody>{big_rows}</tbody></table></div>'
+        st_secs = (f"<h2>Largest {esc(sn)} cities I work with</h2>{big_tbl}"
+                   f"<h2>Every part of {esc(sn)}</h2><p>I work with businesses in all {nzip:,} {esc(sn)} ZIP codes"
+                   + (f", including " + ", ".join(esc(x) for x in counties_[:12]) + (" and more" if len(counties_) > 12 else "") + (" counties" if counties_ else "") if counties_ else "")
+                   + f". {len(cs)} {esc(sn)} cities have their own page below, and smaller towns get exactly the same service: a short call, a first brand board in 48 hours and fixed prices.</p>")
         faqs = [[f"Do you work with businesses across {sn}?", f"Yes. All work is remote, so it doesn't matter whether you're in {top} or a small town anywhere in {sn}."],
                 [f"How much does branding cost for a {sn} business?", "Fixed packages: $250, $450 or $1,050, paid once in US dollars, with source files and copyright included."],
                 ["How fast is the first draft?", "Your first full brand board arrives within 48 hours of the brief."]]
@@ -531,7 +564,9 @@ def build_pages(ROOT, SITE, CAL, head, nav, footer, sprite, JS, write_page, post
   <div class="ctas"><a class="btn primary lg" href="{CAL}" target="_blank" rel="noopener">Book a call in your time zone {arrow}</a><a class="btn ghost lg" style="padding-right:28px" href="/pricing/">See packages &amp; pricing</a></div>
 </div></section>
 <section class="band" style="padding-top:0"><div class="inner"><div class="head rv-up"><h2 class="md">Cities I serve in {esc(sn)}</h2></div><div class="links-row">{links}</div>
-<div class="svc" style="margin-top:40px"><h2>Time zones</h2><p>{esc(tz_txt)}. Calls are booked on Calendly in your own time zone.</p></div></div></section>
+<div class="svc" style="margin-top:40px">{st_secs}<h2>Time zones</h2><p>{esc(tz_txt)}. Calls are booked on Calendly in your own time zone.</p></div></div></section>
+<section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Recent brand identities</h2></div>{cards([works[(hh + i) % len(works)] for i in range(3)])}</div></section>
+{portfolio_html(PORT, hh, esc, "More brand identities I've designed")}
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">Branding packages for {esc(sn)} businesses</h2></div>{plans_html()}</div></section>
 <section class="band"><div class="inner"><div class="head rv-up"><h2 class="md">{esc(sn)} branding FAQs</h2></div>{faq_html(faqs)}</div></section>
 {cta_block("Let's design your brand", "Book a short call at a time that suits you. Your first full brand board arrives within 48 hours.")}
